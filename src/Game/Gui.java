@@ -60,13 +60,13 @@ public class Gui extends Application {
 			
 			GridPane boardGrid = new GridPane();
 
-			image_wall  = new Image(getClass().getResourceAsStream("Image/wall4.png"),size,size,false,false);
-			image_floor = new Image(getClass().getResourceAsStream("Image/floor1.png"),size,size,false,false);
+			image_wall  = new Image(getClass().getResourceAsStream("/wall4.png"),size,size,false,false);
+			image_floor = new Image(getClass().getResourceAsStream("/floor1.png"),size,size,false,false);
 
-			hero_right  = new Image(getClass().getResourceAsStream("Image/heroRight.png"),size,size,false,false);
-			hero_left   = new Image(getClass().getResourceAsStream("Image/heroLeft.png"),size,size,false,false);
-			hero_up     = new Image(getClass().getResourceAsStream("Image/heroUp.png"),size,size,false,false);
-			hero_down   = new Image(getClass().getResourceAsStream("Image/heroDown.png"),size,size,false,false);
+			hero_right  = new Image(getClass().getResourceAsStream("/heroRight.png"),size,size,false,false);
+			hero_left   = new Image(getClass().getResourceAsStream("/heroLeft.png"),size,size,false,false);
+			hero_up     = new Image(getClass().getResourceAsStream("/heroUp.png"),size,size,false,false);
+			hero_down   = new Image(getClass().getResourceAsStream("/heroDown.png"),size,size,false,false);
 
 			fields = new Label[20][20];
 			for (int j=0; j<20; j++) {
