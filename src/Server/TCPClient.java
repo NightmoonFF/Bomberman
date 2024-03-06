@@ -1,4 +1,4 @@
-package sock;
+package Server;
 import java.io.*;
 import java.net.*;
 // Denne er kun medtaget til Test-formål, skal IKKE anvendes.

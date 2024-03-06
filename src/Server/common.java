@@ -1,4 +1,4 @@
-package sock;
+package Server;
 
 public class common {
 	String tekst;
