@@ -7,7 +7,6 @@ public class ServerThread extends Thread{
 	
 	public ServerThread(Socket connSocket,common c) {
 		this.connSocket = connSocket;
-		this.c=c; // Til Web-server opgaven skal denne ikke anvendes
 	}
 	public void run() {
 		try {

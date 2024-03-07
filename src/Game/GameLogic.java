@@ -64,7 +64,7 @@ public static List<Player> players = new ArrayList<Player>();
 			if (p!=null) {
               me.addPoints(10);
               //update the other player
-              p.addPoints(-10);
+              p.addPoints(-69);
               pair pa = getRandomFreePosition();
               p.setLocation(pa);
               pair oldpos = new pair(x+delta_x,y+delta_y);

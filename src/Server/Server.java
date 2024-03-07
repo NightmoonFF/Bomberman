@@ -13,5 +13,4 @@ public class Server {
 			(new ServerThread(connectionSocket,c)).start();
 		}
 	}
-
 }
