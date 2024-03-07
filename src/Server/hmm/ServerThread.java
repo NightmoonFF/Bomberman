@@ -1,4 +1,6 @@
-package Server;
+package Server.hmm;
+import Server.hmm.common;
+
 import java.net.*;
 import java.io.*;
 public class ServerThread extends Thread{

@@ -1,4 +1,4 @@
-package Server;
+package Server.hmm;
 import java.io.*;
 import java.net.*;
 // Denne er kun medtaget til Test-formål, skal IKKE anvendes.
