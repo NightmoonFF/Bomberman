@@ -54,7 +54,6 @@ class ClientHandler implements Runnable {
 				String navn = inputLine;
 				App.me= GameLogic.makePlayer(navn);
 				GameLogic.makeVirtualPlayer();
-				Application.launch(Gui.class);
 
 
 			}
