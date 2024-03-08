@@ -31,6 +31,8 @@ class ClientHandler implements Runnable {
 	private final PrintWriter out;
 	private GameLogic gameLogic;
 
+	private String clientName;
+
 	public ClientHandler(Socket socket) {
 		this.clientSocket = socket;
 		try {
@@ -47,6 +49,8 @@ class ClientHandler implements Runnable {
 			nameOut.println("Indtast spillernavn");
 
 			String inputLine;
+
+
 			while ((inputLine = in.readLine()) != null) {
 
 				System.out.println("Received from client: " + inputLine);

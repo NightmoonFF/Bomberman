@@ -14,14 +14,22 @@ public class Client {
         try {
             Socket socket = new Socket("10.10.134.13", 4969);
             BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
+
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             // Send data to the server
+
+            // Name Prompt
+            String nameIn;
+            while ((nameIn = userInput.readLine()) != null) {
+                out.println(nameIn);
+                Application.launch(Gui.class);
+            }
+
+
+            // Game Input
             String line;
-            String nameIn = in.readLine();
-            System.out.println(nameIn);
-            Application.launch(Gui.class);
             while ((line = userInput.readLine()) != null) {
                 out.println(line);
                 // Receive response from server and display it in the GUI
