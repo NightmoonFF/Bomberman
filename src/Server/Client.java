@@ -21,12 +21,13 @@ public class Client {
             // Send data to the server
 
             // Name Prompt
-            String nameIn;
+/*            String nameIn;
             while ((nameIn = userInput.readLine()) != null) {
                 out.println(nameIn);
                 Application.launch(Gui.class);
-            }
+            }*/
 
+            Application.launch(Gui.class);
 
             // Game Input
             String line;
