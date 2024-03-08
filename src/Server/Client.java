@@ -16,6 +16,8 @@ public class Client {
 
             // Send data to the server
             String line;
+            String nameIn = in.readLine();
+            System.out.println(nameIn);
             while ((line = userInput.readLine()) != null) {
                 out.println(line);
                 // Receive response from server and display it in the GUI
