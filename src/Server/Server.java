@@ -1,4 +1,9 @@
 package Server;
+import Game.App;
+import Game.GameLogic;
+import Game.Gui;
+import javafx.application.Application;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,6 +32,7 @@ class ClientHandler implements Runnable {
 	private final Socket clientSocket;
 	private final BufferedReader in;
 	private final PrintWriter out;
+	private GameLogic gameLogic;
 
 	public ClientHandler(Socket socket) {
 		this.clientSocket = socket;
@@ -42,8 +48,16 @@ class ClientHandler implements Runnable {
 		try {
 			String inputLine;
 			while ((inputLine = in.readLine()) != null) {
+				System.out.println("Indtast spillernavn");
+
 				System.out.println("Received from client: " + inputLine);
-				// data? (game logic)
+
+				String navn = inputLine;
+				App.me= GameLogic.makePlayer(navn);
+				GameLogic.makeVirtualPlayer();
+				Application.launch(Gui.class);
+
+
 			}
 		} catch (IOException e) {
             throw new RuntimeException(e);
