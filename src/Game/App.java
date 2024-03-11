@@ -12,12 +12,15 @@ public class App {
 		System.out.println("Indtast spillernavn");
 
 		String navn = inFromUser.readLine();
+		*/
 
-		me = GameLogic.makePlayer(navn);
+		me = GameLogic.makePlayer("testMe");
 
-		GameLogic.makeVirtualPlayer();
-
-		Application.launch(Gui.class);*/
+		//Added parameters to choose what mode we want the game to run as
+		boolean isServerInstance = false;
+		boolean isDebugEnabled = true;
+		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
+		Application.launch(Gui.class, arguments);
 	}
 }
 ;

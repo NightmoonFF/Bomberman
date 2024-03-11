@@ -1,5 +1,7 @@
 package Server;
 
+import Game.DebugLogger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -35,20 +37,16 @@ class ClientHandler implements Runnable {
     }
     @Override
     public void run() {
-
         try {
-
-
             while (true){
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
 
-                    System.out.println("Received from client: " + inputLine);
+                    DebugLogger.logServer("[" + clientName + "]: " + inputLine);
+                    System.out.println("[" + clientName + "]: " + inputLine);
+                    Server.broadcast(inputLine);
                 }
             }
-
-
-
         }
         catch (IOException e) {
             e.printStackTrace();

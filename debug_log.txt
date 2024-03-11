@@ -1,0 +1,19 @@
+[2024-03-11 17:16:18] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 17:16:18] /127.0.0.1 Has Connected to the game
+[2024-03-11 17:16:18] Starting Game Application...
+[2024-03-11 17:16:18] Running with Debugging Enabled
+[2024-03-11 17:16:25] @[Server]: 1
+[2024-03-11 17:16:29] @[Server]: hello
+[2024-03-11 17:16:31] @[Server]: lol
+[2024-03-11 17:16:32] @[Server]: 2
+[2024-03-11 17:16:34] @[Server]: weird
+[2024-03-11 17:21:14] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 17:21:14] /127.0.0.1 Has Connected to the game
+[2024-03-11 17:21:14] Starting Game Application...
+[2024-03-11 17:21:14] Running with Debugging Enabled
+[2024-03-11 17:21:19] @[Server]: test
+[2024-03-11 17:21:19] test
+[2024-03-11 17:21:23] @[Server]: hello
+[2024-03-11 17:21:23] hello
+[2024-03-11 17:21:25] @[Server]: echo
+[2024-03-11 17:21:25] echo

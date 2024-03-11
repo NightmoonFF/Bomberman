@@ -1,0 +1,14 @@
+[2024-03-11 17:16:16] Server Socket Established
+[2024-03-11 17:16:16] Starting...
+[2024-03-11 17:16:18] /127.0.0.1 Has Connected to the game
+[2024-03-11 17:16:25] Received msg from [/127.0.0.1]: 1
+[2024-03-11 17:16:29] Received msg from [/127.0.0.1]: hello
+[2024-03-11 17:16:31] Received msg from [/127.0.0.1]: lol
+[2024-03-11 17:16:32] Received msg from [/127.0.0.1]: 2
+[2024-03-11 17:16:34] Received msg from [/127.0.0.1]: weird
+[2024-03-11 17:21:11] Server Socket Established
+[2024-03-11 17:21:11] Starting...
+[2024-03-11 17:21:14] /127.0.0.1 Has Connected to the game
+[2024-03-11 17:21:19] [/127.0.0.1]: test
+[2024-03-11 17:21:23] [/127.0.0.1]: hello
+[2024-03-11 17:21:25] [/127.0.0.1]: echo

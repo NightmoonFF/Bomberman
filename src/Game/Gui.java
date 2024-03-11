@@ -11,31 +11,27 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.*;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import static Game.DebugLogger.LOG_FILE_PATH;
+
 public class Gui extends Application {
 
 	public static final int size = 30; 
-	public static final int scene_height = size * 20 + 50;
+	public static final int scene_height = size * 20 + 75;
 	public static final int scene_width = size * 20 + 200;
 
 	public static Image image_floor;
 	public static Image image_wall;
 	public static Image hero_right,hero_left,hero_up,hero_down;
 
-	
-
 	private static Label[][] fields;
 	private TextArea scoreList;
 
-	public boolean isServerInstance() {
-		return isServerInstance;
-	}
-
-	public void setServerInstance(boolean serverInstance) {
-		isServerInstance = serverInstance;
-	}
-
 	private boolean isServerInstance;
-
+	private boolean isDebugEnabled;
 	
 	// -------------------------------------------
 	// | Maze: (0,0)              | Score: (1,0) |
@@ -43,6 +39,19 @@ public class Gui extends Application {
 	// | boardGrid (0,1)          | scorelist    |
 	// |                          | (1,1)        |
 	// -------------------------------------------
+
+	@Override
+	public void init() {
+		Parameters parameters = getParameters();
+		if (!parameters.getRaw().isEmpty()) {
+			String[] args = parameters.getRaw().toArray(new String[0]);
+			if (args.length >= 2) {
+				isServerInstance = Boolean.parseBoolean(args[0]);
+				isDebugEnabled = Boolean.parseBoolean(args[1]);
+			}
+		}
+	}
+
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -113,6 +122,16 @@ public class Gui extends Application {
 			  fields[GameLogic.players.get(i).getXpos()][GameLogic.players.get(i).getYpos()].setGraphic(new ImageView(hero_up));
 			}
 			scoreList.setText(getScoreList());
+
+			if(isServerInstance){
+				mazeLabel.setText("SERVER INSTANCE");
+				grid.setStyle("-fx-background-color: lightblue;");
+			}
+
+			if(isDebugEnabled){
+				setupDebug(primaryStage, grid);
+			}
+
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
@@ -167,6 +186,83 @@ public class Gui extends Application {
 		return b.toString();
 	}
 
-	
+	//---
+
+	//region Debugging
+	static boolean isShowingDebugLog = false;
+	static TextArea debugTA = new TextArea();
+
+	public void setupDebug(Stage primaryStage, GridPane grid){
+		Button button = new Button("Debug");
+		grid.add(button, 1, 2);
+
+
+		debugTA.setEditable(false);
+		debugTA.clear();
+		debugTA.setPrefHeight(primaryStage.getHeight());
+		debugTA.setPrefWidth(300);
+
+		button.setOnAction(e -> toggleDebugGUI(primaryStage, grid, debugTA));
+
+		Thread logReaderThread = new Thread(this::readLogFile);
+		logReaderThread.setDaemon(true); // So that the thread stops when the application is closed
+		logReaderThread.start();
+	}
+
+	private void readLogFile() {
+		try {
+			File logFile = new File(LOG_FILE_PATH);
+			long lastFileSize = 0;
+
+			while (true) {
+				long fileSize = logFile.length();
+
+				if (fileSize > lastFileSize) {
+					try (BufferedReader reader = new BufferedReader(new FileReader(logFile))) {
+						// Skip to the end of the file
+						reader.skip(lastFileSize);
+						String line;
+						while ((line = reader.readLine()) != null) {
+							// Append new log lines to the TextArea
+							String finalLine = line;
+							Platform.runLater(() -> debugTA.appendText(finalLine + "\n"));
+						}
+						lastFileSize = fileSize;
+					} catch (FileNotFoundException e) {
+                        throw new RuntimeException(e);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+
+				// Wait for 1 second before checking the file again
+				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	public static void clearLogFile(){
+		try {
+			Files.write(Paths.get(LOG_FILE_PATH), new byte[0]);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void toggleDebugGUI(Stage primaryStage, GridPane grid, TextArea debugTA) {
+		if(isShowingDebugLog){
+			grid.getChildren().remove(debugTA);
+			primaryStage.setWidth(primaryStage.getWidth() - 300);
+			isShowingDebugLog = false;
+		}
+		else{
+			grid.add(debugTA, 1, 1, 2, 1);
+			primaryStage.setWidth(primaryStage.getWidth() + 300);
+			isShowingDebugLog = true;
+		}
+	}
+
+	//endregion
 }
 
