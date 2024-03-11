@@ -1,8 +1,5 @@
 package Game;
 
-import java.util.*;
-import java.util.List;
-
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -12,7 +9,6 @@ import javafx.scene.control.*;
 import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
 import javafx.scene.text.*;
 
 public class Gui extends Application {
@@ -114,13 +110,13 @@ public class Gui extends Application {
 		}
 	}
 	
-	public static void removePlayerOnScreen(pair oldpos) {
+	public static void removePlayerOnScreen(playerPosition oldpos) {
 		Platform.runLater(() -> {
 			fields[oldpos.getX()][oldpos.getY()].setGraphic(new ImageView(image_floor));
 			});
 	}
 	
-	public static void placePlayerOnScreen(pair newpos,String direction) {
+	public static void placePlayerOnScreen(playerPosition newpos, String direction) {
 		Platform.runLater(() -> {
 			int newx = newpos.getX();
 			int newy = newpos.getY();
@@ -139,7 +135,7 @@ public class Gui extends Application {
 			});
 	}
 	
-	public static void movePlayerOnScreen(pair oldpos,pair newpos,String direction)
+	public static void movePlayerOnScreen(playerPosition oldpos, playerPosition newpos, String direction)
 	{
 		removePlayerOnScreen(oldpos);
 		placePlayerOnScreen(newpos,direction);

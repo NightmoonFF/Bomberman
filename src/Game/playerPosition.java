@@ -1,9 +1,9 @@
 package Game;
 
-public class pair {
+public class playerPosition {
 	int x;
 	int y;
-	public pair(int x, int y) {
+	public playerPosition(int x, int y) {
 		super();
 		this.x = x;
 		this.y = y;

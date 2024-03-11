@@ -7,12 +7,12 @@ import javafx.application.Application;;
 public class App {
 	public static Player me;
 	public static void main(String[] args) throws Exception{	
-		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
+/*		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Indtast spillernavn");
 		String navn = inFromUser.readLine();
-		me= GameLogic.makePlayer(navn);
+		me = GameLogic.makePlayer(navn);
 		GameLogic.makeVirtualPlayer();
-		Application.launch(Gui.class);
+		Application.launch(Gui.class);*/
 	}
 }
 ;

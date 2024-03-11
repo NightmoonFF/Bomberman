@@ -13,21 +13,28 @@ public static List<Player> players = new ArrayList<Player>();
 	
 	public static Player makePlayer(String name) {
 		Player me;
-		pair p=getRandomFreePosition();
+		playerPosition p=getRandomFreePosition();
 		me = new Player(name,p,"up");
 		players.add(me);
 		return me;
 	};	
-	
-	public static void makeVirtualPlayer()	{    // just demo/testing player - not in real game 
-		pair p=getRandomFreePosition();
+
+/*	public static void makeVirtualPlayer()	{    // just demo/testing player - not in real game
+		playerPosition p=getRandomFreePosition();
 		Player kaj = new Player("Kaj",p,"up");
 		players.add(kaj);
+	}*/
+
+	public static void makeMultiplayerOpponent(String name)	{
+		playerPosition p=getRandomFreePosition();
+		Player player = new Player(name,p,"up");
+		players.add(player);
 	}
-	
-	public static pair getRandomFreePosition()
-	// finds a random new position which is not wall 
-	// and not occupied by other players 
+
+	/**
+	 * @return playerPosition that is random, and not inside wall or other player
+	 */
+	public static playerPosition getRandomFreePosition()
 	{
 		int x = 1;
 		int y = 1;
@@ -46,7 +53,7 @@ public static List<Player> players = new ArrayList<Player>();
 				
 			}
 		}
-		pair p = new pair(x,y);
+		playerPosition p = new playerPosition(x, y);
 		return p;
 	}
 	
@@ -65,14 +72,14 @@ public static List<Player> players = new ArrayList<Player>();
               me.addPoints(10);
               //update the other player
               p.addPoints(-69);
-              pair pa = getRandomFreePosition();
+              playerPosition pa = getRandomFreePosition();
               p.setLocation(pa);
-              pair oldpos = new pair(x+delta_x,y+delta_y);
+              playerPosition oldpos = new playerPosition(x + delta_x, y + delta_y);
               Gui.movePlayerOnScreen(oldpos,pa,p.direction);
 			} else 
 				me.addPoints(1);
-			pair oldpos = me.getLocation();
-			pair newpos = new pair(x+delta_x,y+delta_y); 
+			playerPosition oldpos = me.getLocation();
+			playerPosition newpos = new playerPosition(x + delta_x, y + delta_y);
 			Gui.movePlayerOnScreen(oldpos,newpos,direction);
 			me.setLocation(newpos);
 		}

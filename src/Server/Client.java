@@ -1,5 +1,7 @@
 package Server;
 
+import Game.App;
+import Game.GameLogic;
 import Game.Gui;
 import javafx.application.Application;
 
@@ -18,20 +20,15 @@ public class Client {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-            // Send data to the server
-
-            // Name Prompt
-/*            String nameIn;
-            while ((nameIn = userInput.readLine()) != null) {
-                out.println(nameIn);
-                Application.launch(Gui.class);
-            }*/
-
             Application.launch(Gui.class);
+
+            App.me= GameLogic.makePlayer();
+
 
             // Game Input
             String line;
             while ((line = userInput.readLine()) != null) {
+
                 out.println(line);
                 // Receive response from server and display it in the GUI
                 String response = in.readLine();
