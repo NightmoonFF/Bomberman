@@ -33,20 +33,23 @@ public class ClientHandler implements Runnable {
     @Override
     public void run() {
         try {
-            while (true) {
-                //PrintWriter nameOut = new PrintWriter(clientSocket.getOutputStream(), true);
-                //nameOut.println("Indtast spillernavn");
-                //System.out.println("name: " + name);
+            for (int i = 0; i < 4; i++) {
 
-                me= GameLogic.makePlayer("navn");
-                GameLogic.makeVirtualPlayer(); // to be removed
-                Application.launch(Gui.class);
+                while (true) {
+                    //PrintWriter nameOut = new PrintWriter(clientSocket.getOutputStream(), true);
+                    //nameOut.println("Indtast spillernavn");
+                    //System.out.println("name: " + name);
 
-				System.out.println("Waiting for input");
-				String input = in.readLine();
-				System.out.println("Input: " + input);
-                server.broadcastMessage((input));
+                    me = GameLogic.makePlayer("navn" + i);
+                    GameLogic.makeVirtualPlayer(); // to be removed
+                    Application.launch(Gui.class);
 
+                    System.out.println("Waiting for input");
+                    String input = in.readLine();
+                    System.out.println("Input: " + input);
+                    server.broadcastMessage((input));
+
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
