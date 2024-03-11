@@ -13,23 +13,26 @@ import java.net.Socket;
 
 public class Client {
     public static void main(String[] args) {
+
         try {
-            Socket socket = new Socket("10.10.134.13", 4969);
+            Socket socket = new Socket("192.168.0.21", 4969);
             BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-            Application.launch(Gui.class);
 
-            App.me= GameLogic.makePlayer();
 
 
             // Game Input
             String line;
             while ((line = userInput.readLine()) != null) {
 
+
                 out.println(line);
+
+
+
                 // Receive response from server and display it in the GUI
                 String response = in.readLine();
                 System.out.println("Server response: " + response); // Update GUI with response

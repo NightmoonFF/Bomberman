@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class Server {
 
 	static ArrayList<ClientHandler> clientThreads;
-	static Common common = new Common();
 
 	public static void main(String[] args) {
 		try (ServerSocket serverSocket = new ServerSocket(4969)) {
@@ -26,7 +25,7 @@ public class Server {
 
 				//Threads for clients
 				ClientHandler clientHandler;
-				clientThreads.add(clientHandler = new ClientHandler(clientSocket, common));
+				clientThreads.add(clientHandler = new ClientHandler(clientSocket));
 				new Thread(clientHandler).start();
 
 			}
@@ -37,6 +36,21 @@ public class Server {
             throw new RuntimeException(e);
         }
     }
+
+	/**
+	 * Sends a message to each client
+	 * @param message
+	 */
+	public static void broadcast(String message) {
+		for (ClientHandler clientThread : clientThreads) {
+			try {
+				PrintWriter out = new PrintWriter(clientThread.clientSocket.getOutputStream(), true);
+				out.println(message);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
 
 
 }

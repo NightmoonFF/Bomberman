@@ -25,8 +25,16 @@ public class Gui extends Application {
 
 	private static Label[][] fields;
 	private TextArea scoreList;
-	
 
+	public boolean isServerInstance() {
+		return isServerInstance;
+	}
+
+	public void setServerInstance(boolean serverInstance) {
+		isServerInstance = serverInstance;
+	}
+
+	private boolean isServerInstance;
 
 	
 	// -------------------------------------------
@@ -135,20 +143,17 @@ public class Gui extends Application {
 			});
 	}
 	
-	public static void movePlayerOnScreen(playerPosition oldpos, playerPosition newpos, String direction)
-	{
+	public static void movePlayerOnScreen(playerPosition oldpos, playerPosition newpos, String direction) {
 		removePlayerOnScreen(oldpos);
 		placePlayerOnScreen(newpos,direction);
 	}
-	
 
-	
-	public void updateScoreTable()
-	{
+	public void updateScoreTable() {
 		Platform.runLater(() -> {
 			scoreList.setText(getScoreList());
 			});
 	}
+
 	public void playerMoved(int delta_x, int delta_y, String direction) {
 		GameLogic.updatePlayer(App.me,delta_x,delta_y,direction);
 		updateScoreTable();

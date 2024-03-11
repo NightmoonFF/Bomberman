@@ -1,7 +1,5 @@
 package Server;
 
-import Game.GameLogic;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,18 +12,16 @@ import java.net.Socket;
  */
 class ClientHandler implements Runnable {
 
-    private final Socket clientSocket;
+    final Socket clientSocket;
     private final BufferedReader in;
     private final PrintWriter out;
-    private final Common common;
     public String clientName;
 
 
 
-    public ClientHandler(Socket socket, Common common) {
+    public ClientHandler(Socket socket) {
 
         this.clientSocket = socket;
-        this.common = common;
         this.clientName = socket.getInetAddress().toString();
 
         try {
