@@ -1,4 +1,4 @@
-package Game;
+package Server.Game;
 
 public class pair {
 	int x;

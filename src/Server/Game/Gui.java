@@ -1,8 +1,6 @@
-package Game;
+package Server.Game;
 
-import java.util.*;
-import java.util.List;
-
+import Server.ClientHandler;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -12,7 +10,6 @@ import javafx.scene.control.*;
 import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
 import javafx.scene.text.*;
 
 public class Gui extends Application {
@@ -156,7 +153,7 @@ public class Gui extends Application {
 			});
 	}
 	public void playerMoved(int delta_x, int delta_y, String direction) {
-		GameLogic.updatePlayer(App.me,delta_x,delta_y,direction);
+		GameLogic.updatePlayer(ClientHandler.me,delta_x,delta_y,direction);
 		updateScoreTable();
 	}
 	

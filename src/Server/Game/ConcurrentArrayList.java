@@ -1,4 +1,4 @@
-package Game;
+package Server.Game;
 
 import java.util.ArrayList;
 import java.util.Iterator;

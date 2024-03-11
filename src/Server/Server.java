@@ -1,8 +1,8 @@
 package Server;
 
-import Game.App;
-import Game.GameLogic;
-import Game.Gui;
+import Server.Game.GameLogic;
+import Server.Game.Gui;
+import Server.Game.Player;
 import javafx.application.Application;
 
 import java.io.*;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class Server {
 
-    private static ArrayList<ClientHandler> clientHandlers = new ArrayList<>();
+    private static final ArrayList<ClientHandler> clientHandlers = new ArrayList<>();
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(4969)) {
@@ -39,49 +39,6 @@ public class Server {
                 e.printStackTrace();
             }
         }
-    }
-}
-
-class ClientHandler implements Runnable {
-    private final Socket clientSocket;
-    private final BufferedReader in;
-    private final DataOutputStream out;
-	Server server;
-
-    public ClientHandler(Socket socket) {
-        this.clientSocket = socket;
-        try {
-            in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            out = new DataOutputStream(clientSocket.getOutputStream());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    @Override
-    public void run() {
-        try {
-            while (true) {
-				System.out.println("Waiting for input");
-				String input = in.readLine();
-				System.out.println("Input: " + input);
-                server.broadcastMessage((input));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                in.close();
-                out.close();
-                clientSocket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    public void sendMessage(String message) throws IOException { // MOVE x y direction player_index
-        out.writeBytes(message + '\n');
     }
 }
 

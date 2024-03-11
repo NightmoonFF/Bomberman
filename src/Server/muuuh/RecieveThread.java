@@ -1,7 +1,7 @@
 package Server.muuuh;
 
-import Game.GameLogic;
-import Game.Player;
+import Server.Game.GameLogic;
+import Server.Game.Player;
 import javafx.application.Platform;
 
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package Game;
+package Server.Game;
 
 public class Generel {
 	public static  String[] board = {    // 20x20

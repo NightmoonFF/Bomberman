@@ -1,7 +1,7 @@
 package Server;
 
-import Game.GameLogic;
-import Game.Player;
+import Server.Game.GameLogic;
+import Server.Game.Player;
 import javafx.application.Platform;
 
 import java.io.*;
@@ -21,12 +21,11 @@ public class Client {
 
 
 
-            while (true ) {
+            while (true) {
 
                 // Receive response from server and display it in the GUI
                 String response = in.readLine();
                 System.out.println("Server response: " + response); // Update GUI with response
-
 
                 new movement(socket).start();
             }
@@ -45,44 +44,42 @@ public class Client {
             this.socket = socket;
 
 
-        try {
-            BufferedReader inFromOther = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            try {
+                BufferedReader inFromOther = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-            while (true) {
-                System.out.println("waiting for input");
-                String input = inFromOther.readLine();
-                System.out.println("Input received: " + input); // MOVE x y direction player_index
+                while (true) {
+                    System.out.println("waiting for input");
+                    String input = inFromOther.readLine();
+                    System.out.println("Input received: " + input); // MOVE x y direction player_index
 
-                String[] parts = input.split(" ");
+                    String[] parts = input.split(" ");
 
-                if (parts.length >= 4 && parts[0].equalsIgnoreCase("MOVE")) {
-                    int x = Integer.parseInt(parts[1]);
-                    int y = Integer.parseInt(parts[2]);
-                    String direction = parts[3];
-                    int playerIndex = Integer.parseInt(parts[4]);
+                    if (parts.length >= 4 && parts[0].equalsIgnoreCase("MOVE")) {
+                        int x = Integer.parseInt(parts[1]);
+                        int y = Integer.parseInt(parts[2]);
+                        String direction = parts[3];
+                        int playerIndex = Integer.parseInt(parts[4]);
 
-                    Player player = GameLogic.getPlayerAt(x, y);
+                        Player player = GameLogic.getPlayerAt(x, y);
 
 
-                    Platform.runLater(() -> {
-                        try {
-                            GameLogic.updatePlayer(player, x, y, direction);
-                        } catch (Exception e) {
-                            throw new RuntimeException(e);
-                        }
-                    });
-                } else {
-                    System.out.println("Invalid input format");
+                        Platform.runLater(() -> {
+                            try {
+                                GameLogic.updatePlayer(player, x, y, direction);
+                            } catch (Exception e) {
+                                throw new RuntimeException(e);
+                            }
+                        });
+                    } else {
+                        System.out.println("Invalid input format");
+                    }
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
-    }
 }
-
-
 
 
 // Send data to the server
