@@ -1,4 +1,4 @@
-package Server;
+package Server.muuuh;
 
 public class common {
 	String tekst;

@@ -1,4 +1,6 @@
-package Server;
+package Server.muuuh;
+import Server.muuuh.common;
+
 import java.net.*;
 import java.io.*;
 public class ServerThread extends Thread{
