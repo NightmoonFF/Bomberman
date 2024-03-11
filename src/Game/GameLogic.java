@@ -9,33 +9,18 @@ import java.util.Random;
 public class GameLogic {
 public static List<Player> players = new ArrayList<Player>();	
 
-	
-	
 	public static Player makePlayer(String name) {
 		Player me;
 		playerPosition p=getRandomFreePosition();
 		me = new Player(name,p,"up");
 		players.add(me);
 		return me;
-	};	
-
-/*	public static void makeVirtualPlayer()	{    // just demo/testing player - not in real game
-		playerPosition p=getRandomFreePosition();
-		Player kaj = new Player("Kaj",p,"up");
-		players.add(kaj);
-	}*/
-
-	public static void makeMultiplayerOpponent(String name)	{
-		playerPosition p=getRandomFreePosition();
-		Player player = new Player(name,p,"up");
-		players.add(player);
-	}
+	};
 
 	/**
 	 * @return playerPosition that is random, and not inside wall or other player
 	 */
-	public static playerPosition getRandomFreePosition()
-	{
+	public static playerPosition getRandomFreePosition() {
 		int x = 1;
 		int y = 1;
 		boolean foundfreepos = false;
@@ -57,8 +42,7 @@ public static List<Player> players = new ArrayList<Player>();
 		return p;
 	}
 	
-	public static void updatePlayer(Player me, int delta_x, int delta_y, String direction)
-	{
+	public static void updatePlayer(Player me, int delta_x, int delta_y, String direction) {
 		me.direction = direction;
 		int x = me.getXpos(),y = me.getYpos();
 

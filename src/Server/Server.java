@@ -10,14 +10,15 @@ import java.util.ArrayList;
 
 public class Server {
 
-	static ArrayList<ClientHandler> clientThreads;
+	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
 
 	public static void main(String[] args) {
+
 		try (ServerSocket serverSocket = new ServerSocket(4969)) {
 			System.out.println("Server running..");
 
-			Application.launch(Gui.class);
 
+			//Application.launch(Gui.class);
 
 			while (true) {
 				Socket clientSocket = serverSocket.accept(); // clients connect
@@ -42,13 +43,18 @@ public class Server {
 	 * @param message
 	 */
 	public static void broadcast(String message) {
+
 		for (ClientHandler clientThread : clientThreads) {
 			try {
+
 				PrintWriter out = new PrintWriter(clientThread.clientSocket.getOutputStream(), true);
 				out.println(message);
+
+
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+
 		}
 	}
 

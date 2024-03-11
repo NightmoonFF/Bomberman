@@ -7,8 +7,9 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 /**
- * Klientens tråd, som er hver spillers forbindelse til serveren. Det er denne som sender en klients
- * beskeder frem og tilbage til serveren.
+ * Thread for each client, in which the requested input is recieved by server
+ * ClientHandler is also saved as an ArrayList to iterate through, for the
+ * server to broadcast to each client
  */
 class ClientHandler implements Runnable {
 
@@ -38,12 +39,16 @@ class ClientHandler implements Runnable {
         try {
 
 
-            String inputLine;
-            while ((inputLine = in.readLine()) != null) {
+            while (true){
+                String inputLine;
+                while ((inputLine = in.readLine()) != null) {
 
-                System.out.println("Received from client: " + inputLine);
-
+                    System.out.println("Received from client: " + inputLine);
+                }
             }
+
+
+
         }
         catch (IOException e) {
             e.printStackTrace();
