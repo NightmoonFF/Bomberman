@@ -65,8 +65,7 @@ class ClientHandler implements Runnable {
 				System.out.println("Waiting for input");
 				String input = in.readLine();
 				System.out.println("Input: " + input);
-				String broadcastMessage = (input);
-				server.broadcastMessage(broadcastMessage);
+                server.broadcastMessage((input));
             }
         } catch (IOException e) {
             e.printStackTrace();
