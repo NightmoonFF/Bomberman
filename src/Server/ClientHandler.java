@@ -14,16 +14,14 @@ import java.net.Socket;
 public class ClientHandler implements Runnable {
     private final Socket clientSocket;
     private final BufferedReader in;
-    private final BufferedReader name;
     private final DataOutputStream out;
-	Server server;
+    Server server;
     public static Player me;
 
     public ClientHandler(Socket socket) {
         this.clientSocket = socket;
         try {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            name = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             out = new DataOutputStream(clientSocket.getOutputStream());
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -33,23 +31,17 @@ public class ClientHandler implements Runnable {
     @Override
     public void run() {
         try {
-            for (int i = 0; i < 4; i++) {
+            while (true) {
 
-                while (true) {
-                    //PrintWriter nameOut = new PrintWriter(clientSocket.getOutputStream(), true);
-                    //nameOut.println("Indtast spillernavn");
-                    //System.out.println("name: " + name);
+                me = GameLogic.makePlayer("muuh");
 
-                    me = GameLogic.makePlayer("navn" + i);
-                    GameLogic.makeVirtualPlayer(); // to be removed
-                    Application.launch(Gui.class);
 
-                    System.out.println("Waiting for input");
-                    String input = in.readLine();
-                    System.out.println("Input: " + input);
-                    server.broadcastMessage((input));
+                Application.launch(Gui.class);
 
-                }
+                System.out.println("Waiting for input");
+                String input = in.readLine();
+                System.out.println("Input: " + input);
+                server.broadcastMessage((input));
             }
         } catch (IOException e) {
             e.printStackTrace();
