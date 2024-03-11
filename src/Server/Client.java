@@ -1,13 +1,16 @@
 package Server;
 
 import Game.GameLogic;
+import Game.Gui;
 import Game.Player;
+import javafx.application.Application;
 import javafx.application.Platform;
 
 import java.io.*;
 import java.net.Socket;
 
 public class Client {
+
     public static void main(String[] args) {
         try {
             Socket socket = new Socket("localhost", 4969);
@@ -16,9 +19,16 @@ public class Client {
             DataOutputStream out = new DataOutputStream(socket.getOutputStream());
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
+            PrintWriter outToServer = new PrintWriter(socket.getOutputStream(), true);
+
             String message = in.readLine();
             System.out.println(message);
 
+
+            // Send player's information to the server upon connection
+            System.out.print("Enter your name: ");
+            String playerName = userInput.readLine();
+            outToServer.println("NEW_PLAYER " + playerName); // Send player's name to the server
 
 
             while (true ) {
@@ -26,6 +36,8 @@ public class Client {
                 // Receive response from server and display it in the GUI
                 String response = in.readLine();
                 System.out.println("Server response: " + response); // Update GUI with response
+
+
 
 
                 new movement(socket).start();
