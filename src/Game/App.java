@@ -21,7 +21,7 @@ public class App {
 		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
 		Application.launch(Gui.class, arguments);
 
-		//TODO: have 3 methods here, startSinglePlayer, startMultiPlayer, startServer and then
+		//TODO: have 2 options here, startClient, startServer
 		// move code from Client and Server here for neater appearance. Give params for launching above code
 	}
 }

@@ -1,6 +1,7 @@
 package Server;
 
 import Game.DebugLogger;
+import Game.Player;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,6 +21,7 @@ class ClientHandler implements Runnable {
     private final BufferedReader in;
     private final PrintWriter out;
     public String clientName;
+    public Player clientPlayer;
 
     public ClientHandler(Socket socket) {
         this.clientSocket = socket;
@@ -40,7 +42,7 @@ class ClientHandler implements Runnable {
                 while ((inputLine = in.readLine()) != null) {
                     DebugLogger.logServer("[" + clientName + "]: " + inputLine);
                     System.out.println("[" + clientName + "]: " + inputLine);
-                    Server.receiveMessage(inputLine);
+                    Server.receiveMessage(inputLine, this);
                 }
             }
         }

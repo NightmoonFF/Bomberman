@@ -58,8 +58,8 @@ public class Server {
 		Application.launch(Gui.class, arguments);
     }
 
-	public static void receiveMessage(String message){
-		Common.handleInputRequest(message);
+	public static void receiveMessage(String message, ClientHandler clientHandler){
+		Common.handleInputRequest(message, clientHandler);
 	}
 
 	/**

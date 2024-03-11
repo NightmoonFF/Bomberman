@@ -2,8 +2,6 @@ package Server;
 
 import Game.DebugLogger;
 import Game.GameLogic;
-import Game.Gui;
-import Game.Player;
 
 public class Common {
     private static Common instance;
@@ -24,11 +22,11 @@ public class Common {
     }
 
 
-    public static synchronized void handleInputRequest(String input) {
+    public static synchronized void handleInputRequest(String input, ClientHandler clientHandler) {
         // Process the input
         processInput(input);
         // Apply input to the server's game
-        updateGame(input);
+        updateGame(input, clientHandler);
         // Broadcast input to all clients
         broadcastInput(input);
     }
@@ -52,17 +50,27 @@ public class Common {
      * Possibly entirely identical with updateGame() in Client <br>
      * @param input
      */
-    private static void updateGame(String input) {
+    private static void updateGame(String input, ClientHandler clientHandler) {
 
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
         switch (command) {
             case "JOIN":
                 System.out.println("Attempting to create player: " + parts[1]);
-                GameLogic.makePlayer(parts[1]);
+
+                clientHandler.clientPlayer = GameLogic.makePlayer(parts[1]);
+                clientHandler.clientName = parts[1];
 
                 break;
             case "MOVE":
+                switch(parts[1]){
+                    case "up": GameLogic.updatePlayer(clientHandler.clientPlayer, 0, -1, "up");
+                    case "down": GameLogic.updatePlayer(clientHandler.clientPlayer, 0, +1, "down");
+                    case "left": GameLogic.updatePlayer(clientHandler.clientPlayer, -1, 0, "left");
+                    case "right": GameLogic.updatePlayer(clientHandler.clientPlayer, +1, 0, "right");
+                }
+
+
 
                 break;
             case "BOMB":

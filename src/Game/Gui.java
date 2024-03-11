@@ -117,13 +117,16 @@ public class Gui extends Application {
 /*			for (int i=0;i<GameLogic.players.size();i++) {
 			  fields[GameLogic.players.get(i).getXpos()][GameLogic.players.get(i).getYpos()].setGraphic(new ImageView(hero_up));
 			}*/
-
-
-
 			scoreList.setText(getScoreList());
 
+
+
+			//*******************
+			//		Setup Client
+			//*******************
+
 			if(isServerInstance){
-				if(isServerInstance)DebugLogger.logServer("Running Application as Server");
+				DebugLogger.logServer("Running Application as Server");
 				mazeLabel.setText("SERVER INSTANCE");
 				grid.setStyle("-fx-background-color: lightblue;");
 			}
@@ -134,10 +137,11 @@ public class Gui extends Application {
 				client = new Client();
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					switch (event.getCode()) {
-						case UP:    playerMoved(0,-1,"up");    break;
-						case DOWN:  playerMoved(0,+1,"down");  break;
-						case LEFT:  playerMoved(-1,0,"left");  break;
-						case RIGHT: playerMoved(+1,0,"right"); break;
+						case UP:    client.sendMessage("MOVE" + " " + "up");    break;
+						case DOWN:  client.sendMessage("MOVE" + " " + "down");  break;
+						case LEFT:  client.sendMessage("MOVE" + " " + "left");  break;
+						case RIGHT: client.sendMessage("MOVE" + " " + "right"); break;
+						case ENTER: client.sendMessage("JOIN" + " " + client.clientName); break;
 						case ESCAPE: System.exit(0);
 						default: break;
 					}
@@ -190,8 +194,12 @@ public class Gui extends Application {
 			});
 	}
 
+	/**
+	 * Single player shit? Remove?
+	 * Call updatePlayer?
+	 */
 	public void playerMoved(int delta_x, int delta_y, String direction) {
-		GameLogic.updatePlayer(App.me,delta_x,delta_y,direction);
+		GameLogic.updatePlayer(App.me ,delta_x, delta_y, direction);
 		updateScoreTable();
 	}
 	

@@ -23,11 +23,12 @@ import java.net.UnknownHostException;
  * - currently sends console userinput, not game input <br>
  */
 public class Client {
-    public static String clientName = "Elias";
+    public String clientName = "Elias";
     static Socket socket;
     static BufferedReader in;
     public static PrintWriter out;
     static BufferedReader consoleInput;
+    Player player;
 
     static {
         try{
@@ -41,7 +42,7 @@ public class Client {
         }
     }
 
-    public static void main(String[] args) {
+    public Client() {
 
         //Continuous thread for incoming messages by Server
         Thread inputThread = new Thread(() -> {
@@ -73,29 +74,23 @@ public class Client {
             }
         });
         outputThread.start();
-
-        launchGame();
     }
 
-    private static void launchGame(){
-        boolean isServerInstance = false;
-        boolean isDebugEnabled = true;
-
-
-        String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
-        Application.launch(Gui.class, arguments);
-    }
-
-    private static void updateGame(String input){
+    private void updateGame(String input){
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
         switch (command) {
             case "JOIN":
                 System.out.println("Attempting to create player: " + parts[1]);
-                GameLogic.makePlayer(parts[1]);
+                player = GameLogic.makePlayer(parts[1]);
                 break;
             case "MOVE":
-
+                switch(parts[1]){
+                    case "up": GameLogic.updatePlayer(player, 0, -1, "up");
+                    case "down": GameLogic.updatePlayer(player, 0, +1, "down");
+                    case "left": GameLogic.updatePlayer(player, -1, 0, "left");
+                    case "right": GameLogic.updatePlayer(player, +1, 0, "right");
+                }
                 break;
             case "BOMB":
 
@@ -106,7 +101,7 @@ public class Client {
         }
     }
 
-    public static void sendMessage(String message){
-
+    public void sendMessage(String message){
+        out.println(message);
     }
 }

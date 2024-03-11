@@ -157,3 +157,158 @@
 [2024-03-11 22:22:02] Running with Debugging Enabled
 [2024-03-11 22:22:09] @[Server]: JOIN elias
 [2024-03-11 22:22:09] JOIN elias
+[2024-03-11 23:03:44] Running with Debugging Enabled
+[2024-03-11 23:03:51] Starting Game Application...
+[2024-03-11 23:03:51] Running with Debugging Enabled
+[2024-03-11 23:03:51] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:03:51] Running with Debugging Enabled
+[2024-03-11 23:04:37] Running with Debugging Enabled
+[2024-03-11 23:04:39] Starting Game Application...
+[2024-03-11 23:04:39] Running with Debugging Enabled
+[2024-03-11 23:04:39] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:04:39] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:04:39] Running with Debugging Enabled
+[2024-03-11 23:04:49] @[Server]: JOIN elias
+[2024-03-11 23:04:49] JOIN elias
+[2024-03-11 23:08:13] Running with Debugging Enabled
+[2024-03-11 23:08:15] Starting Game Application...
+[2024-03-11 23:08:15] Running with Debugging Enabled
+[2024-03-11 23:08:15] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:08:15] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:08:15] Running with Debugging Enabled
+[2024-03-11 23:09:21] Running with Debugging Enabled
+[2024-03-11 23:09:22] Starting Game Application...
+[2024-03-11 23:09:22] Running with Debugging Enabled
+[2024-03-11 23:09:22] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:09:22] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:09:22] Running with Debugging Enabled
+[2024-03-11 23:10:21] Running with Debugging Enabled
+[2024-03-11 23:10:23] Starting Game Application...
+[2024-03-11 23:10:23] Running with Debugging Enabled
+[2024-03-11 23:10:23] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:10:23] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:10:23] Running with Debugging Enabled
+[2024-03-11 23:10:25] JOIN Elias
+[2024-03-11 23:10:33] JOIN Elias
+[2024-03-11 23:10:33] JOIN Elias
+[2024-03-11 23:10:34] JOIN Elias
+[2024-03-11 23:10:34] JOIN Elias
+[2024-03-11 23:10:34] JOIN Elias
+[2024-03-11 23:10:34] JOIN Elias
+[2024-03-11 23:33:42] Running with Debugging Enabled
+[2024-03-11 23:33:44] Starting Game Application...
+[2024-03-11 23:33:44] Running with Debugging Enabled
+[2024-03-11 23:33:44] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:33:44] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:33:44] Running with Debugging Enabled
+[2024-03-11 23:33:47] JOIN Elias
+[2024-03-11 23:33:48] MOVE down
+[2024-03-11 23:33:48] MOVE down
+[2024-03-11 23:33:49] MOVE up
+[2024-03-11 23:33:50] MOVE left
+[2024-03-11 23:33:51] MOVE right
+[2024-03-11 23:33:51] MOVE left
+[2024-03-11 23:33:57] MOVE left
+[2024-03-11 23:33:58] MOVE left
+[2024-03-11 23:33:58] MOVE up
+[2024-03-11 23:33:59] MOVE right
+[2024-03-11 23:34:00] MOVE right
+[2024-03-11 23:34:00] MOVE right
+[2024-03-11 23:34:00] MOVE right
+[2024-03-11 23:34:00] MOVE down
+[2024-03-11 23:34:01] MOVE right
+[2024-03-11 23:34:01] MOVE right
+[2024-03-11 23:34:02] MOVE down
+[2024-03-11 23:34:02] MOVE up
+[2024-03-11 23:34:02] MOVE left
+[2024-03-11 23:34:03] MOVE right
+[2024-03-11 23:34:03] MOVE right
+[2024-03-11 23:34:04] MOVE right
+[2024-03-11 23:34:04] MOVE up
+[2024-03-11 23:34:04] MOVE up
+[2024-03-11 23:34:05] MOVE left
+[2024-03-11 23:34:05] MOVE right
+[2024-03-11 23:34:05] MOVE up
+[2024-03-11 23:34:05] MOVE left
+[2024-03-11 23:34:06] MOVE left
+[2024-03-11 23:34:06] MOVE left
+[2024-03-11 23:34:06] MOVE left
+[2024-03-11 23:34:06] MOVE left
+[2024-03-11 23:34:07] MOVE left
+[2024-03-11 23:34:07] MOVE left
+[2024-03-11 23:34:07] MOVE left
+[2024-03-11 23:34:07] MOVE left
+[2024-03-11 23:34:08] MOVE up
+[2024-03-11 23:34:08] MOVE up
+[2024-03-11 23:34:08] MOVE up
+[2024-03-11 23:34:08] MOVE up
+[2024-03-11 23:34:08] MOVE up
+[2024-03-11 23:34:09] MOVE up
+[2024-03-11 23:34:09] MOVE up
+[2024-03-11 23:34:09] MOVE up
+[2024-03-11 23:34:09] MOVE up
+[2024-03-11 23:34:10] MOVE up
+[2024-03-11 23:34:10] MOVE up
+[2024-03-11 23:34:11] MOVE up
+[2024-03-11 23:34:11] MOVE up
+[2024-03-11 23:34:12] MOVE up
+[2024-03-11 23:34:16] MOVE down
+[2024-03-11 23:34:16] MOVE up
+[2024-03-11 23:34:17] MOVE down
+[2024-03-11 23:34:31] MOVE left
+[2024-03-11 23:34:31] MOVE down
+[2024-03-11 23:34:32] MOVE up
+[2024-03-11 23:34:33] MOVE up
+[2024-03-11 23:34:33] MOVE right
+[2024-03-11 23:34:34] MOVE left
+[2024-03-11 23:34:35] MOVE up
+[2024-03-11 23:34:35] MOVE up
+[2024-03-11 23:34:35] MOVE up
+[2024-03-11 23:34:35] MOVE up
+[2024-03-11 23:34:36] MOVE up
+[2024-03-11 23:34:36] MOVE up
+[2024-03-11 23:34:36] MOVE left
+[2024-03-11 23:34:36] MOVE left
+[2024-03-11 23:35:18] Running with Debugging Enabled
+[2024-03-11 23:35:20] Starting Game Application...
+[2024-03-11 23:35:20] Running with Debugging Enabled
+[2024-03-11 23:35:20] Connection Established to host: localhost/127.0.0.1
+[2024-03-11 23:35:20] /127.0.0.1 Has Connected to the Server
+[2024-03-11 23:35:20] Running with Debugging Enabled
+[2024-03-11 23:35:28] JOIN Elias
+[2024-03-11 23:35:31] MOVE right
+[2024-03-11 23:35:31] MOVE left
+[2024-03-11 23:35:32] MOVE left
+[2024-03-11 23:35:32] MOVE down
+[2024-03-11 23:35:32] MOVE down
+[2024-03-11 23:35:33] MOVE down
+[2024-03-11 23:35:33] MOVE down
+[2024-03-11 23:35:33] MOVE up
+[2024-03-11 23:35:33] MOVE up
+[2024-03-11 23:35:33] MOVE left
+[2024-03-11 23:35:34] MOVE right
+[2024-03-11 23:35:34] MOVE up
+[2024-03-11 23:35:34] MOVE left
+[2024-03-11 23:35:34] MOVE up
+[2024-03-11 23:35:34] MOVE right
+[2024-03-11 23:35:34] MOVE up
+[2024-03-11 23:35:34] MOVE left
+[2024-03-11 23:35:35] MOVE right
+[2024-03-11 23:35:35] MOVE down
+[2024-03-11 23:35:35] MOVE left
+[2024-03-11 23:35:35] MOVE right
+[2024-03-11 23:35:35] MOVE up
+[2024-03-11 23:35:35] MOVE left
+[2024-03-11 23:35:35] MOVE right
+[2024-03-11 23:35:35] MOVE up
+[2024-03-11 23:35:35] MOVE left
+[2024-03-11 23:35:35] MOVE right
+[2024-03-11 23:35:35] MOVE up
+[2024-03-11 23:35:35] MOVE down
+[2024-03-11 23:35:35] MOVE left
+[2024-03-11 23:35:36] MOVE right
+[2024-03-11 23:35:36] MOVE up
+[2024-03-11 23:35:36] MOVE left
+[2024-03-11 23:35:36] MOVE down
+[2024-03-11 23:35:36] MOVE down
+[2024-03-11 23:35:36] MOVE up
