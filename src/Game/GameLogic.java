@@ -16,11 +16,16 @@ public static List<Player> players = new ArrayList<Player>();
 	 */
 	public static Player makePlayer(String name) {
 		Player player;
+		//TODO: take this out, currently makes the players spawn randomly each client
 		playerPosition p=getRandomFreePosition();
+
 		player = new Player(name, p,"up");
 		players.add(player);
 		System.out.println("Created Player: " + name + " x" + player.getXpos() + "/y" + player.getYpos());
+
+
 		Gui.placePlayerOnScreen(new playerPosition(player.getXpos(), player.getYpos()), "up");
+
 		return player;
 	};
 
