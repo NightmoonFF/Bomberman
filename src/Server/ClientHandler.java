@@ -9,9 +9,10 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 /**
- * Thread for each client, in which the requested input is recieved by server
- * ClientHandler is also saved as an ArrayList to iterate through, for the
- * server to broadcast to each client
+ * Thread for each client, in which the requested input is recieved by server and
+ *  sent to Common for processing in the critical section
+ * ClientHandler is also saved as an ArrayList in Server to iterate through, for the
+ *  server to broadcast to each client
  */
 class ClientHandler implements Runnable {
 
@@ -20,13 +21,9 @@ class ClientHandler implements Runnable {
     private final PrintWriter out;
     public String clientName;
 
-
-
     public ClientHandler(Socket socket) {
-
         this.clientSocket = socket;
         this.clientName = socket.getInetAddress().toString();
-
         try {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             out = new PrintWriter(clientSocket.getOutputStream());
@@ -41,10 +38,9 @@ class ClientHandler implements Runnable {
             while (true){
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
-
                     DebugLogger.logServer("[" + clientName + "]: " + inputLine);
                     System.out.println("[" + clientName + "]: " + inputLine);
-                    Server.broadcast(inputLine);
+                    Server.receiveMessage(inputLine);
                 }
             }
         }

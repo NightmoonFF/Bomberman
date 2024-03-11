@@ -12,3 +12,177 @@
 [2024-03-11 17:21:19] [/127.0.0.1]: test
 [2024-03-11 17:21:23] [/127.0.0.1]: hello
 [2024-03-11 17:21:25] [/127.0.0.1]: echo
+[2024-03-11 17:27:29] Server Socket Established
+[2024-03-11 17:27:29] Starting...
+[2024-03-11 17:27:29] Running Application as Server
+[2024-03-11 17:27:35] /127.0.0.1 Has Connected to the game
+[2024-03-11 17:27:40] [/127.0.0.1]: up
+[2024-03-11 17:27:41] [/127.0.0.1]: down
+[2024-03-11 17:27:43] [/127.0.0.1]: left
+[2024-03-11 18:46:04] Server Socket Established
+[2024-03-11 18:46:04] Starting...
+[2024-03-11 18:46:04] Running Application as Server
+[2024-03-11 18:46:08] /127.0.0.1 Has Connected to the game
+[2024-03-11 18:46:08] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 18:49:26] Server Socket Established
+[2024-03-11 18:49:26] Starting...
+[2024-03-11 18:49:26] Running Application as Server
+[2024-03-11 18:49:31] /127.0.0.1 Has Connected to the game
+[2024-03-11 18:49:31] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 18:53:59] Server Socket Established
+[2024-03-11 18:53:59] Starting...
+[2024-03-11 18:53:59] Running Application as Server
+[2024-03-11 18:54:33] Server Socket Established
+[2024-03-11 18:54:33] Starting...
+[2024-03-11 18:54:33] Running Application as Server
+[2024-03-11 18:54:37] /127.0.0.1 Has Connected to the game
+[2024-03-11 18:54:37] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:02:51] Server Socket Established
+[2024-03-11 19:02:51] Starting...
+[2024-03-11 19:02:51] Running Application as Server
+[2024-03-11 19:02:53] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:02:53] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:04:53] Server Socket Established
+[2024-03-11 19:04:53] Starting...
+[2024-03-11 19:04:53] Running Application as Server
+[2024-03-11 19:04:55] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:04:55] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:06:07] Server Socket Established
+[2024-03-11 19:06:07] Starting...
+[2024-03-11 19:06:07] Running Application as Server
+[2024-03-11 19:06:10] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:06:10] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:06:45] Server Socket Established
+[2024-03-11 19:06:45] Starting...
+[2024-03-11 19:06:45] Running Application as Server
+[2024-03-11 19:06:48] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:06:48] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:08:16] Server Socket Established
+[2024-03-11 19:08:16] Starting...
+[2024-03-11 19:08:16] Running Application as Server
+[2024-03-11 19:08:19] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:08:19] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:27:35] Server Socket Established
+[2024-03-11 19:27:35] Starting...
+[2024-03-11 19:27:35] Starting Game Application...
+[2024-03-11 19:27:35] Running with Debugging Enabled
+[2024-03-11 19:27:35] Running Application as Server
+[2024-03-11 19:27:38] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:27:38] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:36:01] Server Socket Established
+[2024-03-11 19:36:01] Starting...
+[2024-03-11 19:36:01] Starting Game Application...
+[2024-03-11 19:36:01] Running with Debugging Enabled
+[2024-03-11 19:36:01] Running Application as Server
+[2024-03-11 19:36:03] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:36:03] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:36:03] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:38:09] Server Socket Established
+[2024-03-11 19:38:09] Starting...
+[2024-03-11 19:38:09] Starting Game Application...
+[2024-03-11 19:38:09] Running with Debugging Enabled
+[2024-03-11 19:38:09] Running Application as Server
+[2024-03-11 19:38:12] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:38:12] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:38:12] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:48:02] Server Socket Established
+[2024-03-11 19:48:02] Starting...
+[2024-03-11 19:48:02] Starting Game Application...
+[2024-03-11 19:48:02] Running with Debugging Enabled
+[2024-03-11 19:48:02] Running Application as Server
+[2024-03-11 19:48:05] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:48:05] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:48:05] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:50:05] Server Socket Established
+[2024-03-11 19:50:05] Starting...
+[2024-03-11 19:50:05] Starting Game Application...
+[2024-03-11 19:50:05] Running with Debugging Enabled
+[2024-03-11 19:50:05] Running Application as Server
+[2024-03-11 19:50:11] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:50:11] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:50:11] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:54:11] Server Socket Established
+[2024-03-11 19:54:11] Starting...
+[2024-03-11 19:54:11] Starting Game Application...
+[2024-03-11 19:54:11] Running with Debugging Enabled
+[2024-03-11 19:54:11] Running Application as Server
+[2024-03-11 19:54:13] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:54:13] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:54:13] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:54:52] Server Socket Established
+[2024-03-11 19:54:52] Starting...
+[2024-03-11 19:54:52] Starting Game Application...
+[2024-03-11 19:54:52] Running with Debugging Enabled
+[2024-03-11 19:54:52] Running Application as Server
+[2024-03-11 19:54:55] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:54:55] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:54:55] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 19:56:47] Server Socket Established
+[2024-03-11 19:56:47] Starting...
+[2024-03-11 19:56:47] Starting Game Application...
+[2024-03-11 19:56:47] Running with Debugging Enabled
+[2024-03-11 19:56:47] Running Application as Server
+[2024-03-11 19:56:51] /127.0.0.1 Has Connected to the game
+[2024-03-11 19:56:51] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 19:56:55] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 20:05:07] Server Socket Established
+[2024-03-11 20:05:07] Starting...
+[2024-03-11 20:05:07] Starting Game Application...
+[2024-03-11 20:05:07] Running with Debugging Enabled
+[2024-03-11 20:05:07] Running Application as Server
+[2024-03-11 20:05:09] /127.0.0.1 Has Connected to the game
+[2024-03-11 20:05:09] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 20:05:09] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 20:06:10] Server Socket Established
+[2024-03-11 20:06:10] Starting...
+[2024-03-11 20:06:10] Starting Game Application...
+[2024-03-11 20:06:10] Running with Debugging Enabled
+[2024-03-11 20:06:10] Running Application as Server
+[2024-03-11 20:06:13] /127.0.0.1 Has Connected to the game
+[2024-03-11 20:06:13] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 20:06:21] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 20:07:41] Server Socket Established
+[2024-03-11 20:07:41] Starting...
+[2024-03-11 20:07:41] Starting Game Application...
+[2024-03-11 20:07:41] Running with Debugging Enabled
+[2024-03-11 20:07:41] Running Application as Server
+[2024-03-11 20:07:45] /127.0.0.1 Has Connected to the game
+[2024-03-11 20:07:45] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 20:09:38] [/127.0.0.1]: CONNECT Elias
+[2024-03-11 20:57:24] Server Socket Established
+[2024-03-11 20:57:24] Starting...
+[2024-03-11 20:57:24] Starting Game Application...
+[2024-03-11 20:57:24] Running with Debugging Enabled
+[2024-03-11 20:57:24] Running Application as Server
+[2024-03-11 20:57:27] /127.0.0.1 Has Connected to the game
+[2024-03-11 20:57:27] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 20:57:27] [/127.0.0.1]: JOIN Elias
+[2024-03-11 22:07:35] Server Socket Established
+[2024-03-11 22:07:35] Starting...
+[2024-03-11 22:07:35] Starting Game Application...
+[2024-03-11 22:07:35] Running with Debugging Enabled
+[2024-03-11 22:07:35] Running Application as Server
+[2024-03-11 22:07:37] /127.0.0.1 Has Connected to the game
+[2024-03-11 22:07:37] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 22:09:15] Server Socket Established
+[2024-03-11 22:09:15] Starting...
+[2024-03-11 22:09:15] Starting Game Application...
+[2024-03-11 22:09:15] Running with Debugging Enabled
+[2024-03-11 22:09:15] Running Application as Server
+[2024-03-11 22:09:17] /127.0.0.1 Has Connected to the game
+[2024-03-11 22:09:17] Unknown Message: /127.0.0.1 Has Connected to the game
+[2024-03-11 22:19:14] Server Socket Established
+[2024-03-11 22:19:14] Starting...
+[2024-03-11 22:19:14] Starting Game Application...
+[2024-03-11 22:19:14] Running with Debugging Enabled
+[2024-03-11 22:19:14] Running Application as Server
+[2024-03-11 22:19:16] /127.0.0.1 Has Connected to the Server
+[2024-03-11 22:19:16] Unknown Message: /127.0.0.1 Has Connected to the Server
+[2024-03-11 22:22:00] Server Socket Established
+[2024-03-11 22:22:00] Starting...
+[2024-03-11 22:22:00] Starting Game Application...
+[2024-03-11 22:22:00] Running with Debugging Enabled
+[2024-03-11 22:22:00] Running Application as Server
+[2024-03-11 22:22:02] /127.0.0.1 Has Connected to the Server
+[2024-03-11 22:22:02] Unknown Message: /127.0.0.1 Has Connected to the Server
+[2024-03-11 22:22:09] [/127.0.0.1]: JOIN elias

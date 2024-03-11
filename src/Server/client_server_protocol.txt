@@ -1,0 +1,26 @@
+I'm thinking we should split a message into two things - Command, Parameter
+What indicates a command message, would be a full caps word at start.
+If needed, could add name/signature - but currently trying to just keep clients mapped
+So for example, an input request sequence from client would go like maybe
+
+
+JOIN Elias
+MOVE UP
+MOVE UP
+MOVE DOWN
+BOMB
+BOMB (maybe unable here due to cooldown for example)
+MOVE UP
+QUIT (out of rage)
+
+
+
+[Commands {Params}]
+
+MOVE {direction}
+
+BOMB {}
+
+JOIN {username}
+
+QUIT{}

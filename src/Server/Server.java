@@ -13,6 +13,7 @@ public class Server {
 
 	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
 	static ServerSocket serverSocket;
+	static Common common;
 
     static {
         try {
@@ -25,20 +26,22 @@ public class Server {
 
     public static void main(String[] args) {
 		DebugLogger.logServer("Starting...");
+		common = Common.getInstance();
 
 		//Continuous thread for incoming Connections
 		Thread connectionThread = new Thread(() -> {
 			try {
 				while (true) {
-					Socket clientSocket = serverSocket.accept(); // clients connect
+					//todo: maybe a map to also have desired name added
 
-					//Initialize Thread for the connecting client
-					ClientHandler clientHandler;
+					Socket clientSocket = serverSocket.accept(); // wait for a client to connect
+					ClientHandler clientHandler; //Initialize Thread for the client
 					clientThreads.add(clientHandler = new ClientHandler(clientSocket));
 					new Thread(clientHandler).start();
 
-					broadcast(clientSocket.getInetAddress() + " Has Connected to the game");
-					DebugLogger.logServer(clientSocket.getInetAddress() + " Has Connected to the game");
+
+					broadcast(clientSocket.getInetAddress() + " Has Connected to the Server");
+					DebugLogger.logServer(clientSocket.getInetAddress() + " Has Connected to the Server");
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -46,8 +49,18 @@ public class Server {
 		});
 		connectionThread.start();
 
-		Application.launch(Gui.class);
+		boolean isServerInstance = true;
+		boolean isDebugEnabled = true;
+		DebugLogger.logServer("Starting Game Application...");
+		if(isDebugEnabled)DebugLogger.logServer("Running with Debugging Enabled");
+		if(isServerInstance)DebugLogger.logServer("Running Application as Server");
+		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
+		Application.launch(Gui.class, arguments);
     }
+
+	public static void receiveMessage(String message){
+		Common.handleInputRequest(message);
+	}
 
 	/**
 	 * Sends a message to each client
@@ -66,6 +79,8 @@ public class Server {
 
 		}
 	}
+
+
 
 
 }

@@ -7,14 +7,21 @@ import java.util.Random;
 
 
 public class GameLogic {
-public static List<Player> players = new ArrayList<Player>();	
+public static List<Player> players = new ArrayList<Player>();
 
+	/**
+	 * Can no longer be called before application launches
+	 * @param name
+	 * @return
+	 */
 	public static Player makePlayer(String name) {
-		Player me;
+		Player player;
 		playerPosition p=getRandomFreePosition();
-		me = new Player(name,p,"up");
-		players.add(me);
-		return me;
+		player = new Player(name, p,"up");
+		players.add(player);
+		System.out.println("Created Player: " + name + " x" + player.getXpos() + "/y" + player.getYpos());
+		Gui.placePlayerOnScreen(new playerPosition(player.getXpos(), player.getYpos()), "up");
+		return player;
 	};
 
 	/**
@@ -42,18 +49,18 @@ public static List<Player> players = new ArrayList<Player>();
 		return p;
 	}
 	
-	public static void updatePlayer(Player me, int delta_x, int delta_y, String direction) {
-		me.direction = direction;
-		int x = me.getXpos(),y = me.getYpos();
+	public static void updatePlayer(Player player, int delta_x, int delta_y, String direction) {
+		player.direction = direction;
+		int x = player.getXpos(),y = player.getYpos();
 
 		if (Generel.board[y+delta_y].charAt(x+delta_x)=='w') {
-			me.addPoints(-1);
+			player.addPoints(-1);
 		} 
 		else {
 			// collision detection
 			Player p = getPlayerAt(x+delta_x,y+delta_y);
 			if (p!=null) {
-              me.addPoints(10);
+              player.addPoints(10);
               //update the other player
               p.addPoints(-69);
               playerPosition pa = getRandomFreePosition();
@@ -61,11 +68,11 @@ public static List<Player> players = new ArrayList<Player>();
               playerPosition oldpos = new playerPosition(x + delta_x, y + delta_y);
               Gui.movePlayerOnScreen(oldpos,pa,p.direction);
 			} else 
-				me.addPoints(1);
-			playerPosition oldpos = me.getLocation();
+				player.addPoints(1);
+			playerPosition oldpos = player.getLocation();
 			playerPosition newpos = new playerPosition(x + delta_x, y + delta_y);
 			Gui.movePlayerOnScreen(oldpos,newpos,direction);
-			me.setLocation(newpos);
+			player.setLocation(newpos);
 		}
 		
 		

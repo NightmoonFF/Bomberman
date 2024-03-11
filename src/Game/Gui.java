@@ -1,5 +1,6 @@
 package Game;
 
+import Server.Client;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -32,6 +33,8 @@ public class Gui extends Application {
 
 	private boolean isServerInstance;
 	private boolean isDebugEnabled;
+
+	private Client client;
 	
 	// -------------------------------------------
 	// | Maze: (0,0)              | Score: (1,0) |
@@ -106,29 +109,43 @@ public class Gui extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.show();
 
-			scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
-				switch (event.getCode()) {
-				case UP:    playerMoved(0,-1,"up");    break;
-				case DOWN:  playerMoved(0,+1,"down");  break;
-				case LEFT:  playerMoved(-1,0,"left");  break;
-				case RIGHT: playerMoved(+1,0,"right"); break;
-				case ESCAPE:System.exit(0); 
-				default: break;
-				}
-			});
-			
+
+
+
+
             // Putting default players on screen
-			for (int i=0;i<GameLogic.players.size();i++) {
+/*			for (int i=0;i<GameLogic.players.size();i++) {
 			  fields[GameLogic.players.get(i).getXpos()][GameLogic.players.get(i).getYpos()].setGraphic(new ImageView(hero_up));
-			}
+			}*/
+
+
+
 			scoreList.setText(getScoreList());
 
 			if(isServerInstance){
+				if(isServerInstance)DebugLogger.logServer("Running Application as Server");
 				mazeLabel.setText("SERVER INSTANCE");
 				grid.setStyle("-fx-background-color: lightblue;");
 			}
+			else{
+				DebugLogger.log("Starting Game Application...");
+				if(isDebugEnabled)DebugLogger.log("Running with Debugging Enabled");
+				if(isServerInstance)DebugLogger.logServer("Running Application as Server");
+				client = new Client();
+				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
+					switch (event.getCode()) {
+						case UP:    playerMoved(0,-1,"up");    break;
+						case DOWN:  playerMoved(0,+1,"down");  break;
+						case LEFT:  playerMoved(-1,0,"left");  break;
+						case RIGHT: playerMoved(+1,0,"right"); break;
+						case ESCAPE: System.exit(0);
+						default: break;
+					}
+				});
+			}
 
 			if(isDebugEnabled){
+				DebugLogger.log("Running with Debugging Enabled");
 				setupDebug(primaryStage, grid);
 			}
 
