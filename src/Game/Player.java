@@ -1,6 +1,7 @@
 package Game;
 
 public class Player {
+
 	String name;
 	PlayerPosition location;
 	int point;
@@ -12,15 +13,17 @@ public class Player {
 		this.direction = direction;
 		this.point = 0;
 	};
-	
+
+	public String getName() {
+
+		return name;
+	}
 	public PlayerPosition getLocation() {
 		return this.location;
 	}
-
 	public void setLocation(PlayerPosition p) {
 		this.location=p;
 	}
-
 	public int getXpos() {
 		return location.x;
 	}

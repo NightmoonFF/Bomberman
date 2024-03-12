@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+//TODO: possibly needed instead of player list in GameLogic, if multiple requests for player movement is given?
+
 public class ConcurrentArrayList implements Iterable<Player>
 {
 	private List<Player> liste = new ArrayList<Player>(); 

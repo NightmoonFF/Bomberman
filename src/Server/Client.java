@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Objects;
 
 /**
  * - Prompts user for name (not currently implemented) <br>
@@ -23,12 +24,11 @@ import java.net.UnknownHostException;
  * - currently sends console userinput, not game input <br>
  */
 public class Client {
-    public String clientName = "Elias";
+    public String clientName = "Elias"; //todo: move to prompt on startup in App class
     static Socket socket;
     static BufferedReader in;
     public static PrintWriter out;
     static BufferedReader consoleInput;
-    Player player;
 
     static {
         try{
@@ -37,6 +37,9 @@ public class Client {
             out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
             consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
             DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
+
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -56,11 +59,10 @@ public class Client {
                     updateGame(line);
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+                DebugLogger.log(e.getMessage());
             }
         });
         inputThread.start();
-
 
         //Continuous thread for outgoing messages to Server
         Thread outputThread = new Thread(() -> {
@@ -71,7 +73,7 @@ public class Client {
                     DebugLogger.log("@[Server]: " + userInputLine);
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+                DebugLogger.log(e.getMessage());
             }
         });
         outputThread.start();
@@ -83,14 +85,19 @@ public class Client {
         switch (command) {
             case "JOIN":
                 DebugLogger.log("Attempting to create player: " + parts[1]);
-                player = GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
+                GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
                 break;
             case "MOVE":
                 switch(parts[1]){
-                    case "up": GameLogic.updatePlayer(player, 0, -1, "up");
-                    case "down": GameLogic.updatePlayer(player, 0, +1, "down");
-                    case "left": GameLogic.updatePlayer(player, -1, 0, "left");
-                    case "right": GameLogic.updatePlayer(player, +1, 0, "right");
+                    //TODO: remove double-switch
+                    case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
+                    break;
+                    case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");
+                    break;
+                    case "left": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), -1, 0, "left");
+                    break;
+                    case "right": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), +1, 0, "right");
+                    break;
                 }
                 break;
             case "BOMB":

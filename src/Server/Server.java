@@ -1,17 +1,19 @@
 package Server;
-import Game.App;
-import Game.DebugLogger;
-import Game.GameLogic;
-import Game.Gui;
+import Game.*;
 import javafx.application.Application;
 
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Server {
 
 	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
+
+	//TODO: map socket instead? ClientHandler outside visibility scope
+	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 	static Common common;
 
@@ -32,19 +34,16 @@ public class Server {
 		Thread connectionThread = new Thread(() -> {
 			try {
 				while (true) {
-					//todo: maybe a map to also have desired name added
-
 					Socket clientSocket = serverSocket.accept(); // wait for a client to connect
 					ClientHandler clientHandler; //Initialize Thread for the client
 					clientThreads.add(clientHandler = new ClientHandler(clientSocket));
 					new Thread(clientHandler).start();
 
-
 					broadcast(clientSocket.getInetAddress() + " Has Connected to the Server");
 					DebugLogger.logServer(clientSocket.getInetAddress() + " Has Connected to the Server");
 				}
 			} catch (IOException e) {
-				e.printStackTrace();
+				DebugLogger.logServer(e.getMessage());
 			}
 		});
 		connectionThread.start();
@@ -60,11 +59,11 @@ public class Server {
 
 	/**
 	 * Takes a message to be processed in Common
-	 * @param message
-	 * @param clientHandler
+	 * @param message the message from client
+	 * @param clientSocket the origin client
 	 */
-	public static void receiveMessage(String message, ClientHandler clientHandler){
-		Common.handleInputRequest(message, clientHandler);
+	public static void receiveMessage(String message, Socket clientSocket){
+		Common.handleInputRequest(message, clientSocket);
 	}
 
 	/**
@@ -86,7 +85,9 @@ public class Server {
 		}
 	}
 
-
+	public static void addClient(Socket clientSocket, Player player){
+		clientMap.put(clientSocket, player);
+	}
 
 
 }

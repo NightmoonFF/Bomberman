@@ -50,10 +50,13 @@ public static List<Player> players = new ArrayList<Player>();
 	}
 	
 	public static void updatePlayer(Player player, int delta_x, int delta_y, String direction) {
+
+		System.out.println(player.getName() + ": " + player.direction + " to " + direction);
 		player.direction = direction;
+
 		int x = player.getXpos(),y = player.getYpos();
 
-		if (Generel.board[y+delta_y].charAt(x+delta_x)=='w') {
+		if (Generel.board[y+delta_y].charAt(x+delta_x)=='w') { //TODO: remove?
 			player.addPoints(-1);
 		} 
 		else {
@@ -67,12 +70,16 @@ public static List<Player> players = new ArrayList<Player>();
               p.setLocation(pa);
               PlayerPosition oldpos = new PlayerPosition(x + delta_x, y + delta_y);
               Gui.movePlayerOnScreen(oldpos,pa,p.direction);
-			} else 
-				player.addPoints(1);
+				System.out.println("PLAYER COLLISION");
+
+			} else
+				player.addPoints(1); //TODO: remove?
 			PlayerPosition oldpos = player.getLocation();
 			PlayerPosition newpos = new PlayerPosition(x + delta_x, y + delta_y);
 			Gui.movePlayerOnScreen(oldpos,newpos,direction);
 			player.setLocation(newpos);
+
+			System.out.println(player.getName() + ": " + "(" + oldpos.getX() + "/" + oldpos.getY() + ")" + " to (" + newpos.getX() + "/" + newpos.getY() + ")");
 		}
 		
 		
@@ -86,8 +93,16 @@ public static List<Player> players = new ArrayList<Player>();
 		}
 		return null;
 	}
-	
-	
+
+	public static Player getPlayerByName(String name) {
+		for (Player player : players) {
+			if (player.getName().equalsIgnoreCase(name)) {
+				return player;
+			}
+		}
+		DebugLogger.log("Error! Player not found: " + name);
+		return null;
+	}
 	
 
 }

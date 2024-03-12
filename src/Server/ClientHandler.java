@@ -20,8 +20,8 @@ class ClientHandler implements Runnable {
     final Socket clientSocket;
     private final BufferedReader in;
     private final PrintWriter out;
-    public String clientName;
-    public Player clientPlayer;
+    public String clientName; //todo: to be removed? get player.name
+    public Player clientPlayer; //todo: to be moved to map on server
 
     public ClientHandler(Socket socket) {
         this.clientSocket = socket;
@@ -42,7 +42,9 @@ class ClientHandler implements Runnable {
                 while ((inputLine = in.readLine()) != null) {
                     DebugLogger.logServer("[" + clientName + "]: " + inputLine);
                     System.out.println("[" + clientName + "]: " + inputLine);
-                    Server.receiveMessage(inputLine, this);
+                    Server.receiveMessage(inputLine, clientSocket);
+
+                    //on join, set playerName
                 }
             }
         }

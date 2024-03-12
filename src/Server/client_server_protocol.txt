@@ -5,19 +5,19 @@ So for example, an input request sequence from client would go like maybe
 
 
 JOIN Elias
-MOVE Elias up
-MOVE Elias up
-MOVE Elias down
+MOVE up Elias
+MOVE up Elias
+MOVE down Elias
 BOMB Elias
 BOMB Elias (maybe unable here due to cooldown for example)
-MOVE Elias up
+MOVE up Elias
 QUIT Elias (from rage)
 
 
 
 [Commands {Params}]
 
-MOVE {name} {direction}
+MOVE {direction}{name}
 
 BOMB {name}
 

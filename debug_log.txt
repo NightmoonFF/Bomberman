@@ -439,3 +439,248 @@
 [2024-03-12 09:46:08] MOVE up
 [2024-03-12 09:46:13] Connection reset
 [2024-03-12 09:46:38] Connection reset
+[2024-03-12 11:08:54] Running with Debugging Enabled
+[2024-03-12 11:08:54] Starting Game Application...
+[2024-03-12 11:08:54] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:08:54] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:08:57] JOIN Elias 6 15
+[2024-03-12 11:08:57] Attempting to create player: Elias
+[2024-03-12 11:08:58] MOVE right Elias
+[2024-03-12 11:08:58] MOVE up Elias
+[2024-03-12 11:08:59] MOVE right Elias
+[2024-03-12 11:09:00] MOVE down Elias
+[2024-03-12 11:09:02] MOVE left Elias
+[2024-03-12 11:09:03] MOVE up Elias
+[2024-03-12 11:09:03] MOVE up Elias
+[2024-03-12 11:09:03] MOVE right Elias
+[2024-03-12 11:09:04] MOVE left Elias
+[2024-03-12 11:09:04] MOVE up Elias
+[2024-03-12 11:09:04] MOVE left Elias
+[2024-03-12 11:09:08] MOVE left Elias
+[2024-03-12 11:09:09] MOVE up Elias
+[2024-03-12 11:09:10] MOVE up Elias
+[2024-03-12 11:19:47] Running with Debugging Enabled
+[2024-03-12 11:19:47] Starting Game Application...
+[2024-03-12 11:19:47] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:19:47] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:19:49] JOIN Elias 16 4
+[2024-03-12 11:19:49] Attempting to create player: Elias
+[2024-03-12 11:23:16] Running with Debugging Enabled
+[2024-03-12 11:23:16] Starting Game Application...
+[2024-03-12 11:23:16] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:23:16] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:23:19] JOIN Elias 15 4
+[2024-03-12 11:23:19] Attempting to create player: Elias
+[2024-03-12 11:23:22] MOVE left Elias
+[2024-03-12 11:23:28] MOVE left Elias
+[2024-03-12 11:23:29] MOVE right Elias
+[2024-03-12 11:23:33] MOVE down Elias
+[2024-03-12 11:23:35] MOVE down Elias
+[2024-03-12 11:23:35] MOVE down Elias
+[2024-03-12 11:23:36] MOVE down Elias
+[2024-03-12 11:23:36] MOVE down Elias
+[2024-03-12 11:23:36] MOVE left Elias
+[2024-03-12 11:23:37] MOVE up Elias
+[2024-03-12 11:23:37] MOVE up Elias
+[2024-03-12 11:23:38] MOVE down Elias
+[2024-03-12 11:23:38] MOVE down Elias
+[2024-03-12 11:23:38] MOVE down Elias
+[2024-03-12 11:23:38] MOVE down Elias
+[2024-03-12 11:23:39] MOVE down Elias
+[2024-03-12 11:23:39] MOVE down Elias
+[2024-03-12 11:23:39] MOVE down Elias
+[2024-03-12 11:23:39] MOVE down Elias
+[2024-03-12 11:23:39] MOVE down Elias
+[2024-03-12 11:23:40] MOVE right Elias
+[2024-03-12 11:23:40] MOVE left Elias
+[2024-03-12 11:35:29] Running with Debugging Enabled
+[2024-03-12 11:35:29] Starting Game Application...
+[2024-03-12 11:35:29] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:35:29] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:37:09] JOIN Elias 14 15
+[2024-03-12 11:37:09] Attempting to create player: Elias
+[2024-03-12 11:37:09] MOVE right Elias
+[2024-03-12 11:37:10] MOVE right Elias
+[2024-03-12 11:37:10] MOVE right Elias
+[2024-03-12 11:37:10] MOVE down Elias
+[2024-03-12 11:37:10] MOVE down Elias
+[2024-03-12 11:37:11] MOVE up Elias
+[2024-03-12 11:37:11] MOVE up Elias
+[2024-03-12 11:39:39] Running with Debugging Enabled
+[2024-03-12 11:39:39] Starting Game Application...
+[2024-03-12 11:39:39] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:39:39] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:39:41] JOIN Elias 18 8
+[2024-03-12 11:39:41] Attempting to create player: Elias
+[2024-03-12 11:39:45] MOVE down Elias
+[2024-03-12 11:40:01] MOVE up Elias
+[2024-03-12 11:49:32] Running with Debugging Enabled
+[2024-03-12 11:49:32] Starting Game Application...
+[2024-03-12 11:49:32] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:49:32] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:49:35] JOIN Elias 13 3
+[2024-03-12 11:49:35] Attempting to create player: Elias
+[2024-03-12 11:49:38] MOVE down Elias
+[2024-03-12 11:49:51] MOVE down Elias
+[2024-03-12 11:50:10] MOVE down Elias
+[2024-03-12 11:50:12] MOVE down Elias
+[2024-03-12 11:50:14] MOVE down Elias
+[2024-03-12 11:50:14] MOVE down Elias
+[2024-03-12 11:50:16] MOVE down Elias
+[2024-03-12 11:56:31] Running with Debugging Enabled
+[2024-03-12 11:56:31] Starting Game Application...
+[2024-03-12 11:56:31] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:56:31] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:56:34] JOIN Elias 6 7
+[2024-03-12 11:56:34] Attempting to create player: Elias
+[2024-03-12 11:56:37] MOVE right Elias
+[2024-03-12 11:56:47] MOVE down Elias
+[2024-03-12 11:57:24] MOVE down Elias
+[2024-03-12 11:57:27] MOVE down Elias
+[2024-03-12 11:59:49] Running with Debugging Enabled
+[2024-03-12 11:59:49] Starting Game Application...
+[2024-03-12 11:59:49] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 11:59:49] /127.0.0.1 Has Connected to the Server
+[2024-03-12 11:59:51] JOIN Elias 2 12
+[2024-03-12 11:59:51] Attempting to create player: Elias
+[2024-03-12 11:59:52] MOVE right Elias
+[2024-03-12 11:59:57] MOVE down Elias
+[2024-03-12 11:59:57] MOVE left Elias
+[2024-03-12 11:59:58] MOVE up Elias
+[2024-03-12 11:59:58] MOVE right Elias
+[2024-03-12 11:59:58] MOVE right Elias
+[2024-03-12 11:59:58] MOVE right Elias
+[2024-03-12 11:59:59] MOVE right Elias
+[2024-03-12 11:59:59] MOVE right Elias
+[2024-03-12 11:59:59] MOVE down Elias
+[2024-03-12 11:59:59] MOVE left Elias
+[2024-03-12 11:59:59] MOVE left Elias
+[2024-03-12 11:59:59] MOVE left Elias
+[2024-03-12 12:00:00] MOVE left Elias
+[2024-03-12 12:00:00] MOVE left Elias
+[2024-03-12 12:00:00] MOVE down Elias
+[2024-03-12 12:00:00] MOVE right Elias
+[2024-03-12 12:00:01] MOVE right Elias
+[2024-03-12 12:00:01] MOVE right Elias
+[2024-03-12 12:00:01] MOVE up Elias
+[2024-03-12 12:00:01] MOVE up Elias
+[2024-03-12 12:00:01] MOVE left Elias
+[2024-03-12 12:00:01] MOVE left Elias
+[2024-03-12 12:00:02] MOVE left Elias
+[2024-03-12 12:00:02] MOVE down Elias
+[2024-03-12 12:00:02] MOVE right Elias
+[2024-03-12 12:00:02] MOVE right Elias
+[2024-03-12 12:00:02] MOVE right Elias
+[2024-03-12 12:00:02] MOVE up Elias
+[2024-03-12 12:00:02] MOVE left Elias
+[2024-03-12 12:00:03] MOVE down Elias
+[2024-03-12 12:00:03] MOVE right Elias
+[2024-03-12 12:00:03] MOVE up Elias
+[2024-03-12 12:00:03] MOVE left Elias
+[2024-03-12 12:00:03] MOVE left Elias
+[2024-03-12 12:00:03] MOVE right Elias
+[2024-03-12 12:00:04] MOVE up Elias
+[2024-03-12 12:00:04] MOVE up Elias
+[2024-03-12 12:00:04] MOVE up Elias
+[2024-03-12 12:00:04] MOVE left Elias
+[2024-03-12 12:00:04] MOVE left Elias
+[2024-03-12 12:00:05] MOVE left Elias
+[2024-03-12 12:00:05] MOVE left Elias
+[2024-03-12 12:00:05] MOVE down Elias
+[2024-03-12 12:00:05] MOVE down Elias
+[2024-03-12 12:00:05] MOVE down Elias
+[2024-03-12 12:00:05] MOVE down Elias
+[2024-03-12 12:00:05] MOVE right Elias
+[2024-03-12 12:00:06] MOVE right Elias
+[2024-03-12 12:00:06] MOVE right Elias
+[2024-03-12 12:00:06] MOVE down Elias
+[2024-03-12 12:00:06] MOVE down Elias
+[2024-03-12 12:00:06] MOVE down Elias
+[2024-03-12 12:00:06] MOVE left Elias
+[2024-03-12 12:00:07] MOVE left Elias
+[2024-03-12 12:00:07] MOVE down Elias
+[2024-03-12 12:00:07] MOVE left Elias
+[2024-03-12 12:00:07] MOVE down Elias
+[2024-03-12 12:00:07] MOVE left Elias
+[2024-03-12 12:00:08] MOVE up Elias
+[2024-03-12 12:00:08] MOVE up Elias
+[2024-03-12 12:00:08] MOVE left Elias
+[2024-03-12 12:00:08] MOVE up Elias
+[2024-03-12 12:00:08] MOVE up Elias
+[2024-03-12 12:00:08] MOVE up Elias
+[2024-03-12 12:00:09] MOVE up Elias
+[2024-03-12 12:00:09] MOVE right Elias
+[2024-03-12 12:00:09] MOVE right Elias
+[2024-03-12 12:00:09] MOVE right Elias
+[2024-03-12 12:00:09] MOVE right Elias
+[2024-03-12 12:00:10] MOVE right Elias
+[2024-03-12 12:00:10] MOVE right Elias
+[2024-03-12 12:00:10] MOVE right Elias
+[2024-03-12 12:00:10] MOVE up Elias
+[2024-03-12 12:00:10] MOVE up Elias
+[2024-03-12 12:00:10] MOVE up Elias
+[2024-03-12 12:00:11] MOVE up Elias
+[2024-03-12 12:00:11] MOVE right Elias
+[2024-03-12 12:00:11] MOVE right Elias
+[2024-03-12 12:00:11] MOVE right Elias
+[2024-03-12 12:00:11] MOVE down Elias
+[2024-03-12 12:00:12] MOVE down Elias
+[2024-03-12 12:00:12] MOVE down Elias
+[2024-03-12 12:00:12] MOVE down Elias
+[2024-03-12 12:00:12] MOVE down Elias
+[2024-03-12 12:00:13] MOVE left Elias
+[2024-03-12 12:00:13] MOVE left Elias
+[2024-03-12 12:00:13] MOVE left Elias
+[2024-03-12 12:00:13] MOVE left Elias
+[2024-03-12 12:00:14] MOVE up Elias
+[2024-03-12 12:00:14] MOVE up Elias
+[2024-03-12 12:00:14] MOVE up Elias
+[2024-03-12 12:00:14] MOVE down Elias
+[2024-03-12 12:00:15] MOVE down Elias
+[2024-03-12 12:00:15] MOVE left Elias
+[2024-03-12 12:00:15] MOVE left Elias
+[2024-03-12 12:00:15] MOVE right Elias
+[2024-03-12 12:00:16] MOVE right Elias
+[2024-03-12 12:00:16] MOVE up Elias
+[2024-03-12 12:00:16] MOVE up Elias
+[2024-03-12 12:00:16] MOVE down Elias
+[2024-03-12 12:00:17] MOVE down Elias
+[2024-03-12 12:00:17] MOVE left Elias
+[2024-03-12 12:00:17] MOVE left Elias
+[2024-03-12 12:00:17] MOVE left Elias
+[2024-03-12 12:00:17] MOVE up Elias
+[2024-03-12 12:00:17] MOVE left Elias
+[2024-03-12 12:00:18] MOVE right Elias
+[2024-03-12 12:00:18] MOVE up Elias
+[2024-03-12 12:00:19] MOVE up Elias
+[2024-03-12 12:00:20] MOVE down Elias
+[2024-03-12 12:00:20] MOVE down Elias
+[2024-03-12 12:00:20] MOVE left Elias
+[2024-03-12 12:00:20] MOVE left Elias
+[2024-03-12 12:00:20] MOVE left Elias
+[2024-03-12 12:00:21] MOVE up Elias
+[2024-03-12 12:00:21] MOVE up Elias
+[2024-03-12 12:00:21] MOVE up Elias
+[2024-03-12 12:00:21] MOVE up Elias
+[2024-03-12 12:00:21] MOVE right Elias
+[2024-03-12 12:00:22] MOVE right Elias
+[2024-03-12 12:00:22] MOVE right Elias
+[2024-03-12 12:00:22] MOVE down Elias
+[2024-03-12 12:00:22] MOVE down Elias
+[2024-03-12 12:00:22] MOVE down Elias
+[2024-03-12 12:00:22] MOVE down Elias
+[2024-03-12 12:00:23] MOVE right Elias
+[2024-03-12 12:00:23] MOVE right Elias
+[2024-03-12 12:00:23] MOVE right Elias
+[2024-03-12 12:00:23] MOVE up Elias
+[2024-03-12 12:00:23] MOVE right Elias
+[2024-03-12 12:00:23] MOVE left Elias
+[2024-03-12 12:00:24] MOVE left Elias
+[2024-03-12 12:00:24] MOVE down Elias
+[2024-03-12 12:00:24] MOVE left Elias
+[2024-03-12 12:00:24] MOVE left Elias
+[2024-03-12 12:00:24] MOVE left Elias
+[2024-03-12 12:00:25] MOVE up Elias
+[2024-03-12 12:00:25] MOVE right Elias
+[2024-03-12 12:00:25] MOVE down Elias
+[2024-03-12 12:00:25] MOVE left Elias

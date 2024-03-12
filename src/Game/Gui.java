@@ -15,6 +15,7 @@ import javafx.scene.text.*;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Objects;
 
 import static Game.DebugLogger.LOG_FILE_PATH;
 
@@ -59,6 +60,7 @@ public class Gui extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+
 			//region GameField setup
 			GridPane grid = new GridPane();
 			grid.setHgap(10);
@@ -75,13 +77,13 @@ public class Gui extends Application {
 			
 			GridPane boardGrid = new GridPane();
 
-			image_wall  = new Image(getClass().getResourceAsStream("/wall4.png"),size,size,false,false);
-			image_floor = new Image(getClass().getResourceAsStream("/floor1.png"),size,size,false,false);
+			image_wall  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), size, size, false, false);
+			image_floor = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), size, size, false, false);
 
-			hero_right  = new Image(getClass().getResourceAsStream("/heroRight.png"),size,size,false,false);
-			hero_left   = new Image(getClass().getResourceAsStream("/heroLeft.png"),size,size,false,false);
-			hero_up     = new Image(getClass().getResourceAsStream("/heroUp.png"),size,size,false,false);
-			hero_down   = new Image(getClass().getResourceAsStream("/heroDown.png"),size,size,false,false);
+			hero_right  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRight.png")), size, size, false, false);
+			hero_left   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeft.png")), size, size, false, false);
+			hero_up     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUp.png")), size, size, false, false);
+			hero_down   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDown.png")), size, size, false, false);
 
 			fields = new Label[20][20];
 			for (int j=0; j<20; j++) {
@@ -110,10 +112,11 @@ public class Gui extends Application {
 			primaryStage.show();
 			//endregion
 
-            // Putting default players on screen
-/*			for (int i=0;i<GameLogic.players.size();i++) {
+			/*// Putting default players on screen
+			for (int i=0;i<GameLogic.players.size();i++) {
 			  fields[GameLogic.players.get(i).getXpos()][GameLogic.players.get(i).getYpos()].setGraphic(new ImageView(hero_up));
 			}*/
+
 			scoreList.setText(getScoreList());
 
 			//region Client Setup
@@ -135,17 +138,33 @@ public class Gui extends Application {
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					switch (event.getCode()) {
 						//TODO: only "right" and "down" works
-						case UP:    client.sendMessage("MOVE" + " " + "up");    break;
-						case DOWN:  client.sendMessage("MOVE" + " " + "down");  break;
-						case LEFT:  client.sendMessage("MOVE" + " " + "left");  break;
-						case RIGHT: client.sendMessage("MOVE" + " " + "right"); break;
+						case UP:
+							client.sendMessage("MOVE" + " " + "up" + " " + client.clientName);
+							System.out.println("CLICKED UP");
+							break;
+						case DOWN:
+							client.sendMessage("MOVE" + " " + "down" + " " + client.clientName);
+							System.out.println("CLICKED DOWN");
+							break;
+						case LEFT:
+							client.sendMessage("MOVE" + " " + "left" + " " + client.clientName);
+							System.out.println("CLICKED LEFT");
+							break;
+						case RIGHT:
+							client.sendMessage("MOVE" + " " + "right" + " " + client.clientName);
+							System.out.println("CLICKED RIGHT");
+							break;
+						case ESCAPE:
+							System.exit(0);
+							break;
 						case ENTER:
 							PlayerPosition playerPosition = GameLogic.getRandomFreePosition();
 							client.sendMessage("JOIN" + " " +
 													   client.clientName + " " +
 													   playerPosition.x + " " +
-													   playerPosition.y); break;
-						case ESCAPE: System.exit(0);
+													   playerPosition.y);
+							break;
+
 						default: break;
 					}
 				});
@@ -161,7 +180,8 @@ public class Gui extends Application {
 			fields[oldpos.getX()][oldpos.getY()].setGraphic(new ImageView(image_floor));
 			});
 	}
-	
+
+
 	public static void placePlayerOnScreen(PlayerPosition newpos, String direction) {
 		Platform.runLater(() -> {
 			int newx = newpos.getX();
@@ -180,11 +200,13 @@ public class Gui extends Application {
 			};
 			});
 	}
-	
+
+
 	public static void movePlayerOnScreen(PlayerPosition oldpos, PlayerPosition newpos, String direction) {
 		removePlayerOnScreen(oldpos);
 		placePlayerOnScreen(newpos,direction);
 	}
+
 
 	public void updateScoreTable() {
 		Platform.runLater(() -> {
@@ -193,15 +215,6 @@ public class Gui extends Application {
 	}
 
 
-	/**
-	 * Single player shit? Remove?
-	 * Call updatePlayer?
-	 */
-/*	public void playerMoved(int delta_x, int delta_y, String direction) {
-		GameLogic.updatePlayer(App.me ,delta_x, delta_y, direction);
-		updateScoreTable();
-	}*/
-	
 	public String getScoreList() {
 		StringBuffer b = new StringBuffer(100);
 		for (Player p : GameLogic.players) {
@@ -210,12 +223,9 @@ public class Gui extends Application {
 		return b.toString();
 	}
 
-	//---
 
 	//region Debugging
-	static boolean isShowingDebugLog = false;
 	static TextArea debugTA = new TextArea();
-
 	public void setupDebug(Stage primaryStage, GridPane grid){
 		Button button = new Button("Debug");
 		grid.add(button, 1, 2);
@@ -231,7 +241,6 @@ public class Gui extends Application {
 		logReaderThread.setDaemon(true); // So that the thread stops when the application is closed
 		logReaderThread.start();
 	}
-
 	private void readLogFile() {
 		try {
 			File logFile = new File(LOG_FILE_PATH);
@@ -263,7 +272,6 @@ public class Gui extends Application {
 			DebugLogger.log(e.getMessage());
 		}
 	}
-
 	public static void clearLogFile(){
 		try {
 			Files.write(Paths.get(LOG_FILE_PATH), new byte[0]);
@@ -271,7 +279,7 @@ public class Gui extends Application {
 			DebugLogger.log(e.getMessage());
 		}
 	}
-
+	static boolean isShowingDebugLog = false;
 	public static void toggleDebugGUI(Stage primaryStage, GridPane grid, TextArea debugTA) {
 		if(isShowingDebugLog){
 			grid.getChildren().remove(debugTA);
@@ -284,7 +292,6 @@ public class Gui extends Application {
 			isShowingDebugLog = true;
 		}
 	}
-
 	//endregion
 }
 
