@@ -64,6 +64,8 @@ public class Common {
 
                 clientHandler.clientName = parts[1];
 
+                //TODO: for each existing player already connected, have new client create those as well
+
                 break;
             case "MOVE":
                 switch(parts[1]){

@@ -434,3 +434,113 @@
 [2024-03-12 09:41:16] /10.10.138.229 Has Connected to the Server
 [2024-03-12 09:41:17] [/10.10.138.229]: JOIN Anton
 [2024-03-12 09:41:17] Attempting to create player: Anton
+[2024-03-12 09:42:43] Server Socket Established
+[2024-03-12 09:42:43] Starting...
+[2024-03-12 09:42:43] Starting Game Application...
+[2024-03-12 09:42:43] Running with Debugging Enabled
+[2024-03-12 09:42:43] Running Application as Server
+[2024-03-12 09:42:44] Running with Debugging Enabled
+[2024-03-12 09:42:44] Running Application as Server
+[2024-03-12 09:44:11] /10.10.138.229 Has Connected to the Server
+[2024-03-12 09:44:13] [/10.10.138.229]: JOIN Anton 7 3
+[2024-03-12 09:44:13] Attempting to create player: Anton
+[2024-03-12 09:44:18] [Anton]: MOVE down
+[2024-03-12 09:44:19] [Anton]: MOVE right
+[2024-03-12 09:44:20] [Anton]: MOVE right
+[2024-03-12 09:44:35] /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:44:35] Unknown Message: /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:44:37] [/127.0.0.1]: JOIN Elias 9 13
+[2024-03-12 09:44:37] Attempting to create player: Elias
+[2024-03-12 09:44:38] [Anton]: MOVE left
+[2024-03-12 09:44:39] [Anton]: MOVE left
+[2024-03-12 09:44:39] [Anton]: MOVE left
+[2024-03-12 09:44:39] [Anton]: MOVE right
+[2024-03-12 09:44:40] [Elias]: MOVE left
+[2024-03-12 09:44:40] [Anton]: MOVE right
+[2024-03-12 09:44:41] [Anton]: MOVE up
+[2024-03-12 09:44:42] [Elias]: MOVE up
+[2024-03-12 09:44:42] [Anton]: MOVE down
+[2024-03-12 09:44:42] [Anton]: MOVE left
+[2024-03-12 09:44:43] [Anton]: MOVE right
+[2024-03-12 09:44:43] [Anton]: MOVE down
+[2024-03-12 09:44:43] [Anton]: MOVE up
+[2024-03-12 09:44:44] [Anton]: MOVE down
+[2024-03-12 09:44:44] [Anton]: MOVE right
+[2024-03-12 09:44:44] [Anton]: MOVE up
+[2024-03-12 09:44:44] [Anton]: MOVE left
+[2024-03-12 09:44:52] [Anton]: MOVE right
+[2024-03-12 09:44:52] [Anton]: MOVE left
+[2024-03-12 09:44:52] [Anton]: MOVE up
+[2024-03-12 09:44:53] [Anton]: MOVE down
+[2024-03-12 09:44:53] [Anton]: MOVE right
+[2024-03-12 09:44:53] [Anton]: MOVE left
+[2024-03-12 09:44:53] [Anton]: MOVE right
+[2024-03-12 09:44:53] [Anton]: MOVE up
+[2024-03-12 09:44:53] [Anton]: MOVE down
+[2024-03-12 09:44:53] [Anton]: MOVE left
+[2024-03-12 09:44:53] [Anton]: MOVE right
+[2024-03-12 09:44:53] [Anton]: MOVE down
+[2024-03-12 09:44:53] [Anton]: MOVE up
+[2024-03-12 09:44:53] [Anton]: MOVE left
+[2024-03-12 09:44:53] [Anton]: MOVE right
+[2024-03-12 09:44:53] [Anton]: MOVE down
+[2024-03-12 09:44:54] [Anton]: MOVE left
+[2024-03-12 09:44:54] [Anton]: MOVE right
+[2024-03-12 09:44:54] [Anton]: MOVE down
+[2024-03-12 09:44:54] [Anton]: MOVE up
+[2024-03-12 09:44:54] [Anton]: MOVE left
+[2024-03-12 09:44:54] [Anton]: MOVE right
+[2024-03-12 09:44:54] [Anton]: MOVE down
+[2024-03-12 09:44:54] [Anton]: MOVE left
+[2024-03-12 09:44:59] [Anton]: MOVE right
+[2024-03-12 09:44:59] [Anton]: MOVE right
+[2024-03-12 09:44:59] [Anton]: MOVE right
+[2024-03-12 09:45:00] [Anton]: MOVE right
+[2024-03-12 09:45:00] [Anton]: MOVE right
+[2024-03-12 09:45:00] [Anton]: MOVE right
+[2024-03-12 09:45:05] [Elias]: MOVE right
+[2024-03-12 09:45:05] [Elias]: MOVE right
+[2024-03-12 09:46:04] [Anton]: MOVE right
+[2024-03-12 09:46:05] [Anton]: MOVE down
+[2024-03-12 09:46:05] [Anton]: MOVE down
+[2024-03-12 09:46:05] [Anton]: MOVE down
+[2024-03-12 09:46:06] [Anton]: MOVE down
+[2024-03-12 09:46:06] [Anton]: MOVE right
+[2024-03-12 09:46:06] [Anton]: MOVE right
+[2024-03-12 09:46:07] [Anton]: MOVE down
+[2024-03-12 09:46:07] [Anton]: MOVE right
+[2024-03-12 09:46:08] [Anton]: MOVE left
+[2024-03-12 09:46:08] [Anton]: MOVE up
+[2024-03-12 09:46:18] Server Socket Established
+[2024-03-12 09:46:18] Starting...
+[2024-03-12 09:46:18] Starting Game Application...
+[2024-03-12 09:46:18] Running with Debugging Enabled
+[2024-03-12 09:46:18] Running Application as Server
+[2024-03-12 09:46:18] /10.10.138.229 Has Connected to the Server
+[2024-03-12 09:46:19] Running with Debugging Enabled
+[2024-03-12 09:46:19] Running Application as Server
+[2024-03-12 09:46:19] [/10.10.138.229]: JOIN Anton 8 8
+[2024-03-12 09:46:19] Attempting to create player: Anton
+[2024-03-12 09:46:20] [Anton]: MOVE down
+[2024-03-12 09:46:20] [Anton]: MOVE down
+[2024-03-12 09:46:21] [Anton]: MOVE right
+[2024-03-12 09:46:21] [Anton]: MOVE right
+[2024-03-12 09:46:21] [Anton]: MOVE right
+[2024-03-12 09:46:21] [Anton]: MOVE right
+[2024-03-12 09:46:22] [Anton]: MOVE right
+[2024-03-12 09:46:22] [Anton]: MOVE down
+[2024-03-12 09:46:22] [Anton]: MOVE down
+[2024-03-12 09:46:22] [Anton]: MOVE down
+[2024-03-12 09:46:22] [Anton]: MOVE down
+[2024-03-12 09:46:23] [Anton]: MOVE down
+[2024-03-12 09:46:23] [Anton]: MOVE right
+[2024-03-12 09:46:24] [Anton]: MOVE right
+[2024-03-12 09:46:24] [Anton]: MOVE up
+[2024-03-12 09:46:24] [Anton]: MOVE down
+[2024-03-12 09:46:25] [Anton]: MOVE left
+[2024-03-12 09:46:25] [Anton]: MOVE left
+[2024-03-12 09:46:28] [Anton]: MOVE right
+[2024-03-12 09:46:28] [Anton]: MOVE down
+[2024-03-12 09:46:29] [Anton]: MOVE down
+[2024-03-12 09:46:29] [Anton]: MOVE down
+[2024-03-12 09:46:29] [Anton]: MOVE right

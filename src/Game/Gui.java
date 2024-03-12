@@ -134,6 +134,7 @@ public class Gui extends Application {
 
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					switch (event.getCode()) {
+						//TODO: only "right" and "down" works
 						case UP:    client.sendMessage("MOVE" + " " + "up");    break;
 						case DOWN:  client.sendMessage("MOVE" + " " + "down");  break;
 						case LEFT:  client.sendMessage("MOVE" + " " + "left");  break;

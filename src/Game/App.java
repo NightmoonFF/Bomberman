@@ -12,7 +12,7 @@ public class App {
 		String navn = inFromUser.readLine();
 		me = GameLogic.makePlayer("testMe");
 		*/
-		boolean isServerInstance = false; //visual distinction and no game controls
+		boolean isServerInstance = false; //visual distinction and disables game-controls
 		boolean isDebugEnabled = true; //adds button to show/hide debug log
 		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
 		Application.launch(Gui.class, arguments);
