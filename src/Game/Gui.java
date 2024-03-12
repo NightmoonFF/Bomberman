@@ -139,35 +139,33 @@ public class Gui extends Application {
 					switch (event.getCode()) {
 						//TODO: only "right" and "down" works
 						case UP:
-							client.sendMessage("MOVE" + " " + "up" + " " + client.clientName);
+							client.sendMessage("MOVE" + " " + "up" + " " + App.username);
 							System.out.println("CLICKED UP");
 							break;
 						case DOWN:
-							client.sendMessage("MOVE" + " " + "down" + " " + client.clientName);
+							client.sendMessage("MOVE" + " " + "down" + " " + App.username);
 							System.out.println("CLICKED DOWN");
 							break;
 						case LEFT:
-							client.sendMessage("MOVE" + " " + "left" + " " + client.clientName);
+							client.sendMessage("MOVE" + " " + "left" + " " + App.username);
 							System.out.println("CLICKED LEFT");
 							break;
 						case RIGHT:
-							client.sendMessage("MOVE" + " " + "right" + " " + client.clientName);
+							client.sendMessage("MOVE" + " " + "right" + " " + App.username);
 							System.out.println("CLICKED RIGHT");
 							break;
 						case ESCAPE:
 							System.exit(0);
 							break;
 						case ENTER:
-							PlayerPosition playerPosition = GameLogic.getRandomFreePosition();
-							client.sendMessage("JOIN" + " " +
-													   client.clientName + " " +
-													   playerPosition.x + " " +
-													   playerPosition.y);
 							break;
 
 						default: break;
 					}
 				});
+
+				PlayerPosition playerPosition = GameLogic.getRandomFreePosition();
+				client.sendMessage("JOIN" + " " + App.username + " " + playerPosition.x + " " + playerPosition.y);
 			}
 
 		} catch(Exception e) {

@@ -11,8 +11,6 @@ import java.util.Map;
 public class Server {
 
 	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
-
-	//TODO: map socket instead? ClientHandler outside visibility scope
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 	static Common common;
@@ -71,17 +69,14 @@ public class Server {
 	 * @param message
 	 */
 	public static void broadcast(String message) {
-
-		for (ClientHandler clientThread : clientThreads) {
+		//TODO: way to send to all clients at once, instead of iterating?
+		for (Socket socket : clientMap.keySet()) {
 			try {
-				//TODO: maybe send all at once
-				PrintWriter out = new PrintWriter(clientThread.clientSocket.getOutputStream(), true);
+				PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 				out.println(message);
-
-			} catch (Exception e) {
-				e.printStackTrace();
+			} catch (IOException e) {
+				DebugLogger.logServer(e.getMessage());
 			}
-
 		}
 	}
 

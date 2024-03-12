@@ -24,7 +24,6 @@ import java.util.Objects;
  * - currently sends console userinput, not game input <br>
  */
 public class Client {
-    public String clientName = "Elias"; //todo: move to prompt on startup in App class
     static Socket socket;
     static BufferedReader in;
     public static PrintWriter out;
@@ -32,15 +31,14 @@ public class Client {
 
     static {
         try{
-            socket = new Socket("localhost", 4969);
+            socket = new Socket("localhost", 4969); //TODO: move to launcher prompt
             in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
             out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
             consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
             DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
 
-
-
         } catch (IOException e) {
+            DebugLogger.log(e.getMessage());
             throw new RuntimeException(e);
         }
     }

@@ -51,7 +51,7 @@ public static List<Player> players = new ArrayList<Player>();
 	
 	public static void updatePlayer(Player player, int delta_x, int delta_y, String direction) {
 
-		System.out.println(player.getName() + ": " + player.direction + " to " + direction);
+		DebugLogger.log(player.getName() + ": " + player.direction + " to " + direction);
 		player.direction = direction;
 
 		int x = player.getXpos(),y = player.getYpos();
@@ -70,7 +70,7 @@ public static List<Player> players = new ArrayList<Player>();
               p.setLocation(pa);
               PlayerPosition oldpos = new PlayerPosition(x + delta_x, y + delta_y);
               Gui.movePlayerOnScreen(oldpos,pa,p.direction);
-				System.out.println("PLAYER COLLISION");
+			  System.out.println("PLAYER COLLISION");
 
 			} else
 				player.addPoints(1); //TODO: remove?
@@ -79,7 +79,7 @@ public static List<Player> players = new ArrayList<Player>();
 			Gui.movePlayerOnScreen(oldpos,newpos,direction);
 			player.setLocation(newpos);
 
-			System.out.println(player.getName() + ": " + "(" + oldpos.getX() + "/" + oldpos.getY() + ")" + " to (" + newpos.getX() + "/" + newpos.getY() + ")");
+			DebugLogger.log(player.getName() + ": " + "(" + oldpos.getX() + "/" + oldpos.getY() + ")" + " to (" + newpos.getX() + "/" + newpos.getY() + ")");
 		}
 		
 		

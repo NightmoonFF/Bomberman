@@ -1,4 +1,4 @@
-I'm thinking we should split a message into three things - Command, Name, and Parameter
+I'm thinking we should split a message into two things - Command, and Parameter
 What indicates a command message, would be a full caps word at start.
 If needed, could add name/signature - but currently trying to just keep clients mapped
 So for example, an input request sequence from client would go like maybe

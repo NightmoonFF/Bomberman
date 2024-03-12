@@ -6,16 +6,13 @@ import javafx.application.Application;;
 
 public class App {
 	/*public static Player me;*/
-	public static void main(String[] args) throws Exception{	
-/*		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Indtast spillernavn");
-		String navn = inFromUser.readLine();
-		me = GameLogic.makePlayer("testMe");
-		*/
-		boolean isServerInstance = false; //visual distinction and disables game-controls
+
+	static String username = "Elias"; //TODO: prompt in launcher window
+
+	public static void main(String[] args) {
+
 		boolean isDebugEnabled = true; //adds button to show/hide debug log
-		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
+		String[] arguments = {String.valueOf(false), String.valueOf(isDebugEnabled), username};
 		Application.launch(Gui.class, arguments);
 	}
 }
-;
