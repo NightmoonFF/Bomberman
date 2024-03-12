@@ -47,7 +47,7 @@ class ClientHandler implements Runnable {
             }
         }
         catch (IOException e) {
-            e.printStackTrace();
+            DebugLogger.log(e.getMessage());
         }
         finally {
             try {
@@ -56,7 +56,7 @@ class ClientHandler implements Runnable {
                 clientSocket.close();
             }
             catch (IOException e) {
-                e.printStackTrace();
+                DebugLogger.log(e.getMessage());
             }
         }
     }

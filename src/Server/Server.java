@@ -58,6 +58,11 @@ public class Server {
 		Application.launch(Gui.class, arguments);
     }
 
+	/**
+	 * Takes a message to be processed in Common
+	 * @param message
+	 * @param clientHandler
+	 */
 	public static void receiveMessage(String message, ClientHandler clientHandler){
 		Common.handleInputRequest(message, clientHandler);
 	}
@@ -70,6 +75,7 @@ public class Server {
 
 		for (ClientHandler clientThread : clientThreads) {
 			try {
+				//TODO: maybe send all at once
 				PrintWriter out = new PrintWriter(clientThread.clientSocket.getOutputStream(), true);
 				out.println(message);
 

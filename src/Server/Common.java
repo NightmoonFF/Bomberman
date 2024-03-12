@@ -2,12 +2,11 @@ package Server;
 
 import Game.DebugLogger;
 import Game.GameLogic;
+import Game.PlayerPosition;
 
 public class Common {
     private static Common instance;
-
-
-    private Common() {}
+    private Common() {} // private constructor for singleton
 
 
     /**
@@ -31,6 +30,7 @@ public class Common {
         broadcastInput(input);
     }
 
+
     /**
      * Method to process input such as input validation
      * @param input
@@ -44,21 +44,24 @@ public class Common {
      * Applies the client's input to the Game, <br>
      * according to protocol outlined in <br>
      * client_server_protocol.txt <br>
-     * parts[0] - client name <br>
-     * parts[1] - command <br>
-     * parts[2] - parameter <br>
+     * parts[0] - command <br>
+     * parts[1] - name <br>
+     * parts[2] - parameter 1 <br>
      * Possibly entirely identical with updateGame() in Client <br>
-     * @param input
+     * @param input the clients input request
      */
     private static void updateGame(String input, ClientHandler clientHandler) {
 
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
+
         switch (command) {
             case "JOIN":
-                System.out.println("Attempting to create player: " + parts[1]);
+                DebugLogger.logServer("Attempting to create player: " + parts[1]);
 
-                clientHandler.clientPlayer = GameLogic.makePlayer(parts[1]);
+                PlayerPosition p = GameLogic.getRandomFreePosition();
+                clientHandler.clientPlayer = GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
+
                 clientHandler.clientName = parts[1];
 
                 break;
@@ -69,16 +72,13 @@ public class Common {
                     case "left": GameLogic.updatePlayer(clientHandler.clientPlayer, -1, 0, "left");
                     case "right": GameLogic.updatePlayer(clientHandler.clientPlayer, +1, 0, "right");
                 }
-
-
-
                 break;
             case "BOMB":
 
                 break;
 
             default:
-                DebugLogger.logServer("Unknown Message: " + input);
+                DebugLogger.logServer("Warning: Unknown Message Received! \"" + input + "\"");
                 break;
         }
     }

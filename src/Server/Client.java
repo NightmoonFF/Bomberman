@@ -52,6 +52,7 @@ public class Client {
                     System.out.println("[SERVER]: " + line);
                     DebugLogger.log(line);
 
+                    //processInput(line);
                     updateGame(line);
                 }
             } catch (IOException e) {
@@ -81,8 +82,8 @@ public class Client {
         String command = parts[0];
         switch (command) {
             case "JOIN":
-                System.out.println("Attempting to create player: " + parts[1]);
-                player = GameLogic.makePlayer(parts[1]);
+                DebugLogger.log("Attempting to create player: " + parts[1]);
+                player = GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
                 break;
             case "MOVE":
                 switch(parts[1]){

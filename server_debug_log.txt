@@ -354,3 +354,83 @@
 [2024-03-11 23:35:36] [Elias]: MOVE down
 [2024-03-11 23:35:36] [Elias]: MOVE down
 [2024-03-11 23:35:36] [Elias]: MOVE up
+[2024-03-12 09:10:03] Server Socket Established
+[2024-03-12 09:10:03] Starting...
+[2024-03-12 09:10:03] Starting Game Application...
+[2024-03-12 09:10:03] Running with Debugging Enabled
+[2024-03-12 09:10:03] Running Application as Server
+[2024-03-12 09:10:06] Running with Debugging Enabled
+[2024-03-12 09:10:06] Running Application as Server
+[2024-03-12 09:10:12] /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:10:12] Unknown Message: /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:10:31] [/127.0.0.1]: JOIN Elias 16 10
+[2024-03-12 09:10:31] Attempting to create player: Elias
+[2024-03-12 09:10:39] [Elias]: MOVE up
+[2024-03-12 09:10:41] [Elias]: MOVE down
+[2024-03-12 09:10:42] [Elias]: MOVE left
+[2024-03-12 09:10:42] [Elias]: MOVE right
+[2024-03-12 09:10:43] [Elias]: MOVE up
+[2024-03-12 09:10:44] [Elias]: MOVE down
+[2024-03-12 09:10:44] [Elias]: MOVE down
+[2024-03-12 09:10:44] [Elias]: MOVE down
+[2024-03-12 09:10:45] [Elias]: MOVE down
+[2024-03-12 09:10:45] [Elias]: MOVE down
+[2024-03-12 09:10:45] [Elias]: MOVE down
+[2024-03-12 09:10:46] [Elias]: MOVE down
+[2024-03-12 09:10:46] [Elias]: MOVE up
+[2024-03-12 09:10:46] [Elias]: MOVE up
+[2024-03-12 09:10:47] [Elias]: MOVE left
+[2024-03-12 09:10:47] [Elias]: MOVE left
+[2024-03-12 09:10:47] [Elias]: MOVE up
+[2024-03-12 09:10:47] [Elias]: MOVE right
+[2024-03-12 09:10:48] [Elias]: MOVE left
+[2024-03-12 09:10:48] [Elias]: MOVE right
+[2024-03-12 09:10:48] [Elias]: MOVE right
+[2024-03-12 09:37:38] Server Socket Established
+[2024-03-12 09:37:39] Starting...
+[2024-03-12 09:37:39] Starting Game Application...
+[2024-03-12 09:37:39] Running with Debugging Enabled
+[2024-03-12 09:37:39] Running Application as Server
+[2024-03-12 09:37:40] Running with Debugging Enabled
+[2024-03-12 09:37:40] Running Application as Server
+[2024-03-12 09:37:44] /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:37:44] Unknown Message: /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:37:54] [/127.0.0.1]: JOIN Elias 16 10
+[2024-03-12 09:37:54] Attempting to create player: Elias
+[2024-03-12 09:37:56] [Elias]: MOVE down
+[2024-03-12 09:37:57] [Elias]: MOVE down
+[2024-03-12 09:37:58] [Elias]: MOVE down
+[2024-03-12 09:37:58] [Elias]: MOVE down
+[2024-03-12 09:37:59] [Elias]: MOVE down
+[2024-03-12 09:37:59] [Elias]: MOVE down
+[2024-03-12 09:38:00] [Elias]: MOVE down
+[2024-03-12 09:38:00] [Elias]: MOVE down
+[2024-03-12 09:38:01] [Elias]: MOVE right
+[2024-03-12 09:38:12] [Elias]: MOVE left
+[2024-03-12 09:38:13] [Elias]: MOVE left
+[2024-03-12 09:38:13] [Elias]: MOVE up
+[2024-03-12 09:38:13] [Elias]: MOVE left
+[2024-03-12 09:38:13] [Elias]: MOVE left
+[2024-03-12 09:38:14] [Elias]: MOVE left
+[2024-03-12 09:38:15] [Elias]: MOVE down
+[2024-03-12 09:38:15] [Elias]: MOVE right
+[2024-03-12 09:38:15] [Elias]: MOVE down
+[2024-03-12 09:38:15] [Elias]: MOVE right
+[2024-03-12 09:38:16] [Elias]: MOVE down
+[2024-03-12 09:38:16] [Elias]: MOVE right
+[2024-03-12 09:38:16] [Elias]: MOVE down
+[2024-03-12 09:38:16] [Elias]: MOVE right
+[2024-03-12 09:38:16] [Elias]: MOVE down
+[2024-03-12 09:38:17] [Elias]: MOVE right
+[2024-03-12 09:41:01] /10.10.138.229 Has Connected to the Server
+[2024-03-12 09:41:01] Unknown Message: /10.10.138.229 Has Connected to the Server
+[2024-03-12 09:41:05] Server Socket Established
+[2024-03-12 09:41:05] Starting...
+[2024-03-12 09:41:05] Starting Game Application...
+[2024-03-12 09:41:05] Running with Debugging Enabled
+[2024-03-12 09:41:05] Running Application as Server
+[2024-03-12 09:41:06] Running with Debugging Enabled
+[2024-03-12 09:41:06] Running Application as Server
+[2024-03-12 09:41:16] /10.10.138.229 Has Connected to the Server
+[2024-03-12 09:41:17] [/10.10.138.229]: JOIN Anton
+[2024-03-12 09:41:17] Attempting to create player: Anton

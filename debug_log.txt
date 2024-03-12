@@ -312,3 +312,62 @@
 [2024-03-11 23:35:36] MOVE down
 [2024-03-11 23:35:36] MOVE down
 [2024-03-11 23:35:36] MOVE up
+[2024-03-12 09:10:12] Running with Debugging Enabled
+[2024-03-12 09:10:12] Starting Game Application...
+[2024-03-12 09:10:12] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 09:10:12] /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:10:31] JOIN Elias 16 10
+[2024-03-12 09:10:31] Attempting to create player: Elias
+[2024-03-12 09:10:39] MOVE up
+[2024-03-12 09:10:41] MOVE down
+[2024-03-12 09:10:42] MOVE left
+[2024-03-12 09:10:42] MOVE right
+[2024-03-12 09:10:43] MOVE up
+[2024-03-12 09:10:44] MOVE down
+[2024-03-12 09:10:44] MOVE down
+[2024-03-12 09:10:44] MOVE down
+[2024-03-12 09:10:45] MOVE down
+[2024-03-12 09:10:45] MOVE down
+[2024-03-12 09:10:45] MOVE down
+[2024-03-12 09:10:46] MOVE down
+[2024-03-12 09:10:46] MOVE up
+[2024-03-12 09:10:46] MOVE up
+[2024-03-12 09:10:47] MOVE left
+[2024-03-12 09:10:47] MOVE left
+[2024-03-12 09:10:47] MOVE up
+[2024-03-12 09:10:47] MOVE right
+[2024-03-12 09:10:48] MOVE left
+[2024-03-12 09:10:48] MOVE right
+[2024-03-12 09:10:48] MOVE right
+[2024-03-12 09:37:44] Running with Debugging Enabled
+[2024-03-12 09:37:44] Starting Game Application...
+[2024-03-12 09:37:44] Connection Established to host: localhost/127.0.0.1
+[2024-03-12 09:37:44] /127.0.0.1 Has Connected to the Server
+[2024-03-12 09:37:54] JOIN Elias 16 10
+[2024-03-12 09:37:54] Attempting to create player: Elias
+[2024-03-12 09:37:56] MOVE down
+[2024-03-12 09:37:57] MOVE down
+[2024-03-12 09:37:58] MOVE down
+[2024-03-12 09:37:58] MOVE down
+[2024-03-12 09:37:59] MOVE down
+[2024-03-12 09:37:59] MOVE down
+[2024-03-12 09:38:00] MOVE down
+[2024-03-12 09:38:00] MOVE down
+[2024-03-12 09:38:01] MOVE right
+[2024-03-12 09:38:12] MOVE left
+[2024-03-12 09:38:13] MOVE left
+[2024-03-12 09:38:13] MOVE up
+[2024-03-12 09:38:13] MOVE left
+[2024-03-12 09:38:13] MOVE left
+[2024-03-12 09:38:14] MOVE left
+[2024-03-12 09:38:15] MOVE down
+[2024-03-12 09:38:15] MOVE right
+[2024-03-12 09:38:15] MOVE down
+[2024-03-12 09:38:15] MOVE right
+[2024-03-12 09:38:16] MOVE down
+[2024-03-12 09:38:16] MOVE right
+[2024-03-12 09:38:16] MOVE down
+[2024-03-12 09:38:16] MOVE right
+[2024-03-12 09:38:16] MOVE down
+[2024-03-12 09:38:17] MOVE right
+[2024-03-12 09:41:01] /10.10.138.229 Has Connected to the Server

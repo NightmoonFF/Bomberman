@@ -59,6 +59,7 @@ public class Gui extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			//region GameField setup
 			GridPane grid = new GridPane();
 			grid.setHgap(10);
 			grid.setVgap(10);
@@ -99,7 +100,6 @@ public class Gui extends Application {
 			}
 			scoreList.setEditable(false);
 			
-			
 			grid.add(mazeLabel,  0, 0); 
 			grid.add(scoreLabel, 1, 0); 
 			grid.add(boardGrid,  0, 1);
@@ -108,10 +108,7 @@ public class Gui extends Application {
 			Scene scene = new Scene(grid,scene_width,scene_height);
 			primaryStage.setScene(scene);
 			primaryStage.show();
-
-
-
-
+			//endregion
 
             // Putting default players on screen
 /*			for (int i=0;i<GameLogic.players.size();i++) {
@@ -119,11 +116,12 @@ public class Gui extends Application {
 			}*/
 			scoreList.setText(getScoreList());
 
-
-
-			//*******************
-			//		Setup Client
-			//*******************
+			//region Client Setup
+			if(isDebugEnabled){
+				if(!isServerInstance)DebugLogger.log("Running with Debugging Enabled");
+				else DebugLogger.logServer("Running with Debugging Enabled");
+				setupDebug(primaryStage, grid);
+			}
 
 			if(isServerInstance){
 				DebugLogger.logServer("Running Application as Server");
@@ -132,39 +130,38 @@ public class Gui extends Application {
 			}
 			else{
 				DebugLogger.log("Starting Game Application...");
-				if(isDebugEnabled)DebugLogger.log("Running with Debugging Enabled");
-				if(isServerInstance)DebugLogger.logServer("Running Application as Server");
 				client = new Client();
+
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					switch (event.getCode()) {
 						case UP:    client.sendMessage("MOVE" + " " + "up");    break;
 						case DOWN:  client.sendMessage("MOVE" + " " + "down");  break;
 						case LEFT:  client.sendMessage("MOVE" + " " + "left");  break;
 						case RIGHT: client.sendMessage("MOVE" + " " + "right"); break;
-						case ENTER: client.sendMessage("JOIN" + " " + client.clientName); break;
+						case ENTER:
+							PlayerPosition playerPosition = GameLogic.getRandomFreePosition();
+							client.sendMessage("JOIN" + " " +
+													   client.clientName + " " +
+													   playerPosition.x + " " +
+													   playerPosition.y); break;
 						case ESCAPE: System.exit(0);
 						default: break;
 					}
 				});
 			}
 
-			if(isDebugEnabled){
-				DebugLogger.log("Running with Debugging Enabled");
-				setupDebug(primaryStage, grid);
-			}
-
 		} catch(Exception e) {
-			e.printStackTrace();
+			DebugLogger.log(e.getMessage());
 		}
 	}
 	
-	public static void removePlayerOnScreen(playerPosition oldpos) {
+	public static void removePlayerOnScreen(PlayerPosition oldpos) {
 		Platform.runLater(() -> {
 			fields[oldpos.getX()][oldpos.getY()].setGraphic(new ImageView(image_floor));
 			});
 	}
 	
-	public static void placePlayerOnScreen(playerPosition newpos, String direction) {
+	public static void placePlayerOnScreen(PlayerPosition newpos, String direction) {
 		Platform.runLater(() -> {
 			int newx = newpos.getX();
 			int newy = newpos.getY();
@@ -183,7 +180,7 @@ public class Gui extends Application {
 			});
 	}
 	
-	public static void movePlayerOnScreen(playerPosition oldpos, playerPosition newpos, String direction) {
+	public static void movePlayerOnScreen(PlayerPosition oldpos, PlayerPosition newpos, String direction) {
 		removePlayerOnScreen(oldpos);
 		placePlayerOnScreen(newpos,direction);
 	}
@@ -194,14 +191,15 @@ public class Gui extends Application {
 			});
 	}
 
+
 	/**
 	 * Single player shit? Remove?
 	 * Call updatePlayer?
 	 */
-	public void playerMoved(int delta_x, int delta_y, String direction) {
+/*	public void playerMoved(int delta_x, int delta_y, String direction) {
 		GameLogic.updatePlayer(App.me ,delta_x, delta_y, direction);
 		updateScoreTable();
-	}
+	}*/
 	
 	public String getScoreList() {
 		StringBuffer b = new StringBuffer(100);
@@ -220,7 +218,6 @@ public class Gui extends Application {
 	public void setupDebug(Stage primaryStage, GridPane grid){
 		Button button = new Button("Debug");
 		grid.add(button, 1, 2);
-
 
 		debugTA.setEditable(false);
 		debugTA.clear();
@@ -253,9 +250,7 @@ public class Gui extends Application {
 							Platform.runLater(() -> debugTA.appendText(finalLine + "\n"));
 						}
 						lastFileSize = fileSize;
-					} catch (FileNotFoundException e) {
-                        throw new RuntimeException(e);
-                    } catch (IOException e) {
+					} catch (IOException e) {
                         throw new RuntimeException(e);
                     }
                 }
@@ -264,14 +259,15 @@ public class Gui extends Application {
 				Thread.sleep(1000);
 			}
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			DebugLogger.log(e.getMessage());
 		}
 	}
+
 	public static void clearLogFile(){
 		try {
 			Files.write(Paths.get(LOG_FILE_PATH), new byte[0]);
 		} catch (IOException e) {
-			e.printStackTrace();
+			DebugLogger.log(e.getMessage());
 		}
 	}
 

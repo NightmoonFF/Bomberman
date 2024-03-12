@@ -2,22 +2,22 @@ package Game;
 
 public class Player {
 	String name;
-	playerPosition location;
+	PlayerPosition location;
 	int point;
 	String direction;
 
-	public Player(String name, playerPosition loc, String direction) {
+	public Player(String name, PlayerPosition loc, String direction) {
 		this.name = name;
 		this.location = loc;
 		this.direction = direction;
 		this.point = 0;
 	};
 	
-	public playerPosition getLocation() {
+	public PlayerPosition getLocation() {
 		return this.location;
 	}
 
-	public void setLocation(playerPosition p) {
+	public void setLocation(PlayerPosition p) {
 		this.location=p;
 	}
 
