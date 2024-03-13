@@ -6,12 +6,14 @@ public class Player {
 	PlayerPosition location;
 	int point;
 	String direction;
+	int health;
 
-	public Player(String name, PlayerPosition loc, String direction) {
+	public Player(String name, PlayerPosition loc, String direction, int health) {
 		this.name = name;
 		this.location = loc;
 		this.direction = direction;
 		this.point = 0;
+		this.health = health;
 	};
 
 	public String getName() {
@@ -47,5 +49,16 @@ public class Player {
 	}
 	public String toString() {
 		return name+":   "+point;
+	}
+
+	public int getHealth() {
+		return health;
+	}
+
+	public int takeDamage() {
+		return health--;
+    }
+	public void resetHeath() {
+		health = 3;
 	}
 }

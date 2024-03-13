@@ -16,7 +16,7 @@ public static List<Player> players = new ArrayList<Player>();
 
 		PlayerPosition playerPosition = new PlayerPosition(x, y);
 		Player player;
-		player = new Player(name, playerPosition,"up");
+		player = new Player(name, playerPosition,"up", 3);
 		players.add(player);
 		Gui.placePlayerOnScreen(new PlayerPosition(player.getXpos(), player.getYpos()), "up");
 		System.out.println("Created Player: " + name + " x" + player.getXpos() + "/y" + player.getYpos());
