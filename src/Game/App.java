@@ -8,6 +8,7 @@ public class App {
 	/*public static Player me;*/
 
 	static String username = "Elias"; //TODO: prompt in launcher window
+	static String ServerIP = "";
 
 	public static void main(String[] args) {
 

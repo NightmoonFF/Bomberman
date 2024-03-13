@@ -69,7 +69,7 @@ public class Server {
 	 * @param message
 	 */
 	public static void broadcast(String message) {
-		//TODO: way to send to all clients at once, instead of iterating?
+		//TODO: way to send to all clients at once, instead of iterating? (not important)
 		for (Socket socket : clientMap.keySet()) {
 			try {
 				PrintWriter out = new PrintWriter(socket.getOutputStream(), true);

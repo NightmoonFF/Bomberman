@@ -1007,3 +1007,10 @@
 [2024-03-12 12:23:51] Running Application as Server
 [2024-03-12 12:23:52] Running with Debugging Enabled
 [2024-03-12 12:23:52] Running Application as Server
+[2024-03-13 09:47:33] Server Socket Established
+[2024-03-13 09:47:33] Starting...
+[2024-03-13 09:47:33] Starting Game Application...
+[2024-03-13 09:47:33] Running with Debugging Enabled
+[2024-03-13 09:47:33] Running Application as Server
+[2024-03-13 09:47:33] Running with Debugging Enabled
+[2024-03-13 09:47:33] Running Application as Server

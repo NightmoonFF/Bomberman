@@ -23,4 +23,6 @@ BOMB {name}
 
 JOIN {name, x, y}
 
-QUIT{name}
+QUIT {name}
+
+READY {name}
