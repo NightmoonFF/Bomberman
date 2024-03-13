@@ -130,6 +130,10 @@ public class Gui extends Application {
 				DebugLogger.logServer("Running Application as Server");
 				mazeLabel.setText("SERVER INSTANCE");
 				grid.setStyle("-fx-background-color: lightblue;");
+
+				Button btnStart = new Button("Start");
+				grid.add(btnStart, 0, 2);
+				btnStart.setOnAction(e -> startGame());
 			}
 			else{
 				DebugLogger.log("Starting Game Application...");
@@ -221,6 +225,9 @@ public class Gui extends Application {
 		return b.toString();
 	}
 
+	public void startGame() {
+		Server.Server.startGame();
+	}
 
 	//region Debugging
 	static TextArea debugTA = new TextArea();

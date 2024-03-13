@@ -40,6 +40,9 @@ public class Common {
      * @param input
      */
     private static void processInput(String input) {
+        if (Server.gameStarted) {
+
+        }
         //TODO: check if desired spawn location is valid on JOIN (not occupied by other player), or dont request position - only recieve by server
     }
 
