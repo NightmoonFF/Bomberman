@@ -1014,3 +1014,54 @@
 [2024-03-13 09:47:33] Running Application as Server
 [2024-03-13 09:47:33] Running with Debugging Enabled
 [2024-03-13 09:47:33] Running Application as Server
+[2024-03-13 11:17:11] Server Socket Established
+[2024-03-13 11:17:11] Starting...
+[2024-03-13 11:17:11] Starting Game Application...
+[2024-03-13 11:17:11] Running with Debugging Enabled
+[2024-03-13 11:17:11] Running Application as Server
+[2024-03-13 11:17:13] Running with Debugging Enabled
+[2024-03-13 11:17:13] Running Application as Server
+[2024-03-13 11:24:46] Server Socket Established
+[2024-03-13 11:24:46] Starting...
+[2024-03-13 11:24:46] Starting Game Application...
+[2024-03-13 11:24:46] Running with Debugging Enabled
+[2024-03-13 11:24:46] Running Application as Server
+[2024-03-13 11:24:48] Running with Debugging Enabled
+[2024-03-13 11:24:48] Running Application as Server
+[2024-03-13 12:39:41] Server Socket Established
+[2024-03-13 12:39:41] Starting...
+[2024-03-13 12:39:41] Starting Game Application...
+[2024-03-13 12:39:41] Running with Debugging Enabled
+[2024-03-13 12:39:41] Running Application as Server
+[2024-03-13 12:39:42] Running with Debugging Enabled
+[2024-03-13 12:39:42] Running Application as Server
+[2024-03-13 12:40:35] Server Socket Established
+[2024-03-13 12:40:35] Starting...
+[2024-03-13 12:40:35] Starting Game Application...
+[2024-03-13 12:40:35] Running with Debugging Enabled
+[2024-03-13 12:40:35] Running Application as Server
+[2024-03-13 12:40:36] Running with Debugging Enabled
+[2024-03-13 12:40:36] Running Application as Server
+[2024-03-13 12:45:44] Server Socket Established
+[2024-03-13 12:45:44] Starting...
+[2024-03-13 12:45:44] Starting Game Application...
+[2024-03-13 12:45:44] Running with Debugging Enabled
+[2024-03-13 12:45:44] Running Application as Server
+[2024-03-13 12:45:44] Running with Debugging Enabled
+[2024-03-13 12:45:45] Running Application as Server
+[2024-03-13 12:46:59] Server Socket Established
+[2024-03-13 12:46:59] Starting...
+[2024-03-13 12:46:59] Starting Game Application...
+[2024-03-13 12:46:59] Running with Debugging Enabled
+[2024-03-13 12:46:59] Running Application as Server
+[2024-03-13 12:47:00] Running with Debugging Enabled
+[2024-03-13 12:47:00] Running Application as Server
+[2024-03-13 12:48:48] Server Socket Established
+[2024-03-13 12:48:48] Starting...
+[2024-03-13 12:48:48] Starting Game Application...
+[2024-03-13 12:48:48] Running with Debugging Enabled
+[2024-03-13 12:48:48] Running Application as Server
+[2024-03-13 12:48:49] Running with Debugging Enabled
+[2024-03-13 12:48:49] Running Application as Server
+[2024-03-13 12:49:06] [/127.0.0.1]: JOIN Elias 8 16
+[2024-03-13 12:49:06] /127.0.0.1 Has Connected to the Server

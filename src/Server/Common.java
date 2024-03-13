@@ -7,14 +7,18 @@ import Game.PlayerPosition;
 
 import java.net.Socket;
 import java.util.Objects;
+import java.util.Scanner;
 
 public class Common {
     private static Common instance;
-    private Common() {} // private constructor for singleton
+
+    private Common() {
+    } // private constructor for singleton
 
 
     /**
      * Ensures a singleton pattern
+     *
      * @return the instance if not already claimed
      */
     public static synchronized Common getInstance() {
@@ -37,9 +41,28 @@ public class Common {
 
     /**
      * Method to process input such as input validation
+     *
      * @param input
      */
     private static void processInput(String input) {
+        if (Server.gameStarted) {
+
+            broadcastInput("game starting");
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Enter 'start' to begin the game");
+            input = scanner.nextLine();
+
+            if (input.equalsIgnoreCase("start")) {
+                System.out.println("Game is start in... 3 2 1??");
+
+            } else {
+                System.out.println("Invalid input. Please enter 'start' to begin.");
+            }
+
+            scanner.close();
+        }
         //TODO: check if desired spawn location is valid on JOIN (not occupied by other player), or dont request position - only recieve by server
     }
 
@@ -55,7 +78,6 @@ public class Common {
      * @param input the clients input request
      */
     private static void updateGame(String input, Socket clientSocket) {
-
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
 

@@ -7,6 +7,7 @@ import java.net.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Server {
 
@@ -14,15 +15,18 @@ public class Server {
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 	static Common common;
+	static boolean gameStarted = false;
 
-    static {
-        try {
-            serverSocket = new ServerSocket(4969);
+
+
+	static {
+		try {
+			serverSocket = new ServerSocket(4969);
 			DebugLogger.logServer("Server Socket Established");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
     public static void main(String[] args) {
 		DebugLogger.logServer("Starting...");
@@ -49,11 +53,13 @@ public class Server {
 		boolean isServerInstance = true;
 		boolean isDebugEnabled = true;
 		DebugLogger.logServer("Starting Game Application...");
-		if(isDebugEnabled)DebugLogger.logServer("Running with Debugging Enabled");
-		if(isServerInstance)DebugLogger.logServer("Running Application as Server");
+		if (isDebugEnabled) DebugLogger.logServer("Running with Debugging Enabled");
+		if (isServerInstance) DebugLogger.logServer("Running Application as Server");
 		String[] arguments = {String.valueOf(isServerInstance), String.valueOf(isDebugEnabled)};
+		gameStarted = true;
 		Application.launch(Gui.class, arguments);
-    }
+	}
+
 
 	/**
 	 * Takes a message to be processed in Common
@@ -83,7 +89,5 @@ public class Server {
 	public static void addClient(Socket clientSocket, Player player){
 		clientMap.put(clientSocket, player);
 	}
-
-
 }
 
