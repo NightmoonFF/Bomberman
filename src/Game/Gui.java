@@ -1,6 +1,7 @@
 package Game;
 
 import Server.Client;
+import Server.Common;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -36,7 +37,8 @@ public class Gui extends Application {
 	private boolean isDebugEnabled;
 
 	private Client client;
-	
+	private boolean canMove = false;
+
 	// -------------------------------------------
 	// | Maze: (0,0)              | Score: (1,0) |
 	// |-----------------------------------------|
@@ -56,7 +58,6 @@ public class Gui extends Application {
 		}
 	}
 
-
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -69,45 +70,52 @@ public class Gui extends Application {
 
 			Text mazeLabel = new Text("Maze:");
 			mazeLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
-	
+
 			Text scoreLabel = new Text("Score:");
 			scoreLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 
+			Button btnStart = new Button("Start");
+			grid.add(btnStart, 0, 2);
+			btnStart.setOnAction(e -> startGame());
+			btnStart.setVisible(isServerInstance);
+
+
 			scoreList = new TextArea();
-			
+
 			GridPane boardGrid = new GridPane();
 
-			image_wall  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), size, size, false, false);
+			image_wall = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), size, size, false, false);
 			image_floor = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), size, size, false, false);
 
-			hero_right  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRight.png")), size, size, false, false);
-			hero_left   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeft.png")), size, size, false, false);
-			hero_up     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUp.png")), size, size, false, false);
-			hero_down   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDown.png")), size, size, false, false);
+			hero_right = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRight.png")), size, size, false, false);
+			hero_left = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeft.png")), size, size, false, false);
+			hero_up = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUp.png")), size, size, false, false);
+			hero_down = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDown.png")), size, size, false, false);
 
 			fields = new Label[20][20];
-			for (int j=0; j<20; j++) {
-				for (int i=0; i<20; i++) {
+			for (int j = 0; j < 20; j++) {
+				for (int i = 0; i < 20; i++) {
 					switch (Generel.board[j].charAt(i)) {
-					case 'w':
-						fields[i][j] = new Label("", new ImageView(image_wall));
-						break;
-					case ' ':					
-						fields[i][j] = new Label("", new ImageView(image_floor));
-						break;
-					default: throw new Exception("Illegal field value: "+Generel.board[j].charAt(i) );
+						case 'w':
+							fields[i][j] = new Label("", new ImageView(image_wall));
+							break;
+						case ' ':
+							fields[i][j] = new Label("", new ImageView(image_floor));
+							break;
+						default:
+							throw new Exception("Illegal field value: " + Generel.board[j].charAt(i));
 					}
 					boardGrid.add(fields[i][j], i, j);
 				}
 			}
 			scoreList.setEditable(false);
-			
-			grid.add(mazeLabel,  0, 0); 
-			grid.add(scoreLabel, 1, 0); 
-			grid.add(boardGrid,  0, 1);
-			grid.add(scoreList,  1, 1);
-						
-			Scene scene = new Scene(grid,scene_width,scene_height);
+
+			grid.add(mazeLabel, 0, 0);
+			grid.add(scoreLabel, 1, 0);
+			grid.add(boardGrid, 0, 1);
+			grid.add(scoreList, 1, 1);
+
+			Scene scene = new Scene(grid, scene_width, scene_height);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			//endregion
@@ -120,51 +128,51 @@ public class Gui extends Application {
 			scoreList.setText(getScoreList());
 
 			//region Client Setup
-			if(isDebugEnabled){
-				if(!isServerInstance)DebugLogger.log("Running with Debugging Enabled");
+			if (isDebugEnabled) {
+				if (!isServerInstance) DebugLogger.log("Running with Debugging Enabled");
 				else DebugLogger.logServer("Running with Debugging Enabled");
 				setupDebug(primaryStage, grid);
 			}
 
-			if(isServerInstance){
+			if (isServerInstance) {
 				DebugLogger.logServer("Running Application as Server");
 				mazeLabel.setText("SERVER INSTANCE");
 				grid.setStyle("-fx-background-color: lightblue;");
-
-				Button btnStart = new Button("Start");
-				grid.add(btnStart, 0, 2);
-				btnStart.setOnAction(e -> startGame());
 			}
-			else{
+
+			else {
 				DebugLogger.log("Starting Game Application...");
 				client = new Client();
 
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
-					switch (event.getCode()) {
-						//TODO: only "right" and "down" works
-						case UP:
-							client.sendMessage("MOVE" + " " + "up" + " " + App.username);
-							System.out.println("CLICKED UP");
-							break;
-						case DOWN:
-							client.sendMessage("MOVE" + " " + "down" + " " + App.username);
-							System.out.println("CLICKED DOWN");
-							break;
-						case LEFT:
-							client.sendMessage("MOVE" + " " + "left" + " " + App.username);
-							System.out.println("CLICKED LEFT");
-							break;
-						case RIGHT:
-							client.sendMessage("MOVE" + " " + "right" + " " + App.username);
-							System.out.println("CLICKED RIGHT");
-							break;
-						case ESCAPE:
-							System.exit(0);
-							break;
-						case ENTER:
-							break;
+					if (canMove) {
+						switch (event.getCode()) {
+							//TODO: only "right" and "down" works
+							case UP:
+								client.sendMessage("MOVE" + " " + "up" + " " + App.username);
+								System.out.println("CLICKED UP");
+								break;
+							case DOWN:
+								client.sendMessage("MOVE" + " " + "down" + " " + App.username);
+								System.out.println("CLICKED DOWN");
+								break;
+							case LEFT:
+								client.sendMessage("MOVE" + " " + "left" + " " + App.username);
+								System.out.println("CLICKED LEFT");
+								break;
+							case RIGHT:
+								client.sendMessage("MOVE" + " " + "right" + " " + App.username);
+								System.out.println("CLICKED RIGHT");
+								break;
+							case ESCAPE:
+								System.exit(0);
+								break;
+							case ENTER:
+								break;
 
-						default: break;
+							default:
+								break;
+						}
 					}
 				});
 
@@ -175,6 +183,11 @@ public class Gui extends Application {
 		} catch(Exception e) {
 			DebugLogger.log(e.getMessage());
 		}
+	}
+
+	public void startGame () {
+		canMove = true;
+		Server.Server.startGame();
 	}
 	
 	public static void removePlayerOnScreen(PlayerPosition oldpos) {
@@ -223,10 +236,6 @@ public class Gui extends Application {
 			b.append(p+"\r\n");
 		}
 		return b.toString();
-	}
-
-	public void startGame() {
-		Server.Server.startGame();
 	}
 
 	//region Debugging
@@ -298,5 +307,7 @@ public class Gui extends Application {
 		}
 	}
 	//endregion
+
+
 }
 
