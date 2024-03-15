@@ -87,7 +87,7 @@ public class Client {
                 break;
             case "MOVE":
                 switch(parts[1]){
-                    //TODO: remove double-switch
+                    //TODO: remove double-switch?
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
                     break;
                     case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");

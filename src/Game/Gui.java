@@ -137,7 +137,6 @@ public class Gui extends Application {
 
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					switch (event.getCode()) {
-						//TODO: only "right" and "down" works
 						case UP:
 							client.sendMessage("MOVE" + " " + "up" + " " + App.username);
 							System.out.println("CLICKED UP");
@@ -154,11 +153,13 @@ public class Gui extends Application {
 							client.sendMessage("MOVE" + " " + "right" + " " + App.username);
 							System.out.println("CLICKED RIGHT");
 							break;
+						case SPACE:
+							client.sendMessage("BOMB" + " " + App.username);
+							break;
 						case ESCAPE:
 							System.exit(0);
 							break;
-						case ENTER:
-							break;
+
 
 						default: break;
 					}

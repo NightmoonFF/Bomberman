@@ -84,7 +84,11 @@ public static List<Player> players = new ArrayList<Player>();
 		
 		
 	}
-	
+
+	public static void bomb(Player player){
+
+	}
+
 	public static Player getPlayerAt(int x, int y) {
 		for (Player p : players) {
 			if (p.getXpos()==x && p.getYpos()==y) {
