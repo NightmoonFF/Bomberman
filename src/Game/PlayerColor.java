@@ -8,11 +8,7 @@ public enum PlayerColor {
 
     private final String hexCode;
 
-    PlayerColor(String hexCode) {
-        this.hexCode = hexCode;
-    }
+    PlayerColor(String hexCode) { this.hexCode = hexCode; }
 
-    public String getHexCode() {
-        return hexCode;
-    }
+    public String getHexCode() { return hexCode; }
 }

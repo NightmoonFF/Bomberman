@@ -3,7 +3,6 @@ package Server;
 import Game.DebugLogger;
 import Game.GameLogic;
 import Game.Player;
-import Game.PlayerPosition;
 
 import java.net.Socket;
 import java.util.Objects;
@@ -49,9 +48,7 @@ public class Common {
      * according to protocol outlined in <br>
      * client_server_protocol.txt <br>
      * parts[0] - command <br>
-     * parts[1] - parameter 1 <br>
-     * parts[2] - parameter 2 <br>
-     * Possibly entirely identical with updateGame() in Client <br>
+     * parts[x] - parameter x <br>
      * @param input the clients input request
      */
     private static void updateGame(String input, Socket clientSocket) {
@@ -84,6 +81,8 @@ public class Common {
                 }
                 break;
             case "BOMB":
+
+                GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
 
                 break;
 

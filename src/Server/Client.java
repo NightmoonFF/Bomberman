@@ -77,6 +77,7 @@ public class Client {
         outputThread.start();
     }
 
+    //TODO: make client use the Common class, which is what it's intended for? this method is a duplicate of Common.updateGame
     private void updateGame(String input){
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
@@ -99,6 +100,8 @@ public class Client {
                 }
                 break;
             case "BOMB":
+
+                GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
 
                 break;
             default:
