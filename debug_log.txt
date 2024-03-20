@@ -1,169 +1,663 @@
-[2024-03-20 14:19:35] Starting Game Application...
-[2024-03-20 14:19:35] Running with Debugging Enabled
-[2024-03-20 14:19:35] Connection Established to host: localhost/127.0.0.1
-[2024-03-20 14:19:35] JOIN Elias 14 16
-[2024-03-20 14:19:35] Attempting to create player: Elias
-[2024-03-20 14:19:41] CLICKED LEFT
-[2024-03-20 14:19:41] CLICKED UP
-[2024-03-20 14:19:41] Elias: up to left
-[2024-03-20 14:19:41] Elias: (14/16) to (13/16)
-[2024-03-20 14:19:41] MOVE left Elias
-[2024-03-20 14:19:41] Elias: up to left
-[2024-03-20 14:19:41] Elias: left to up
-[2024-03-20 14:19:41] Elias: (13/16) to (13/15)
-[2024-03-20 14:19:41] Elias: (14/16) to (13/16)
-[2024-03-20 14:19:41] MOVE up Elias
-[2024-03-20 14:19:41] Elias: left to up
-[2024-03-20 14:19:41] Elias: (13/16) to (13/15)
-[2024-03-20 14:19:41] CLICKED UP
-[2024-03-20 14:19:41] Elias: up to up
-[2024-03-20 14:19:41] Elias: (13/15) to (13/14)
-[2024-03-20 14:19:41] MOVE up Elias
-[2024-03-20 14:19:41] Elias: up to up
-[2024-03-20 14:19:41] Elias: (13/15) to (13/14)
-[2024-03-20 14:19:42] BOMBED
-[2024-03-20 14:19:42] BOMB Elias
-[2024-03-20 14:19:42] CLICKED LEFT
-[2024-03-20 14:19:42] Elias: up to left
-[2024-03-20 14:19:42] Elias: (13/14) to (12/14)
-[2024-03-20 14:19:42] MOVE left Elias
-[2024-03-20 14:19:42] Elias: up to left
-[2024-03-20 14:19:42] Elias: (13/14) to (12/14)
-[2024-03-20 14:19:42] CLICKED LEFT
-[2024-03-20 14:19:42] Elias: left to left
-[2024-03-20 14:19:42] Elias: (12/14) to (11/14)
-[2024-03-20 14:19:42] MOVE left Elias
-[2024-03-20 14:19:42] Elias: left to left
-[2024-03-20 14:19:42] Elias: (12/14) to (11/14)
-[2024-03-20 14:19:42] CLICKED DOWN
-[2024-03-20 14:19:42] Elias: left to down
-[2024-03-20 14:19:42] Elias: (11/14) to (11/15)
-[2024-03-20 14:19:42] MOVE down Elias
-[2024-03-20 14:19:42] Elias: left to down
-[2024-03-20 14:19:42] Elias: (11/14) to (11/15)
-[2024-03-20 14:19:42] CLICKED LEFT
-[2024-03-20 14:19:42] Elias: down to left
-[2024-03-20 14:19:42] Elias: (11/15) to (10/15)
-[2024-03-20 14:19:42] MOVE left Elias
-[2024-03-20 14:19:42] Elias: down to left
-[2024-03-20 14:19:42] Elias: (11/15) to (10/15)
-[2024-03-20 14:19:43] CLICKED LEFT
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (10/15) to (9/15)
-[2024-03-20 14:19:43] MOVE left Elias
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (10/15) to (9/15)
-[2024-03-20 14:19:43] CLICKED LEFT
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (9/15) to (8/15)
-[2024-03-20 14:19:43] MOVE left Elias
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (9/15) to (8/15)
-[2024-03-20 14:19:43] CLICKED UP
-[2024-03-20 14:19:43] Elias: left to up
-[2024-03-20 14:19:43] Elias: (8/15) to (8/14)
-[2024-03-20 14:19:43] MOVE up Elias
-[2024-03-20 14:19:43] Elias: left to up
-[2024-03-20 14:19:43] Elias: (8/15) to (8/14)
-[2024-03-20 14:19:43] BOMBED
-[2024-03-20 14:19:43] BOMB Elias
-[2024-03-20 14:19:43] CLICKED LEFT
-[2024-03-20 14:19:43] Elias: up to left
-[2024-03-20 14:19:43] Elias: (8/14) to (7/14)
-[2024-03-20 14:19:43] MOVE left Elias
-[2024-03-20 14:19:43] Elias: up to left
-[2024-03-20 14:19:43] Elias: (8/14) to (7/14)
-[2024-03-20 14:19:43] CLICKED LEFT
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (7/14) to (6/14)
-[2024-03-20 14:19:43] MOVE left Elias
-[2024-03-20 14:19:43] Elias: left to left
-[2024-03-20 14:19:43] Elias: (7/14) to (6/14)
-[2024-03-20 14:19:43] CLICKED UP
-[2024-03-20 14:19:43] Elias: left to up
-[2024-03-20 14:19:43] Elias: (6/14) to (6/13)
-[2024-03-20 14:19:43] MOVE up Elias
-[2024-03-20 14:19:43] Elias: left to up
-[2024-03-20 14:19:43] Elias: (6/14) to (6/13)
-[2024-03-20 14:19:43] CLICKED UP
-[2024-03-20 14:19:43] Elias: up to up
-[2024-03-20 14:19:43] Elias: (6/13) to (6/12)
-[2024-03-20 14:19:43] MOVE up Elias
-[2024-03-20 14:19:43] Elias: up to up
-[2024-03-20 14:19:43] Elias: (6/13) to (6/12)
-[2024-03-20 14:19:44] CLICKED UP
-[2024-03-20 14:19:44] Elias: up to up
-[2024-03-20 14:19:44] Elias: (6/12) to (6/11)
-[2024-03-20 14:19:44] MOVE up Elias
-[2024-03-20 14:19:44] Elias: up to up
-[2024-03-20 14:19:44] Elias: (6/12) to (6/11)
-[2024-03-20 14:19:44] CLICKED RIGHT
-[2024-03-20 14:19:44] Elias: up to right
-[2024-03-20 14:19:44] Elias: (6/11) to (7/11)
-[2024-03-20 14:19:44] MOVE right Elias
-[2024-03-20 14:19:44] Elias: up to right
-[2024-03-20 14:19:44] Elias: (6/11) to (7/11)
-[2024-03-20 14:19:44] CLICKED UP
-[2024-03-20 14:19:44] Elias: right to up
-[2024-03-20 14:19:44] Elias: (7/11) to (7/10)
-[2024-03-20 14:19:44] MOVE up Elias
-[2024-03-20 14:19:44] Elias: right to up
-[2024-03-20 14:19:44] Elias: (7/11) to (7/10)
-[2024-03-20 14:19:44] CLICKED RIGHT
-[2024-03-20 14:19:44] Elias: up to right
-[2024-03-20 14:19:44] Elias: (7/10) to (8/10)
-[2024-03-20 14:19:44] MOVE right Elias
-[2024-03-20 14:19:44] Elias: up to right
-[2024-03-20 14:19:44] Elias: (7/10) to (8/10)
-[2024-03-20 14:19:44] CLICKED RIGHT
-[2024-03-20 14:19:44] Elias: right to right
-[2024-03-20 14:19:44] Elias: (8/10) to (9/10)
-[2024-03-20 14:19:44] MOVE right Elias
-[2024-03-20 14:19:44] Elias: right to right
-[2024-03-20 14:19:44] Elias: (8/10) to (9/10)
-[2024-03-20 14:19:44] CLICKED RIGHT
-[2024-03-20 14:19:44] Elias: right to right
-[2024-03-20 14:19:44] Elias: (9/10) to (10/10)
-[2024-03-20 14:19:44] MOVE right Elias
-[2024-03-20 14:19:44] Elias: right to right
-[2024-03-20 14:19:44] Elias: (9/10) to (10/10)
-[2024-03-20 14:19:45] BOMBED
-[2024-03-20 14:19:45] BOMB Elias
-[2024-03-20 14:19:45] CLICKED RIGHT
-[2024-03-20 14:19:45] Elias: right to right
-[2024-03-20 14:19:45] Elias: (10/10) to (11/10)
-[2024-03-20 14:19:45] MOVE right Elias
-[2024-03-20 14:19:45] Elias: right to right
-[2024-03-20 14:19:45] Elias: (10/10) to (11/10)
-[2024-03-20 14:19:45] CLICKED UP
-[2024-03-20 14:19:45] Elias: right to up
-[2024-03-20 14:19:45] Elias: (11/10) to (11/9)
-[2024-03-20 14:19:45] MOVE up Elias
-[2024-03-20 14:19:45] Elias: right to up
-[2024-03-20 14:19:45] Elias: (11/10) to (11/9)
-[2024-03-20 14:19:45] CLICKED UP
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/9) to (11/8)
-[2024-03-20 14:19:45] MOVE up Elias
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/9) to (11/8)
-[2024-03-20 14:19:45] CLICKED UP
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/8) to (11/7)
-[2024-03-20 14:19:45] MOVE up Elias
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/8) to (11/7)
-[2024-03-20 14:19:45] CLICKED UP
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/7) to (11/6)
-[2024-03-20 14:19:45] MOVE up Elias
-[2024-03-20 14:19:45] Elias: up to up
-[2024-03-20 14:19:45] Elias: (11/7) to (11/6)
-[2024-03-20 14:19:46] CLICKED UP
-[2024-03-20 14:19:46] Elias: up to up
-[2024-03-20 14:19:46] Elias: (11/6) to (11/5)
-[2024-03-20 14:19:46] MOVE up Elias
-[2024-03-20 14:19:46] Elias: up to up
-[2024-03-20 14:19:46] Elias: (11/6) to (11/5)
-[2024-03-20 14:19:46] BOMBED
-[2024-03-20 14:19:46] BOMB Elias
+[2024-03-20 14:29:12] Starting Game Application...
+[2024-03-20 14:29:13] Running with Debugging Enabled
+[2024-03-20 14:29:13] Connection Established to host: localhost/127.0.0.1
+[2024-03-20 14:29:13] JOIN Elias 3 13
+[2024-03-20 14:29:13] Attempting to create player: Elias
+[2024-03-20 14:29:15] CLICKED RIGHT
+[2024-03-20 14:29:15] Elias: up to right
+[2024-03-20 14:29:15] Elias: (3/13) to (4/13)
+[2024-03-20 14:29:15] MOVE right Elias
+[2024-03-20 14:29:15] Elias: up to right
+[2024-03-20 14:29:15] Elias: (3/13) to (4/13)
+[2024-03-20 14:29:16] BOMBED
+[2024-03-20 14:29:16] BOMB Elias
+[2024-03-20 14:29:16] CLICKED RIGHT
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (4/13) to (5/13)
+[2024-03-20 14:29:16] MOVE right Elias
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (4/13) to (5/13)
+[2024-03-20 14:29:16] CLICKED RIGHT
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (5/13) to (6/13)
+[2024-03-20 14:29:16] MOVE right Elias
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (5/13) to (6/13)
+[2024-03-20 14:29:16] CLICKED RIGHT
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (6/13) to (7/13)
+[2024-03-20 14:29:16] MOVE right Elias
+[2024-03-20 14:29:16] Elias: right to right
+[2024-03-20 14:29:16] Elias: (6/13) to (7/13)
+[2024-03-20 14:29:17] CLICKED UP
+[2024-03-20 14:29:17] Elias: right to up
+[2024-03-20 14:29:17] Elias: (7/13) to (7/12)
+[2024-03-20 14:29:17] MOVE up Elias
+[2024-03-20 14:29:17] Elias: right to up
+[2024-03-20 14:29:17] Elias: (7/13) to (7/12)
+[2024-03-20 14:29:17] CLICKED UP
+[2024-03-20 14:29:17] Elias: up to up
+[2024-03-20 14:29:17] Elias: (7/12) to (7/11)
+[2024-03-20 14:29:17] MOVE up Elias
+[2024-03-20 14:29:17] Elias: up to up
+[2024-03-20 14:29:17] Elias: (7/12) to (7/11)
+[2024-03-20 14:29:17] CLICKED RIGHT
+[2024-03-20 14:29:17] Elias: up to right
+[2024-03-20 14:29:17] Elias: (7/11) to (8/11)
+[2024-03-20 14:29:17] MOVE right Elias
+[2024-03-20 14:29:17] Elias: up to right
+[2024-03-20 14:29:17] Elias: (7/11) to (8/11)
+[2024-03-20 14:29:18] CLICKED RIGHT
+[2024-03-20 14:29:18] Elias: right to right
+[2024-03-20 14:29:18] Elias: (8/11) to (9/11)
+[2024-03-20 14:29:18] MOVE right Elias
+[2024-03-20 14:29:18] Elias: right to right
+[2024-03-20 14:29:18] Elias: (8/11) to (9/11)
+[2024-03-20 14:29:18] Elias: right to up
+[2024-03-20 14:29:18] CLICKED UP
+[2024-03-20 14:29:18] Elias: (9/11) to (9/10)
+[2024-03-20 14:29:18] MOVE up Elias
+[2024-03-20 14:29:18] Elias: right to up
+[2024-03-20 14:29:18] Elias: (9/11) to (9/10)
+[2024-03-20 14:29:18] CLICKED RIGHT
+[2024-03-20 14:29:18] Elias: up to right
+[2024-03-20 14:29:18] Elias: (9/10) to (10/10)
+[2024-03-20 14:29:18] MOVE right Elias
+[2024-03-20 14:29:18] Elias: up to right
+[2024-03-20 14:29:18] Elias: (9/10) to (10/10)
+[2024-03-20 14:29:18] CLICKED RIGHT
+[2024-03-20 14:29:18] Elias: right to right
+[2024-03-20 14:29:18] Elias: (10/10) to (11/10)
+[2024-03-20 14:29:18] MOVE right Elias
+[2024-03-20 14:29:18] Elias: right to right
+[2024-03-20 14:29:18] Elias: (10/10) to (11/10)
+[2024-03-20 14:29:22] BOMBED
+[2024-03-20 14:29:22] BOMB Elias
+[2024-03-20 14:29:22] CLICKED LEFT
+[2024-03-20 14:29:22] Elias: right to left
+[2024-03-20 14:29:22] Elias: (11/10) to (10/10)
+[2024-03-20 14:29:22] MOVE left Elias
+[2024-03-20 14:29:22] Elias: right to left
+[2024-03-20 14:29:22] Elias: (11/10) to (10/10)
+[2024-03-20 14:29:22] CLICKED LEFT
+[2024-03-20 14:29:22] Elias: left to left
+[2024-03-20 14:29:22] Elias: (10/10) to (9/10)
+[2024-03-20 14:29:22] MOVE left Elias
+[2024-03-20 14:29:22] Elias: left to left
+[2024-03-20 14:29:22] Elias: (10/10) to (9/10)
+[2024-03-20 14:29:22] CLICKED LEFT
+[2024-03-20 14:29:22] Elias: left to left
+[2024-03-20 14:29:22] Elias: (9/10) to (8/10)
+[2024-03-20 14:29:22] MOVE left Elias
+[2024-03-20 14:29:22] Elias: left to left
+[2024-03-20 14:29:22] Elias: (9/10) to (8/10)
+[2024-03-20 14:29:22] CLICKED UP
+[2024-03-20 14:29:22] Elias: left to up
+[2024-03-20 14:29:22] Elias: (8/10) to (8/9)
+[2024-03-20 14:29:22] MOVE up Elias
+[2024-03-20 14:29:22] Elias: left to up
+[2024-03-20 14:29:22] Elias: (8/10) to (8/9)
+[2024-03-20 14:29:23] CLICKED UP
+[2024-03-20 14:29:23] Elias: up to up
+[2024-03-20 14:29:23] Elias: (8/9) to (8/8)
+[2024-03-20 14:29:23] MOVE up Elias
+[2024-03-20 14:29:23] Elias: up to up
+[2024-03-20 14:29:23] Elias: (8/9) to (8/8)
+[2024-03-20 14:29:23] CLICKED LEFT
+[2024-03-20 14:29:23] Elias: up to left
+[2024-03-20 14:29:23] Elias: (8/8) to (7/8)
+[2024-03-20 14:29:23] MOVE left Elias
+[2024-03-20 14:29:23] Elias: up to left
+[2024-03-20 14:29:23] Elias: (8/8) to (7/8)
+[2024-03-20 14:29:23] CLICKED UP
+[2024-03-20 14:29:23] Elias: left to up
+[2024-03-20 14:29:23] Elias: (7/8) to (7/7)
+[2024-03-20 14:29:23] MOVE up Elias
+[2024-03-20 14:29:23] Elias: left to up
+[2024-03-20 14:29:23] Elias: (7/8) to (7/7)
+[2024-03-20 14:29:23] CLICKED LEFT
+[2024-03-20 14:29:23] Elias: up to left
+[2024-03-20 14:29:23] Elias: (7/7) to (6/7)
+[2024-03-20 14:29:23] MOVE left Elias
+[2024-03-20 14:29:23] Elias: up to left
+[2024-03-20 14:29:23] Elias: (7/7) to (6/7)
+[2024-03-20 14:29:23] CLICKED LEFT
+[2024-03-20 14:29:23] Elias: left to left
+[2024-03-20 14:29:23] Elias: (6/7) to (5/7)
+[2024-03-20 14:29:23] MOVE left Elias
+[2024-03-20 14:29:23] Elias: left to left
+[2024-03-20 14:29:23] Elias: (6/7) to (5/7)
+[2024-03-20 14:29:24] CLICKED DOWN
+[2024-03-20 14:29:24] Elias: left to down
+[2024-03-20 14:29:24] Elias: (5/7) to (5/8)
+[2024-03-20 14:29:24] MOVE down Elias
+[2024-03-20 14:29:24] Elias: left to down
+[2024-03-20 14:29:24] Elias: (5/7) to (5/8)
+[2024-03-20 14:29:24] BOMBED
+[2024-03-20 14:29:24] BOMB Elias
+[2024-03-20 14:29:24] CLICKED LEFT
+[2024-03-20 14:29:24] Elias: down to left
+[2024-03-20 14:29:24] MOVE left Elias
+[2024-03-20 14:29:24] Elias: down to left
+[2024-03-20 14:29:25] CLICKED DOWN
+[2024-03-20 14:29:25] Elias: left to down
+[2024-03-20 14:29:25] Elias: (5/8) to (5/9)
+[2024-03-20 14:29:25] MOVE down Elias
+[2024-03-20 14:29:25] Elias: left to down
+[2024-03-20 14:29:25] Elias: (5/8) to (5/9)
+[2024-03-20 14:29:25] CLICKED DOWN
+[2024-03-20 14:29:25] Elias: down to down
+[2024-03-20 14:29:25] MOVE down Elias
+[2024-03-20 14:29:25] Elias: down to down
+[2024-03-20 14:29:25] CLICKED LEFT
+[2024-03-20 14:29:25] Elias: down to left
+[2024-03-20 14:29:25] Elias: (5/9) to (4/9)
+[2024-03-20 14:29:25] MOVE left Elias
+[2024-03-20 14:29:25] Elias: down to left
+[2024-03-20 14:29:25] Elias: (5/9) to (4/9)
+[2024-03-20 14:29:25] CLICKED LEFT
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (4/9) to (3/9)
+[2024-03-20 14:29:25] MOVE left Elias
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (4/9) to (3/9)
+[2024-03-20 14:29:25] CLICKED LEFT
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (3/9) to (2/9)
+[2024-03-20 14:29:25] MOVE left Elias
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (3/9) to (2/9)
+[2024-03-20 14:29:25] CLICKED LEFT
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (2/9) to (1/9)
+[2024-03-20 14:29:25] MOVE left Elias
+[2024-03-20 14:29:25] Elias: left to left
+[2024-03-20 14:29:25] Elias: (2/9) to (1/9)
+[2024-03-20 14:29:26] CLICKED DOWN
+[2024-03-20 14:29:26] Elias: left to down
+[2024-03-20 14:29:26] Elias: (1/9) to (1/10)
+[2024-03-20 14:29:26] MOVE down Elias
+[2024-03-20 14:29:26] Elias: left to down
+[2024-03-20 14:29:26] Elias: (1/9) to (1/10)
+[2024-03-20 14:29:26] CLICKED DOWN
+[2024-03-20 14:29:26] Elias: down to down
+[2024-03-20 14:29:26] Elias: (1/10) to (1/11)
+[2024-03-20 14:29:26] MOVE down Elias
+[2024-03-20 14:29:26] Elias: down to down
+[2024-03-20 14:29:26] Elias: (1/10) to (1/11)
+[2024-03-20 14:29:26] CLICKED DOWN
+[2024-03-20 14:29:26] Elias: down to down
+[2024-03-20 14:29:26] Elias: (1/11) to (1/12)
+[2024-03-20 14:29:26] MOVE down Elias
+[2024-03-20 14:29:26] Elias: down to down
+[2024-03-20 14:29:26] Elias: (1/11) to (1/12)
+[2024-03-20 14:29:27] CLICKED RIGHT
+[2024-03-20 14:29:27] Elias: down to right
+[2024-03-20 14:29:27] Elias: (1/12) to (2/12)
+[2024-03-20 14:29:27] MOVE right Elias
+[2024-03-20 14:29:27] Elias: down to right
+[2024-03-20 14:29:27] Elias: (1/12) to (2/12)
+[2024-03-20 14:29:27] CLICKED RIGHT
+[2024-03-20 14:29:27] Elias: right to right
+[2024-03-20 14:29:27] Elias: (2/12) to (3/12)
+[2024-03-20 14:29:27] MOVE right Elias
+[2024-03-20 14:29:27] Elias: right to right
+[2024-03-20 14:29:27] Elias: (2/12) to (3/12)
+[2024-03-20 14:29:28] CLICKED RIGHT
+[2024-03-20 14:29:28] Elias: right to right
+[2024-03-20 14:29:28] Elias: (3/12) to (4/12)
+[2024-03-20 14:29:28] MOVE right Elias
+[2024-03-20 14:29:28] Elias: right to right
+[2024-03-20 14:29:28] Elias: (3/12) to (4/12)
+[2024-03-20 14:29:28] CLICKED DOWN
+[2024-03-20 14:29:28] Elias: right to down
+[2024-03-20 14:29:28] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:28] MOVE down Elias
+[2024-03-20 14:29:28] Elias: right to down
+[2024-03-20 14:29:28] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:28] CLICKED DOWN
+[2024-03-20 14:29:28] Elias: down to down
+[2024-03-20 14:29:28] Elias: (4/13) to (4/14)
+[2024-03-20 14:29:28] MOVE down Elias
+[2024-03-20 14:29:28] Elias: down to down
+[2024-03-20 14:29:28] Elias: (4/13) to (4/14)
+[2024-03-20 14:29:28] CLICKED RIGHT
+[2024-03-20 14:29:28] Elias: down to right
+[2024-03-20 14:29:28] Elias: (4/14) to (5/14)
+[2024-03-20 14:29:28] MOVE right Elias
+[2024-03-20 14:29:28] Elias: down to right
+[2024-03-20 14:29:28] Elias: (4/14) to (5/14)
+[2024-03-20 14:29:28] CLICKED RIGHT
+[2024-03-20 14:29:28] Elias: right to right
+[2024-03-20 14:29:28] Elias: (5/14) to (6/14)
+[2024-03-20 14:29:28] MOVE right Elias
+[2024-03-20 14:29:28] Elias: right to right
+[2024-03-20 14:29:28] Elias: (5/14) to (6/14)
+[2024-03-20 14:29:29] CLICKED RIGHT
+[2024-03-20 14:29:29] Elias: right to right
+[2024-03-20 14:29:29] Elias: (6/14) to (7/14)
+[2024-03-20 14:29:29] MOVE right Elias
+[2024-03-20 14:29:29] Elias: right to right
+[2024-03-20 14:29:29] Elias: (6/14) to (7/14)
+[2024-03-20 14:29:30] CLICKED RIGHT
+[2024-03-20 14:29:30] Elias: right to right
+[2024-03-20 14:29:30] Elias: (7/14) to (8/14)
+[2024-03-20 14:29:30] MOVE right Elias
+[2024-03-20 14:29:30] Elias: right to right
+[2024-03-20 14:29:30] Elias: (7/14) to (8/14)
+[2024-03-20 14:29:30] CLICKED UP
+[2024-03-20 14:29:30] Elias: right to up
+[2024-03-20 14:29:30] Elias: (8/14) to (8/13)
+[2024-03-20 14:29:30] MOVE up Elias
+[2024-03-20 14:29:30] Elias: right to up
+[2024-03-20 14:29:30] Elias: (8/14) to (8/13)
+[2024-03-20 14:29:31] CLICKED UP
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/13) to (8/12)
+[2024-03-20 14:29:31] MOVE up Elias
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/13) to (8/12)
+[2024-03-20 14:29:31] CLICKED UP
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/12) to (8/11)
+[2024-03-20 14:29:31] MOVE up Elias
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/12) to (8/11)
+[2024-03-20 14:29:31] CLICKED UP
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/11) to (8/10)
+[2024-03-20 14:29:31] MOVE up Elias
+[2024-03-20 14:29:31] Elias: up to up
+[2024-03-20 14:29:31] Elias: (8/11) to (8/10)
+[2024-03-20 14:29:31] CLICKED RIGHT
+[2024-03-20 14:29:31] Elias: up to right
+[2024-03-20 14:29:31] Elias: (8/10) to (9/10)
+[2024-03-20 14:29:31] MOVE right Elias
+[2024-03-20 14:29:31] Elias: up to right
+[2024-03-20 14:29:31] Elias: (8/10) to (9/10)
+[2024-03-20 14:29:32] CLICKED RIGHT
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (9/10) to (10/10)
+[2024-03-20 14:29:32] MOVE right Elias
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (9/10) to (10/10)
+[2024-03-20 14:29:32] CLICKED RIGHT
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (10/10) to (11/10)
+[2024-03-20 14:29:32] MOVE right Elias
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (10/10) to (11/10)
+[2024-03-20 14:29:32] CLICKED RIGHT
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (11/10) to (12/10)
+[2024-03-20 14:29:32] MOVE right Elias
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (11/10) to (12/10)
+[2024-03-20 14:29:32] BOMBED
+[2024-03-20 14:29:32] BOMB Elias
+[2024-03-20 14:29:32] CLICKED RIGHT
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (12/10) to (13/10)
+[2024-03-20 14:29:32] MOVE right Elias
+[2024-03-20 14:29:32] Elias: right to right
+[2024-03-20 14:29:32] Elias: (12/10) to (13/10)
+[2024-03-20 14:29:33] CLICKED RIGHT
+[2024-03-20 14:29:33] Elias: right to right
+[2024-03-20 14:29:33] Elias: (13/10) to (14/10)
+[2024-03-20 14:29:33] MOVE right Elias
+[2024-03-20 14:29:33] Elias: right to right
+[2024-03-20 14:29:33] Elias: (13/10) to (14/10)
+[2024-03-20 14:29:33] CLICKED RIGHT
+[2024-03-20 14:29:33] Elias: right to right
+[2024-03-20 14:29:33] MOVE right Elias
+[2024-03-20 14:29:33] Elias: right to right
+[2024-03-20 14:29:33] CLICKED DOWN
+[2024-03-20 14:29:33] Elias: right to down
+[2024-03-20 14:29:33] Elias: (14/10) to (14/11)
+[2024-03-20 14:29:33] MOVE down Elias
+[2024-03-20 14:29:33] Elias: right to down
+[2024-03-20 14:29:33] Elias: (14/10) to (14/11)
+[2024-03-20 14:29:33] CLICKED DOWN
+[2024-03-20 14:29:33] Elias: down to down
+[2024-03-20 14:29:33] Elias: (14/11) to (14/12)
+[2024-03-20 14:29:33] MOVE down Elias
+[2024-03-20 14:29:33] Elias: down to down
+[2024-03-20 14:29:33] Elias: (14/11) to (14/12)
+[2024-03-20 14:29:33] CLICKED DOWN
+[2024-03-20 14:29:33] Elias: down to down
+[2024-03-20 14:29:33] Elias: (14/12) to (14/13)
+[2024-03-20 14:29:33] MOVE down Elias
+[2024-03-20 14:29:33] Elias: down to down
+[2024-03-20 14:29:33] Elias: (14/12) to (14/13)
+[2024-03-20 14:29:34] CLICKED DOWN
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/13) to (14/14)
+[2024-03-20 14:29:34] MOVE down Elias
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/13) to (14/14)
+[2024-03-20 14:29:34] CLICKED DOWN
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/14) to (14/15)
+[2024-03-20 14:29:34] MOVE down Elias
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/14) to (14/15)
+[2024-03-20 14:29:34] CLICKED DOWN
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/15) to (14/16)
+[2024-03-20 14:29:34] MOVE down Elias
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/15) to (14/16)
+[2024-03-20 14:29:34] CLICKED DOWN
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/16) to (14/17)
+[2024-03-20 14:29:34] MOVE down Elias
+[2024-03-20 14:29:34] Elias: down to down
+[2024-03-20 14:29:34] Elias: (14/16) to (14/17)
+[2024-03-20 14:29:34] CLICKED LEFT
+[2024-03-20 14:29:34] Elias: down to left
+[2024-03-20 14:29:34] Elias: (14/17) to (13/17)
+[2024-03-20 14:29:34] MOVE left Elias
+[2024-03-20 14:29:35] Elias: down to left
+[2024-03-20 14:29:35] Elias: (14/17) to (13/17)
+[2024-03-20 14:29:35] CLICKED UP
+[2024-03-20 14:29:35] Elias: left to up
+[2024-03-20 14:29:35] Elias: (13/17) to (13/16)
+[2024-03-20 14:29:35] MOVE up Elias
+[2024-03-20 14:29:35] Elias: left to up
+[2024-03-20 14:29:35] Elias: (13/17) to (13/16)
+[2024-03-20 14:29:35] BOMBED
+[2024-03-20 14:29:35] BOMB Elias
+[2024-03-20 14:29:35] CLICKED UP
+[2024-03-20 14:29:35] Elias: up to up
+[2024-03-20 14:29:35] Elias: (13/16) to (13/15)
+[2024-03-20 14:29:35] MOVE up Elias
+[2024-03-20 14:29:35] Elias: up to up
+[2024-03-20 14:29:35] Elias: (13/16) to (13/15)
+[2024-03-20 14:29:36] CLICKED LEFT
+[2024-03-20 14:29:36] Elias: up to left
+[2024-03-20 14:29:36] Elias: (13/15) to (12/15)
+[2024-03-20 14:29:36] MOVE left Elias
+[2024-03-20 14:29:36] Elias: up to left
+[2024-03-20 14:29:36] Elias: (13/15) to (12/15)
+[2024-03-20 14:29:36] CLICKED LEFT
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (12/15) to (11/15)
+[2024-03-20 14:29:36] MOVE left Elias
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (12/15) to (11/15)
+[2024-03-20 14:29:36] CLICKED LEFT
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (11/15) to (10/15)
+[2024-03-20 14:29:36] MOVE left Elias
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (11/15) to (10/15)
+[2024-03-20 14:29:36] CLICKED LEFT
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (10/15) to (9/15)
+[2024-03-20 14:29:36] MOVE left Elias
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (10/15) to (9/15)
+[2024-03-20 14:29:36] CLICKED LEFT
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (9/15) to (8/15)
+[2024-03-20 14:29:36] MOVE left Elias
+[2024-03-20 14:29:36] Elias: left to left
+[2024-03-20 14:29:36] Elias: (9/15) to (8/15)
+[2024-03-20 14:29:37] CLICKED LEFT
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (8/15) to (7/15)
+[2024-03-20 14:29:37] MOVE left Elias
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (8/15) to (7/15)
+[2024-03-20 14:29:37] CLICKED LEFT
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (7/15) to (6/15)
+[2024-03-20 14:29:37] MOVE left Elias
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (7/15) to (6/15)
+[2024-03-20 14:29:37] CLICKED LEFT
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (6/15) to (5/15)
+[2024-03-20 14:29:37] MOVE left Elias
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (6/15) to (5/15)
+[2024-03-20 14:29:37] CLICKED LEFT
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (5/15) to (4/15)
+[2024-03-20 14:29:37] MOVE left Elias
+[2024-03-20 14:29:37] Elias: left to left
+[2024-03-20 14:29:37] Elias: (5/15) to (4/15)
+[2024-03-20 14:29:37] CLICKED UP
+[2024-03-20 14:29:37] Elias: left to up
+[2024-03-20 14:29:37] Elias: (4/15) to (4/14)
+[2024-03-20 14:29:37] MOVE up Elias
+[2024-03-20 14:29:37] Elias: left to up
+[2024-03-20 14:29:37] Elias: (4/15) to (4/14)
+[2024-03-20 14:29:38] CLICKED LEFT
+[2024-03-20 14:29:38] Elias: up to left
+[2024-03-20 14:29:38] Elias: (4/14) to (3/14)
+[2024-03-20 14:29:38] MOVE left Elias
+[2024-03-20 14:29:38] Elias: up to left
+[2024-03-20 14:29:38] Elias: (4/14) to (3/14)
+[2024-03-20 14:29:38] CLICKED LEFT
+[2024-03-20 14:29:38] Elias: left to left
+[2024-03-20 14:29:38] Elias: (3/14) to (2/14)
+[2024-03-20 14:29:38] MOVE left Elias
+[2024-03-20 14:29:38] Elias: left to left
+[2024-03-20 14:29:38] Elias: (3/14) to (2/14)
+[2024-03-20 14:29:38] CLICKED UP
+[2024-03-20 14:29:38] Elias: left to up
+[2024-03-20 14:29:38] Elias: (2/14) to (2/13)
+[2024-03-20 14:29:38] MOVE up Elias
+[2024-03-20 14:29:38] Elias: left to up
+[2024-03-20 14:29:38] Elias: (2/14) to (2/13)
+[2024-03-20 14:29:39] CLICKED UP
+[2024-03-20 14:29:39] Elias: up to up
+[2024-03-20 14:29:39] Elias: (2/13) to (2/12)
+[2024-03-20 14:29:39] MOVE up Elias
+[2024-03-20 14:29:39] Elias: up to up
+[2024-03-20 14:29:39] Elias: (2/13) to (2/12)
+[2024-03-20 14:29:39] CLICKED UP
+[2024-03-20 14:29:39] Elias: up to up
+[2024-03-20 14:29:39] Elias: (2/12) to (2/11)
+[2024-03-20 14:29:39] MOVE up Elias
+[2024-03-20 14:29:39] Elias: up to up
+[2024-03-20 14:29:39] Elias: (2/12) to (2/11)
+[2024-03-20 14:29:39] CLICKED LEFT
+[2024-03-20 14:29:39] Elias: up to left
+[2024-03-20 14:29:39] Elias: (2/11) to (1/11)
+[2024-03-20 14:29:39] MOVE left Elias
+[2024-03-20 14:29:39] Elias: up to left
+[2024-03-20 14:29:39] Elias: (2/11) to (1/11)
+[2024-03-20 14:29:39] CLICKED UP
+[2024-03-20 14:29:39] Elias: left to up
+[2024-03-20 14:29:39] Elias: (1/11) to (1/10)
+[2024-03-20 14:29:39] MOVE up Elias
+[2024-03-20 14:29:39] Elias: left to up
+[2024-03-20 14:29:39] Elias: (1/11) to (1/10)
+[2024-03-20 14:29:40] CLICKED RIGHT
+[2024-03-20 14:29:40] Elias: up to right
+[2024-03-20 14:29:40] MOVE right Elias
+[2024-03-20 14:29:40] Elias: up to right
+[2024-03-20 14:29:40] CLICKED RIGHT
+[2024-03-20 14:29:40] Elias: right to right
+[2024-03-20 14:29:40] MOVE right Elias
+[2024-03-20 14:29:40] Elias: right to right
+[2024-03-20 14:29:40] CLICKED UP
+[2024-03-20 14:29:40] Elias: right to up
+[2024-03-20 14:29:40] Elias: (1/10) to (1/9)
+[2024-03-20 14:29:40] MOVE up Elias
+[2024-03-20 14:29:40] Elias: right to up
+[2024-03-20 14:29:40] Elias: (1/10) to (1/9)
+[2024-03-20 14:29:40] CLICKED RIGHT
+[2024-03-20 14:29:40] Elias: up to right
+[2024-03-20 14:29:40] Elias: (1/9) to (2/9)
+[2024-03-20 14:29:40] MOVE right Elias
+[2024-03-20 14:29:40] Elias: up to right
+[2024-03-20 14:29:40] Elias: (1/9) to (2/9)
+[2024-03-20 14:29:40] CLICKED RIGHT
+[2024-03-20 14:29:40] Elias: right to right
+[2024-03-20 14:29:40] Elias: (2/9) to (3/9)
+[2024-03-20 14:29:40] MOVE right Elias
+[2024-03-20 14:29:40] Elias: right to right
+[2024-03-20 14:29:40] Elias: (2/9) to (3/9)
+[2024-03-20 14:29:41] CLICKED RIGHT
+[2024-03-20 14:29:41] Elias: right to right
+[2024-03-20 14:29:41] Elias: (3/9) to (4/9)
+[2024-03-20 14:29:41] MOVE right Elias
+[2024-03-20 14:29:41] Elias: right to right
+[2024-03-20 14:29:41] Elias: (3/9) to (4/9)
+[2024-03-20 14:29:41] CLICKED DOWN
+[2024-03-20 14:29:41] Elias: right to down
+[2024-03-20 14:29:41] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:41] MOVE down Elias
+[2024-03-20 14:29:41] Elias: right to down
+[2024-03-20 14:29:41] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:41] CLICKED UP
+[2024-03-20 14:29:41] Elias: down to up
+[2024-03-20 14:29:41] Elias: (4/10) to (4/9)
+[2024-03-20 14:29:41] MOVE up Elias
+[2024-03-20 14:29:41] Elias: down to up
+[2024-03-20 14:29:41] Elias: (4/10) to (4/9)
+[2024-03-20 14:29:42] CLICKED DOWN
+[2024-03-20 14:29:42] Elias: up to down
+[2024-03-20 14:29:42] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:42] MOVE down Elias
+[2024-03-20 14:29:42] Elias: up to down
+[2024-03-20 14:29:42] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:42] CLICKED DOWN
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/10) to (4/11)
+[2024-03-20 14:29:42] MOVE down Elias
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/10) to (4/11)
+[2024-03-20 14:29:42] CLICKED DOWN
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:42] MOVE down Elias
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:42] CLICKED DOWN
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:42] MOVE down Elias
+[2024-03-20 14:29:42] Elias: down to down
+[2024-03-20 14:29:42] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:42] CLICKED UP
+[2024-03-20 14:29:42] Elias: down to up
+[2024-03-20 14:29:42] Elias: (4/13) to (4/12)
+[2024-03-20 14:29:42] MOVE up Elias
+[2024-03-20 14:29:42] Elias: down to up
+[2024-03-20 14:29:42] Elias: (4/13) to (4/12)
+[2024-03-20 14:29:43] CLICKED UP
+[2024-03-20 14:29:43] Elias: up to up
+[2024-03-20 14:29:43] Elias: (4/12) to (4/11)
+[2024-03-20 14:29:43] MOVE up Elias
+[2024-03-20 14:29:43] Elias: up to up
+[2024-03-20 14:29:43] Elias: (4/12) to (4/11)
+[2024-03-20 14:29:43] CLICKED DOWN
+[2024-03-20 14:29:43] Elias: up to down
+[2024-03-20 14:29:43] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:43] MOVE down Elias
+[2024-03-20 14:29:43] Elias: up to down
+[2024-03-20 14:29:43] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:43] CLICKED DOWN
+[2024-03-20 14:29:43] Elias: down to down
+[2024-03-20 14:29:43] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:43] MOVE down Elias
+[2024-03-20 14:29:43] Elias: down to down
+[2024-03-20 14:29:43] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:43] CLICKED LEFT
+[2024-03-20 14:29:43] Elias: down to left
+[2024-03-20 14:29:43] Elias: (4/13) to (3/13)
+[2024-03-20 14:29:43] MOVE left Elias
+[2024-03-20 14:29:43] Elias: down to left
+[2024-03-20 14:29:43] Elias: (4/13) to (3/13)
+[2024-03-20 14:29:44] CLICKED LEFT
+[2024-03-20 14:29:44] Elias: left to left
+[2024-03-20 14:29:44] Elias: (3/13) to (2/13)
+[2024-03-20 14:29:44] MOVE left Elias
+[2024-03-20 14:29:44] Elias: left to left
+[2024-03-20 14:29:44] Elias: (3/13) to (2/13)
+[2024-03-20 14:29:44] CLICKED UP
+[2024-03-20 14:29:44] Elias: left to up
+[2024-03-20 14:29:44] Elias: (2/13) to (2/12)
+[2024-03-20 14:29:44] MOVE up Elias
+[2024-03-20 14:29:44] Elias: left to up
+[2024-03-20 14:29:44] Elias: (2/13) to (2/12)
+[2024-03-20 14:29:44] CLICKED LEFT
+[2024-03-20 14:29:44] Elias: up to left
+[2024-03-20 14:29:44] Elias: (2/12) to (1/12)
+[2024-03-20 14:29:44] MOVE left Elias
+[2024-03-20 14:29:44] Elias: up to left
+[2024-03-20 14:29:44] Elias: (2/12) to (1/12)
+[2024-03-20 14:29:44] CLICKED LEFT
+[2024-03-20 14:29:44] Elias: left to left
+[2024-03-20 14:29:44] MOVE left Elias
+[2024-03-20 14:29:44] Elias: left to left
+[2024-03-20 14:29:44] CLICKED UP
+[2024-03-20 14:29:44] Elias: left to up
+[2024-03-20 14:29:44] Elias: (1/12) to (1/11)
+[2024-03-20 14:29:44] MOVE up Elias
+[2024-03-20 14:29:44] Elias: left to up
+[2024-03-20 14:29:44] Elias: (1/12) to (1/11)
+[2024-03-20 14:29:45] CLICKED UP
+[2024-03-20 14:29:45] Elias: up to up
+[2024-03-20 14:29:45] Elias: (1/11) to (1/10)
+[2024-03-20 14:29:45] MOVE up Elias
+[2024-03-20 14:29:45] Elias: up to up
+[2024-03-20 14:29:45] Elias: (1/11) to (1/10)
+[2024-03-20 14:29:45] CLICKED UP
+[2024-03-20 14:29:45] Elias: up to up
+[2024-03-20 14:29:45] Elias: (1/10) to (1/9)
+[2024-03-20 14:29:45] MOVE up Elias
+[2024-03-20 14:29:45] Elias: up to up
+[2024-03-20 14:29:45] Elias: (1/10) to (1/9)
+[2024-03-20 14:29:45] CLICKED RIGHT
+[2024-03-20 14:29:45] Elias: up to right
+[2024-03-20 14:29:45] Elias: (1/9) to (2/9)
+[2024-03-20 14:29:45] MOVE right Elias
+[2024-03-20 14:29:45] Elias: up to right
+[2024-03-20 14:29:45] Elias: (1/9) to (2/9)
+[2024-03-20 14:29:45] CLICKED RIGHT
+[2024-03-20 14:29:45] Elias: right to right
+[2024-03-20 14:29:45] Elias: (2/9) to (3/9)
+[2024-03-20 14:29:45] MOVE right Elias
+[2024-03-20 14:29:45] Elias: right to right
+[2024-03-20 14:29:45] Elias: (2/9) to (3/9)
+[2024-03-20 14:29:46] CLICKED RIGHT
+[2024-03-20 14:29:46] Elias: right to right
+[2024-03-20 14:29:46] Elias: (3/9) to (4/9)
+[2024-03-20 14:29:46] MOVE right Elias
+[2024-03-20 14:29:46] Elias: right to right
+[2024-03-20 14:29:46] Elias: (3/9) to (4/9)
+[2024-03-20 14:29:46] CLICKED DOWN
+[2024-03-20 14:29:46] Elias: right to down
+[2024-03-20 14:29:46] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:46] MOVE down Elias
+[2024-03-20 14:29:46] Elias: right to down
+[2024-03-20 14:29:46] Elias: (4/9) to (4/10)
+[2024-03-20 14:29:46] CLICKED DOWN
+[2024-03-20 14:29:46] Elias: down to down
+[2024-03-20 14:29:46] Elias: (4/10) to (4/11)
+[2024-03-20 14:29:46] MOVE down Elias
+[2024-03-20 14:29:46] Elias: down to down
+[2024-03-20 14:29:46] Elias: (4/10) to (4/11)
+[2024-03-20 14:29:46] CLICKED DOWN
+[2024-03-20 14:29:46] Elias: down to down
+[2024-03-20 14:29:46] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:46] MOVE down Elias
+[2024-03-20 14:29:46] Elias: down to down
+[2024-03-20 14:29:46] Elias: (4/11) to (4/12)
+[2024-03-20 14:29:47] CLICKED DOWN
+[2024-03-20 14:29:47] Elias: down to down
+[2024-03-20 14:29:47] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:47] MOVE down Elias
+[2024-03-20 14:29:47] Elias: down to down
+[2024-03-20 14:29:47] Elias: (4/12) to (4/13)
+[2024-03-20 14:29:47] CLICKED UP
+[2024-03-20 14:29:47] Elias: down to up
+[2024-03-20 14:29:47] Elias: (4/13) to (4/12)
+[2024-03-20 14:29:47] MOVE up Elias
+[2024-03-20 14:29:47] Elias: down to up
+[2024-03-20 14:29:47] Elias: (4/13) to (4/12)
