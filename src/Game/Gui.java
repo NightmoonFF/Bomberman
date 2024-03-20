@@ -37,12 +37,14 @@ public class Gui extends Application {
 	public static final int scene_width = fieldImageSize * 20 + 200;
 
 
-	private static final GridPane fieldGridBottom = new GridPane();;
-	private static final GridPane fieldGridMid= new GridPane();;
-	private static final GridPane fieldGridBomb = new GridPane();;
+	private static final GridPane fieldGridBottom = new GridPane();
+	private static final GridPane fieldGridMid= new GridPane();
+	private static final GridPane fieldGridBomb = new GridPane();
+	private static final GridPane fieldGridExplosion = new GridPane();
 	private static Label[][] fieldsBottom;
 	private static Label[][] fieldsMid;
 	private static Label[][] fieldsBomb;
+	private static Label[][] fieldsExplosion;
 
 	public static Image image_floor;
 	public static Image image_wall;
@@ -99,6 +101,7 @@ public class Gui extends Application {
 			stackPane.getChildren().add(fieldGridBottom);
 			stackPane.getChildren().add(fieldGridMid);
 			stackPane.getChildren().add(fieldGridBomb);
+			stackPane.getChildren().add(fieldGridExplosion);
 
 			primaryPane.add(gameLabel,  0, 0);
 			primaryPane.add(scoreLabel, 1, 0);
@@ -175,7 +178,17 @@ public class Gui extends Application {
 				}
 			}
 
-			//TODO: Instantiate Explosion Layer
+			// Instantiate Explosion Layer
+			fieldsExplosion = new Label[20][20];
+			for (int j = 0; j < 20; j++) {
+				for (int i = 0; i < 20; i++) {
+					ImageView imageView = new ImageView();
+					imageView.setFitWidth(fieldImageSize);
+					imageView.setFitHeight(fieldImageSize);
+					fieldsExplosion[i][j] = new Label("", imageView);
+					fieldGridExplosion.add(fieldsExplosion[i][j], i, j);
+				}
+			}
 
 
 		} catch(Exception e) {
@@ -292,6 +305,21 @@ public class Gui extends Application {
 		});
 	}
 
+	public static void placeExplosionOnScreen(Position pos, ImageView expView){
+		Platform.runLater(() -> {
+		fieldsExplosion[pos.getX()][pos.getY()].setGraphic(expView);
+		});
+	}
+
+
+	public static void removeExplosionOnScreen(Position pos){
+		Platform.runLater(() -> {
+			ImageView imageView = new ImageView();
+			imageView.setFitWidth(fieldImageSize);
+			imageView.setFitHeight(fieldImageSize);
+			fieldsExplosion[pos.getX()][pos.getY()].setGraphic(imageView);
+		});
+	}
 
 	public static void movePlayerOnScreen(Position oldPos, Position newPos, String direction) {
 		removePlayerOnScreen(oldPos);

@@ -1823,3 +1823,1114 @@
 [2024-03-19 22:11:20] [/127.0.0.1]: MOVE up Elias
 [2024-03-19 22:11:21] [/127.0.0.1]: MOVE down Elias
 [2024-03-19 22:11:22] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:24] Server Socket Established
+[2024-03-20 12:48:24] Starting...
+[2024-03-20 12:48:24] Starting Game Application...
+[2024-03-20 12:48:24] Running with Debugging Enabled
+[2024-03-20 12:48:24] Running Application as Server
+[2024-03-20 12:48:25] Running with Debugging Enabled
+[2024-03-20 12:48:25] Running Application as Server
+[2024-03-20 12:48:31] /127.0.0.1 Has Connected to the Server
+[2024-03-20 12:48:31] [/127.0.0.1]: JOIN Elias 13 8
+[2024-03-20 12:48:31] Attempting to create player: Elias
+[2024-03-20 12:48:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:38] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:39] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:40] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:41] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:41] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:42] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:42] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:42] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:43] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:43] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:44] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:44] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:46] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:49] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:49] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:49] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:49] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:51] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:52] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:53] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:54] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:57] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:48:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:57] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:48:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:48:58] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:50:27] Server Socket Established
+[2024-03-20 12:50:27] Starting...
+[2024-03-20 12:50:27] Starting Game Application...
+[2024-03-20 12:50:27] Running with Debugging Enabled
+[2024-03-20 12:50:27] Running Application as Server
+[2024-03-20 12:50:27] Running with Debugging Enabled
+[2024-03-20 12:50:27] Running Application as Server
+[2024-03-20 12:50:29] /127.0.0.1 Has Connected to the Server
+[2024-03-20 12:50:29] [/127.0.0.1]: JOIN Elias 5 15
+[2024-03-20 12:50:29] Attempting to create player: Elias
+[2024-03-20 12:50:33] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 12:50:33] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:50:34] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:51:17] Server Socket Established
+[2024-03-20 12:51:17] Starting...
+[2024-03-20 12:51:17] Starting Game Application...
+[2024-03-20 12:51:17] Running with Debugging Enabled
+[2024-03-20 12:51:17] Running Application as Server
+[2024-03-20 12:51:18] Running with Debugging Enabled
+[2024-03-20 12:51:18] Running Application as Server
+[2024-03-20 12:51:19] /127.0.0.1 Has Connected to the Server
+[2024-03-20 12:51:19] [/127.0.0.1]: JOIN Elias 8 13
+[2024-03-20 12:51:19] Attempting to create player: Elias
+[2024-03-20 12:51:20] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:51:20] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 12:51:21] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:21] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:21] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:21] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:51:22] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: BOMB Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 12:51:24] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:38:11] Server Socket Established
+[2024-03-20 13:38:11] Starting...
+[2024-03-20 13:38:11] Starting Game Application...
+[2024-03-20 13:38:11] Running with Debugging Enabled
+[2024-03-20 13:38:11] Running Application as Server
+[2024-03-20 13:38:12] Running with Debugging Enabled
+[2024-03-20 13:38:12] Running Application as Server
+[2024-03-20 13:38:14] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:38:14] [/127.0.0.1]: JOIN Elias 14 5
+[2024-03-20 13:38:14] Attempting to create player: Elias
+[2024-03-20 13:38:15] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:15] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:15] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:38:15] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:24] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:25] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:26] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:27] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:28] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:28] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:29] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:29] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:29] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:30] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:30] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:31] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:32] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:32] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:33] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:33] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:33] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:34] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:34] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:35] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:35] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:36] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:36] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:36] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:37] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:37] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:38] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:38:38] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:39] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:38:40] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:40] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:41] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:41] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:38:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:38:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:39:44] Server Socket Established
+[2024-03-20 13:39:44] Starting...
+[2024-03-20 13:39:44] Starting Game Application...
+[2024-03-20 13:39:44] Running with Debugging Enabled
+[2024-03-20 13:39:44] Running Application as Server
+[2024-03-20 13:39:45] Running with Debugging Enabled
+[2024-03-20 13:39:45] Running Application as Server
+[2024-03-20 13:39:46] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:39:46] [/127.0.0.1]: JOIN Elias 12 11
+[2024-03-20 13:39:46] Attempting to create player: Elias
+[2024-03-20 13:39:47] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:47] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:39:47] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:39:47] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:47] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:48] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:39:48] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:39:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:48] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:39:49] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:39:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:39:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:42:00] Server Socket Established
+[2024-03-20 13:42:00] Starting...
+[2024-03-20 13:42:00] Starting Game Application...
+[2024-03-20 13:42:00] Running with Debugging Enabled
+[2024-03-20 13:42:00] Running Application as Server
+[2024-03-20 13:42:01] Running with Debugging Enabled
+[2024-03-20 13:42:01] Running Application as Server
+[2024-03-20 13:42:03] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:42:03] [/127.0.0.1]: JOIN Elias 17 8
+[2024-03-20 13:42:03] Attempting to create player: Elias
+[2024-03-20 13:42:04] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:42:04] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:42:04] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:42:04] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:42:04] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:42:05] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:43:45] Server Socket Established
+[2024-03-20 13:43:45] Starting...
+[2024-03-20 13:43:45] Starting Game Application...
+[2024-03-20 13:43:45] Running with Debugging Enabled
+[2024-03-20 13:43:45] Running Application as Server
+[2024-03-20 13:43:46] Running with Debugging Enabled
+[2024-03-20 13:43:46] Running Application as Server
+[2024-03-20 13:43:48] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:43:48] [/127.0.0.1]: JOIN Elias 3 1
+[2024-03-20 13:43:48] Attempting to create player: Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:51] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:43:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:43:52] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:43:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:43:52] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:05] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:07] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:07] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:07] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:12] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:12] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:13] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:13] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:44:14] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:14] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:23] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:24] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:37] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:38] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:39] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:49] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:50] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:50] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:51] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:51] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:52] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:53] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:53] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:53] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:44:53] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:54] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:54] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:54] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:54] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:54] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:55] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:44:56] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:57] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:57] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:57] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:44:59] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:59] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:44:59] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:59] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:44:59] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:45:00] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:45:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:45:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:45:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:45:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:45:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:02] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:45:02] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:49:04] Server Socket Established
+[2024-03-20 13:49:04] Starting...
+[2024-03-20 13:49:04] Starting Game Application...
+[2024-03-20 13:49:04] Running with Debugging Enabled
+[2024-03-20 13:49:04] Running Application as Server
+[2024-03-20 13:49:04] Running with Debugging Enabled
+[2024-03-20 13:49:04] Running Application as Server
+[2024-03-20 13:49:10] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:49:10] [/127.0.0.1]: JOIN Elias 11 15
+[2024-03-20 13:49:10] Attempting to create player: Elias
+[2024-03-20 13:49:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:49:14] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:49:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:49:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:51:04] Server Socket Established
+[2024-03-20 13:51:04] Starting...
+[2024-03-20 13:51:04] Starting Game Application...
+[2024-03-20 13:51:04] Running with Debugging Enabled
+[2024-03-20 13:51:04] Running Application as Server
+[2024-03-20 13:51:05] Running with Debugging Enabled
+[2024-03-20 13:51:05] Running Application as Server
+[2024-03-20 13:51:06] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:51:06] [/127.0.0.1]: JOIN Elias 9 4
+[2024-03-20 13:51:06] Attempting to create player: Elias
+[2024-03-20 13:51:07] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:07] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:07] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:51:14] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:51:15] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:51:15] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:51:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:00] Server Socket Established
+[2024-03-20 13:54:00] Starting...
+[2024-03-20 13:54:00] Starting Game Application...
+[2024-03-20 13:54:00] Running with Debugging Enabled
+[2024-03-20 13:54:00] Running Application as Server
+[2024-03-20 13:54:01] Running with Debugging Enabled
+[2024-03-20 13:54:01] Running Application as Server
+[2024-03-20 13:54:02] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:54:02] [/127.0.0.1]: JOIN Elias 8 10
+[2024-03-20 13:54:02] Attempting to create player: Elias
+[2024-03-20 13:54:03] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:54:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:04] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:04] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:04] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:54:04] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:54:04] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:55:45] Server Socket Established
+[2024-03-20 13:55:45] Starting...
+[2024-03-20 13:55:45] Starting Game Application...
+[2024-03-20 13:55:45] Running with Debugging Enabled
+[2024-03-20 13:55:45] Running Application as Server
+[2024-03-20 13:55:45] Running with Debugging Enabled
+[2024-03-20 13:55:45] Running Application as Server
+[2024-03-20 13:55:47] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:55:47] [/127.0.0.1]: JOIN Elias 6 12
+[2024-03-20 13:55:47] Attempting to create player: Elias
+[2024-03-20 13:55:48] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:55:48] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:55:48] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:55:48] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:55:48] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:55:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:55:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:58:59] Server Socket Established
+[2024-03-20 13:58:59] Starting...
+[2024-03-20 13:58:59] Starting Game Application...
+[2024-03-20 13:58:59] Running with Debugging Enabled
+[2024-03-20 13:58:59] Running Application as Server
+[2024-03-20 13:59:00] Running with Debugging Enabled
+[2024-03-20 13:59:00] Running Application as Server
+[2024-03-20 13:59:04] /127.0.0.1 Has Connected to the Server
+[2024-03-20 13:59:04] [/127.0.0.1]: JOIN Elias 13 7
+[2024-03-20 13:59:04] Attempting to create player: Elias
+[2024-03-20 13:59:05] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:05] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:19] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:19] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:22] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:24] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:25] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:26] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:27] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:27] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:28] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:32] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:32] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:33] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:33] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:34] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:35] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:36] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:38] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:40] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:45] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:46] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:46] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:46] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:46] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:46] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:47] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:47] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:47] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:48] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:48] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:48] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:48] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:48] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:49] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:52] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:52] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:53] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:54] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:54] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:54] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:54] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:54] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:55] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:56] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 13:59:57] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:57] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:57] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:57] [/127.0.0.1]: BOMB Elias
+[2024-03-20 13:59:57] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:58] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:58] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:58] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:58] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:58] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:59] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:59] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:59] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 13:59:59] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 13:59:59] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:00] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:00] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:01] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:02] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:02] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:02] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:02] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:02] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:04] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:04] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:04] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:04] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:05] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:05] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:06] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:07] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:07] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:07] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:09] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:09] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:09] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:09] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:09] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:10] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:10] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:10] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:10] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:11] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:12] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:12] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:12] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:13] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:14] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:15] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:17] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:18] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:19] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:22] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:22] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:23] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:23] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:24] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:24] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:24] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:24] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:24] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:25] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:26] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:27] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:27] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:27] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:27] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:28] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:31] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:31] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:31] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:31] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:33] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:34] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:35] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:38] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:39] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:40] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:40] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:40] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:41] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:42] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:44] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:45] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:45] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:45] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:45] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:45] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:49] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:49] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:49] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:50] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:50] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:50] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:50] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:50] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:51] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:51] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:56] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:00:57] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:58] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:00:58] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:58] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:00:58] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:00:59] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:00] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:01:01] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:01] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:01] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:01] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:02] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:02] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:02] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:06] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:06] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:07] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:07] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:07] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:08] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:08] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:13] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:13] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:13] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:01:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:14] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:15] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:15] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:28] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:29] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:29] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:30] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:30] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:01:30] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:30] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:31] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:31] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:32] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:32] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:32] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:33] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:01:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:33] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:33] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:34] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:35] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:35] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:01:35] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:01:35] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:36] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:37] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:38] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:01:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:01:38] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:29] Server Socket Established
+[2024-03-20 14:19:29] Starting...
+[2024-03-20 14:19:29] Starting Game Application...
+[2024-03-20 14:19:29] Running with Debugging Enabled
+[2024-03-20 14:19:29] Running Application as Server
+[2024-03-20 14:19:30] Running with Debugging Enabled
+[2024-03-20 14:19:30] Running Application as Server
+[2024-03-20 14:19:35] /127.0.0.1 Has Connected to the Server
+[2024-03-20 14:19:35] [/127.0.0.1]: JOIN Elias 14 16
+[2024-03-20 14:19:35] Attempting to create player: Elias
+[2024-03-20 14:19:41] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:41] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:42] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:19:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:42] [/127.0.0.1]: MOVE down Elias
+[2024-03-20 14:19:42] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE left Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:43] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:44] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: BOMB Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: MOVE right Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:45] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:46] [/127.0.0.1]: MOVE up Elias
+[2024-03-20 14:19:46] [/127.0.0.1]: BOMB Elias

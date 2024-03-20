@@ -12,7 +12,7 @@ public class Player {
 
 	private double bombCooldown = 3;
 	private boolean isBombActivated;
-	private Timer bombTimer;
+	private Timer bombTimer = new Timer();
 
 	private static PlayerColor lastAssignedColor = null;
 	private PlayerColor playerColor;
@@ -29,7 +29,7 @@ public class Player {
 	 * Starts a cooldown for the player when placing a bomb,
 	 * preventing additional being spawned for the specified duration.
 	 */
-	private void startBombCooldownTimer() {
+	public void startBombCooldownTimer() {
 		bombTimer.scheduleAtFixedRate(new TimerTask() {
 			@Override
 			public void run() {
@@ -76,8 +76,6 @@ public class Player {
 	public String getName() { return name; }
 	public void addPoints(int p) { point += p; }
 	public PlayerColor getPlayerColor() { return playerColor; }
-	public void setPlayerColor(PlayerColor playerColor) { this.playerColor = playerColor; }
-	public double getBombCooldown() { return bombCooldown; }
 	public boolean isBombActivated() { return isBombActivated; }
 	public Position getPosition() { return this.position; }
 	public void setPosition(Position p) { this.position = p; }

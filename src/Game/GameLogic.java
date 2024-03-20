@@ -4,12 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static Game.Generel.board;
+
 /**
  * Mostly contains methods that perform in-game instructions, usually by the Client/Server
  */
 public class GameLogic {
-public static List<Player> players = new ArrayList<>();
-public static List<Bomb> bombs = new ArrayList<>();
+	public static List<Player> players = new ArrayList<>();
+	public static List<Bomb> bombs = new ArrayList<>();
 
 
 	/**
@@ -26,7 +28,8 @@ public static List<Bomb> bombs = new ArrayList<>();
 		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up");
 
 		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
-
+		//TODO: player is not added to scoreboard at the moment
+		//TODO: convert scoreboard into life(health)
 		return player;
 	};
 
@@ -42,7 +45,7 @@ public static List<Bomb> bombs = new ArrayList<>();
 			Random r = new Random();
 			x = Math.abs(r.nextInt() % 18) + 1;
 			y = Math.abs(r.nextInt() % 18) + 1;
-			if (Generel.board[y].charAt(x) == ' ') // er det gulv ?
+			if (board[y].charAt(x) == ' ') // er det gulv ?
 			{
 				foundfreepos = true;
 				for (Player p: players) {
@@ -64,7 +67,7 @@ public static List<Bomb> bombs = new ArrayList<>();
 
 		int x = player.getX(),y = player.getY();
 
-		if (Generel.board[y+delta_y].charAt(x+delta_x)=='w') {
+		if (board[y+delta_y].charAt(x+delta_x)=='w') {
 			player.addPoints(-1); //TODO: remove?
 		} 
 		else {
@@ -103,6 +106,10 @@ public static List<Bomb> bombs = new ArrayList<>();
 	 * @param player the player to place a bomb
 	 */
 	public static void placeBomb(Player player){
+
+		//TODO: cooldown not working
+		//if(player.isBombActivated()) return;
+		//player.startBombCooldownTimer();
 		Bomb bomb = new Bomb(player);
 		bombs.add(bomb);
 		Gui.placeBombOnScreen(bomb);
@@ -110,6 +117,9 @@ public static List<Bomb> bombs = new ArrayList<>();
 		System.out.println("Bomb Placed by " + player.getName() + " (" + player.getX() + "/" + player.getY() + ")");
 
 	}
+
+
+	public static boolean isValidPosition(int x, int y) { return x >= 0 && x < board[0].length() && y >= 0 && y < board.length; }
 
 
 	public static Player getPlayerAt(int x, int y) {

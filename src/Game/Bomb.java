@@ -1,12 +1,13 @@
 package Game;
 
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
+import javafx.animation.*;
 import javafx.scene.image.*;
 import javafx.scene.layout.GridPane;
 import javafx.util.Duration;
 
-import java.util.Objects;
+import java.util.*;
+
+import static Game.Generel.board;
 
 public class Bomb {
 
@@ -23,6 +24,7 @@ public class Bomb {
     private final ImageView bombImageView = new ImageView();
     private Image[] bombImages;
     public static Image bomb1, bomb2, bomb3;
+    public static Image explosion1;
 
 
     public Bomb(Player player) {
@@ -63,14 +65,71 @@ public class Bomb {
 
 
     /**
-     * Event that occurs after the fuseDelay as finished
+     * Occurs after the fuseDelay has finished. <br>
+     * Spreads out the explosion from the origin position, with Breadth-first search algorithm. <br>
+     * BFS is not the algorithm used with Bomberman-like games, as you cannot hide behind boxes, <br>
+     * but given limited time and lacking features, this is what was chosen.
      */
     private void explode() {
+
         animationTimeline.stop();
         bombFuseDelay.stop();
         Gui.removeBombOnScreen(position);
 
-        //TODO: more functionality, like the explosion visuals to know where you've been hit
+        int steps = range;
+        Queue<Position> queue = new LinkedList<>();
+        Set<Position> visited = new HashSet<>();
+        int[] dx = {0, 0, 1, -1}; // delta X
+        int[] dy = {1, -1, 0, 0}; // delta Y
+
+        //we start at this.position
+        queue.add(position);
+        visited.add(position);
+
+        while (!queue.isEmpty() && steps > 0) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                Position current = queue.poll();
+                int x = current.getX();
+                int y = current.getY();
+
+                // Update current Field
+                ImageView explosionImageView = new ImageView(explosion1);
+                Gui.placeExplosionOnScreen(current, explosionImageView); // Place explosion image at current position
+                //TODO: call method in GameLogic here, that applies damage to a player if he is positioned in "current"
+
+                // Scale transition
+                ScaleTransition scaleTransition = new ScaleTransition(Duration.seconds(1), explosionImageView);
+                scaleTransition.setFromX(1.2);
+                scaleTransition.setFromY(1.2);
+                scaleTransition.setToX(0.5);
+                scaleTransition.setToY(0.5);
+
+                // Fade transition
+                FadeTransition fadeTransition = new FadeTransition(Duration.seconds(1), explosionImageView);
+                fadeTransition.setToValue(0);
+
+                // Combine scale and fade transitions
+                ParallelTransition parallelTransition = new ParallelTransition(scaleTransition, fadeTransition);
+                parallelTransition.setOnFinished(event -> Gui.removeExplosionOnScreen(current));
+                parallelTransition.play();
+                /*System.out.println("playing parallelTrans");*/
+
+                // Add neighbor cells to queue
+                for (int j = 0; j < 4; j++) {
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
+                    //check if path is valid based on the totally intuitive Common.board String[]
+                    if (GameLogic.isValidPosition(nx, ny) && !visited.contains(new Position(nx, ny)) && board[ny].charAt(nx) != 'w') {
+                        queue.add(new Position(nx, ny));
+                        visited.add(new Position(nx, ny));
+                    }
+                }
+            }
+            steps--;
+        }
+        System.out.println("explosion loop over");
+
     }
 
 
@@ -78,6 +137,8 @@ public class Bomb {
      * Initializes appropriate bomb sprites in accordance with the Player's assigned color.
      */
     private void initResources(){
+
+        explosion1 = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/bomb/explosion1.png")), Gui.fieldImageSize, Gui.fieldImageSize, false, false);
 
         switch (player.getPlayerColor()) {
             case RED:
