@@ -196,12 +196,13 @@ public class Gui extends Application {
 	}
 
 	public void startGame() {
-		final int countdownTime = 10;
+		final int countdownTime = 5;
 
 		//Server.broadcast("Starting game in " + countdownTime + " seconds...");
 
 		//Timeline timeline = new Timeline();
-		timeline.setCycleCount(countdownTime);
+		//timeline.setCycleCount(countdownTime);
+
 
 		for (int i = countdownTime; i >= 0; i--) {
 			final int remainingSeconds = i;
@@ -213,14 +214,16 @@ public class Gui extends Application {
 
                         if (remainingSeconds == 0) {
                             Server.broadcast("START");
+							System.out.println("game started!");
                         }
                     }
             );
 			timeline.getKeyFrames().add(keyFrame);
 		}
 
-		timeline.setCycleCount(1);
 		timeline.play();
+
+
 	}
 
 	public static Timeline getTimeline() {
