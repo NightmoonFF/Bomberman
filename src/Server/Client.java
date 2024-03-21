@@ -6,6 +6,7 @@ import Game.Gui;
 import Game.Player;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.scene.control.Label;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -104,12 +105,15 @@ public class Client {
 
             case "START":
                 Gui.setCanMove(true);
-                System.out.println("game started by client");
 
                 DebugLogger.logServer("Unknown Message: " + input);
                 break;
 
             default: break;
+
+            case "COUNTER":
+               Gui.setLabelText(parts[1]);
+               break;
 
         }
     }
