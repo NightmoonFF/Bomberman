@@ -102,6 +102,9 @@ public class Client {
 
                 break;
             default:
+
+            case "START": Gui.setCanMove(true);
+
                 DebugLogger.logServer("Unknown Message: " + input);
                 break;
         }

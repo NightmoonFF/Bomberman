@@ -14,12 +14,7 @@ public class Server {
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 	static Common common;
-	static boolean gameStarted = false;
 
-	public static void startGame() {
-		gameStarted = true;
-		System.out.println("test");
-	}
 
     static {
         try {
