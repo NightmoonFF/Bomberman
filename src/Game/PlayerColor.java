@@ -1,6 +1,7 @@
 package Game;
 
 public enum PlayerColor {
+
     RED("#870606"),
     BLUE("#065787"),
     GREEN("#067831"),
@@ -11,4 +12,5 @@ public enum PlayerColor {
     PlayerColor(String hexCode) { this.hexCode = hexCode; }
 
     public String getHexCode() { return hexCode; }
+
 }

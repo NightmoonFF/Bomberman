@@ -48,7 +48,10 @@ public class Gui extends Application {
 
 	public static Image image_floor;
 	public static Image image_wall;
-	public static Image hero_right, hero_left, hero_up, hero_down;
+	public static Image hero_right_red, hero_left_red, hero_up_red, hero_down_red;
+	public static Image hero_right_blue, hero_left_blue, hero_up_blue, hero_down_blue;
+	public static Image hero_right_green, hero_left_green, hero_up_green, hero_down_green;
+	public static Image hero_right_pink, hero_left_pink, hero_up_pink, hero_down_pink;
 
 
 	@Override
@@ -201,10 +204,25 @@ public class Gui extends Application {
 		image_wall  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), fieldImageSize, fieldImageSize, false, false);
 		image_floor = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRight.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeft.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUp.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDown.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_red  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_red     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownRed.png")), fieldImageSize, fieldImageSize, false, false);
+
+		hero_right_blue  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_blue     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownBlue.png")), fieldImageSize, fieldImageSize, false, false);
+
+		hero_right_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_green   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_green     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_green   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownGreen.png")), fieldImageSize, fieldImageSize, false, false);
+
+		hero_right_pink  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_pink     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
 	}
 
 
@@ -269,23 +287,44 @@ public class Gui extends Application {
 	}
 
 
-	public static void placePlayerOnScreen(Position newPos, String direction) {
+	public static void placePlayerOnScreen(Position newPos, String direction, PlayerColor playerColor) {
+		//WHY DID THE PERSON WHO MADE THIS DECIDE ON 4 SEPARATE IMAGES INSTEAD OF ROTATING THE SAME ONE
 		Platform.runLater(() -> {
 			int newx = newPos.getX();
 			int newy = newPos.getY();
 			if (direction.equals("right")) {
-				fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right));
-			};
+				switch (playerColor){
+					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_red));
+					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_blue));
+					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_green));
+					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_pink));
+				}
+			}
 			if (direction.equals("left")) {
-				fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left));
-			};
+				switch (playerColor){
+					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_red));
+					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_blue));
+					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_green));
+					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_pink));
+				}
+			}
 			if (direction.equals("up")) {
-				fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up));
-			};
+				switch (playerColor){
+					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_red));
+					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_blue));
+					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_green));
+					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_pink));
+				}
+			}
 			if (direction.equals("down")) {
-				fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down));
-			};
-			});
+				switch (playerColor){
+					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_red));
+					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_blue));
+					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_green));
+					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_pink));
+				}
+			}
+		});
 	}
 
 
@@ -321,9 +360,9 @@ public class Gui extends Application {
 		});
 	}
 
-	public static void movePlayerOnScreen(Position oldPos, Position newPos, String direction) {
+	public static void movePlayerOnScreen(Position oldPos, Position newPos, String direction, PlayerColor playerColor) {
 		removePlayerOnScreen(oldPos);
-		placePlayerOnScreen(newPos,direction);
+		placePlayerOnScreen(newPos,direction, playerColor);
 	}
 
 	public void updateScoreTable() {

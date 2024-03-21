@@ -25,7 +25,7 @@ public class GameLogic {
 		Player player;
 		player = new Player(name, playerPosition,"up");
 		players.add(player);
-		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up");
+		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up", player.getPlayerColor());
 
 		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
 		//TODO: player is not added to scoreboard at the moment
@@ -80,7 +80,7 @@ public class GameLogic {
               Position pos = getRandomFreePosition();
               p.setPosition(pos);
               Position oldpos = new Position(x + delta_x, y + delta_y);
-              Gui.movePlayerOnScreen(oldpos, pos, p.direction);
+              Gui.movePlayerOnScreen(oldpos, pos, p.direction, player.getPlayerColor());
 			  System.out.println("PLAYER COLLISION");
 
 			}
@@ -88,7 +88,7 @@ public class GameLogic {
 				player.addPoints(1); //TODO: remove?
 				Position oldpos = player.getPosition();
 				Position newpos = new Position(x + delta_x, y + delta_y);
-				Gui.movePlayerOnScreen(oldpos,newpos,direction);
+				Gui.movePlayerOnScreen(oldpos,newpos,direction, player.getPlayerColor());
 				player.setPosition(newpos);
 
 				DebugLogger.log(player.getName() + ": " + "(" + oldpos.getX() + "/" + oldpos.getY() + ")" + " to (" + newpos.getX() + "/" + newpos.getY() + ")");
