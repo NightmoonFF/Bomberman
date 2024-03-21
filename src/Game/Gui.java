@@ -326,7 +326,6 @@ public class Gui extends Application {
 		placePlayerOnScreen(newPos,direction);
 	}
 
-
 	public void updateScoreTable() {
 		//TODO: use this instead of getScoreList?
 		Platform.runLater(() -> {
