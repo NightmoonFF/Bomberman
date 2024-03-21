@@ -3078,3 +3078,4 @@
 [2024-03-21 12:18:42] MOVE left Elias
 [2024-03-21 12:18:42] Elias: left to left
 [2024-03-21 12:18:42] Elias: (15/17) to (14/17)
+[2024-03-21 12:20:16] Connection reset

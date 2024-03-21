@@ -157,7 +157,6 @@ public class Gui extends Application {
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 					if (canMove) {
 						switch (event.getCode()) {
-							//TODO: only "right" and "down" works
 							case UP:
 								client.sendMessage("MOVE" + " " + "up" + " " + App.username);
 								System.out.println("CLICKED UP");
@@ -209,7 +208,7 @@ public class Gui extends Application {
 			KeyFrame keyFrame = new KeyFrame(
 					Duration.seconds(countdownTime - i),
                     event -> {
-                        Server.broadcast("Starting game in " + remainingSeconds + " seconds...");
+                        //("Starting game in " + remainingSeconds + " seconds...");
 						countdownLabel.setText("Starting game in " + remainingSeconds + " seconds");
 
                         if (remainingSeconds == 0) {

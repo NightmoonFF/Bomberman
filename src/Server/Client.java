@@ -105,11 +105,13 @@ public class Client {
             case "START":
                 Gui.setCanMove(true);
                 System.out.println("game started by client");
-
                 DebugLogger.logServer("Unknown Message: " + input);
                 break;
 
-            default: break;
+            default:
+                System.out.println("Command not recognized");
+                break;
+
 
         }
     }
