@@ -38,6 +38,7 @@ public class Gui extends Application {
 
 	private Client client;
 	private boolean canMove = false;
+	private Scene scene;
 
 	// -------------------------------------------
 	// | Maze: (0,0)              | Score: (1,0) |
@@ -115,7 +116,7 @@ public class Gui extends Application {
 			grid.add(boardGrid, 0, 1);
 			grid.add(scoreList, 1, 1);
 
-			Scene scene = new Scene(grid, scene_width, scene_height);
+			scene = new Scene(grid, scene_width, scene_height);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			//endregion
@@ -145,7 +146,9 @@ public class Gui extends Application {
 				client = new Client();
 
 				scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
-					if (canMove) {
+					if (!canMove) {
+						return;
+					}
 						switch (event.getCode()) {
 							//TODO: only "right" and "down" works
 							case UP:
@@ -173,7 +176,6 @@ public class Gui extends Application {
 							default:
 								break;
 						}
-					}
 				});
 
 				PlayerPosition playerPosition = GameLogic.getRandomFreePosition();
@@ -185,10 +187,11 @@ public class Gui extends Application {
 		}
 	}
 
-	public void startGame () {
+	public void startGame() {
 		canMove = true;
 		Server.Server.startGame();
 	}
+
 	
 	public static void removePlayerOnScreen(PlayerPosition oldpos) {
 		Platform.runLater(() -> {
@@ -237,6 +240,38 @@ public class Gui extends Application {
 		}
 		return b.toString();
 	}
+
+//	public void updateEventHandlers() {
+//		scene.setOnKeyPressed(event -> {
+//			if (canMove) {
+//				switch (event.getCode()) {
+//					case UP:
+//						client.sendMessage("MOVE" + " " + "up" + " " + App.username);
+//						System.out.println("CLICKED UP");
+//						break;
+//					case DOWN:
+//						client.sendMessage("MOVE" + " " + "down" + " " + App.username);
+//						System.out.println("CLICKED DOWN");
+//						break;
+//					case LEFT:
+//						client.sendMessage("MOVE" + " " + "left" + " " + App.username);
+//						System.out.println("CLICKED LEFT");
+//						break;
+//					case RIGHT:
+//						client.sendMessage("MOVE" + " " + "right" + " " + App.username);
+//						System.out.println("CLICKED RIGHT");
+//						break;
+//					case ESCAPE:
+//						System.exit(0);
+//						break;
+//					case ENTER:
+//						break;
+//					default:
+//						break;
+//				}
+//			}
+//		});
+//	}
 
 	//region Debugging
 	static TextArea debugTA = new TextArea();
