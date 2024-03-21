@@ -3,8 +3,12 @@ package Game;
 import Server.Client;
 import Server.Common;
 import Server.Server;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -13,6 +17,7 @@ import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.*;
+import javafx.util.Duration;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -40,6 +45,9 @@ public class Gui extends Application {
 	private Client client;
 	private static boolean canMove = false;
 	private Scene scene;
+	Label countdownLabel = new Label();
+
+	private static Timeline timeline = new Timeline();
 
 	// -------------------------------------------
 	// | Maze: (0,0)              | Score: (1,0) |
@@ -188,7 +196,35 @@ public class Gui extends Application {
 	}
 
 	public void startGame() {
-		Server.broadcast("START");
+		final int countdownTime = 10;
+
+		//Server.broadcast("Starting game in " + countdownTime + " seconds...");
+
+		//Timeline timeline = new Timeline();
+		timeline.setCycleCount(countdownTime);
+
+		for (int i = countdownTime; i >= 0; i--) {
+			final int remainingSeconds = i;
+			KeyFrame keyFrame = new KeyFrame(
+					Duration.seconds(countdownTime - i),
+                    event -> {
+                        Server.broadcast("Starting game in " + remainingSeconds + " seconds...");
+						countdownLabel.setText("Starting game in " + remainingSeconds + " seconds");
+
+                        if (remainingSeconds == 0) {
+                            Server.broadcast("START");
+                        }
+                    }
+            );
+			timeline.getKeyFrames().add(keyFrame);
+		}
+
+		timeline.setCycleCount(1);
+		timeline.play();
+	}
+
+	public static Timeline getTimeline() {
+		return timeline;
 	}
 
 	public static void setCanMove(boolean canMove) {
