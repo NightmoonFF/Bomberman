@@ -90,12 +90,16 @@ public class Client {
                 switch(parts[1]){
                     //TODO: remove double-switch?
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
+                    GameLogic.checkPlayerPoints(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");
+                    GameLogic.checkPlayerPoints(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "left": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), -1, 0, "left");
+                    GameLogic.checkPlayerPoints(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "right": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), +1, 0, "right");
+                    GameLogic.checkPlayerPoints(GameLogic.getPlayerByName(parts[2]));
                     break;
                 }
                 break;
