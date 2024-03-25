@@ -1,10 +1,15 @@
 package Game;
 
+import Server.ClientHandler;
+
+import java.io.IOException;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import static Game.Generel.board;
+import static Server.Server.clientThreads;
 
 /**
  * Mostly contains methods that perform in-game instructions, usually by the Client/Server
@@ -76,7 +81,7 @@ public class GameLogic {
 			if (p!=null) {
               player.addPoints(10);
               //update the other player
-              p.addPoints(-69);
+              p.addPoints(-5);
               Position pos = getRandomFreePosition();
               p.setPosition(pos);
               Position oldpos = new Position(x + delta_x, y + delta_y);
@@ -116,6 +121,35 @@ public class GameLogic {
 
 		System.out.println("Bomb Placed by " + player.getName() + " (" + player.getX() + "/" + player.getY() + ")");
 
+	}
+
+
+	public static void checkPlayerPoints(Player player) {
+
+		// Check if any player has reached 100 points
+		if (player.getPoint() >= 100) {
+			// Notify clients that the game is ending
+			Server.Server.broadcast("Spiller: " + player.getName() + " har vundet!");
+
+			// Close client connections
+			for (ClientHandler clientHandler : clientThreads) {
+				try {
+					clientHandler.clientSocket.close();
+				} catch (IOException e) {
+					DebugLogger.logServer(e.getMessage());
+				}
+			}
+
+			// Shut down the server
+			try {
+				Server.Server.serverSocket.close();
+			} catch (IOException e) {
+				DebugLogger.logServer(e.getMessage());
+			}
+
+			// Optionally, exit the server application
+			System.exit(0);
+		}
 	}
 
 

@@ -8,7 +8,7 @@ public class App {
 	/*public static Player me;*/
 
 	static String username = "Elias"; //TODO: prompt in launcher window
-	static String ServerIP = "";
+	static String ServerIP = "localhost";
 
 	public static void main(String[] args) {
 
@@ -16,4 +16,5 @@ public class App {
 		String[] arguments = {String.valueOf(false), String.valueOf(isDebugEnabled), username};
 		Application.launch(Gui.class, arguments);
 	}
+
 }

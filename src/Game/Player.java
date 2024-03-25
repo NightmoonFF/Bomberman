@@ -89,4 +89,7 @@ public class Player {
 
 	public String toString() { return name+": "+point; }
 
+	public int getPoint() {
+		return point;
+	}
 }
