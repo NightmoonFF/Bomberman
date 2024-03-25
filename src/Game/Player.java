@@ -9,7 +9,9 @@ public class Player {
 	private Position position;
 	private int point;
 	String direction;
+	int health;
 
+	public Player(String name, PlayerPosition loc, String direction, int health) {
 	private double bombCooldown = 3;
 	private boolean isBombActivated;
 	private Timer bombTimer = new Timer();
@@ -22,6 +24,7 @@ public class Player {
 		this.position = pos;
 		this.direction = direction;
 		this.point = 0;
+		this.health = health;
 		this.playerColor = getNextAvailableColor();
 	};
 
@@ -69,6 +72,32 @@ public class Player {
 			}
 		}
 		return lastAssignedColor;
+	}
+	public void setYpos(int ypos) {
+		this.location.y = ypos;
+	}
+	public String getDirection() {
+		return direction;
+	}
+	public void setDirection(String direction) {
+		this.direction = direction;
+	}
+	public void addPoints(int p) {
+		point+=p;
+	}
+	public String toString() {
+		return name+":   "+point;
+	}
+
+	public int getHealth() {
+		return health;
+	}
+
+	public int takeDamage() {
+		return health--;
+    }
+	public void resetHeath() {
+		health = 3;
 	}
 
 

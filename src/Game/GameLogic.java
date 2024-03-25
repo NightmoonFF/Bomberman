@@ -23,7 +23,7 @@ public class GameLogic {
 
 		Position playerPosition = new Position(x, y);
 		Player player;
-		player = new Player(name, playerPosition,"up");
+		player = new Player(name, playerPosition,"up", 3);
 		players.add(player);
 		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up", player.getPlayerColor());
 
