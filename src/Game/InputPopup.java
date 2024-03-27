@@ -10,11 +10,12 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class UsernamePopup {
+public class InputPopup {
 
     private String username;
+    private String ip;
 
-    public UsernamePopup(Stage parentStage) {
+    public InputPopup(Stage parentStage) {
         Stage popupStage = new Stage();
         popupStage.initOwner(parentStage);
         popupStage.initModality(Modality.WINDOW_MODAL);
@@ -26,25 +27,34 @@ public class UsernamePopup {
         popupRoot.setHgap(5);
         popupRoot.setVgap(5);
 
-        Label label = new Label("Enter username:");
-        TextField textField = new TextField();
+        Label usernameLbl = new Label("Enter username:");
+        Label ipLbl = new Label("Enter ip-address:");
+        TextField usernametxtfield = new TextField();
+        TextField iptxtfield = new TextField();
         Button confirmButton = new Button("Confirm");
 
         confirmButton.setOnAction(e -> {
-            username = textField.getText();
+            username = usernametxtfield.getText();
+            ip = iptxtfield.getText();
             popupStage.close();
         });
 
-        popupRoot.add(label, 0, 0);
-        popupRoot.add(textField, 1, 0);
-        popupRoot.add(confirmButton, 0, 1, 2, 1);
+        popupRoot.add(usernameLbl, 0, 0);
+        popupRoot.add(usernametxtfield, 1, 0);
+        popupRoot.add(ipLbl, 0, 1);
+        popupRoot.add(iptxtfield, 1, 1);
+        popupRoot.add(confirmButton, 1, 5, 2, 1);
 
-        Scene scene = new Scene(popupRoot, 300, 200);
+        Scene scene = new Scene(popupRoot, 300, 150);
         popupStage.setScene(scene);
         popupStage.showAndWait();
     }
 
     public String getUsername() {
         return username;
+    }
+
+    public String getIp() {
+        return ip;
     }
 }

@@ -1,9 +1,6 @@
 package Server;
 
-import Game.DebugLogger;
-import Game.GameLogic;
-import Game.Gui;
-import Game.Player;
+import Game.*;
 import javafx.application.Application;
 import javafx.application.Platform;
 
@@ -28,22 +25,12 @@ public class Client {
     static BufferedReader in;
     public static PrintWriter out;
     static BufferedReader consoleInput;
+    static String ip;
 
-    static {
-        try{
-            socket = new Socket("localhost", 4969); //TODO: move to launcher prompt
-            in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
-            out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
-            consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
-            DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
-
-        } catch (IOException e) {
-            DebugLogger.log(e.getMessage());
-            throw new RuntimeException(e);
-        }
-    }
-
-    public Client() {
+    public Client(String ipAddress) {
+        System.out.println(ipAddress);
+        ipAddress = ip;
+        initializeSocket();
 
         //Continuous thread for incoming messages by Server
         Thread inputThread = new Thread(() -> {
@@ -51,6 +38,7 @@ public class Client {
                 String line;
                 while ((line = in.readLine()) != null) {
                     System.out.println("[SERVER]: " + line);
+                    System.out.println("IP: " + Client.socket.getInetAddress()); //test
                     DebugLogger.log(line);
 
                     //processInput(line);
@@ -76,6 +64,28 @@ public class Client {
         });
         outputThread.start();
     }
+
+    //-----------------------------------------------------------------------------------------------------------------
+
+    private static void initializeSocket() {
+        try {
+//            if (ip == null) {
+//                throw new IllegalArgumentException("most have ip garl");
+//            }
+            socket = new Socket(ip, 4969);
+
+            in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
+            out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
+            consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
+            DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
+
+        } catch (IOException e) {
+            DebugLogger.log(e.getMessage());
+            throw new RuntimeException(e);
+        }
+    }
+
+    //-----------------------------------------------------------------------------------------------------------------
 
     //TODO: make client use the Common class, which is what it's intended for? this method is a duplicate of Common.updateGame
     private void updateGame(String input){

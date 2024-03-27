@@ -1,1 +1,259 @@
-[2024-03-27 11:45:03] Starting Game Application...
+[2024-03-27 12:41:45] Starting Game Application...
+[2024-03-27 12:41:46] Running with Debugging Enabled
+[2024-03-27 12:41:49] Connection Established to host: localhost/127.0.0.1
+[2024-03-27 12:41:49] JOIN kasper 1 2
+[2024-03-27 12:41:49] Attempting to create player: kasper
+[2024-03-27 12:42:03] CLICKED DOWN
+[2024-03-27 12:42:03] kasper: up to down
+[2024-03-27 12:42:03] kasper: (1/2) to (1/3)
+[2024-03-27 12:42:03] MOVE down kasper
+[2024-03-27 12:42:03] kasper: up to down
+[2024-03-27 12:42:03] kasper: (1/2) to (1/3)
+[2024-03-27 12:42:03] CLICKED DOWN
+[2024-03-27 12:42:03] kasper: down to down
+[2024-03-27 12:42:03] kasper: (1/3) to (1/4)
+[2024-03-27 12:42:03] MOVE down kasper
+[2024-03-27 12:42:03] kasper: down to down
+[2024-03-27 12:42:03] kasper: (1/3) to (1/4)
+[2024-03-27 12:42:04] CLICKED DOWN
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/4) to (1/5)
+[2024-03-27 12:42:04] MOVE down kasper
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/4) to (1/5)
+[2024-03-27 12:42:04] CLICKED DOWN
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/5) to (1/6)
+[2024-03-27 12:42:04] MOVE down kasper
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/5) to (1/6)
+[2024-03-27 12:42:04] CLICKED DOWN
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/6) to (1/7)
+[2024-03-27 12:42:04] MOVE down kasper
+[2024-03-27 12:42:04] kasper: down to down
+[2024-03-27 12:42:04] kasper: (1/6) to (1/7)
+[2024-03-27 12:42:04] CLICKED RIGHT
+[2024-03-27 12:42:04] kasper: down to right
+[2024-03-27 12:42:04] MOVE right kasper
+[2024-03-27 12:42:04] kasper: down to right
+[2024-03-27 12:42:05] CLICKED DOWN
+[2024-03-27 12:42:05] kasper: right to down
+[2024-03-27 12:42:05] kasper: (1/7) to (1/8)
+[2024-03-27 12:42:05] MOVE down kasper
+[2024-03-27 12:42:05] kasper: right to down
+[2024-03-27 12:42:05] kasper: (1/7) to (1/8)
+[2024-03-27 12:42:05] CLICKED RIGHT
+[2024-03-27 12:42:05] kasper: down to right
+[2024-03-27 12:42:05] kasper: (1/8) to (2/8)
+[2024-03-27 12:42:05] MOVE right kasper
+[2024-03-27 12:42:05] kasper: down to right
+[2024-03-27 12:42:05] kasper: (1/8) to (2/8)
+[2024-03-27 12:42:05] CLICKED RIGHT
+[2024-03-27 12:42:05] kasper: right to right
+[2024-03-27 12:42:05] kasper: (2/8) to (3/8)
+[2024-03-27 12:42:05] MOVE right kasper
+[2024-03-27 12:42:05] kasper: right to right
+[2024-03-27 12:42:05] kasper: (2/8) to (3/8)
+[2024-03-27 12:42:05] CLICKED UP
+[2024-03-27 12:42:05] kasper: right to up
+[2024-03-27 12:42:05] kasper: (3/8) to (3/7)
+[2024-03-27 12:42:05] MOVE up kasper
+[2024-03-27 12:42:05] kasper: right to up
+[2024-03-27 12:42:05] kasper: (3/8) to (3/7)
+[2024-03-27 12:42:06] CLICKED RIGHT
+[2024-03-27 12:42:06] kasper: up to right
+[2024-03-27 12:42:06] kasper: (3/7) to (4/7)
+[2024-03-27 12:42:06] MOVE right kasper
+[2024-03-27 12:42:06] kasper: up to right
+[2024-03-27 12:42:06] kasper: (3/7) to (4/7)
+[2024-03-27 12:42:06] CLICKED RIGHT
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (4/7) to (5/7)
+[2024-03-27 12:42:06] MOVE right kasper
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (4/7) to (5/7)
+[2024-03-27 12:42:06] CLICKED RIGHT
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (5/7) to (6/7)
+[2024-03-27 12:42:06] MOVE right kasper
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (5/7) to (6/7)
+[2024-03-27 12:42:06] CLICKED RIGHT
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (6/7) to (7/7)
+[2024-03-27 12:42:06] MOVE right kasper
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] kasper: (6/7) to (7/7)
+[2024-03-27 12:42:06] CLICKED RIGHT
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:06] MOVE right kasper
+[2024-03-27 12:42:06] kasper: right to right
+[2024-03-27 12:42:07] CLICKED DOWN
+[2024-03-27 12:42:07] kasper: right to down
+[2024-03-27 12:42:07] kasper: (7/7) to (7/8)
+[2024-03-27 12:42:07] MOVE down kasper
+[2024-03-27 12:42:07] kasper: right to down
+[2024-03-27 12:42:07] kasper: (7/7) to (7/8)
+[2024-03-27 12:42:07] CLICKED DOWN
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/8) to (7/9)
+[2024-03-27 12:42:07] MOVE down kasper
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/8) to (7/9)
+[2024-03-27 12:42:07] CLICKED DOWN
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/9) to (7/10)
+[2024-03-27 12:42:07] MOVE down kasper
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/9) to (7/10)
+[2024-03-27 12:42:07] CLICKED DOWN
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/10) to (7/11)
+[2024-03-27 12:42:07] MOVE down kasper
+[2024-03-27 12:42:07] kasper: down to down
+[2024-03-27 12:42:07] kasper: (7/10) to (7/11)
+[2024-03-27 12:42:07] CLICKED RIGHT
+[2024-03-27 12:42:07] kasper: down to right
+[2024-03-27 12:42:07] kasper: (7/11) to (8/11)
+[2024-03-27 12:42:07] MOVE right kasper
+[2024-03-27 12:42:07] kasper: down to right
+[2024-03-27 12:42:07] kasper: (7/11) to (8/11)
+[2024-03-27 12:42:08] CLICKED RIGHT
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] kasper: (8/11) to (9/11)
+[2024-03-27 12:42:08] MOVE right kasper
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] kasper: (8/11) to (9/11)
+[2024-03-27 12:42:08] CLICKED RIGHT
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] MOVE right kasper
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] CLICKED RIGHT
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] MOVE right kasper
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] CLICKED RIGHT
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] MOVE right kasper
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] CLICKED RIGHT
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:08] MOVE right kasper
+[2024-03-27 12:42:08] kasper: right to right
+[2024-03-27 12:42:09] CLICKED UP
+[2024-03-27 12:42:09] kasper: right to up
+[2024-03-27 12:42:09] kasper: (9/11) to (9/10)
+[2024-03-27 12:42:09] MOVE up kasper
+[2024-03-27 12:42:09] kasper: right to up
+[2024-03-27 12:42:09] kasper: (9/11) to (9/10)
+[2024-03-27 12:42:09] CLICKED UP
+[2024-03-27 12:42:09] kasper: up to up
+[2024-03-27 12:42:09] MOVE up kasper
+[2024-03-27 12:42:09] kasper: up to up
+[2024-03-27 12:42:09] CLICKED RIGHT
+[2024-03-27 12:42:09] kasper: up to right
+[2024-03-27 12:42:09] kasper: (9/10) to (10/10)
+[2024-03-27 12:42:09] MOVE right kasper
+[2024-03-27 12:42:09] kasper: up to right
+[2024-03-27 12:42:09] kasper: (9/10) to (10/10)
+[2024-03-27 12:42:10] CLICKED RIGHT
+[2024-03-27 12:42:10] kasper: right to right
+[2024-03-27 12:42:10] kasper: (10/10) to (11/10)
+[2024-03-27 12:42:10] MOVE right kasper
+[2024-03-27 12:42:10] kasper: right to right
+[2024-03-27 12:42:10] kasper: (10/10) to (11/10)
+[2024-03-27 12:42:10] CLICKED RIGHT
+[2024-03-27 12:42:10] kasper: right to right
+[2024-03-27 12:42:10] kasper: (11/10) to (12/10)
+[2024-03-27 12:42:10] MOVE right kasper
+[2024-03-27 12:42:10] kasper: right to right
+[2024-03-27 12:42:10] kasper: (11/10) to (12/10)
+[2024-03-27 12:42:11] CLICKED RIGHT
+[2024-03-27 12:42:11] kasper: right to right
+[2024-03-27 12:42:11] kasper: (12/10) to (13/10)
+[2024-03-27 12:42:11] MOVE right kasper
+[2024-03-27 12:42:11] kasper: right to right
+[2024-03-27 12:42:11] kasper: (12/10) to (13/10)
+[2024-03-27 12:42:11] CLICKED RIGHT
+[2024-03-27 12:42:11] kasper: right to right
+[2024-03-27 12:42:11] kasper: (13/10) to (14/10)
+[2024-03-27 12:42:11] MOVE right kasper
+[2024-03-27 12:42:11] kasper: right to right
+[2024-03-27 12:42:11] kasper: (13/10) to (14/10)
+[2024-03-27 12:42:11] CLICKED UP
+[2024-03-27 12:42:11] kasper: right to up
+[2024-03-27 12:42:11] kasper: (14/10) to (14/9)
+[2024-03-27 12:42:11] MOVE up kasper
+[2024-03-27 12:42:11] kasper: right to up
+[2024-03-27 12:42:11] kasper: (14/10) to (14/9)
+[2024-03-27 12:42:11] CLICKED LEFT
+[2024-03-27 12:42:11] kasper: up to left
+[2024-03-27 12:42:11] kasper: (14/9) to (13/9)
+[2024-03-27 12:42:11] MOVE left kasper
+[2024-03-27 12:42:11] kasper: up to left
+[2024-03-27 12:42:11] kasper: (14/9) to (13/9)
+[2024-03-27 12:42:11] CLICKED DOWN
+[2024-03-27 12:42:11] kasper: left to down
+[2024-03-27 12:42:11] kasper: (13/9) to (13/10)
+[2024-03-27 12:42:11] MOVE down kasper
+[2024-03-27 12:42:11] kasper: left to down
+[2024-03-27 12:42:11] kasper: (13/9) to (13/10)
+[2024-03-27 12:42:11] CLICKED LEFT
+[2024-03-27 12:42:11] kasper: down to left
+[2024-03-27 12:42:11] kasper: (13/10) to (12/10)
+[2024-03-27 12:42:11] MOVE left kasper
+[2024-03-27 12:42:11] kasper: down to left
+[2024-03-27 12:42:11] kasper: (13/10) to (12/10)
+[2024-03-27 12:42:12] CLICKED RIGHT
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (12/10) to (13/10)
+[2024-03-27 12:42:12] MOVE right kasper
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (12/10) to (13/10)
+[2024-03-27 12:42:12] CLICKED DOWN
+[2024-03-27 12:42:12] kasper: right to down
+[2024-03-27 12:42:12] kasper: (13/10) to (13/11)
+[2024-03-27 12:42:12] MOVE down kasper
+[2024-03-27 12:42:12] kasper: right to down
+[2024-03-27 12:42:12] kasper: (13/10) to (13/11)
+[2024-03-27 12:42:12] CLICKED LEFT
+[2024-03-27 12:42:12] kasper: down to left
+[2024-03-27 12:42:12] kasper: (13/11) to (12/11)
+[2024-03-27 12:42:12] MOVE left kasper
+[2024-03-27 12:42:12] kasper: down to left
+[2024-03-27 12:42:12] kasper: (13/11) to (12/11)
+[2024-03-27 12:42:12] CLICKED RIGHT
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (12/11) to (13/11)
+[2024-03-27 12:42:12] MOVE right kasper
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (12/11) to (13/11)
+[2024-03-27 12:42:12] CLICKED DOWN
+[2024-03-27 12:42:12] kasper: right to down
+[2024-03-27 12:42:12] kasper: (13/11) to (13/12)
+[2024-03-27 12:42:12] MOVE down kasper
+[2024-03-27 12:42:12] kasper: right to down
+[2024-03-27 12:42:12] kasper: (13/11) to (13/12)
+[2024-03-27 12:42:12] CLICKED LEFT
+[2024-03-27 12:42:12] kasper: down to left
+[2024-03-27 12:42:12] MOVE left kasper
+[2024-03-27 12:42:12] kasper: down to left
+[2024-03-27 12:42:12] CLICKED RIGHT
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (13/12) to (14/12)
+[2024-03-27 12:42:12] MOVE right kasper
+[2024-03-27 12:42:12] kasper: left to right
+[2024-03-27 12:42:12] kasper: (13/12) to (14/12)
+[2024-03-27 12:42:12] CLICKED LEFT
+[2024-03-27 12:42:12] kasper: right to left
+[2024-03-27 12:42:12] kasper: (14/12) to (13/12)
+[2024-03-27 12:42:12] MOVE left kasper
+[2024-03-27 12:42:12] kasper: right to left
+[2024-03-27 12:42:12] kasper: (14/12) to (13/12)
+[2024-03-27 12:42:12] CLICKED UP
+[2024-03-27 12:42:12] kasper: left to up
+[2024-03-27 12:42:12] kasper: (13/12) to (13/11)
+[2024-03-27 12:42:12] MOVE up kasper
+[2024-03-27 12:42:12] kasper: left to up
+[2024-03-27 12:42:12] kasper: (13/12) to (13/11)

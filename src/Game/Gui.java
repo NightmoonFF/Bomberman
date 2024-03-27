@@ -25,6 +25,7 @@ public class Gui extends Application {
 	private Client client;
 	private boolean isServerInstance;
 	private String username;
+	private String ipAddress;
 
 	private Scene primaryScene;
 	private Stage primaryStage;
@@ -74,15 +75,14 @@ public class Gui extends Application {
 		clearLogFile();
 		DebugLogger.log("Starting Game Application...");
 
-		UsernamePopup usernamePopup = new UsernamePopup(primaryStage);
-		username = usernamePopup.getUsername();
-
 		initResources();
 		initGUI();
 		initClient();
 
+
 		scoreList.setText(getScoreList()); //TODO: move for new player instantiation system
 	}
+
 
 
 
@@ -230,7 +230,6 @@ public class Gui extends Application {
 
 
 	private void initClient(){
-
 		if(isDebugEnabled){
 
 			if(!isServerInstance)DebugLogger.log("Running with Debugging Enabled");
@@ -243,9 +242,13 @@ public class Gui extends Application {
 			gameLabel.setText("SERVER INSTANCE");
 			primaryPane.setStyle("-fx-background-color: lightblue;");
 		}
-		else{
+		else {
+			InputPopup inputPopup = new InputPopup(primaryStage);
+			username = inputPopup.getUsername();
+			ipAddress = inputPopup.getIp();
 
-			client = new Client();
+			client = new Client(ipAddress);
+
 			primaryScene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 				switch (event.getCode()) {
 					case UP:

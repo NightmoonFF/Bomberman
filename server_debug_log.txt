@@ -3473,3 +3473,288 @@
 [2024-03-27 11:45:03] Running Application as Server
 [2024-03-27 11:45:06] Running with Debugging Enabled
 [2024-03-27 11:45:06] Running Application as Server
+[2024-03-27 11:48:12] Server Socket Established
+[2024-03-27 11:48:12] Starting...
+[2024-03-27 11:48:12] Starting Game Application...
+[2024-03-27 11:48:12] Running with Debugging Enabled
+[2024-03-27 11:48:12] Running Application as Server
+[2024-03-27 11:48:20] Server Socket Established
+[2024-03-27 11:48:20] Starting...
+[2024-03-27 11:48:20] Starting Game Application...
+[2024-03-27 11:48:20] Running with Debugging Enabled
+[2024-03-27 11:48:20] Running Application as Server
+[2024-03-27 11:48:26] Running with Debugging Enabled
+[2024-03-27 11:48:26] Running Application as Server
+[2024-03-27 11:48:33] Server Socket Established
+[2024-03-27 11:48:33] Starting...
+[2024-03-27 11:48:33] Starting Game Application...
+[2024-03-27 11:48:33] Running with Debugging Enabled
+[2024-03-27 11:48:33] Running Application as Server
+[2024-03-27 11:48:35] Running with Debugging Enabled
+[2024-03-27 11:48:35] Running Application as Server
+[2024-03-27 11:48:42] Server Socket Established
+[2024-03-27 11:48:42] Starting...
+[2024-03-27 11:48:42] Starting Game Application...
+[2024-03-27 11:48:42] Running with Debugging Enabled
+[2024-03-27 11:48:42] Running Application as Server
+[2024-03-27 11:48:44] Running with Debugging Enabled
+[2024-03-27 11:48:44] Running Application as Server
+[2024-03-27 11:48:53] Server Socket Established
+[2024-03-27 11:48:53] Starting...
+[2024-03-27 11:48:53] Starting Game Application...
+[2024-03-27 11:48:53] Running with Debugging Enabled
+[2024-03-27 11:48:53] Running Application as Server
+[2024-03-27 11:48:56] Running with Debugging Enabled
+[2024-03-27 11:48:56] Running Application as Server
+[2024-03-27 11:50:11] Server Socket Established
+[2024-03-27 11:50:11] Starting...
+[2024-03-27 11:50:11] Starting Game Application...
+[2024-03-27 11:50:11] Running with Debugging Enabled
+[2024-03-27 11:50:11] Running Application as Server
+[2024-03-27 11:50:16] Running with Debugging Enabled
+[2024-03-27 11:50:16] Running Application as Server
+[2024-03-27 11:50:43] Server Socket Established
+[2024-03-27 11:50:43] Starting...
+[2024-03-27 11:50:43] Starting Game Application...
+[2024-03-27 11:50:43] Running with Debugging Enabled
+[2024-03-27 11:50:43] Running Application as Server
+[2024-03-27 11:51:06] Server Socket Established
+[2024-03-27 11:51:06] Starting...
+[2024-03-27 11:51:06] Starting Game Application...
+[2024-03-27 11:51:06] Running with Debugging Enabled
+[2024-03-27 11:51:06] Running Application as Server
+[2024-03-27 11:51:07] Running with Debugging Enabled
+[2024-03-27 11:51:07] Running Application as Server
+[2024-03-27 11:51:14] Server Socket Established
+[2024-03-27 11:51:14] Starting...
+[2024-03-27 11:51:14] Starting Game Application...
+[2024-03-27 11:51:14] Running with Debugging Enabled
+[2024-03-27 11:51:14] Running Application as Server
+[2024-03-27 11:51:20] Running with Debugging Enabled
+[2024-03-27 11:51:20] Running Application as Server
+[2024-03-27 11:51:41] Server Socket Established
+[2024-03-27 11:51:41] Starting...
+[2024-03-27 11:51:41] Starting Game Application...
+[2024-03-27 11:51:41] Running with Debugging Enabled
+[2024-03-27 11:51:41] Running Application as Server
+[2024-03-27 11:51:44] Running with Debugging Enabled
+[2024-03-27 11:51:44] Running Application as Server
+[2024-03-27 11:51:50] Server Socket Established
+[2024-03-27 11:51:51] Starting...
+[2024-03-27 11:51:51] Starting Game Application...
+[2024-03-27 11:51:51] Running with Debugging Enabled
+[2024-03-27 11:51:51] Running Application as Server
+[2024-03-27 11:51:52] Running with Debugging Enabled
+[2024-03-27 11:51:52] Running Application as Server
+[2024-03-27 11:51:59] Server Socket Established
+[2024-03-27 11:51:59] Starting...
+[2024-03-27 11:51:59] Starting Game Application...
+[2024-03-27 11:51:59] Running with Debugging Enabled
+[2024-03-27 11:51:59] Running Application as Server
+[2024-03-27 11:52:02] Running with Debugging Enabled
+[2024-03-27 11:52:02] Running Application as Server
+[2024-03-27 11:52:12] Server Socket Established
+[2024-03-27 11:52:12] Starting...
+[2024-03-27 11:52:12] Starting Game Application...
+[2024-03-27 11:52:12] Running with Debugging Enabled
+[2024-03-27 11:52:12] Running Application as Server
+[2024-03-27 11:52:19] Running with Debugging Enabled
+[2024-03-27 11:52:19] Running Application as Server
+[2024-03-27 11:52:25] Server Socket Established
+[2024-03-27 11:52:25] Starting...
+[2024-03-27 11:52:25] Starting Game Application...
+[2024-03-27 11:52:25] Running with Debugging Enabled
+[2024-03-27 11:52:25] Running Application as Server
+[2024-03-27 11:52:29] Running with Debugging Enabled
+[2024-03-27 11:52:29] Running Application as Server
+[2024-03-27 11:52:35] Server Socket Established
+[2024-03-27 11:52:35] Starting...
+[2024-03-27 11:52:35] Starting Game Application...
+[2024-03-27 11:52:35] Running with Debugging Enabled
+[2024-03-27 11:52:35] Running Application as Server
+[2024-03-27 11:53:02] Running with Debugging Enabled
+[2024-03-27 11:53:02] Running Application as Server
+[2024-03-27 12:06:07] Server Socket Established
+[2024-03-27 12:06:07] Starting...
+[2024-03-27 12:06:07] Starting Game Application...
+[2024-03-27 12:06:07] Running with Debugging Enabled
+[2024-03-27 12:06:07] Running Application as Server
+[2024-03-27 12:06:11] Running with Debugging Enabled
+[2024-03-27 12:06:11] Running Application as Server
+[2024-03-27 12:12:08] Server Socket Established
+[2024-03-27 12:12:08] Starting...
+[2024-03-27 12:12:08] Starting Game Application...
+[2024-03-27 12:12:08] Running with Debugging Enabled
+[2024-03-27 12:12:08] Running Application as Server
+[2024-03-27 12:12:12] Running with Debugging Enabled
+[2024-03-27 12:12:12] Running Application as Server
+[2024-03-27 12:15:56] Server Socket Established
+[2024-03-27 12:15:56] Starting...
+[2024-03-27 12:15:56] Starting Game Application...
+[2024-03-27 12:15:56] Running with Debugging Enabled
+[2024-03-27 12:15:56] Running Application as Server
+[2024-03-27 12:16:03] Server Socket Established
+[2024-03-27 12:16:03] Starting...
+[2024-03-27 12:16:03] Starting Game Application...
+[2024-03-27 12:16:03] Running with Debugging Enabled
+[2024-03-27 12:16:03] Running Application as Server
+[2024-03-27 12:16:09] Server Socket Established
+[2024-03-27 12:16:09] Starting...
+[2024-03-27 12:16:09] Starting Game Application...
+[2024-03-27 12:16:09] Running with Debugging Enabled
+[2024-03-27 12:16:09] Running Application as Server
+[2024-03-27 12:16:37] Server Socket Established
+[2024-03-27 12:16:37] Starting...
+[2024-03-27 12:16:37] Starting Game Application...
+[2024-03-27 12:16:37] Running with Debugging Enabled
+[2024-03-27 12:16:37] Running Application as Server
+[2024-03-27 12:17:24] Server Socket Established
+[2024-03-27 12:17:24] Starting...
+[2024-03-27 12:17:24] Starting Game Application...
+[2024-03-27 12:17:24] Running with Debugging Enabled
+[2024-03-27 12:17:24] Running Application as Server
+[2024-03-27 12:18:03] Server Socket Established
+[2024-03-27 12:18:03] Starting...
+[2024-03-27 12:18:03] Starting Game Application...
+[2024-03-27 12:18:03] Running with Debugging Enabled
+[2024-03-27 12:18:03] Running Application as Server
+[2024-03-27 12:18:04] Running with Debugging Enabled
+[2024-03-27 12:18:04] Running Application as Server
+[2024-03-27 12:21:54] Server Socket Established
+[2024-03-27 12:21:54] Starting...
+[2024-03-27 12:21:54] Starting Game Application...
+[2024-03-27 12:21:54] Running with Debugging Enabled
+[2024-03-27 12:21:54] Running Application as Server
+[2024-03-27 12:21:55] Running with Debugging Enabled
+[2024-03-27 12:21:55] Running Application as Server
+[2024-03-27 12:29:10] Server Socket Established
+[2024-03-27 12:29:10] Starting...
+[2024-03-27 12:29:10] Starting Game Application...
+[2024-03-27 12:29:10] Running with Debugging Enabled
+[2024-03-27 12:29:10] Running Application as Server
+[2024-03-27 12:29:11] Running with Debugging Enabled
+[2024-03-27 12:29:11] Running Application as Server
+[2024-03-27 12:29:37] Server Socket Established
+[2024-03-27 12:29:37] Starting...
+[2024-03-27 12:29:37] Starting Game Application...
+[2024-03-27 12:29:37] Running with Debugging Enabled
+[2024-03-27 12:29:37] Running Application as Server
+[2024-03-27 12:29:38] Running with Debugging Enabled
+[2024-03-27 12:29:38] Running Application as Server
+[2024-03-27 12:30:20] Server Socket Established
+[2024-03-27 12:30:20] Starting...
+[2024-03-27 12:30:20] Starting Game Application...
+[2024-03-27 12:30:20] Running with Debugging Enabled
+[2024-03-27 12:30:20] Running Application as Server
+[2024-03-27 12:30:21] Running with Debugging Enabled
+[2024-03-27 12:30:21] Running Application as Server
+[2024-03-27 12:31:57] Server Socket Established
+[2024-03-27 12:31:57] Starting...
+[2024-03-27 12:31:57] Starting Game Application...
+[2024-03-27 12:31:57] Running with Debugging Enabled
+[2024-03-27 12:31:57] Running Application as Server
+[2024-03-27 12:31:58] Running with Debugging Enabled
+[2024-03-27 12:31:58] Running Application as Server
+[2024-03-27 12:32:06] [/127.0.0.1]: JOIN kasper 14 14
+[2024-03-27 12:32:06] /127.0.0.1 Has Connected to the Server
+[2024-03-27 12:32:06] Attempting to create player: kasper
+[2024-03-27 12:32:08] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:08] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:08] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:09] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:09] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:32:09] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:32:09] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:09] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:10] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:10] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:10] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:10] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:11] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:11] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:11] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:32:13] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:32:13] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:32:13] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:33:37] Server Socket Established
+[2024-03-27 12:33:37] Starting...
+[2024-03-27 12:33:37] Starting Game Application...
+[2024-03-27 12:33:37] Running with Debugging Enabled
+[2024-03-27 12:33:37] Running Application as Server
+[2024-03-27 12:33:38] Running with Debugging Enabled
+[2024-03-27 12:33:38] Running Application as Server
+[2024-03-27 12:33:47] [/127.0.0.1]: JOIN kapser 4 16
+[2024-03-27 12:33:47] /127.0.0.1 Has Connected to the Server
+[2024-03-27 12:33:47] Attempting to create player: kapser
+[2024-03-27 12:34:20] Server Socket Established
+[2024-03-27 12:34:20] Starting...
+[2024-03-27 12:34:20] Starting Game Application...
+[2024-03-27 12:34:20] Running with Debugging Enabled
+[2024-03-27 12:34:20] Running Application as Server
+[2024-03-27 12:34:20] Running with Debugging Enabled
+[2024-03-27 12:41:35] Server Socket Established
+[2024-03-27 12:41:36] Starting...
+[2024-03-27 12:41:36] Starting Game Application...
+[2024-03-27 12:41:36] Running with Debugging Enabled
+[2024-03-27 12:41:36] Running Application as Server
+[2024-03-27 12:41:37] Running with Debugging Enabled
+[2024-03-27 12:41:37] Running Application as Server
+[2024-03-27 12:41:49] /127.0.0.1 Has Connected to the Server
+[2024-03-27 12:41:49] [/127.0.0.1]: JOIN kasper 1 2
+[2024-03-27 12:41:49] Attempting to create player: kasper
+[2024-03-27 12:42:03] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:03] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:04] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:04] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:04] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:04] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:05] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:05] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:05] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:05] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:42:06] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:06] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:06] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:06] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:06] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:07] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:07] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:07] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:07] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:07] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:08] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:08] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:08] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:08] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:08] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:09] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:42:09] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:42:09] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:10] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:10] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE up kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:11] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE down kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE right kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE left kasper
+[2024-03-27 12:42:12] [/127.0.0.1]: MOVE up kasper
