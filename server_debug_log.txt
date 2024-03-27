@@ -5560,3 +5560,24 @@
 [2024-03-27 20:26:39] Running Application as Server
 [2024-03-27 20:26:40] Running with Debugging Enabled
 [2024-03-27 20:26:40] Running Application as Server
+[2024-03-27 20:28:47] Server Socket Established
+[2024-03-27 20:28:47] Starting...
+[2024-03-27 20:28:47] Starting Game Application...
+[2024-03-27 20:28:47] Running with Debugging Enabled
+[2024-03-27 20:28:47] Running Application as Server
+[2024-03-27 20:28:48] Running with Debugging Enabled
+[2024-03-27 20:28:48] Running Application as Server
+[2024-03-27 20:29:26] Server Socket Established
+[2024-03-27 20:29:26] Starting...
+[2024-03-27 20:29:26] Starting Game Application...
+[2024-03-27 20:29:26] Running with Debugging Enabled
+[2024-03-27 20:29:26] Running Application as Server
+[2024-03-27 20:29:27] Running with Debugging Enabled
+[2024-03-27 20:29:27] Running Application as Server
+[2024-03-27 20:30:50] Server Socket Established
+[2024-03-27 20:30:50] Starting...
+[2024-03-27 20:30:50] Starting Game Application...
+[2024-03-27 20:30:50] Running with Debugging Enabled
+[2024-03-27 20:30:50] Running Application as Server
+[2024-03-27 20:30:51] Running with Debugging Enabled
+[2024-03-27 20:30:51] Running Application as Server

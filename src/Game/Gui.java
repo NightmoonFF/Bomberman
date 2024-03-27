@@ -102,7 +102,7 @@ public class Gui extends Application {
 		primaryPane.setPadding(new Insets(0, 10, 0, 10));
 		primaryPane.setStyle("-fx-background-color: #9b9b9b");
 
-		BorderStroke borderStroke= new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, null, new BorderWidths(2));
+		BorderStroke borderStroke= new BorderStroke(Color.valueOf("#2c2d2c"), BorderStrokeStyle.SOLID, null, new BorderWidths(2));
 		Border border = new Border(borderStroke);
 
 		gameLabel = new Text("Bomberman:");
@@ -127,7 +127,7 @@ public class Gui extends Application {
 		StackPane.setAlignment(playerListContainer, Pos.BASELINE_CENTER);
 		playerListContainer.setMaxWidth(200);
 
-		playerListContainer.setMinHeight(-1);
+		playerListContainer.setMinHeight(primaryPane.getHeight());
 		playerListContainer.setBorder(border);
 
 		playerList.setMaxWidth(200);
