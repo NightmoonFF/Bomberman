@@ -3,6 +3,7 @@ package Server;
 import Game.*;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.scene.control.Alert;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,7 +30,7 @@ public class Client {
 
     public Client(String ipAddress) {
         System.out.println(ipAddress);
-        ipAddress = ip;
+        ip = ipAddress;
         initializeSocket();
 
         //Continuous thread for incoming messages by Server
@@ -69,11 +70,10 @@ public class Client {
 
     private static void initializeSocket() {
         try {
-//            if (ip == null) {
-//                throw new IllegalArgumentException("most have ip garl");
-//            }
             socket = new Socket(ip, 4969);
-
+            if (!socket.isConnected()) {
+                new Alert(Alert.AlertType.ERROR).showAndWait(); // Virker ikke
+            }
             in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
             out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
             consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
