@@ -24,6 +24,7 @@ public class Gui extends Application {
 
 	private Client client;
 	private boolean isServerInstance;
+	private String username;
 
 	private Scene primaryScene;
 	private Stage primaryStage;
@@ -73,6 +74,9 @@ public class Gui extends Application {
 		clearLogFile();
 		DebugLogger.log("Starting Game Application...");
 
+		UsernamePopup usernamePopup = new UsernamePopup(primaryStage);
+		username = usernamePopup.getUsername();
+
 		initResources();
 		initGUI();
 		initClient();
@@ -81,8 +85,9 @@ public class Gui extends Application {
 	}
 
 
-	private void initGUI(){
 
+
+	private void initGUI(){
 			primaryPane = new GridPane();
 			primaryPane.setHgap(10);
 			primaryPane.setVgap(10);
@@ -114,8 +119,6 @@ public class Gui extends Application {
 			primaryScene = new Scene(primaryPane, scene_width, scene_height);
 			primaryStage.setScene(primaryScene);
 			primaryStage.show();
-
-
 	}
 
 
@@ -246,23 +249,23 @@ public class Gui extends Application {
 			primaryScene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 				switch (event.getCode()) {
 					case UP:
-						client.sendMessage("MOVE" + " " + "up" + " " + App.username);
+						client.sendMessage("MOVE" + " " + "up" + " " + username);
 						DebugLogger.log("CLICKED UP");
 						break;
 					case DOWN:
-						client.sendMessage("MOVE" + " " + "down" + " " + App.username);
+						client.sendMessage("MOVE" + " " + "down" + " " + username);
 						DebugLogger.log("CLICKED DOWN");
 						break;
 					case LEFT:
-						client.sendMessage("MOVE" + " " + "left" + " " + App.username);
+						client.sendMessage("MOVE" + " " + "left" + " " + username);
 						DebugLogger.log("CLICKED LEFT");
 						break;
 					case RIGHT:
-						client.sendMessage("MOVE" + " " + "right" + " " + App.username);
+						client.sendMessage("MOVE" + " " + "right" + " " + username);
 						DebugLogger.log("CLICKED RIGHT");
 						break;
 					case SPACE:
-						client.sendMessage("BOMB" + " " + App.username);
+						client.sendMessage("BOMB" + " " + username);
 						DebugLogger.log("BOMBED");
 						break;
 					case ESCAPE:
@@ -275,7 +278,7 @@ public class Gui extends Application {
 
 			//TODO: Client make player request. To be changed for lobby system or countdown system?
 			Position playerPosition = GameLogic.getRandomFreePosition();
-			client.sendMessage("JOIN" + " " + App.username + " " + playerPosition.x + " " + playerPosition.y);
+			client.sendMessage("JOIN" + " " + username + " " + playerPosition.x + " " + playerPosition.y);
 		}
 	}
 
@@ -381,6 +384,9 @@ public class Gui extends Application {
 		return b.toString();
 	}
 
+	public String getUsername() {
+		return username;
+	}
 
 	public static GridPane getFieldGridBottom(){ return fieldGridBottom; }
 
