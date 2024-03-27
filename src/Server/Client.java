@@ -50,7 +50,7 @@ public class Client {
             try {
                 String line;
                 while ((line = in.readLine()) != null) {
-                    System.out.println("[SERVER]: " + line);
+                    //System.out.println("[SERVER]: " + line);
                     DebugLogger.log(line);
 
                     //processInput(line);

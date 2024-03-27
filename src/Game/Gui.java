@@ -1,10 +1,15 @@
 package Game;
 
 import Server.Client;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.geometry.Insets;
+import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -12,11 +17,16 @@ import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.*;
+import javafx.util.Duration;
+
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import javafx.scene.image.ImageView;
 
 import static Game.DebugLogger.LOG_FILE_PATH;
 
@@ -30,7 +40,7 @@ public class Gui extends Application {
 	private GridPane primaryPane;
 
 	private Text gameLabel;
-	private TextArea scoreList;
+	private static VBox playerList;
 
 	public static final int fieldImageSize = 35;
 	public static final int scene_height = fieldImageSize * 20 + 75;
@@ -46,8 +56,11 @@ public class Gui extends Application {
 	private static Label[][] fieldsBomb;
 	private static Label[][] fieldsExplosion;
 
-	public static Image image_floor;
-	public static Image image_wall;
+
+	public static Image skull;
+	public static Image heart;
+	public static Image image_floor, image_wall;
+
 	public static Image hero_right_red, hero_left_red, hero_up_red, hero_down_red;
 	public static Image hero_right_blue, hero_left_blue, hero_up_blue, hero_down_blue;
 	public static Image hero_right_green, hero_left_green, hero_up_green, hero_down_green;
@@ -76,8 +89,6 @@ public class Gui extends Application {
 		initResources();
 		initGUI();
 		initClient();
-
-		scoreList.setText(getScoreList()); //TODO: move for new player instantiation system
 	}
 
 
@@ -94,8 +105,9 @@ public class Gui extends Application {
 			Text scoreLabel = new Text("Score:");
 			scoreLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 
-			scoreList = new TextArea();
-			scoreList.setEditable(false);
+			playerList = new VBox();
+			playerList.setMinWidth(200);
+			playerList.setStyle("-fx-background-color: #f0f0f0;");
 
 			initFields();
 
@@ -109,12 +121,11 @@ public class Gui extends Application {
 			primaryPane.add(gameLabel,  0, 0);
 			primaryPane.add(scoreLabel, 1, 0);
 			primaryPane.add(stackPane, 0, 1);
-			primaryPane.add(scoreList,  1, 1);
+			primaryPane.add(playerList,  1, 1);
 
 			primaryScene = new Scene(primaryPane, scene_width, scene_height);
 			primaryStage.setScene(primaryScene);
 			primaryStage.show();
-
 
 	}
 
@@ -201,30 +212,33 @@ public class Gui extends Application {
 
 
 	private void initResources(){
-		image_wall  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), fieldImageSize, fieldImageSize, false, false);
-		image_floor = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_red  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_red     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownRed.png")), fieldImageSize, fieldImageSize, false, false);
+		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
+		heart            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heart.png")), fieldImageSize, fieldImageSize, false, false);
+
+		image_wall       = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), fieldImageSize, fieldImageSize, false, false);
+		image_floor      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), fieldImageSize, fieldImageSize, false, false);
+
+		hero_right_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_red      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownRed.png")), fieldImageSize, fieldImageSize, false, false);
 
 		hero_right_blue  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightBlue.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_left_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftBlue.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_up_blue     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpBlue.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_down_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownBlue.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_green   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_green     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_green   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_green = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_green    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownGreen.png")), fieldImageSize, fieldImageSize, false, false);
 
 		hero_right_pink  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightPink.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_left_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftPink.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_up_pink     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpPink.png")), fieldImageSize, fieldImageSize, false, false);
 		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
 	}
-
 
 	private void initClient(){
 
@@ -365,25 +379,67 @@ public class Gui extends Application {
 		placePlayerOnScreen(newPos,direction, playerColor);
 	}
 
-	public void updateScoreTable() {
-		//TODO: use this instead of getScoreList?
+	public static void updatePlayerDamage(Player p){
 		Platform.runLater(() -> {
-			scoreList.setText(getScoreList());
-			});
+
+			System.out.println("DAMAGING: " + p.getName());
+
+			if (p.getHealthBar().getChildren().size() > p.getCurrentHealth()) {
+				Node node = p.getHealthBar().getChildren().get(p.getCurrentHealth());
+				if (node instanceof ImageView imageView) {
+
+					Image gifImage = new Image("/heartbreak.gif", fieldImageSize, fieldImageSize, false, false);
+
+					// the heartbreak .Gif is 2.9 seconds long
+					double duration = 2900;
+
+					imageView.setImage(gifImage);
+
+					Timeline stopTimeline = new Timeline(new KeyFrame(Duration.millis(duration), e -> {
+
+						if(p.getCurrentHealth() == 0){
+							imageView.setImage(skull);
+						}
+						else{
+							imageView.setImage(null);
+						}
+
+					}));
+					stopTimeline.play();
+
+				}
+				else {
+				DebugLogger.log("Node at current health index is not an ImageView");
+				throw new RuntimeException("Node at current health index is not an ImageView");
+				}
+			}
+			else {
+				throw new IndexOutOfBoundsException();
+			}
+		});
 	}
 
+	public static void updatePlayerList(){
 
-	public String getScoreList() {
-		StringBuffer b = new StringBuffer(100);
-		for (Player p : GameLogic.players) {
-			b.append(p+"\r\n");
-		}
-		return b.toString();
+		Platform.runLater(() -> {
+			for(Player p : GameLogic.players){
+
+				VBox vbx = new VBox();
+				playerList.getChildren().add(vbx);
+
+				// Name Display
+				Label playerLabel = new Label(p.getName());
+				playerLabel.setStyle("-fx-text-fill: " + p.getPlayerColor() + "; -fx-font-weight: bold;");
+				vbx.getChildren().add(playerLabel);
+
+				// Health Bar
+				vbx.getChildren().add(p.getHealthBar());
+			}
+		});
 	}
 
 
 	public static GridPane getFieldGridBottom(){ return fieldGridBottom; }
-
 
 	//region Debugging
 	static TextArea debugTA = new TextArea();
@@ -399,6 +455,7 @@ public class Gui extends Application {
 		debugTA.setPrefWidth(300);
 
 		button.setOnAction(e -> toggleDebugGUI(primaryStage, grid, debugTA));
+		button.setFocusTraversable(false);
 
 		Thread logReaderThread = new Thread(this::readLogFile);
 		logReaderThread.setDaemon(true); // So that the thread stops when the application is closed

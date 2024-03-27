@@ -1,5 +1,8 @@
 package Game;
 
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.HBox;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -9,7 +12,10 @@ public class Player {
 	private Position position;
 	private int point;
 	String direction;
-	int health;
+	private int startHealth;
+	private int currentHealth;
+
+	private HBox healthBar = new HBox();
 
 	private static PlayerColor lastAssignedColor = null;
 	private final PlayerColor playerColor;
@@ -25,17 +31,25 @@ public class Player {
 		this.position = pos;
 		this.direction = direction;
 		this.point = 0;
-		this.health = 3;
+		this.currentHealth = 3;
 		this.playerColor = getNextAvailableColor();
+		initHealthBar();
 	};
 
+	private void initHealthBar(){
+		for (int i = 0; i < getCurrentHealth(); i++) {
+			healthBar.getChildren().add(new ImageView(Gui.heart));
+		}
+	}
+
+	public HBox getHealthBar() { return healthBar; }
 	//-----------------------------------------------------------------------------------------------------------------
 
 	/**
 	 * Starts a cooldown for the player when placing a bomb,
 	 * preventing additional being spawned for the specified duration.
 	 */
-	public void startBombCooldownTimer() {
+	public void startBombCooldownTimer() { //TODO: Not working
 		bombTimer.scheduleAtFixedRate(new TimerTask() {
 			@Override
 			public void run() {
@@ -54,8 +68,8 @@ public class Player {
 
 	/**
 	 * To be used in constructor.
-	 * Fetches the color for the created player.
-	 * @return the next color in the sequence of Red, Blue, Green, Pink
+	 * Fetches the next valid color for the created player.
+	 * @return the next available color in the sequence of Red, Blue, Green, Pink
 	 */
 	private PlayerColor getNextAvailableColor() {
 		if (lastAssignedColor == null) {
@@ -81,7 +95,7 @@ public class Player {
 	//-----------------------------------------------------------------------------------------------------------------
 
 	public String getName() { return name; }
-	public int getHealth() { return health; }
+	public int getCurrentHealth() { return currentHealth; }
 	public PlayerColor getPlayerColor() { return playerColor; }
 	public Position getPosition() { return this.position; }
 	public String getDirection() { return direction; }
@@ -91,8 +105,8 @@ public class Player {
 	//-----------------------------------------------------------------------------------------------------------------
 
 	public boolean isBombActivated() { return isBombActivated; }
-	public int takeDamage() { return health--; }
-	public void resetHeath() { health = 3; }
+	public int takeDamage() { return currentHealth--; }
+	public void resetHeath() { currentHealth = 3; }
 	public void addPoints(int p) { point += p; }
 
 	//-----------------------------------------------------------------------------------------------------------------

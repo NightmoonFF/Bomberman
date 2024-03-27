@@ -55,7 +55,7 @@ public class Bomb {
         for (int i = 0; i < bombImages.length; i++) {
             int finalI = i;
             Duration delay = Duration.millis(i * animationSpeed);
-            KeyFrame keyFrame = new KeyFrame(delay, e -> bombImageView.setImage(bombImages[finalI]) );
+            KeyFrame keyFrame = new KeyFrame(delay, e -> bombImageView.setImage(bombImages[finalI]));
             animationTimeline.getKeyFrames().add(keyFrame);
         }
 
@@ -86,6 +86,8 @@ public class Bomb {
         queue.add(position);
         visited.add(position);
 
+        HashSet<Player> playersHitByBomb = new HashSet<>();
+
         while (!queue.isEmpty() && steps > 0) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
@@ -96,7 +98,14 @@ public class Bomb {
                 // Update current Field
                 ImageView explosionImageView = new ImageView(explosion1);
                 Gui.placeExplosionOnScreen(current, explosionImageView); // Place explosion image at current position
-                //TODO: call method in GameLogic here, that applies damage to a player if he is positioned in "current"
+
+                // Add players in range to HashSet (no dupes) for damaging
+
+                Player player = GameLogic.getPlayerAt(x, y);
+                if (player != null) {
+                    playersHitByBomb.add(player);
+                }
+
 
                 // Scale transition
                 ScaleTransition scaleTransition = new ScaleTransition(Duration.seconds(1), explosionImageView);
@@ -113,7 +122,6 @@ public class Bomb {
                 ParallelTransition parallelTransition = new ParallelTransition(scaleTransition, fadeTransition);
                 parallelTransition.setOnFinished(event -> Gui.removeExplosionOnScreen(current));
                 parallelTransition.play();
-                /*System.out.println("playing parallelTrans");*/
 
                 // Add neighbor cells to queue
                 for (int j = 0; j < 4; j++) {
@@ -128,6 +136,13 @@ public class Bomb {
             }
             steps--;
         }
+
+        // Damage the found players
+        for(Player p : playersHitByBomb){
+            GameLogic.damagePlayer(p);
+        }
+
+
         System.out.println("explosion loop over");
 
     }

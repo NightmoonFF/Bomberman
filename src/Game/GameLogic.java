@@ -26,10 +26,10 @@ public class GameLogic {
 		player = new Player(name, playerPosition,"up");
 		players.add(player);
 		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up", player.getPlayerColor());
+		Gui.updatePlayerList();
 
 		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
-		//TODO: player is not added to scoreboard at the moment
-		//TODO: convert scoreboard into life(health)
+
 		return player;
 	};
 
@@ -60,6 +60,13 @@ public class GameLogic {
 	}
 
 
+	/**
+	 * Used to handle player movement
+	 * @param player the player being moved
+	 * @param delta_x difference on x axis
+	 * @param delta_y difference on y axis
+	 * @param direction new facing direction of the player
+	 */
 	public static void updatePlayer(Player player, int delta_x, int delta_y, String direction) {
 
 		DebugLogger.log(player.getName() + ": " + player.direction + " to " + direction);
@@ -102,7 +109,7 @@ public class GameLogic {
 
 	/**
 	 * Places a bomb on the players current tile.  <br>
-	 * TODO: When moving out of the tile, the tile becomes occupied as if a player was there
+	 * TODO: When moving out of the tile, the tile becomes occupied as if a player was there. Possibly handled in updatePlayer?
 	 * @param player the player to place a bomb
 	 */
 	public static void placeBomb(Player player){
@@ -118,6 +125,17 @@ public class GameLogic {
 
 	}
 
+
+	/**
+	 * Called by explosion() in the Bomb class, to handle what happens when <br>
+	 * a player is caught inside a bomb's range when it explodes
+	 * @param position the explosions currently processed tile
+	 */
+	public static void damagePlayer(Player p){
+
+		Gui.updatePlayerDamage(p);
+		p.takeDamage();
+	}
 
 	public static boolean isValidPosition(int x, int y) { return x >= 0 && x < board[0].length() && y >= 0 && y < board.length; }
 

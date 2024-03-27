@@ -7,6 +7,13 @@ import Game.Player;
 import java.net.Socket;
 import java.util.Objects;
 
+/**
+ * This class is intended to be where the game's input is handled - as in, the specific instructions
+ * that makes things happen, such as moving, or placing bombs. This class is identical between the
+ * servers instance of the game, and the clients' instance of the game - hence the name "common".
+ * It has been made into a singleton with the idea of ensuring it cannot be instantiated multiple times,
+ * but is not needed due to being a static utility class - TODO: remove singleton pattern?
+ */
 public class Common {
     private static Common instance;
     private Common() {} // private constructor for singleton
@@ -22,6 +29,7 @@ public class Common {
         }
         return instance;
     }
+
 
 
     public static synchronized void handleInputRequest(String input, Socket clientSocket) {
