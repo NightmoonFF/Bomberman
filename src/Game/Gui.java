@@ -1,21 +1,22 @@
 package Game;
 
 import Server.Client;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.embed.swing.SwingFXUtils;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.layout.GridPane;
 import javafx.scene.text.*;
 import javafx.util.Duration;
 
@@ -23,8 +24,6 @@ import javafx.util.Duration;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 import javafx.scene.image.ImageView;
 
@@ -66,7 +65,6 @@ public class Gui extends Application {
 	public static Image hero_right_green, hero_left_green, hero_up_green, hero_down_green;
 	public static Image hero_right_pink, hero_left_pink, hero_up_pink, hero_down_pink;
 
-
 	@Override
 	public void init() {
 		Parameters parameters = getParameters();
@@ -78,7 +76,6 @@ public class Gui extends Application {
 			}
 		}
 	}
-
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -92,12 +89,18 @@ public class Gui extends Application {
 	}
 
 
+	//region [ Initialization ]
+	/**
+	 * Main GUI Initialization
+	 */
 	private void initGUI(){
 
 			primaryPane = new GridPane();
 			primaryPane.setHgap(10);
 			primaryPane.setVgap(10);
 			primaryPane.setPadding(new Insets(0, 10, 0, 10));
+			primaryPane.setStyle("-fx-background-color: #9b9b9b");
+			primaryPane.setGridLinesVisible(true);
 
 			gameLabel = new Text("Bomberman:");
 			gameLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
@@ -106,8 +109,14 @@ public class Gui extends Application {
 			scoreLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 
 			playerList = new VBox();
-			playerList.setMinWidth(200);
-			playerList.setStyle("-fx-background-color: #f0f0f0;");
+			playerList.setFillWidth(false);
+
+			playerList.setPrefWidth(230);
+			playerList.setPrefHeight(Region.USE_COMPUTED_SIZE);
+
+			playerList.setStyle("-fx-background-color: #2c2d2c;");
+			playerList.setPadding(new Insets(5, 5, 5, 5));
+			playerList.setAlignment(Pos.BASELINE_CENTER);
 
 			initFields();
 
@@ -122,6 +131,16 @@ public class Gui extends Application {
 			primaryPane.add(scoreLabel, 1, 0);
 			primaryPane.add(stackPane, 0, 1);
 			primaryPane.add(playerList,  1, 1);
+
+
+			ColumnConstraints column0 = new ColumnConstraints();
+			column0.setHgrow(Priority.ALWAYS); // Prevent playerList from growing horizontally
+
+			ColumnConstraints column1 = new ColumnConstraints();
+			column1.setHgrow(Priority.NEVER); // Allow stackPane to grow horizontally
+
+			primaryPane.getColumnConstraints().addAll(column1);
+
 
 			primaryScene = new Scene(primaryPane, scene_width, scene_height);
 			primaryStage.setScene(primaryScene);
@@ -211,6 +230,9 @@ public class Gui extends Application {
 	}
 
 
+	/**
+	 * Loads the Game Assets into fields from a resources path
+	 */
 	private void initResources(){
 
 		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
@@ -240,6 +262,11 @@ public class Gui extends Application {
 		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
 	}
 
+
+	/**
+	 * Instantiates a new Client Object for the connection started by the App class,
+	 * and attempts to establish a connection to the requested IP-Address of the server
+	 */
 	private void initClient(){
 
 		if(isDebugEnabled){
@@ -292,8 +319,14 @@ public class Gui extends Application {
 			client.sendMessage("JOIN" + " " + App.username + " " + playerPosition.x + " " + playerPosition.y);
 		}
 	}
+	//endregion
 
 
+	//region [ Player ]
+	/**
+	 * Removes a player visually from a given positional co-ordinate
+	 * @param oldPos the position in which to remove the player sprite
+	 */
 	public static void removePlayerOnScreen(Position oldPos) {
 		Platform.runLater(() -> {
 			fieldsBottom[oldPos.getX()][oldPos.getY()].setGraphic(new ImageView(image_floor));
@@ -301,54 +334,74 @@ public class Gui extends Application {
 	}
 
 
+	/**
+	 * Places a Player object visually on the GUI at a given position, in a direction, using the player's assigned color
+	 * @param newPos position being moved to
+	 * @param direction the facing direction
+	 * @param playerColor the player's color
+	 */
 	public static void placePlayerOnScreen(Position newPos, String direction, PlayerColor playerColor) {
 		//WHY DID THE PERSON WHO MADE THIS DECIDE ON 4 SEPARATE IMAGES INSTEAD OF ROTATING THE SAME ONE
 		Platform.runLater(() -> {
-			int newx = newPos.getX();
-			int newy = newPos.getY();
+			int newX = newPos.getX();
+			int newY = newPos.getY();
 			if (direction.equals("right")) {
 				switch (playerColor){
-					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_red));
-					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_blue));
-					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_green));
-					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_right_pink));
+					case RED -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_right_red));
+					case BLUE -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_right_blue));
+					case GREEN -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_right_green));
+					case PINK -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_right_pink));
 				}
 			}
 			if (direction.equals("left")) {
 				switch (playerColor){
-					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_red));
-					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_blue));
-					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_green));
-					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_left_pink));
+					case RED -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_left_red));
+					case BLUE -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_left_blue));
+					case GREEN -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_left_green));
+					case PINK -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_left_pink));
 				}
 			}
 			if (direction.equals("up")) {
 				switch (playerColor){
-					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_red));
-					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_blue));
-					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_green));
-					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_up_pink));
+					case RED -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_up_red));
+					case BLUE -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_up_blue));
+					case GREEN -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_up_green));
+					case PINK -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_up_pink));
 				}
 			}
 			if (direction.equals("down")) {
 				switch (playerColor){
-					case RED -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_red));
-					case BLUE -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_blue));
-					case GREEN -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_green));
-					case PINK -> fieldsBottom[newx][newy].setGraphic(new ImageView(hero_down_pink));
+					case RED -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_down_red));
+					case BLUE -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_down_blue));
+					case GREEN -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_down_green));
+					case PINK -> fieldsBottom[newX][newY].setGraphic(new ImageView(hero_down_pink));
 				}
 			}
 		});
 	}
 
 
+	/**
+	 * Removes, then places a player from one position to another facing the appropriate direction, using the right color
+	 * @param oldPos position being moved from
+	 * @param newPos position being moved to
+	 * @param direction the facing direction
+	 * @param playerColor the player's color
+	 */
+	public static void movePlayerOnScreen(Position oldPos, Position newPos, String direction, PlayerColor playerColor) {
+		removePlayerOnScreen(oldPos);
+		placePlayerOnScreen(newPos,direction, playerColor);
+	}
+	//endregion
+
+
+
+	//region [ Bomb & Explosion ]
 	public static void placeBombOnScreen(Bomb bomb){
 		Platform.runLater(() -> {
 			fieldsBomb[bomb.getPosition().getX()][bomb.getPosition().getY()].setGraphic(bomb.getBombImageView());
 		});
 	}
-
-
 	public static void removeBombOnScreen(Position pos) {
 		Platform.runLater(() -> {
 			ImageView imageView = new ImageView();
@@ -357,14 +410,11 @@ public class Gui extends Application {
 			fieldsBomb[pos.getX()][pos.getY()].setGraphic(imageView);
 		});
 	}
-
 	public static void placeExplosionOnScreen(Position pos, ImageView expView){
 		Platform.runLater(() -> {
 		fieldsExplosion[pos.getX()][pos.getY()].setGraphic(expView);
 		});
 	}
-
-
 	public static void removeExplosionOnScreen(Position pos){
 		Platform.runLater(() -> {
 			ImageView imageView = new ImageView();
@@ -373,12 +423,55 @@ public class Gui extends Application {
 			fieldsExplosion[pos.getX()][pos.getY()].setGraphic(imageView);
 		});
 	}
+	//endregion
 
-	public static void movePlayerOnScreen(Position oldPos, Position newPos, String direction, PlayerColor playerColor) {
-		removePlayerOnScreen(oldPos);
-		placePlayerOnScreen(newPos,direction, playerColor);
+
+	//region [ PlayerList(ScoreBoard) ]
+	public static void updatePlayerList(){
+
+		Platform.runLater(() -> {
+			for(Player p : GameLogic.players){
+
+				VBox vbx = new VBox();
+				playerList.getChildren().add(vbx);
+
+				// Name Display
+				Text playerText = new Text(p.getName());
+				vbx.getChildren().add(playerText);
+
+				// Line Spacer
+				/*StackPane stackPane = new StackPane();
+				Line spacer = new Line(0, 0, 75, 0);
+				spacer.setStroke(Color.BLACK);
+				spacer.setStrokeWidth(3);
+				stackPane.getChildren().add(spacer);
+				stackPane.setPadding(new Insets(5, 5, 5, 5));
+				vbx.getChildren().add(stackPane);*/
+
+				// Health Bar
+				vbx.getChildren().add(p.getHealthBar());
+
+				// Main Styling
+				vbx.setAlignment(Pos.BASELINE_CENTER);
+				vbx.setPrefWidth(230);
+				vbx.setStyle("-fx-background-color: #9b9b9b");
+				vbx.setPadding(new Insets(10, 10, 10, 10));
+
+
+				playerText.setStyle(
+						"-fx-fill: black;" + // Text color
+						"-fx-font-weight: bold;" + // Bold font weight
+						"-fx-font-size: 25px;" + // Font size
+						"-fx-effect: dropshadow(gaussian, derive(" + p.getPlayerColor() + ", 60%), 10, 0.0, 2, 2);" + // Drop shadow effect
+						"-fx-stroke: derive(" + p.getPlayerColor() + ", -20%);" + // Stroke color
+						//"-fx-stroke-width: 2px;" + // Stroke width
+						//"-fx-rotate: 355;" + // Rotation angle
+				"");
+				playerText.setTextAlignment(TextAlignment.CENTER);
+
+			}
+		});
 	}
-
 	public static void updatePlayerDamage(Player p){
 		Platform.runLater(() -> {
 
@@ -409,8 +502,8 @@ public class Gui extends Application {
 
 				}
 				else {
-				DebugLogger.log("Node at current health index is not an ImageView");
-				throw new RuntimeException("Node at current health index is not an ImageView");
+					DebugLogger.log("Node at current health index is not an ImageView");
+					throw new RuntimeException("Node at current health index is not an ImageView");
 				}
 			}
 			else {
@@ -418,30 +511,10 @@ public class Gui extends Application {
 			}
 		});
 	}
-
-	public static void updatePlayerList(){
-
-		Platform.runLater(() -> {
-			for(Player p : GameLogic.players){
-
-				VBox vbx = new VBox();
-				playerList.getChildren().add(vbx);
-
-				// Name Display
-				Label playerLabel = new Label(p.getName());
-				playerLabel.setStyle("-fx-text-fill: " + p.getPlayerColor() + "; -fx-font-weight: bold;");
-				vbx.getChildren().add(playerLabel);
-
-				// Health Bar
-				vbx.getChildren().add(p.getHealthBar());
-			}
-		});
-	}
+	//endregion
 
 
-	public static GridPane getFieldGridBottom(){ return fieldGridBottom; }
-
-	//region Debugging
+	//region [ Debugging ]
 	static TextArea debugTA = new TextArea();
 	private boolean isDebugEnabled;
 	static boolean isShowingDebugLog = false;

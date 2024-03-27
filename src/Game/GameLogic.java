@@ -7,7 +7,8 @@ import java.util.Random;
 import static Game.Generel.board;
 
 /**
- * Mostly contains methods that perform in-game instructions, usually by the Client/Server
+ * Class that handles Game Flow and Rules.
+ * Mostly contains methods that perform in-game instructions.
  */
 public class GameLogic {
 	public static List<Player> players = new ArrayList<>();
@@ -31,32 +32,6 @@ public class GameLogic {
 		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
 
 		return player;
-	};
-
-
-	/**
-	 * @return a Position Object (int x, int y) that is random, and not inside wall or other player
-	 */
-	public static Position getRandomFreePosition() {
-		int x = 1;
-		int y = 1;
-		boolean foundfreepos = false;
-		while  (!foundfreepos) {
-			Random r = new Random();
-			x = Math.abs(r.nextInt() % 18) + 1;
-			y = Math.abs(r.nextInt() % 18) + 1;
-			if (board[y].charAt(x) == ' ') // er det gulv ?
-			{
-				foundfreepos = true;
-				for (Player p: players) {
-					if (p.getX() == x && p.getY() == y) //pladsen optaget af en anden
-						foundfreepos = false;
-				}
-				
-			}
-		}
-
-		return new Position(x, y);
 	}
 
 
@@ -69,36 +44,32 @@ public class GameLogic {
 	 */
 	public static void updatePlayer(Player player, int delta_x, int delta_y, String direction) {
 
-		DebugLogger.log(player.getName() + ": " + player.direction + " to " + direction);
-		player.direction = direction;
+		DebugLogger.log(player.getName() + ": " + player.getDirection() + " to " + direction);
+		player.setDirection(direction);
 
 		int x = player.getX(),y = player.getY();
 
-		if (board[y+delta_y].charAt(x+delta_x)=='w') {
-			player.addPoints(-1); //TODO: remove?
-		} 
-		else {
+		if (board[y+delta_y].charAt(x+delta_x) != 'w') {
+
 			// collision detection
 			Player p = getPlayerAt(x + delta_x,y + delta_y);
 			if (p!=null) {
-              player.addPoints(10);
+
               //update the other player
-              p.addPoints(-69);
               Position pos = getRandomFreePosition();
               p.setPosition(pos);
-              Position oldpos = new Position(x + delta_x, y + delta_y);
-              Gui.movePlayerOnScreen(oldpos, pos, p.direction, player.getPlayerColor());
+              Position oldPos = new Position(x + delta_x, y + delta_y);
+              Gui.movePlayerOnScreen(oldPos, pos, p.getDirection(), player.getPlayerColor());
 			  System.out.println("PLAYER COLLISION");
 
 			}
 			else {
-				player.addPoints(1); //TODO: remove?
-				Position oldpos = player.getPosition();
-				Position newpos = new Position(x + delta_x, y + delta_y);
-				Gui.movePlayerOnScreen(oldpos,newpos,direction, player.getPlayerColor());
-				player.setPosition(newpos);
+				Position oldPos = player.getPosition();
+				Position newPos = new Position(x + delta_x, y + delta_y);
+				Gui.movePlayerOnScreen(oldPos,newPos,direction, player.getPlayerColor());
+				player.setPosition(newPos);
 
-				DebugLogger.log(player.getName() + ": " + "(" + oldpos.getX() + "/" + oldpos.getY() + ")" + " to (" + newpos.getX() + "/" + newpos.getY() + ")");
+				DebugLogger.log(player.getName() + ": " + "(" + oldPos.getX() + "/" + oldPos.getY() + ")" + " to (" + newPos.getX() + "/" + newPos.getY() + ")");
 			}
 
 		}
@@ -117,6 +88,7 @@ public class GameLogic {
 		//TODO: cooldown not working
 		//if(player.isBombActivated()) return;
 		//player.startBombCooldownTimer();
+
 		Bomb bomb = new Bomb(player);
 		bombs.add(bomb);
 		Gui.placeBombOnScreen(bomb);
@@ -129,17 +101,60 @@ public class GameLogic {
 	/**
 	 * Called by explosion() in the Bomb class, to handle what happens when <br>
 	 * a player is caught inside a bomb's range when it explodes
-	 * @param position the explosions currently processed tile
+	 * @param p the explosions currently processed tile
 	 */
 	public static void damagePlayer(Player p){
-
+		if(p.getCurrentHealth() == 1){
+			Gui.removePlayerOnScreen(p.getPosition());
+			players.remove(p);
+		}
 		Gui.updatePlayerDamage(p);
 		p.takeDamage();
 	}
 
+
+	/**
+	 * Verifies if a given position is within bounds of the Game Board
+	 * @param x PosX
+	 * @param y PosY
+	 * @return true if within bounds
+	 */
 	public static boolean isValidPosition(int x, int y) { return x >= 0 && x < board[0].length() && y >= 0 && y < board.length; }
 
 
+	/**
+	 * Provides a Position Object (int x, int y) that is random, and not inside wall or other player
+	 * @return the position
+	 */
+	public static Position getRandomFreePosition() {
+		int x = 1;
+		int y = 1;
+		boolean foundFreePos = false;
+		while  (!foundFreePos) {
+			Random r = new Random();
+			x = Math.abs(r.nextInt() % 18) + 1;
+			y = Math.abs(r.nextInt() % 18) + 1;
+			if (board[y].charAt(x) == ' ') // er det gulv ?
+			{
+				foundFreePos = true;
+				for (Player p: players) {
+					if (p.getX() == x && p.getY() == y) //pladsen optaget af en anden
+						foundFreePos = false;
+				}
+
+			}
+		}
+
+		return new Position(x, y);
+	}
+
+
+	/**
+	 * Provides the Player Object that is found at a given position
+	 * @param x PosX
+	 * @param y PosY
+	 * @return the Player Object if one was found, otherwise returns null
+	 */
 	public static Player getPlayerAt(int x, int y) {
 		for (Player p : players) {
 			if (p.getX()==x && p.getY()==y) {
@@ -150,6 +165,11 @@ public class GameLogic {
 	}
 
 
+	/**
+	 * Provides a player Object, identified by its playername/username
+	 * @param name the name to find the player object for
+	 * @return the player object if found, otherwise null
+	 */
 	public static Player getPlayerByName(String name) {
 		for (Player player : players) {
 			if (player.getName().equalsIgnoreCase(name)) {

@@ -55,6 +55,11 @@ public class Server {
 		Application.launch(Gui.class, arguments);
     }
 
+	private static void init(){
+
+	}
+
+
 	/**
 	 * Takes a message to be processed in Common
 	 * @param message the message from client
@@ -63,6 +68,7 @@ public class Server {
 	public static void receiveMessage(String message, Socket clientSocket){
 		Common.handleInputRequest(message, clientSocket);
 	}
+
 
 	/**
 	 * Sends a message to each client
@@ -80,6 +86,11 @@ public class Server {
 		}
 	}
 
+	/**
+	 * Adds a newly connected client to the clientMap
+	 * @param clientSocket connecting IP Socket
+	 * @param player the created player object
+	 */
 	public static void addClient(Socket clientSocket, Player player){
 		clientMap.put(clientSocket, player);
 	}

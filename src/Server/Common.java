@@ -30,8 +30,17 @@ public class Common {
         return instance;
     }
 
-
-
+    /**
+     * Pre-requisite for allowing Clients to access updateGame                      <br>
+     * Handles the incoming game requests by clients in seperate phases:            <br>
+ *                                                                                  <p>
+     * -Processing/Validation                                                       <br>
+     * -Updating the servers Game Instance                                          <br>
+     * -Broadcasting the Game input to everyone, allowing them to apply the update  <br>
+     *
+     * @param input incoming Request
+     * @param clientSocket the Client who is requesting it
+     */
     public static synchronized void handleInputRequest(String input, Socket clientSocket) {
         // Process the input
         processInput(input);
@@ -43,20 +52,20 @@ public class Common {
 
 
     /**
-     * Method to process input such as input validation
+     * Method to process input such as doing validation
      * @param input
      */
     private static void processInput(String input) {
-        //TODO:
+        //TODO: check if player is trying to move/bomb while dead, if yes, deny
     }
 
 
     /**
-     * Applies the client's input to the Game, <br>
-     * according to protocol outlined in <br>
-     * client_server_protocol.txt <br>
-     * parts[0] - command <br>
-     * parts[x] - parameter x <br>
+     * Applies the client's request to the Game, according to protocol outlined in "client_server_protocol.txt" <br>
+     *                                                                                                          <p>
+     * parts[0] - command                                                                                       <br>
+     * parts[x] - parameter x                                                                                   <br>
+     *
      * @param input the clients input request
      */
     private static void updateGame(String input, Socket clientSocket) {
@@ -100,7 +109,10 @@ public class Common {
         }
     }
 
-
+    /**
+     * Sends the instructions applied to the game by the server to each client
+     * @param input
+     */
     private static void broadcastInput(String input) {
         Server.broadcast(input);
     }
