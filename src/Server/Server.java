@@ -14,6 +14,7 @@ public class Server {
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 
+
     static {
         try {
             serverSocket = new ServerSocket(4969);

@@ -1,598 +1,253 @@
-[2024-04-01 19:28:57] Starting Game Application...
-[2024-04-01 19:28:58] Running with Debugging Enabled
-[2024-04-01 19:28:58] Connection Established to host: localhost/127.0.0.1
-[2024-04-01 19:28:58] MAKE Elias
-[2024-04-01 19:28:58] SPAWN Elias 14 4
-[2024-04-01 19:28:58] CLICKED LEFT
-[2024-04-01 19:28:58] Elias: up to left
-[2024-04-01 19:28:58] Elias: (14/4) to (13/4)
-[2024-04-01 19:28:58] MOVE left Elias
-[2024-04-01 19:28:58] Elias: up to left
-[2024-04-01 19:28:58] Elias: (14/4) to (13/4)
-[2024-04-01 19:28:59] BOMBED
-[2024-04-01 19:28:59] Bomb Placed by Elias (13/4)
-[2024-04-01 19:28:59] BOMB Elias
-[2024-04-01 19:28:59] Bomb Placed by Elias (13/4)
-[2024-04-01 19:28:59] CLICKED LEFT
-[2024-04-01 19:28:59] Elias: left to left
-[2024-04-01 19:28:59] Elias: (13/4) to (12/4)
-[2024-04-01 19:28:59] MOVE left Elias
-[2024-04-01 19:28:59] Elias: left to left
-[2024-04-01 19:28:59] Elias: (13/4) to (12/4)
-[2024-04-01 19:28:59] CLICKED RIGHT
-[2024-04-01 19:28:59] Elias: left to right
-[2024-04-01 19:28:59] Elias: (12/4) to (13/4)
-[2024-04-01 19:28:59] MOVE right Elias
-[2024-04-01 19:28:59] Elias: left to right
-[2024-04-01 19:28:59] Elias: (12/4) to (13/4)
-[2024-04-01 19:28:59] CLICKED DOWN
-[2024-04-01 19:28:59] Elias: right to down
-[2024-04-01 19:28:59] Elias: (13/4) to (13/5)
-[2024-04-01 19:28:59] MOVE down Elias
-[2024-04-01 19:28:59] Elias: right to down
-[2024-04-01 19:28:59] Elias: (13/4) to (13/5)
-[2024-04-01 19:29:00] CLICKED DOWN
-[2024-04-01 19:29:00] Elias: down to down
-[2024-04-01 19:29:00] Elias: (13/5) to (13/6)
-[2024-04-01 19:29:00] MOVE down Elias
-[2024-04-01 19:29:00] Elias: down to down
-[2024-04-01 19:29:00] Elias: (13/5) to (13/6)
-[2024-04-01 19:29:00] CLICKED DOWN
-[2024-04-01 19:29:00] Elias: down to down
-[2024-04-01 19:29:00] Elias: (13/6) to (13/7)
-[2024-04-01 19:29:00] MOVE down Elias
-[2024-04-01 19:29:00] Elias: down to down
-[2024-04-01 19:29:00] Elias: (13/6) to (13/7)
-[2024-04-01 19:29:00] CLICKED RIGHT
-[2024-04-01 19:29:00] Elias: down to right
-[2024-04-01 19:29:00] Elias: (13/7) to (14/7)
-[2024-04-01 19:29:00] MOVE right Elias
-[2024-04-01 19:29:00] Elias: down to right
-[2024-04-01 19:29:00] Elias: (13/7) to (14/7)
-[2024-04-01 19:29:03] CLICKED DOWN
-[2024-04-01 19:29:03] Elias: right to down
-[2024-04-01 19:29:03] Elias: (14/7) to (14/8)
-[2024-04-01 19:29:03] MOVE down Elias
-[2024-04-01 19:29:03] Elias: right to down
-[2024-04-01 19:29:03] Elias: (14/7) to (14/8)
-[2024-04-01 19:29:03] CLICKED DOWN
-[2024-04-01 19:29:03] Elias: down to down
-[2024-04-01 19:29:03] Elias: (14/8) to (14/9)
-[2024-04-01 19:29:03] MOVE down Elias
-[2024-04-01 19:29:03] Elias: down to down
-[2024-04-01 19:29:03] Elias: (14/8) to (14/9)
-[2024-04-01 19:29:03] BOMBED
-[2024-04-01 19:29:03] Bomb Placed by Elias (14/9)
-[2024-04-01 19:29:03] BOMB Elias
-[2024-04-01 19:29:03] Bomb Placed by Elias (14/9)
-[2024-04-01 19:29:03] CLICKED LEFT
-[2024-04-01 19:29:03] Elias: down to left
-[2024-04-01 19:29:03] Elias: (14/9) to (13/9)
-[2024-04-01 19:29:03] MOVE left Elias
-[2024-04-01 19:29:03] Elias: down to left
-[2024-04-01 19:29:03] Elias: (14/9) to (13/9)
-[2024-04-01 19:29:03] CLICKED DOWN
-[2024-04-01 19:29:03] Elias: left to down
-[2024-04-01 19:29:03] Elias: (13/9) to (13/10)
-[2024-04-01 19:29:03] MOVE down Elias
-[2024-04-01 19:29:03] Elias: left to down
-[2024-04-01 19:29:03] Elias: (13/9) to (13/10)
-[2024-04-01 19:29:04] CLICKED LEFT
-[2024-04-01 19:29:04] Elias: down to left
-[2024-04-01 19:29:04] Elias: (13/10) to (12/10)
-[2024-04-01 19:29:04] MOVE left Elias
-[2024-04-01 19:29:04] Elias: down to left
-[2024-04-01 19:29:04] Elias: (13/10) to (12/10)
-[2024-04-01 19:29:04] CLICKED LEFT
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (12/10) to (11/10)
-[2024-04-01 19:29:04] MOVE left Elias
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (12/10) to (11/10)
-[2024-04-01 19:29:04] BOMBED
-[2024-04-01 19:29:04] Bomb Placed by Elias (11/10)
-[2024-04-01 19:29:04] BOMB Elias
-[2024-04-01 19:29:04] Bomb Placed by Elias (11/10)
-[2024-04-01 19:29:04] CLICKED LEFT
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (11/10) to (10/10)
-[2024-04-01 19:29:04] MOVE left Elias
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (11/10) to (10/10)
-[2024-04-01 19:29:04] CLICKED LEFT
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (10/10) to (9/10)
-[2024-04-01 19:29:04] MOVE left Elias
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (10/10) to (9/10)
-[2024-04-01 19:29:04] CLICKED LEFT
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (9/10) to (8/10)
-[2024-04-01 19:29:04] MOVE left Elias
-[2024-04-01 19:29:04] Elias: left to left
-[2024-04-01 19:29:04] Elias: (9/10) to (8/10)
-[2024-04-01 19:29:05] CLICKED DOWN
-[2024-04-01 19:29:05] Elias: left to down
-[2024-04-01 19:29:05] Elias: (8/10) to (8/11)
-[2024-04-01 19:29:05] MOVE down Elias
-[2024-04-01 19:29:05] Elias: left to down
-[2024-04-01 19:29:05] Elias: (8/10) to (8/11)
-[2024-04-01 19:29:05] CLICKED LEFT
-[2024-04-01 19:29:05] Elias: down to left
-[2024-04-01 19:29:05] Elias: (8/11) to (7/11)
-[2024-04-01 19:29:05] MOVE left Elias
-[2024-04-01 19:29:05] Elias: down to left
-[2024-04-01 19:29:05] Elias: (8/11) to (7/11)
-[2024-04-01 19:29:05] BOMBED
-[2024-04-01 19:29:05] Bomb Placed by Elias (7/11)
-[2024-04-01 19:29:05] BOMB Elias
-[2024-04-01 19:29:05] Bomb Placed by Elias (7/11)
-[2024-04-01 19:29:05] CLICKED LEFT
-[2024-04-01 19:29:05] Elias: left to left
-[2024-04-01 19:29:05] Elias: (7/11) to (6/11)
-[2024-04-01 19:29:05] MOVE left Elias
-[2024-04-01 19:29:05] Elias: left to left
-[2024-04-01 19:29:05] Elias: (7/11) to (6/11)
-[2024-04-01 19:29:05] CLICKED DOWN
-[2024-04-01 19:29:05] Elias: left to down
-[2024-04-01 19:29:05] Elias: (6/11) to (6/12)
-[2024-04-01 19:29:05] MOVE down Elias
-[2024-04-01 19:29:05] Elias: left to down
-[2024-04-01 19:29:05] Elias: (6/11) to (6/12)
-[2024-04-01 19:29:05] BOMBED
-[2024-04-01 19:29:05] Bomb Placed by Elias (6/12)
-[2024-04-01 19:29:05] BOMB Elias
-[2024-04-01 19:29:05] Bomb Placed by Elias (6/12)
-[2024-04-01 19:29:06] CLICKED DOWN
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (6/12) to (6/13)
-[2024-04-01 19:29:06] MOVE down Elias
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (6/12) to (6/13)
-[2024-04-01 19:29:06] CLICKED DOWN
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (6/13) to (6/14)
-[2024-04-01 19:29:06] MOVE down Elias
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (6/13) to (6/14)
-[2024-04-01 19:29:06] CLICKED RIGHT
-[2024-04-01 19:29:06] Elias: down to right
-[2024-04-01 19:29:06] Elias: (6/14) to (7/14)
-[2024-04-01 19:29:06] MOVE right Elias
-[2024-04-01 19:29:06] Elias: down to right
-[2024-04-01 19:29:06] Elias: (6/14) to (7/14)
-[2024-04-01 19:29:06] CLICKED RIGHT
-[2024-04-01 19:29:06] Elias: right to right
-[2024-04-01 19:29:06] Elias: (7/14) to (8/14)
-[2024-04-01 19:29:06] MOVE right Elias
-[2024-04-01 19:29:06] Elias: right to right
-[2024-04-01 19:29:06] Elias: (7/14) to (8/14)
-[2024-04-01 19:29:06] CLICKED DOWN
-[2024-04-01 19:29:06] Elias: right to down
-[2024-04-01 19:29:06] Elias: (8/14) to (8/15)
-[2024-04-01 19:29:06] MOVE down Elias
-[2024-04-01 19:29:06] Elias: right to down
-[2024-04-01 19:29:06] Elias: (8/14) to (8/15)
-[2024-04-01 19:29:06] CLICKED DOWN
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (8/15) to (8/16)
-[2024-04-01 19:29:06] MOVE down Elias
-[2024-04-01 19:29:06] Elias: down to down
-[2024-04-01 19:29:06] Elias: (8/15) to (8/16)
-[2024-04-01 19:29:07] CLICKED RIGHT
-[2024-04-01 19:29:07] Elias: down to right
-[2024-04-01 19:29:07] Elias: (8/16) to (9/16)
-[2024-04-01 19:29:07] MOVE right Elias
-[2024-04-01 19:29:07] Elias: down to right
-[2024-04-01 19:29:07] Elias: (8/16) to (9/16)
-[2024-04-01 19:29:07] CLICKED RIGHT
-[2024-04-01 19:29:07] Elias: right to right
-[2024-04-01 19:29:07] MOVE right Elias
-[2024-04-01 19:29:07] Elias: right to right
-[2024-04-01 19:29:07] BOMBED
-[2024-04-01 19:29:07] Bomb Placed by Elias (9/16)
-[2024-04-01 19:29:07] BOMB Elias
-[2024-04-01 19:29:07] Bomb Placed by Elias (9/16)
-[2024-04-01 19:29:07] CLICKED UP
-[2024-04-01 19:29:07] Elias: right to up
-[2024-04-01 19:29:07] Elias: (9/16) to (9/15)
-[2024-04-01 19:29:07] MOVE up Elias
-[2024-04-01 19:29:07] Elias: right to up
-[2024-04-01 19:29:07] Elias: (9/16) to (9/15)
-[2024-04-01 19:29:07] CLICKED RIGHT
-[2024-04-01 19:29:07] Elias: up to right
-[2024-04-01 19:29:07] Elias: (9/15) to (10/15)
-[2024-04-01 19:29:07] MOVE right Elias
-[2024-04-01 19:29:07] Elias: up to right
-[2024-04-01 19:29:07] Elias: (9/15) to (10/15)
-[2024-04-01 19:29:08] CLICKED RIGHT
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (10/15) to (11/15)
-[2024-04-01 19:29:08] MOVE right Elias
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (10/15) to (11/15)
-[2024-04-01 19:29:08] CLICKED RIGHT
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (11/15) to (12/15)
-[2024-04-01 19:29:08] MOVE right Elias
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (11/15) to (12/15)
-[2024-04-01 19:29:08] CLICKED RIGHT
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (12/15) to (13/15)
-[2024-04-01 19:29:08] MOVE right Elias
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (12/15) to (13/15)
-[2024-04-01 19:29:08] BOMBED
-[2024-04-01 19:29:08] Bomb Placed by Elias (13/15)
-[2024-04-01 19:29:08] BOMB Elias
-[2024-04-01 19:29:08] Bomb Placed by Elias (13/15)
-[2024-04-01 19:29:08] CLICKED RIGHT
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (13/15) to (14/15)
-[2024-04-01 19:29:08] MOVE right Elias
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (13/15) to (14/15)
-[2024-04-01 19:29:08] CLICKED RIGHT
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (14/15) to (15/15)
-[2024-04-01 19:29:08] MOVE right Elias
-[2024-04-01 19:29:08] Elias: right to right
-[2024-04-01 19:29:08] Elias: (14/15) to (15/15)
-[2024-04-01 19:29:09] CLICKED RIGHT
-[2024-04-01 19:29:09] Elias: right to right
-[2024-04-01 19:29:09] Elias: (15/15) to (16/15)
-[2024-04-01 19:29:09] MOVE right Elias
-[2024-04-01 19:29:09] Elias: right to right
-[2024-04-01 19:29:09] Elias: (15/15) to (16/15)
-[2024-04-01 19:29:09] CLICKED DOWN
-[2024-04-01 19:29:09] Elias: right to down
-[2024-04-01 19:29:09] MOVE down Elias
-[2024-04-01 19:29:09] Elias: right to down
-[2024-04-01 19:29:09] CLICKED RIGHT
-[2024-04-01 19:29:09] Elias: down to right
-[2024-04-01 19:29:09] Elias: (16/15) to (17/15)
-[2024-04-01 19:29:09] MOVE right Elias
-[2024-04-01 19:29:09] Elias: down to right
-[2024-04-01 19:29:09] Elias: (16/15) to (17/15)
-[2024-04-01 19:29:09] CLICKED RIGHT
-[2024-04-01 19:29:09] Elias: right to right
-[2024-04-01 19:29:09] MOVE right Elias
-[2024-04-01 19:29:09] Elias: right to right
-[2024-04-01 19:29:09] CLICKED UP
-[2024-04-01 19:29:09] Elias: right to up
-[2024-04-01 19:29:09] Elias: (17/15) to (17/14)
-[2024-04-01 19:29:09] MOVE up Elias
-[2024-04-01 19:29:09] Elias: right to up
-[2024-04-01 19:29:09] Elias: (17/15) to (17/14)
-[2024-04-01 19:29:09] CLICKED UP
-[2024-04-01 19:29:09] Elias: up to up
-[2024-04-01 19:29:09] Elias: (17/14) to (17/13)
-[2024-04-01 19:29:09] MOVE up Elias
-[2024-04-01 19:29:09] Elias: up to up
-[2024-04-01 19:29:09] Elias: (17/14) to (17/13)
-[2024-04-01 19:29:10] CLICKED UP
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/13) to (17/12)
-[2024-04-01 19:29:10] MOVE up Elias
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/13) to (17/12)
-[2024-04-01 19:29:10] CLICKED UP
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/12) to (17/11)
-[2024-04-01 19:29:10] MOVE up Elias
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/12) to (17/11)
-[2024-04-01 19:29:10] BOMBED
-[2024-04-01 19:29:10] Bomb Placed by Elias (17/11)
-[2024-04-01 19:29:10] BOMB Elias
-[2024-04-01 19:29:10] Bomb Placed by Elias (17/11)
-[2024-04-01 19:29:10] CLICKED UP
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/11) to (17/10)
-[2024-04-01 19:29:10] MOVE up Elias
-[2024-04-01 19:29:10] Elias: up to up
-[2024-04-01 19:29:10] Elias: (17/11) to (17/10)
-[2024-04-01 19:29:11] CLICKED UP
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/10) to (17/9)
-[2024-04-01 19:29:11] MOVE up Elias
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/10) to (17/9)
-[2024-04-01 19:29:11] CLICKED UP
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/9) to (17/8)
-[2024-04-01 19:29:11] MOVE up Elias
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/9) to (17/8)
-[2024-04-01 19:29:11] CLICKED UP
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/8) to (17/7)
-[2024-04-01 19:29:11] MOVE up Elias
-[2024-04-01 19:29:11] Elias: up to up
-[2024-04-01 19:29:11] Elias: (17/8) to (17/7)
-[2024-04-01 19:29:11] CLICKED LEFT
-[2024-04-01 19:29:11] Elias: up to left
-[2024-04-01 19:29:11] Elias: (17/7) to (16/7)
-[2024-04-01 19:29:11] MOVE left Elias
-[2024-04-01 19:29:11] Elias: up to left
-[2024-04-01 19:29:11] Elias: (17/7) to (16/7)
-[2024-04-01 19:29:11] CLICKED UP
-[2024-04-01 19:29:11] Elias: left to up
-[2024-04-01 19:29:11] Elias: (16/7) to (16/6)
-[2024-04-01 19:29:11] MOVE up Elias
-[2024-04-01 19:29:11] Elias: left to up
-[2024-04-01 19:29:11] Elias: (16/7) to (16/6)
-[2024-04-01 19:29:12] CLICKED UP
-[2024-04-01 19:29:12] Elias: up to up
-[2024-04-01 19:29:12] Elias: (16/6) to (16/5)
-[2024-04-01 19:29:12] MOVE up Elias
-[2024-04-01 19:29:12] Elias: up to up
-[2024-04-01 19:29:12] Elias: (16/6) to (16/5)
-[2024-04-01 19:29:12] CLICKED UP
-[2024-04-01 19:29:12] Elias: up to up
-[2024-04-01 19:29:12] Elias: (16/5) to (16/4)
-[2024-04-01 19:29:12] MOVE up Elias
-[2024-04-01 19:29:12] Elias: up to up
-[2024-04-01 19:29:12] Elias: (16/5) to (16/4)
-[2024-04-01 19:29:12] CLICKED LEFT
-[2024-04-01 19:29:12] Elias: up to left
-[2024-04-01 19:29:12] Elias: (16/4) to (15/4)
-[2024-04-01 19:29:12] MOVE left Elias
-[2024-04-01 19:29:12] Elias: up to left
-[2024-04-01 19:29:12] Elias: (16/4) to (15/4)
-[2024-04-01 19:29:13] CLICKED LEFT
-[2024-04-01 19:29:13] Elias: left to left
-[2024-04-01 19:29:13] Elias: (15/4) to (14/4)
-[2024-04-01 19:29:13] MOVE left Elias
-[2024-04-01 19:29:13] Elias: left to left
-[2024-04-01 19:29:13] Elias: (15/4) to (14/4)
-[2024-04-01 19:29:14] BOMBED
-[2024-04-01 19:29:14] Bomb Placed by Elias (14/4)
-[2024-04-01 19:29:14] BOMB Elias
-[2024-04-01 19:29:14] Bomb Placed by Elias (14/4)
-[2024-04-01 19:29:14] CLICKED LEFT
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (14/4) to (13/4)
-[2024-04-01 19:29:14] MOVE left Elias
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (14/4) to (13/4)
-[2024-04-01 19:29:14] CLICKED LEFT
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (13/4) to (12/4)
-[2024-04-01 19:29:14] MOVE left Elias
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (13/4) to (12/4)
-[2024-04-01 19:29:14] CLICKED LEFT
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (12/4) to (11/4)
-[2024-04-01 19:29:14] MOVE left Elias
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (12/4) to (11/4)
-[2024-04-01 19:29:14] CLICKED LEFT
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (11/4) to (10/4)
-[2024-04-01 19:29:14] MOVE left Elias
-[2024-04-01 19:29:14] Elias: left to left
-[2024-04-01 19:29:14] Elias: (11/4) to (10/4)
-[2024-04-01 19:29:15] CLICKED LEFT
-[2024-04-01 19:29:15] Elias: left to left
-[2024-04-01 19:29:15] Elias: (10/4) to (9/4)
-[2024-04-01 19:29:15] MOVE left Elias
-[2024-04-01 19:29:15] Elias: left to left
-[2024-04-01 19:29:15] Elias: (10/4) to (9/4)
-[2024-04-01 19:29:15] CLICKED LEFT
-[2024-04-01 19:29:15] Elias: left to left
-[2024-04-01 19:29:15] Elias: (9/4) to (8/4)
-[2024-04-01 19:29:15] MOVE left Elias
-[2024-04-01 19:29:15] Elias: left to left
-[2024-04-01 19:29:15] Elias: (9/4) to (8/4)
-[2024-04-01 19:29:16] BOMBED
-[2024-04-01 19:29:16] Bomb Placed by Elias (8/4)
-[2024-04-01 19:29:16] BOMB Elias
-[2024-04-01 19:29:16] Bomb Placed by Elias (8/4)
-[2024-04-01 19:29:16] CLICKED RIGHT
-[2024-04-01 19:29:16] Elias: left to right
-[2024-04-01 19:29:16] Elias: (8/4) to (9/4)
-[2024-04-01 19:29:16] MOVE right Elias
-[2024-04-01 19:29:16] Elias: left to right
-[2024-04-01 19:29:16] Elias: (8/4) to (9/4)
-[2024-04-01 19:29:17] CLICKED RIGHT
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (9/4) to (10/4)
-[2024-04-01 19:29:17] MOVE right Elias
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (9/4) to (10/4)
-[2024-04-01 19:29:17] CLICKED RIGHT
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (10/4) to (11/4)
-[2024-04-01 19:29:17] MOVE right Elias
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (10/4) to (11/4)
-[2024-04-01 19:29:17] CLICKED RIGHT
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (11/4) to (12/4)
-[2024-04-01 19:29:17] MOVE right Elias
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (11/4) to (12/4)
-[2024-04-01 19:29:17] CLICKED RIGHT
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (12/4) to (13/4)
-[2024-04-01 19:29:17] MOVE right Elias
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (12/4) to (13/4)
-[2024-04-01 19:29:17] CLICKED RIGHT
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (13/4) to (14/4)
-[2024-04-01 19:29:17] MOVE right Elias
-[2024-04-01 19:29:17] Elias: right to right
-[2024-04-01 19:29:17] Elias: (13/4) to (14/4)
-[2024-04-01 19:29:20] BOMBED
-[2024-04-01 19:29:20] Bomb Placed by Elias (14/4)
-[2024-04-01 19:29:20] BOMB Elias
-[2024-04-01 19:29:20] Bomb Placed by Elias (14/4)
-[2024-04-01 19:29:20] CLICKED RIGHT
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (14/4) to (15/4)
-[2024-04-01 19:29:20] MOVE right Elias
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (14/4) to (15/4)
-[2024-04-01 19:29:20] CLICKED RIGHT
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (15/4) to (16/4)
-[2024-04-01 19:29:20] MOVE right Elias
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (15/4) to (16/4)
-[2024-04-01 19:29:20] CLICKED RIGHT
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (16/4) to (17/4)
-[2024-04-01 19:29:20] MOVE right Elias
-[2024-04-01 19:29:20] Elias: right to right
-[2024-04-01 19:29:20] Elias: (16/4) to (17/4)
-[2024-04-01 19:29:21] CLICKED DOWN
-[2024-04-01 19:29:21] Elias: right to down
-[2024-04-01 19:29:21] Elias: (17/4) to (17/5)
-[2024-04-01 19:29:21] MOVE down Elias
-[2024-04-01 19:29:21] Elias: right to down
-[2024-04-01 19:29:21] Elias: (17/4) to (17/5)
-[2024-04-01 19:29:21] CLICKED DOWN
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/5) to (17/6)
-[2024-04-01 19:29:21] MOVE down Elias
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/5) to (17/6)
-[2024-04-01 19:29:21] CLICKED DOWN
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/6) to (17/7)
-[2024-04-01 19:29:21] MOVE down Elias
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/6) to (17/7)
-[2024-04-01 19:29:21] CLICKED DOWN
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/7) to (17/8)
-[2024-04-01 19:29:21] MOVE down Elias
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/7) to (17/8)
-[2024-04-01 19:29:21] CLICKED DOWN
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/8) to (17/9)
-[2024-04-01 19:29:21] MOVE down Elias
-[2024-04-01 19:29:21] Elias: down to down
-[2024-04-01 19:29:21] Elias: (17/8) to (17/9)
-[2024-04-01 19:29:21] CLICKED LEFT
-[2024-04-01 19:29:21] Elias: down to left
-[2024-04-01 19:29:21] Elias: (17/9) to (16/9)
-[2024-04-01 19:29:21] MOVE left Elias
-[2024-04-01 19:29:21] Elias: down to left
-[2024-04-01 19:29:21] Elias: (17/9) to (16/9)
-[2024-04-01 19:29:23] BOMBED
-[2024-04-01 19:29:23] Bomb Placed by Elias (16/9)
-[2024-04-01 19:29:23] BOMB Elias
-[2024-04-01 19:29:23] Bomb Placed by Elias (16/9)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: left to down
-[2024-04-01 19:29:24] Elias: (16/9) to (16/10)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: left to down
-[2024-04-01 19:29:24] Elias: (16/9) to (16/10)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/10) to (16/11)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/10) to (16/11)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/11) to (16/12)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/11) to (16/12)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/12) to (16/13)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/12) to (16/13)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/13) to (16/14)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/13) to (16/14)
-[2024-04-01 19:29:24] CLICKED DOWN
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/14) to (16/15)
-[2024-04-01 19:29:24] MOVE down Elias
-[2024-04-01 19:29:24] Elias: down to down
-[2024-04-01 19:29:24] Elias: (16/14) to (16/15)
-[2024-04-01 19:29:24] CLICKED LEFT
-[2024-04-01 19:29:24] Elias: down to left
-[2024-04-01 19:29:24] Elias: (16/15) to (15/15)
-[2024-04-01 19:29:24] MOVE left Elias
-[2024-04-01 19:29:24] Elias: down to left
-[2024-04-01 19:29:24] Elias: (16/15) to (15/15)
-[2024-04-01 19:29:25] CLICKED LEFT
-[2024-04-01 19:29:25] Elias: left to left
-[2024-04-01 19:29:25] Elias: (15/15) to (14/15)
-[2024-04-01 19:29:25] MOVE left Elias
-[2024-04-01 19:29:25] Elias: left to left
-[2024-04-01 19:29:25] Elias: (15/15) to (14/15)
-[2024-04-01 19:29:25] CLICKED LEFT
-[2024-04-01 19:29:25] Elias: left to left
-[2024-04-01 19:29:25] Elias: (14/15) to (13/15)
-[2024-04-01 19:29:25] MOVE left Elias
-[2024-04-01 19:29:25] Elias: left to left
-[2024-04-01 19:29:25] Elias: (14/15) to (13/15)
-[2024-04-01 19:29:27] BOMBED
-[2024-04-01 19:29:27] Bomb Placed by Elias (13/15)
-[2024-04-01 19:29:27] BOMB Elias
-[2024-04-01 19:29:27] Bomb Placed by Elias (13/15)
-[2024-04-01 19:29:27] CLICKED LEFT
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (13/15) to (12/15)
-[2024-04-01 19:29:27] MOVE left Elias
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (13/15) to (12/15)
-[2024-04-01 19:29:27] CLICKED LEFT
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (12/15) to (11/15)
-[2024-04-01 19:29:27] MOVE left Elias
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (12/15) to (11/15)
-[2024-04-01 19:29:27] CLICKED LEFT
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (11/15) to (10/15)
-[2024-04-01 19:29:27] MOVE left Elias
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (11/15) to (10/15)
-[2024-04-01 19:29:27] CLICKED LEFT
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (10/15) to (9/15)
-[2024-04-01 19:29:27] MOVE left Elias
-[2024-04-01 19:29:27] Elias: left to left
-[2024-04-01 19:29:27] Elias: (10/15) to (9/15)
-[2024-04-01 19:29:28] CLICKED LEFT
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (9/15) to (8/15)
-[2024-04-01 19:29:28] MOVE left Elias
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (9/15) to (8/15)
-[2024-04-01 19:29:28] CLICKED LEFT
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (8/15) to (7/15)
-[2024-04-01 19:29:28] MOVE left Elias
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (8/15) to (7/15)
-[2024-04-01 19:29:28] CLICKED LEFT
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (7/15) to (6/15)
-[2024-04-01 19:29:28] MOVE left Elias
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (7/15) to (6/15)
-[2024-04-01 19:29:28] CLICKED LEFT
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (6/15) to (5/15)
-[2024-04-01 19:29:28] MOVE left Elias
-[2024-04-01 19:29:28] Elias: left to left
-[2024-04-01 19:29:28] Elias: (6/15) to (5/15)
-[2024-04-01 19:29:35] Connection reset
+[2024-04-01 20:09:32] Starting Game Application...
+[2024-04-01 20:09:33] Running with Debugging Enabled
+[2024-04-01 20:09:33] Connection Established to host: localhost/127.0.0.1
+[2024-04-01 20:09:33] MAKE Elias
+[2024-04-01 20:09:33] SPAWN Elias 14 3
+[2024-04-01 20:09:33] CLICKED RIGHT
+[2024-04-01 20:09:33] Elias: up to right
+[2024-04-01 20:09:33] MOVE right Elias
+[2024-04-01 20:09:33] Elias: up to right
+[2024-04-01 20:09:33] CLICKED LEFT
+[2024-04-01 20:09:33] Elias: right to left
+[2024-04-01 20:09:33] Elias: (14/3) to (13/3)
+[2024-04-01 20:09:33] MOVE left Elias
+[2024-04-01 20:09:33] Elias: right to left
+[2024-04-01 20:09:34] Elias: (14/3) to (13/3)
+[2024-04-01 20:09:34] BOMBED
+[2024-04-01 20:09:34] Bomb Placed by Elias (13/3)
+[2024-04-01 20:09:34] BOMB Elias
+[2024-04-01 20:09:34] Bomb Placed by Elias (13/3)
+[2024-04-01 20:09:34] CLICKED DOWN
+[2024-04-01 20:09:34] Elias: left to down
+[2024-04-01 20:09:34] Elias: (13/3) to (13/4)
+[2024-04-01 20:09:34] MOVE down Elias
+[2024-04-01 20:09:34] Elias: left to down
+[2024-04-01 20:09:34] Elias: (13/3) to (13/4)
+[2024-04-01 20:09:34] CLICKED DOWN
+[2024-04-01 20:09:34] Elias: down to down
+[2024-04-01 20:09:34] Elias: (13/4) to (13/5)
+[2024-04-01 20:09:34] MOVE down Elias
+[2024-04-01 20:09:34] Elias: down to down
+[2024-04-01 20:09:34] Elias: (13/4) to (13/5)
+[2024-04-01 20:09:34] CLICKED RIGHT
+[2024-04-01 20:09:34] Elias: down to right
+[2024-04-01 20:09:34] Elias: (13/5) to (14/5)
+[2024-04-01 20:09:34] MOVE right Elias
+[2024-04-01 20:09:34] Elias: down to right
+[2024-04-01 20:09:34] Elias: (13/5) to (14/5)
+[2024-04-01 20:09:34] BOMBED
+[2024-04-01 20:09:34] Bomb Placed by Elias (14/5)
+[2024-04-01 20:09:34] BOMB Elias
+[2024-04-01 20:09:34] Bomb Placed by Elias (14/5)
+[2024-04-01 20:09:34] CLICKED DOWN
+[2024-04-01 20:09:34] Elias: right to down
+[2024-04-01 20:09:34] Elias: (14/5) to (14/6)
+[2024-04-01 20:09:34] MOVE down Elias
+[2024-04-01 20:09:34] Elias: right to down
+[2024-04-01 20:09:34] Elias: (14/5) to (14/6)
+[2024-04-01 20:09:35] CLICKED DOWN
+[2024-04-01 20:09:35] Elias: down to down
+[2024-04-01 20:09:35] Elias: (14/6) to (14/7)
+[2024-04-01 20:09:35] MOVE down Elias
+[2024-04-01 20:09:35] Elias: down to down
+[2024-04-01 20:09:35] Elias: (14/6) to (14/7)
+[2024-04-01 20:09:36] CLICKED UP
+[2024-04-01 20:09:36] Elias: down to up
+[2024-04-01 20:09:36] Elias: (14/7) to (14/6)
+[2024-04-01 20:09:36] MOVE up Elias
+[2024-04-01 20:09:36] Elias: down to up
+[2024-04-01 20:09:36] Elias: (14/7) to (14/6)
+[2024-04-01 20:09:37] CLICKED UP
+[2024-04-01 20:09:37] Elias: up to up
+[2024-04-01 20:09:37] Elias: (14/6) to (14/5)
+[2024-04-01 20:09:37] MOVE up Elias
+[2024-04-01 20:09:37] Elias: up to up
+[2024-04-01 20:09:37] Elias: (14/6) to (14/5)
+[2024-04-01 20:09:37] CLICKED LEFT
+[2024-04-01 20:09:37] Elias: up to left
+[2024-04-01 20:09:37] Elias: (14/5) to (13/5)
+[2024-04-01 20:09:37] MOVE left Elias
+[2024-04-01 20:09:37] Elias: up to left
+[2024-04-01 20:09:37] Elias: (14/5) to (13/5)
+[2024-04-01 20:09:37] CLICKED DOWN
+[2024-04-01 20:09:37] Elias: left to down
+[2024-04-01 20:09:37] Elias: (13/5) to (13/6)
+[2024-04-01 20:09:37] MOVE down Elias
+[2024-04-01 20:09:37] Elias: left to down
+[2024-04-01 20:09:37] Elias: (13/5) to (13/6)
+[2024-04-01 20:09:37] CLICKED DOWN
+[2024-04-01 20:09:37] Elias: down to down
+[2024-04-01 20:09:37] Elias: (13/6) to (13/7)
+[2024-04-01 20:09:37] MOVE down Elias
+[2024-04-01 20:09:37] Elias: down to down
+[2024-04-01 20:09:37] Elias: (13/6) to (13/7)
+[2024-04-01 20:09:38] CLICKED DOWN
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (13/7) to (13/8)
+[2024-04-01 20:09:38] MOVE down Elias
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (13/7) to (13/8)
+[2024-04-01 20:09:38] CLICKED DOWN
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (13/8) to (13/9)
+[2024-04-01 20:09:38] MOVE down Elias
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (13/8) to (13/9)
+[2024-04-01 20:09:38] BOMBED
+[2024-04-01 20:09:38] Bomb Placed by Elias (13/9)
+[2024-04-01 20:09:38] BOMB Elias
+[2024-04-01 20:09:38] Bomb Placed by Elias (13/9)
+[2024-04-01 20:09:38] CLICKED RIGHT
+[2024-04-01 20:09:38] Elias: down to right
+[2024-04-01 20:09:38] Elias: (13/9) to (14/9)
+[2024-04-01 20:09:38] MOVE right Elias
+[2024-04-01 20:09:38] Elias: down to right
+[2024-04-01 20:09:38] Elias: (13/9) to (14/9)
+[2024-04-01 20:09:38] CLICKED DOWN
+[2024-04-01 20:09:38] Elias: right to down
+[2024-04-01 20:09:38] Elias: (14/9) to (14/10)
+[2024-04-01 20:09:38] MOVE down Elias
+[2024-04-01 20:09:38] Elias: right to down
+[2024-04-01 20:09:38] Elias: (14/9) to (14/10)
+[2024-04-01 20:09:38] CLICKED DOWN
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (14/10) to (14/11)
+[2024-04-01 20:09:38] MOVE down Elias
+[2024-04-01 20:09:38] Elias: down to down
+[2024-04-01 20:09:38] Elias: (14/10) to (14/11)
+[2024-04-01 20:09:39] BOMBED
+[2024-04-01 20:09:39] Bomb Placed by Elias (14/11)
+[2024-04-01 20:09:39] BOMB Elias
+[2024-04-01 20:09:39] Bomb Placed by Elias (14/11)
+[2024-04-01 20:09:39] CLICKED LEFT
+[2024-04-01 20:09:39] Elias: down to left
+[2024-04-01 20:09:39] Elias: (14/11) to (13/11)
+[2024-04-01 20:09:39] MOVE left Elias
+[2024-04-01 20:09:39] Elias: down to left
+[2024-04-01 20:09:39] Elias: (14/11) to (13/11)
+[2024-04-01 20:09:40] CLICKED LEFT
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] Elias: (13/11) to (12/11)
+[2024-04-01 20:09:40] MOVE left Elias
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] Elias: (13/11) to (12/11)
+[2024-04-01 20:09:40] CLICKED LEFT
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] Elias: (12/11) to (11/11)
+[2024-04-01 20:09:40] MOVE left Elias
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] Elias: (12/11) to (11/11)
+[2024-04-01 20:09:40] CLICKED LEFT
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] MOVE left Elias
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] CLICKED LEFT
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:40] MOVE left Elias
+[2024-04-01 20:09:40] Elias: left to left
+[2024-04-01 20:09:41] CLICKED LEFT
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] MOVE left Elias
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] CLICKED UP
+[2024-04-01 20:09:41] Elias: left to up
+[2024-04-01 20:09:41] Elias: (11/11) to (11/10)
+[2024-04-01 20:09:41] MOVE up Elias
+[2024-04-01 20:09:41] Elias: left to up
+[2024-04-01 20:09:41] Elias: (11/11) to (11/10)
+[2024-04-01 20:09:41] CLICKED LEFT
+[2024-04-01 20:09:41] Elias: up to left
+[2024-04-01 20:09:41] Elias: (11/10) to (10/10)
+[2024-04-01 20:09:41] MOVE left Elias
+[2024-04-01 20:09:41] Elias: up to left
+[2024-04-01 20:09:41] Elias: (11/10) to (10/10)
+[2024-04-01 20:09:41] CLICKED LEFT
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (10/10) to (9/10)
+[2024-04-01 20:09:41] MOVE left Elias
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (10/10) to (9/10)
+[2024-04-01 20:09:41] CLICKED LEFT
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (9/10) to (8/10)
+[2024-04-01 20:09:41] MOVE left Elias
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (9/10) to (8/10)
+[2024-04-01 20:09:41] CLICKED LEFT
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (8/10) to (7/10)
+[2024-04-01 20:09:41] MOVE left Elias
+[2024-04-01 20:09:41] Elias: left to left
+[2024-04-01 20:09:41] Elias: (8/10) to (7/10)
+[2024-04-01 20:09:42] CLICKED LEFT
+[2024-04-01 20:09:42] Elias: left to left
+[2024-04-01 20:09:42] MOVE left Elias
+[2024-04-01 20:09:42] Elias: left to left
+[2024-04-01 20:09:42] CLICKED RIGHT
+[2024-04-01 20:09:42] Elias: left to right
+[2024-04-01 20:09:42] Elias: (7/10) to (8/10)
+[2024-04-01 20:09:42] MOVE right Elias
+[2024-04-01 20:09:42] Elias: left to right
+[2024-04-01 20:09:42] Elias: (7/10) to (8/10)
+[2024-04-01 20:09:42] CLICKED RIGHT
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (8/10) to (9/10)
+[2024-04-01 20:09:42] MOVE right Elias
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (8/10) to (9/10)
+[2024-04-01 20:09:42] CLICKED RIGHT
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (9/10) to (10/10)
+[2024-04-01 20:09:42] MOVE right Elias
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (9/10) to (10/10)
+[2024-04-01 20:09:42] BOMBED
+[2024-04-01 20:09:42] Bomb Placed by Elias (10/10)
+[2024-04-01 20:09:42] BOMB Elias
+[2024-04-01 20:09:42] Bomb Placed by Elias (10/10)
+[2024-04-01 20:09:42] CLICKED RIGHT
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (10/10) to (11/10)
+[2024-04-01 20:09:42] MOVE right Elias
+[2024-04-01 20:09:42] Elias: right to right
+[2024-04-01 20:09:42] Elias: (10/10) to (11/10)
+[2024-04-01 20:09:43] CLICKED RIGHT
+[2024-04-01 20:09:43] Elias: right to right
+[2024-04-01 20:09:43] Elias: (11/10) to (12/10)
+[2024-04-01 20:09:43] MOVE right Elias
+[2024-04-01 20:09:43] Elias: right to right
+[2024-04-01 20:09:43] Elias: (11/10) to (12/10)
+[2024-04-01 20:09:47] CLICKED RIGHT
+[2024-04-01 20:09:48] CLICKED RIGHT
+[2024-04-01 20:09:48] CLICKED LEFT
+[2024-04-01 20:09:48] CLICKED UP
+[2024-04-01 20:09:48] CLICKED LEFT
+[2024-04-01 20:09:48] CLICKED RIGHT
+[2024-04-01 20:09:48] CLICKED UP
+[2024-04-01 20:09:49] CLICKED LEFT
+[2024-04-01 20:09:49] CLICKED RIGHT
+[2024-04-01 20:09:49] CLICKED UP
+[2024-04-01 20:09:49] CLICKED LEFT
+[2024-04-01 20:09:49] CLICKED RIGHT
+[2024-04-01 20:09:49] CLICKED DOWN
+[2024-04-01 20:09:49] CLICKED RIGHT
+[2024-04-01 20:09:49] CLICKED LEFT
+[2024-04-01 20:09:49] CLICKED UP
+[2024-04-01 20:09:50] CLICKED RIGHT
+[2024-04-01 20:09:50] CLICKED UP
+[2024-04-01 20:09:50] CLICKED LEFT
+[2024-04-01 20:09:50] CLICKED RIGHT
+[2024-04-01 20:09:50] CLICKED UP
+[2024-04-01 20:09:50] CLICKED LEFT
+[2024-04-01 20:09:50] CLICKED RIGHT
+[2024-04-01 20:09:50] BOMBED
+[2024-04-01 20:09:50] CLICKED LEFT
+[2024-04-01 20:09:50] CLICKED RIGHT
+[2024-04-01 20:09:50] CLICKED LEFT
+[2024-04-01 20:09:50] CLICKED UP
+[2024-04-01 20:09:50] BOMBED
+[2024-04-01 20:09:51] CLICKED RIGHT
+[2024-04-01 20:09:51] CLICKED UP
+[2024-04-01 20:09:51] CLICKED LEFT
+[2024-04-01 20:09:51] BOMBED
+[2024-04-01 20:09:54] Connection reset
