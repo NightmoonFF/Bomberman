@@ -1,9 +1,9 @@
 package Game;
 
 import javafx.animation.*;
-import javafx.scene.image.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.util.Duration;
-
 import java.util.*;
 
 import static Game.Generel.board;
@@ -14,7 +14,7 @@ public class Bomb {
     private final Position position;
     private final int range;
 
-    private final int timeToExplode;
+    private final int timeToExplode = new Random().nextInt(4) + 2;
     private final Timeline bombFuseDelay = new Timeline();
 
     private final Timeline animationTimeline = new Timeline();
@@ -31,7 +31,7 @@ public class Bomb {
         this.player = player;
         this.position = player.getPosition();
         this.range = 5;
-        this.timeToExplode = 5;
+        ;
         this.animationSpeed = 100;
         init();
     }

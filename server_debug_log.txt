@@ -6454,3 +6454,165 @@
 [2024-04-01 19:20:30] Running with Debugging Enabled
 [2024-04-01 19:20:30] Running Application as Server
 [2024-04-01 19:20:31] /127.0.0.1 Has Connected to the Server
+[2024-04-01 19:23:35] Server Socket Established
+[2024-04-01 19:23:35] Starting...
+[2024-04-01 19:23:35] Starting Game Application...
+[2024-04-01 19:23:35] Running with Debugging Enabled
+[2024-04-01 19:23:35] Running Application as Server
+[2024-04-01 19:23:35] Running with Debugging Enabled
+[2024-04-01 19:23:35] Running Application as Server
+[2024-04-01 19:23:37] /127.0.0.1 Has Connected to the Server
+[2024-04-01 19:23:38] [Elias]: MOVE right Elias
+[2024-04-01 19:23:38] [Elias]: MOVE right Elias
+[2024-04-01 19:23:38] [Elias]: BOMB Elias
+[2024-04-01 19:23:38] [Elias]: MOVE down Elias
+[2024-04-01 19:23:38] [Elias]: MOVE down Elias
+[2024-04-01 19:23:38] [Elias]: MOVE left Elias
+[2024-04-01 19:23:39] [Elias]: MOVE up Elias
+[2024-04-01 19:23:39] [Elias]: MOVE left Elias
+[2024-04-01 19:23:43] [Elias]: MOVE right Elias
+[2024-04-01 19:23:44] [Elias]: MOVE right Elias
+[2024-04-01 19:23:44] [Elias]: MOVE up Elias
+[2024-04-01 19:23:44] [Elias]: MOVE up Elias
+[2024-04-01 19:23:44] [Elias]: MOVE right Elias
+[2024-04-01 19:23:45] [Elias]: BOMB Elias
+[2024-04-01 19:23:45] [Elias]: MOVE left Elias
+[2024-04-01 19:23:45] [Elias]: MOVE left Elias
+[2024-04-01 19:23:45] [Elias]: MOVE down Elias
+[2024-04-01 19:23:45] [Elias]: MOVE down Elias
+[2024-04-01 19:23:45] [Elias]: MOVE right Elias
+[2024-04-01 19:23:46] [Elias]: MOVE left Elias
+[2024-04-01 19:23:47] [Elias]: MOVE left Elias
+[2024-04-01 19:23:47] [Elias]: MOVE left Elias
+[2024-04-01 19:23:48] [Elias]: MOVE right Elias
+[2024-04-01 19:23:48] [Elias]: MOVE right Elias
+[2024-04-01 19:23:50] [Elias]: MOVE left Elias
+[2024-04-01 19:23:50] [Elias]: MOVE left Elias
+[2024-04-01 19:23:51] [Elias]: MOVE right Elias
+[2024-04-01 19:23:51] [Elias]: MOVE right Elias
+[2024-04-01 19:23:51] [Elias]: MOVE right Elias
+[2024-04-01 19:23:52] [Elias]: BOMB Elias
+[2024-04-01 19:23:52] [Elias]: MOVE left Elias
+[2024-04-01 19:23:52] [Elias]: MOVE left Elias
+[2024-04-01 19:23:52] [Elias]: MOVE left Elias
+[2024-04-01 19:23:52] [Elias]: MOVE left Elias
+[2024-04-01 19:23:53] [Elias]: MOVE right Elias
+[2024-04-01 19:23:53] [Elias]: MOVE right Elias
+[2024-04-01 19:23:59] [Elias]: MOVE up Elias
+[2024-04-01 19:23:59] [Elias]: MOVE up Elias
+[2024-04-01 19:23:59] [Elias]: MOVE left Elias
+[2024-04-01 19:24:00] [Elias]: MOVE right Elias
+[2024-04-01 19:24:00] [Elias]: MOVE up Elias
+[2024-04-01 19:24:00] [Elias]: MOVE left Elias
+[2024-04-01 19:28:56] Server Socket Established
+[2024-04-01 19:28:56] Starting...
+[2024-04-01 19:28:56] Starting Game Application...
+[2024-04-01 19:28:56] Running with Debugging Enabled
+[2024-04-01 19:28:56] Running Application as Server
+[2024-04-01 19:28:56] Running with Debugging Enabled
+[2024-04-01 19:28:56] Running Application as Server
+[2024-04-01 19:28:58] /127.0.0.1 Has Connected to the Server
+[2024-04-01 19:28:58] [Elias]: MOVE left Elias
+[2024-04-01 19:28:59] [Elias]: BOMB Elias
+[2024-04-01 19:28:59] [Elias]: MOVE left Elias
+[2024-04-01 19:28:59] [Elias]: MOVE right Elias
+[2024-04-01 19:28:59] [Elias]: MOVE down Elias
+[2024-04-01 19:29:00] [Elias]: MOVE down Elias
+[2024-04-01 19:29:00] [Elias]: MOVE down Elias
+[2024-04-01 19:29:00] [Elias]: MOVE right Elias
+[2024-04-01 19:29:03] [Elias]: MOVE down Elias
+[2024-04-01 19:29:03] [Elias]: MOVE down Elias
+[2024-04-01 19:29:03] [Elias]: BOMB Elias
+[2024-04-01 19:29:03] [Elias]: MOVE left Elias
+[2024-04-01 19:29:03] [Elias]: MOVE down Elias
+[2024-04-01 19:29:04] [Elias]: MOVE left Elias
+[2024-04-01 19:29:04] [Elias]: MOVE left Elias
+[2024-04-01 19:29:04] [Elias]: BOMB Elias
+[2024-04-01 19:29:04] [Elias]: MOVE left Elias
+[2024-04-01 19:29:04] [Elias]: MOVE left Elias
+[2024-04-01 19:29:04] [Elias]: MOVE left Elias
+[2024-04-01 19:29:05] [Elias]: MOVE down Elias
+[2024-04-01 19:29:05] [Elias]: MOVE left Elias
+[2024-04-01 19:29:05] [Elias]: BOMB Elias
+[2024-04-01 19:29:05] [Elias]: MOVE left Elias
+[2024-04-01 19:29:05] [Elias]: MOVE down Elias
+[2024-04-01 19:29:05] [Elias]: BOMB Elias
+[2024-04-01 19:29:06] [Elias]: MOVE down Elias
+[2024-04-01 19:29:06] [Elias]: MOVE down Elias
+[2024-04-01 19:29:06] [Elias]: MOVE right Elias
+[2024-04-01 19:29:06] [Elias]: MOVE right Elias
+[2024-04-01 19:29:06] [Elias]: MOVE down Elias
+[2024-04-01 19:29:06] [Elias]: MOVE down Elias
+[2024-04-01 19:29:07] [Elias]: MOVE right Elias
+[2024-04-01 19:29:07] [Elias]: MOVE right Elias
+[2024-04-01 19:29:07] [Elias]: BOMB Elias
+[2024-04-01 19:29:07] [Elias]: MOVE up Elias
+[2024-04-01 19:29:07] [Elias]: MOVE right Elias
+[2024-04-01 19:29:08] [Elias]: MOVE right Elias
+[2024-04-01 19:29:08] [Elias]: MOVE right Elias
+[2024-04-01 19:29:08] [Elias]: MOVE right Elias
+[2024-04-01 19:29:08] [Elias]: BOMB Elias
+[2024-04-01 19:29:08] [Elias]: MOVE right Elias
+[2024-04-01 19:29:08] [Elias]: MOVE right Elias
+[2024-04-01 19:29:09] [Elias]: MOVE right Elias
+[2024-04-01 19:29:09] [Elias]: MOVE down Elias
+[2024-04-01 19:29:09] [Elias]: MOVE right Elias
+[2024-04-01 19:29:09] [Elias]: MOVE right Elias
+[2024-04-01 19:29:09] [Elias]: MOVE up Elias
+[2024-04-01 19:29:09] [Elias]: MOVE up Elias
+[2024-04-01 19:29:10] [Elias]: MOVE up Elias
+[2024-04-01 19:29:10] [Elias]: MOVE up Elias
+[2024-04-01 19:29:10] [Elias]: BOMB Elias
+[2024-04-01 19:29:10] [Elias]: MOVE up Elias
+[2024-04-01 19:29:11] [Elias]: MOVE up Elias
+[2024-04-01 19:29:11] [Elias]: MOVE up Elias
+[2024-04-01 19:29:11] [Elias]: MOVE up Elias
+[2024-04-01 19:29:11] [Elias]: MOVE left Elias
+[2024-04-01 19:29:11] [Elias]: MOVE up Elias
+[2024-04-01 19:29:12] [Elias]: MOVE up Elias
+[2024-04-01 19:29:12] [Elias]: MOVE up Elias
+[2024-04-01 19:29:12] [Elias]: MOVE left Elias
+[2024-04-01 19:29:13] [Elias]: MOVE left Elias
+[2024-04-01 19:29:14] [Elias]: BOMB Elias
+[2024-04-01 19:29:14] [Elias]: MOVE left Elias
+[2024-04-01 19:29:14] [Elias]: MOVE left Elias
+[2024-04-01 19:29:14] [Elias]: MOVE left Elias
+[2024-04-01 19:29:14] [Elias]: MOVE left Elias
+[2024-04-01 19:29:15] [Elias]: MOVE left Elias
+[2024-04-01 19:29:15] [Elias]: MOVE left Elias
+[2024-04-01 19:29:16] [Elias]: BOMB Elias
+[2024-04-01 19:29:16] [Elias]: MOVE right Elias
+[2024-04-01 19:29:17] [Elias]: MOVE right Elias
+[2024-04-01 19:29:17] [Elias]: MOVE right Elias
+[2024-04-01 19:29:17] [Elias]: MOVE right Elias
+[2024-04-01 19:29:17] [Elias]: MOVE right Elias
+[2024-04-01 19:29:17] [Elias]: MOVE right Elias
+[2024-04-01 19:29:20] [Elias]: BOMB Elias
+[2024-04-01 19:29:20] [Elias]: MOVE right Elias
+[2024-04-01 19:29:20] [Elias]: MOVE right Elias
+[2024-04-01 19:29:20] [Elias]: MOVE right Elias
+[2024-04-01 19:29:21] [Elias]: MOVE down Elias
+[2024-04-01 19:29:21] [Elias]: MOVE down Elias
+[2024-04-01 19:29:21] [Elias]: MOVE down Elias
+[2024-04-01 19:29:21] [Elias]: MOVE down Elias
+[2024-04-01 19:29:21] [Elias]: MOVE down Elias
+[2024-04-01 19:29:21] [Elias]: MOVE left Elias
+[2024-04-01 19:29:23] [Elias]: BOMB Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE down Elias
+[2024-04-01 19:29:24] [Elias]: MOVE left Elias
+[2024-04-01 19:29:25] [Elias]: MOVE left Elias
+[2024-04-01 19:29:25] [Elias]: MOVE left Elias
+[2024-04-01 19:29:27] [Elias]: BOMB Elias
+[2024-04-01 19:29:27] [Elias]: MOVE left Elias
+[2024-04-01 19:29:27] [Elias]: MOVE left Elias
+[2024-04-01 19:29:27] [Elias]: MOVE left Elias
+[2024-04-01 19:29:27] [Elias]: MOVE left Elias
+[2024-04-01 19:29:28] [Elias]: MOVE left Elias
+[2024-04-01 19:29:28] [Elias]: MOVE left Elias
+[2024-04-01 19:29:28] [Elias]: MOVE left Elias
+[2024-04-01 19:29:28] [Elias]: MOVE left Elias
