@@ -3078,4 +3078,1130 @@
 [2024-03-21 12:18:42] MOVE left Elias
 [2024-03-21 12:18:42] Elias: left to left
 [2024-03-21 12:18:42] Elias: (15/17) to (14/17)
-[2024-03-21 12:20:16] Connection reset
+[2024-03-21 12:35:25] Running with Debugging Enabled
+[2024-03-21 12:35:25] Starting Game Application...
+[2024-03-21 12:35:25] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:35:25] JOIN Elias 14 11
+[2024-03-21 12:35:25] Attempting to create player: Elias
+[2024-03-21 12:35:33] Starting game in 5 seconds...
+[2024-03-21 12:35:34] Starting game in 4 seconds...
+[2024-03-21 12:35:35] Starting game in 3 seconds...
+[2024-03-21 12:35:36] Starting game in 2 seconds...
+[2024-03-21 12:35:37] Starting game in 1 seconds...
+[2024-03-21 12:35:38] Starting game in 0 seconds...
+[2024-03-21 12:35:38] START
+[2024-03-21 12:35:39] Elias: up to up
+[2024-03-21 12:35:39] Elias: (14/11) to (14/10)
+[2024-03-21 12:35:39] MOVE up Elias
+[2024-03-21 12:35:39] Elias: up to up
+[2024-03-21 12:35:39] Elias: (14/11) to (14/10)
+[2024-03-21 12:35:39] Elias: up to left
+[2024-03-21 12:35:39] Elias: (14/10) to (13/10)
+[2024-03-21 12:35:39] MOVE left Elias
+[2024-03-21 12:35:39] Elias: up to left
+[2024-03-21 12:35:39] Elias: (14/10) to (13/10)
+[2024-03-21 12:35:40] Elias: left to left
+[2024-03-21 12:35:40] Elias: (13/10) to (12/10)
+[2024-03-21 12:35:40] MOVE left Elias
+[2024-03-21 12:35:40] Elias: left to left
+[2024-03-21 12:35:40] Elias: (13/10) to (12/10)
+[2024-03-21 12:35:40] Elias: left to down
+[2024-03-21 12:35:40] Elias: (12/10) to (12/11)
+[2024-03-21 12:35:40] MOVE down Elias
+[2024-03-21 12:35:40] Elias: left to down
+[2024-03-21 12:35:40] Elias: (12/10) to (12/11)
+[2024-03-21 12:35:40] Elias: down to right
+[2024-03-21 12:35:40] Elias: (12/11) to (13/11)
+[2024-03-21 12:35:40] MOVE right Elias
+[2024-03-21 12:35:40] Elias: down to right
+[2024-03-21 12:35:40] Elias: (12/11) to (13/11)
+[2024-03-21 12:35:40] Elias: right to up
+[2024-03-21 12:35:40] Elias: (13/11) to (13/10)
+[2024-03-21 12:35:40] MOVE up Elias
+[2024-03-21 12:35:40] Elias: right to up
+[2024-03-21 12:35:40] Elias: (13/11) to (13/10)
+[2024-03-21 12:35:41] Elias: up to left
+[2024-03-21 12:35:41] Elias: (13/10) to (12/10)
+[2024-03-21 12:35:41] MOVE left Elias
+[2024-03-21 12:35:41] Elias: up to left
+[2024-03-21 12:35:41] Elias: (13/10) to (12/10)
+[2024-03-21 12:35:41] Elias: left to right
+[2024-03-21 12:35:41] Elias: (12/10) to (13/10)
+[2024-03-21 12:35:41] MOVE right Elias
+[2024-03-21 12:35:41] Elias: left to right
+[2024-03-21 12:35:41] Elias: (12/10) to (13/10)
+[2024-03-21 12:35:41] Elias: right to down
+[2024-03-21 12:35:41] Elias: (13/10) to (13/11)
+[2024-03-21 12:35:41] MOVE down Elias
+[2024-03-21 12:35:41] Elias: right to down
+[2024-03-21 12:35:41] Elias: (13/10) to (13/11)
+[2024-03-21 12:37:31] Running with Debugging Enabled
+[2024-03-21 12:37:31] Starting Game Application...
+[2024-03-21 12:37:31] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:37:31] JOIN Elias 7 5
+[2024-03-21 12:37:31] Attempting to create player: Elias
+[2024-03-21 12:37:37] Starting game in 5 seconds...
+[2024-03-21 12:37:37] Starting game in 5 seconds...
+[2024-03-21 12:37:38] Starting game in 4 seconds...
+[2024-03-21 12:37:38] Starting game in 4 seconds...
+[2024-03-21 12:37:39] Starting game in 3 seconds...
+[2024-03-21 12:37:39] Starting game in 3 seconds...
+[2024-03-21 12:37:40] Starting game in 2 seconds...
+[2024-03-21 12:37:40] Starting game in 2 seconds...
+[2024-03-21 12:37:41] Starting game in 1 seconds...
+[2024-03-21 12:37:41] Starting game in 1 seconds...
+[2024-03-21 12:37:42] Starting game in 0 seconds...
+[2024-03-21 12:37:42] START
+[2024-03-21 12:37:42] Starting game in 0 seconds...
+[2024-03-21 12:37:42] START
+[2024-03-21 12:37:43] Elias: up to up
+[2024-03-21 12:37:43] Elias: (7/5) to (7/4)
+[2024-03-21 12:37:43] MOVE up Elias
+[2024-03-21 12:37:43] Elias: up to up
+[2024-03-21 12:37:43] Elias: (7/5) to (7/4)
+[2024-03-21 12:37:44] Elias: up to up
+[2024-03-21 12:37:44] Elias: (7/4) to (7/3)
+[2024-03-21 12:37:44] MOVE up Elias
+[2024-03-21 12:37:44] Elias: up to up
+[2024-03-21 12:37:44] Elias: (7/4) to (7/3)
+[2024-03-21 12:37:44] Elias: up to right
+[2024-03-21 12:37:44] Elias: (7/3) to (8/3)
+[2024-03-21 12:37:44] MOVE right Elias
+[2024-03-21 12:37:44] Elias: up to right
+[2024-03-21 12:37:44] Elias: (7/3) to (8/3)
+[2024-03-21 12:37:44] Elias: right to down
+[2024-03-21 12:37:44] Elias: (8/3) to (8/4)
+[2024-03-21 12:37:44] MOVE down Elias
+[2024-03-21 12:37:44] Elias: right to down
+[2024-03-21 12:37:44] Elias: (8/3) to (8/4)
+[2024-03-21 12:37:44] Elias: down to left
+[2024-03-21 12:37:44] Elias: (8/4) to (7/4)
+[2024-03-21 12:37:44] MOVE left Elias
+[2024-03-21 12:37:44] Elias: down to left
+[2024-03-21 12:37:44] Elias: (8/4) to (7/4)
+[2024-03-21 12:37:44] Elias: left to down
+[2024-03-21 12:37:44] Elias: (7/4) to (7/5)
+[2024-03-21 12:37:44] MOVE down Elias
+[2024-03-21 12:37:44] Elias: left to down
+[2024-03-21 12:37:44] Elias: (7/4) to (7/5)
+[2024-03-21 12:37:44] Elias: down to right
+[2024-03-21 12:37:44] MOVE right Elias
+[2024-03-21 12:37:44] Elias: down to right
+[2024-03-21 12:37:44] Elias: right to left
+[2024-03-21 12:37:44] MOVE left Elias
+[2024-03-21 12:37:44] Elias: right to left
+[2024-03-21 12:39:06] Running with Debugging Enabled
+[2024-03-21 12:39:06] Starting Game Application...
+[2024-03-21 12:39:06] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:39:06] JOIN Elias 16 18
+[2024-03-21 12:39:06] Attempting to create player: Elias
+[2024-03-21 12:39:09] Starting game in 5 seconds...
+[2024-03-21 12:39:10] Starting game in 4 seconds...
+[2024-03-21 12:39:11] Starting game in 3 seconds...
+[2024-03-21 12:39:12] Starting game in 2 seconds...
+[2024-03-21 12:39:13] Starting game in 1 seconds...
+[2024-03-21 12:39:14] Starting game in 0 seconds...
+[2024-03-21 12:39:14] START
+[2024-03-21 12:39:36] Running with Debugging Enabled
+[2024-03-21 12:39:36] Starting Game Application...
+[2024-03-21 12:39:36] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:39:36] JOIN Elias 8 17
+[2024-03-21 12:39:36] Attempting to create player: Elias
+[2024-03-21 12:39:39] Starting game in 5 seconds...
+[2024-03-21 12:39:40] Starting game in 4 seconds...
+[2024-03-21 12:39:41] Starting game in 3 seconds...
+[2024-03-21 12:39:42] Starting game in 2 seconds...
+[2024-03-21 12:39:43] Starting game in 1 seconds...
+[2024-03-21 12:39:44] Starting game in 0 seconds...
+[2024-03-21 12:39:44] START
+[2024-03-21 12:41:38] Running with Debugging Enabled
+[2024-03-21 12:41:38] Starting Game Application...
+[2024-03-21 12:41:38] Connection refused
+[2024-03-21 12:43:15] Running with Debugging Enabled
+[2024-03-21 12:43:15] Starting Game Application...
+[2024-03-21 12:43:15] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:43:15] JOIN Elias 6 14
+[2024-03-21 12:43:15] Attempting to create player: Elias
+[2024-03-21 12:43:21] Starting game in 5 seconds...
+[2024-03-21 12:43:22] Starting game in 4 seconds...
+[2024-03-21 12:43:23] Starting game in 3 seconds...
+[2024-03-21 12:43:24] Starting game in 2 seconds...
+[2024-03-21 12:43:25] Starting game in 1 seconds...
+[2024-03-21 12:43:26] Starting game in 0 seconds...
+[2024-03-21 12:43:26] START
+[2024-03-21 12:43:28] Elias: up to up
+[2024-03-21 12:43:28] Elias: (6/14) to (6/13)
+[2024-03-21 12:43:28] MOVE up Elias
+[2024-03-21 12:43:28] Elias: up to up
+[2024-03-21 12:43:28] Elias: (6/14) to (6/13)
+[2024-03-21 12:43:28] Elias: up to up
+[2024-03-21 12:43:28] Elias: (6/13) to (6/12)
+[2024-03-21 12:43:28] MOVE up Elias
+[2024-03-21 12:43:28] Elias: up to up
+[2024-03-21 12:43:28] Elias: (6/13) to (6/12)
+[2024-03-21 12:43:28] Elias: up to right
+[2024-03-21 12:43:28] Elias: (6/12) to (7/12)
+[2024-03-21 12:43:28] MOVE right Elias
+[2024-03-21 12:43:28] Elias: up to right
+[2024-03-21 12:43:28] Elias: (6/12) to (7/12)
+[2024-03-21 12:43:29] Elias: right to down
+[2024-03-21 12:43:29] Elias: (7/12) to (7/13)
+[2024-03-21 12:43:29] MOVE down Elias
+[2024-03-21 12:43:29] Elias: right to down
+[2024-03-21 12:43:29] Elias: (7/12) to (7/13)
+[2024-03-21 12:43:29] Elias: down to left
+[2024-03-21 12:43:29] Elias: (7/13) to (6/13)
+[2024-03-21 12:43:29] MOVE left Elias
+[2024-03-21 12:43:29] Elias: down to left
+[2024-03-21 12:43:29] Elias: (7/13) to (6/13)
+[2024-03-21 12:43:29] Elias: left to right
+[2024-03-21 12:43:29] Elias: (6/13) to (7/13)
+[2024-03-21 12:43:29] MOVE right Elias
+[2024-03-21 12:43:29] Elias: left to right
+[2024-03-21 12:43:29] Elias: (6/13) to (7/13)
+[2024-03-21 12:43:29] Elias: right to down
+[2024-03-21 12:43:29] Elias: (7/13) to (7/14)
+[2024-03-21 12:43:29] MOVE down Elias
+[2024-03-21 12:43:29] Elias: right to down
+[2024-03-21 12:43:29] Elias: (7/13) to (7/14)
+[2024-03-21 12:43:29] Elias: down to left
+[2024-03-21 12:43:29] Elias: (7/14) to (6/14)
+[2024-03-21 12:43:29] MOVE left Elias
+[2024-03-21 12:43:29] Elias: down to left
+[2024-03-21 12:43:29] Elias: (7/14) to (6/14)
+[2024-03-21 12:43:30] Elias: left to right
+[2024-03-21 12:43:30] Elias: (6/14) to (7/14)
+[2024-03-21 12:43:30] MOVE right Elias
+[2024-03-21 12:43:30] Elias: left to right
+[2024-03-21 12:43:30] Elias: (6/14) to (7/14)
+[2024-03-21 12:43:30] Elias: right to up
+[2024-03-21 12:43:30] Elias: (7/14) to (7/13)
+[2024-03-21 12:43:30] MOVE up Elias
+[2024-03-21 12:43:30] Elias: right to up
+[2024-03-21 12:43:30] Elias: (7/14) to (7/13)
+[2024-03-21 12:43:30] Elias: up to left
+[2024-03-21 12:43:30] Elias: (7/13) to (6/13)
+[2024-03-21 12:43:30] MOVE left Elias
+[2024-03-21 12:43:30] Elias: up to left
+[2024-03-21 12:43:30] Elias: (7/13) to (6/13)
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:43:30] Elias: (6/13) to (6/14)
+[2024-03-21 12:43:30] MOVE down Elias
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:43:30] Elias: (6/13) to (6/14)
+[2024-03-21 12:43:30] Elias: down to right
+[2024-03-21 12:43:30] Elias: (6/14) to (7/14)
+[2024-03-21 12:43:30] MOVE right Elias
+[2024-03-21 12:43:30] Elias: down to right
+[2024-03-21 12:43:30] Elias: (6/14) to (7/14)
+[2024-03-21 12:43:30] Elias: right to left
+[2024-03-21 12:43:30] Elias: (7/14) to (6/14)
+[2024-03-21 12:43:30] MOVE left Elias
+[2024-03-21 12:43:30] Elias: right to left
+[2024-03-21 12:43:30] Elias: (7/14) to (6/14)
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:43:30] Elias: (6/14) to (6/15)
+[2024-03-21 12:43:30] MOVE down Elias
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:43:30] Elias: (6/14) to (6/15)
+[2024-03-21 12:43:30] Elias: down to right
+[2024-03-21 12:43:30] Elias: (6/15) to (7/15)
+[2024-03-21 12:43:30] MOVE right Elias
+[2024-03-21 12:43:30] Elias: down to right
+[2024-03-21 12:43:30] Elias: (6/15) to (7/15)
+[2024-03-21 12:43:30] Elias: right to left
+[2024-03-21 12:43:30] Elias: (7/15) to (6/15)
+[2024-03-21 12:43:30] MOVE left Elias
+[2024-03-21 12:43:30] Elias: right to left
+[2024-03-21 12:43:30] Elias: (7/15) to (6/15)
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:43:30] MOVE down Elias
+[2024-03-21 12:43:30] Elias: left to down
+[2024-03-21 12:44:02] Running with Debugging Enabled
+[2024-03-21 12:44:02] Starting Game Application...
+[2024-03-21 12:44:02] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:44:02] JOIN Elias 1 13
+[2024-03-21 12:44:02] Attempting to create player: Elias
+[2024-03-21 12:44:07] Starting game in 5 seconds...
+[2024-03-21 12:44:08] Starting game in 4 seconds...
+[2024-03-21 12:44:09] Starting game in 3 seconds...
+[2024-03-21 12:44:10] Starting game in 2 seconds...
+[2024-03-21 12:44:11] Starting game in 1 seconds...
+[2024-03-21 12:44:12] Starting game in 0 seconds...
+[2024-03-21 12:44:12] START
+[2024-03-21 12:44:45] Running with Debugging Enabled
+[2024-03-21 12:44:45] Starting Game Application...
+[2024-03-21 12:44:45] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:44:45] JOIN Elias 11 12
+[2024-03-21 12:44:45] Attempting to create player: Elias
+[2024-03-21 12:44:46] Starting game in 5 seconds...
+[2024-03-21 12:44:47] Starting game in 4 seconds...
+[2024-03-21 12:44:48] Starting game in 3 seconds...
+[2024-03-21 12:44:49] Starting game in 2 seconds...
+[2024-03-21 12:44:50] Starting game in 1 seconds...
+[2024-03-21 12:44:51] Starting game in 0 seconds...
+[2024-03-21 12:44:51] START
+[2024-03-21 12:45:33] Running with Debugging Enabled
+[2024-03-21 12:45:33] Starting Game Application...
+[2024-03-21 12:45:33] Connection refused
+[2024-03-21 12:45:48] Running with Debugging Enabled
+[2024-03-21 12:45:48] Starting Game Application...
+[2024-03-21 12:45:48] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:45:48] JOIN Elias 3 1
+[2024-03-21 12:45:48] Attempting to create player: Elias
+[2024-03-21 12:45:55] Starting game in 5 seconds...
+[2024-03-21 12:45:56] Starting game in 4 seconds...
+[2024-03-21 12:45:57] Starting game in 3 seconds...
+[2024-03-21 12:45:58] Starting game in 2 seconds...
+[2024-03-21 12:45:59] Starting game in 1 seconds...
+[2024-03-21 12:46:00] Starting game in 0 seconds...
+[2024-03-21 12:46:00] START
+[2024-03-21 12:47:05] Running with Debugging Enabled
+[2024-03-21 12:47:05] Starting Game Application...
+[2024-03-21 12:47:05] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:47:05] JOIN Elias 8 1
+[2024-03-21 12:47:05] Attempting to create player: Elias
+[2024-03-21 12:47:08] Starting game in 5 seconds...
+[2024-03-21 12:47:09] Starting game in 4 seconds...
+[2024-03-21 12:47:10] Starting game in 3 seconds...
+[2024-03-21 12:47:11] Starting game in 2 seconds...
+[2024-03-21 12:47:12] Starting game in 1 seconds...
+[2024-03-21 12:47:13] Starting game in 0 seconds...
+[2024-03-21 12:47:13] START
+[2024-03-21 12:47:17] Elias: up to left
+[2024-03-21 12:47:17] Elias: (8/1) to (7/1)
+[2024-03-21 12:47:17] MOVE left Elias
+[2024-03-21 12:47:17] Elias: up to left
+[2024-03-21 12:47:17] Elias: (8/1) to (7/1)
+[2024-03-21 12:47:17] Elias: left to left
+[2024-03-21 12:47:17] Elias: (7/1) to (6/1)
+[2024-03-21 12:47:17] MOVE left Elias
+[2024-03-21 12:47:17] Elias: left to left
+[2024-03-21 12:47:17] Elias: (7/1) to (6/1)
+[2024-03-21 12:47:17] Elias: left to down
+[2024-03-21 12:47:17] Elias: (6/1) to (6/2)
+[2024-03-21 12:47:17] MOVE down Elias
+[2024-03-21 12:47:17] Elias: left to down
+[2024-03-21 12:47:17] Elias: (6/1) to (6/2)
+[2024-03-21 12:47:17] Elias: down to down
+[2024-03-21 12:47:17] Elias: (6/2) to (6/3)
+[2024-03-21 12:47:17] MOVE down Elias
+[2024-03-21 12:47:17] Elias: down to down
+[2024-03-21 12:47:17] Elias: (6/2) to (6/3)
+[2024-03-21 12:47:17] Elias: down to right
+[2024-03-21 12:47:17] Elias: (6/3) to (7/3)
+[2024-03-21 12:47:17] MOVE right Elias
+[2024-03-21 12:47:17] Elias: down to right
+[2024-03-21 12:47:17] Elias: (6/3) to (7/3)
+[2024-03-21 12:47:17] Elias: right to right
+[2024-03-21 12:47:17] Elias: (7/3) to (8/3)
+[2024-03-21 12:47:17] MOVE right Elias
+[2024-03-21 12:47:17] Elias: right to right
+[2024-03-21 12:47:17] Elias: (7/3) to (8/3)
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: (8/3) to (8/4)
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: (8/3) to (8/4)
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (8/4) to (7/4)
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (8/4) to (7/4)
+[2024-03-21 12:47:18] Elias: left to down
+[2024-03-21 12:47:18] Elias: (7/4) to (7/5)
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: left to down
+[2024-03-21 12:47:18] Elias: (7/4) to (7/5)
+[2024-03-21 12:47:18] Elias: down to right
+[2024-03-21 12:47:18] MOVE right Elias
+[2024-03-21 12:47:18] Elias: down to right
+[2024-03-21 12:47:18] Elias: right to left
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: right to left
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] MOVE right Elias
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: (7/5) to (7/6)
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: (7/5) to (7/6)
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (7/6) to (6/6)
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (7/6) to (6/6)
+[2024-03-21 12:47:18] Elias: left to down
+[2024-03-21 12:47:18] Elias: (6/6) to (6/7)
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: left to down
+[2024-03-21 12:47:18] Elias: (6/6) to (6/7)
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:18] MOVE right Elias
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: down to left
+[2024-03-21 12:47:18] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:18] MOVE right Elias
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] MOVE down Elias
+[2024-03-21 12:47:18] Elias: right to down
+[2024-03-21 12:47:18] Elias: down to up
+[2024-03-21 12:47:18] Elias: (6/7) to (6/6)
+[2024-03-21 12:47:18] MOVE up Elias
+[2024-03-21 12:47:18] Elias: down to up
+[2024-03-21 12:47:18] Elias: (6/7) to (6/6)
+[2024-03-21 12:47:18] Elias: up to left
+[2024-03-21 12:47:18] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:18] MOVE left Elias
+[2024-03-21 12:47:18] Elias: up to left
+[2024-03-21 12:47:18] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:18] MOVE right Elias
+[2024-03-21 12:47:18] Elias: left to right
+[2024-03-21 12:47:18] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:18] Elias: right to up
+[2024-03-21 12:47:18] MOVE up Elias
+[2024-03-21 12:47:18] Elias: right to up
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] MOVE left Elias
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:47:19] MOVE right Elias
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] MOVE up Elias
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] MOVE left Elias
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] MOVE right Elias
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] Elias: right to down
+[2024-03-21 12:47:19] Elias: (6/6) to (6/7)
+[2024-03-21 12:47:19] MOVE down Elias
+[2024-03-21 12:47:19] Elias: right to down
+[2024-03-21 12:47:19] Elias: (6/6) to (6/7)
+[2024-03-21 12:47:19] Elias: down to left
+[2024-03-21 12:47:19] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:19] MOVE left Elias
+[2024-03-21 12:47:19] Elias: down to left
+[2024-03-21 12:47:19] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:19] MOVE right Elias
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:19] Elias: right to down
+[2024-03-21 12:47:19] MOVE down Elias
+[2024-03-21 12:47:19] Elias: right to down
+[2024-03-21 12:47:19] Elias: down to left
+[2024-03-21 12:47:19] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:19] MOVE left Elias
+[2024-03-21 12:47:19] Elias: down to left
+[2024-03-21 12:47:19] Elias: (6/7) to (5/7)
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:19] MOVE right Elias
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/7) to (6/7)
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:47:19] Elias: (6/7) to (6/6)
+[2024-03-21 12:47:19] MOVE up Elias
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:47:19] Elias: (6/7) to (6/6)
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] MOVE left Elias
+[2024-03-21 12:47:19] Elias: up to left
+[2024-03-21 12:47:19] Elias: (6/6) to (5/6)
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] MOVE right Elias
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:47:19] Elias: left to right
+[2024-03-21 12:47:19] Elias: (5/6) to (6/6)
+[2024-03-21 12:47:19] MOVE up Elias
+[2024-03-21 12:47:19] Elias: right to up
+[2024-03-21 12:55:40] Running with Debugging Enabled
+[2024-03-21 12:55:40] Starting Game Application...
+[2024-03-21 12:55:40] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 12:55:40] JOIN Elias 5 14
+[2024-03-21 12:55:40] Attempting to create player: Elias
+[2024-03-21 12:55:44] Starting game in 5 seconds...
+[2024-03-21 12:55:44] SETTEXT
+[2024-03-21 12:55:45] Starting game in 4 seconds...
+[2024-03-21 12:55:45] SETTEXT
+[2024-03-21 12:55:46] Starting game in 3 seconds...
+[2024-03-21 12:55:46] SETTEXT
+[2024-03-21 12:55:47] Starting game in 2 seconds...
+[2024-03-21 12:55:47] SETTEXT
+[2024-03-21 12:55:48] Starting game in 1 seconds...
+[2024-03-21 12:55:48] SETTEXT
+[2024-03-21 12:55:49] Starting game in 0 seconds...
+[2024-03-21 12:55:49] SETTEXT
+[2024-03-21 12:55:49] START
+[2024-03-21 13:00:54] Running with Debugging Enabled
+[2024-03-21 13:00:54] Starting Game Application...
+[2024-03-21 13:00:54] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:00:54] JOIN Elias 5 8
+[2024-03-21 13:00:54] Attempting to create player: Elias
+[2024-03-21 13:00:56] Starting game in 5 seconds...
+[2024-03-21 13:00:56] SETTEXT
+[2024-03-21 13:02:53] Running with Debugging Enabled
+[2024-03-21 13:02:53] Starting Game Application...
+[2024-03-21 13:02:53] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:02:53] JOIN Elias 15 1
+[2024-03-21 13:02:53] Attempting to create player: Elias
+[2024-03-21 13:02:56] Starting game in 5 seconds...
+[2024-03-21 13:02:56] SETTEXT 5
+[2024-03-21 13:02:57] Starting game in 4 seconds...
+[2024-03-21 13:02:57] SETTEXT 4
+[2024-03-21 13:02:58] Starting game in 3 seconds...
+[2024-03-21 13:02:58] SETTEXT 3
+[2024-03-21 13:02:59] Starting game in 2 seconds...
+[2024-03-21 13:02:59] SETTEXT 2
+[2024-03-21 13:03:00] Starting game in 1 seconds...
+[2024-03-21 13:03:00] SETTEXT 1
+[2024-03-21 13:03:01] Starting game in 0 seconds...
+[2024-03-21 13:03:01] SETTEXT 0
+[2024-03-21 13:03:01] START
+[2024-03-21 13:05:46] Running with Debugging Enabled
+[2024-03-21 13:05:46] Starting Game Application...
+[2024-03-21 13:05:46] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:05:46] JOIN Elias 4 9
+[2024-03-21 13:05:46] Attempting to create player: Elias
+[2024-03-21 13:05:48] Starting game in 5 seconds...
+[2024-03-21 13:05:48] SETTEXT 5
+[2024-03-21 13:05:49] Starting game in 4 seconds...
+[2024-03-21 13:05:49] SETTEXT 4
+[2024-03-21 13:05:50] Starting game in 3 seconds...
+[2024-03-21 13:05:50] SETTEXT 3
+[2024-03-21 13:05:51] Starting game in 2 seconds...
+[2024-03-21 13:05:51] SETTEXT 2
+[2024-03-21 13:05:52] Starting game in 1 seconds...
+[2024-03-21 13:05:52] SETTEXT 1
+[2024-03-21 13:05:53] Starting game in 0 seconds...
+[2024-03-21 13:05:53] SETTEXT 0
+[2024-03-21 13:05:53] START
+[2024-03-21 13:07:28] Running with Debugging Enabled
+[2024-03-21 13:07:28] Starting Game Application...
+[2024-03-21 13:07:28] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:07:28] JOIN Elias 17 14
+[2024-03-21 13:07:28] Attempting to create player: Elias
+[2024-03-21 13:07:32] Starting game in 5 seconds...
+[2024-03-21 13:07:32] SETTEXT 5
+[2024-03-21 13:07:33] Starting game in 4 seconds...
+[2024-03-21 13:07:33] SETTEXT 4
+[2024-03-21 13:07:34] Starting game in 3 seconds...
+[2024-03-21 13:07:34] SETTEXT 3
+[2024-03-21 13:07:35] Starting game in 2 seconds...
+[2024-03-21 13:07:35] SETTEXT 2
+[2024-03-21 13:07:36] Starting game in 1 seconds...
+[2024-03-21 13:07:36] SETTEXT 1
+[2024-03-21 13:07:37] Starting game in 0 seconds...
+[2024-03-21 13:07:37] SETTEXT 0
+[2024-03-21 13:07:37] START
+[2024-03-21 13:10:06] Running with Debugging Enabled
+[2024-03-21 13:10:06] Starting Game Application...
+[2024-03-21 13:10:06] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:10:06] JOIN Elias 11 8
+[2024-03-21 13:10:06] Attempting to create player: Elias
+[2024-03-21 13:10:07] Starting game in 5 seconds...
+[2024-03-21 13:10:07] SETTEXT 5
+[2024-03-21 13:10:08] Starting game in 4 seconds...
+[2024-03-21 13:10:08] SETTEXT 4
+[2024-03-21 13:10:09] Starting game in 3 seconds...
+[2024-03-21 13:10:09] SETTEXT 3
+[2024-03-21 13:10:10] Starting game in 2 seconds...
+[2024-03-21 13:10:10] SETTEXT 2
+[2024-03-21 13:10:11] Starting game in 1 seconds...
+[2024-03-21 13:10:11] SETTEXT 1
+[2024-03-21 13:10:12] Starting game in 0 seconds...
+[2024-03-21 13:10:12] SETTEXT 0
+[2024-03-21 13:10:12] START
+[2024-03-21 13:13:10] Running with Debugging Enabled
+[2024-03-21 13:13:10] Starting Game Application...
+[2024-03-21 13:13:10] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:13:10] JOIN Elias 12 1
+[2024-03-21 13:13:10] Attempting to create player: Elias
+[2024-03-21 13:13:11] Starting game in 5 seconds...
+[2024-03-21 13:13:11] SETTEXT Starting game in  5
+[2024-03-21 13:13:12] Starting game in 4 seconds...
+[2024-03-21 13:13:12] SETTEXT Starting game in  4
+[2024-03-21 13:13:13] Starting game in 3 seconds...
+[2024-03-21 13:13:13] SETTEXT Starting game in  3
+[2024-03-21 13:13:14] Starting game in 2 seconds...
+[2024-03-21 13:13:14] SETTEXT Starting game in  2
+[2024-03-21 13:13:15] Starting game in 1 seconds...
+[2024-03-21 13:13:15] SETTEXT Starting game in  1
+[2024-03-21 13:13:16] Starting game in 0 seconds...
+[2024-03-21 13:13:16] SETTEXT Starting game in  0
+[2024-03-21 13:13:16] START
+[2024-03-21 13:13:59] Running with Debugging Enabled
+[2024-03-21 13:13:59] Starting Game Application...
+[2024-03-21 13:13:59] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:13:59] JOIN Elias 11 12
+[2024-03-21 13:13:59] Attempting to create player: Elias
+[2024-03-21 13:14:01] Starting game in 5 seconds...
+[2024-03-21 13:14:01] SETTEXT Starting game in  5
+[2024-03-21 13:14:02] Starting game in 4 seconds...
+[2024-03-21 13:14:02] SETTEXT Starting game in  4
+[2024-03-21 13:14:03] Starting game in 3 seconds...
+[2024-03-21 13:14:03] SETTEXT Starting game in  3
+[2024-03-21 13:14:04] Starting game in 2 seconds...
+[2024-03-21 13:14:04] SETTEXT Starting game in  2
+[2024-03-21 13:14:05] Starting game in 1 seconds...
+[2024-03-21 13:14:05] SETTEXT Starting game in  1
+[2024-03-21 13:14:06] Starting game in 0 seconds...
+[2024-03-21 13:14:06] SETTEXT Starting game in  0
+[2024-03-21 13:14:06] START
+[2024-03-21 13:15:10] Running with Debugging Enabled
+[2024-03-21 13:15:10] Starting Game Application...
+[2024-03-21 13:15:10] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:15:10] JOIN Elias 17 10
+[2024-03-21 13:15:10] Attempting to create player: Elias
+[2024-03-21 13:15:13] Starting game in 5 seconds...
+[2024-03-21 13:15:13] SETTEXT Starting: 5
+[2024-03-21 13:15:14] Starting game in 4 seconds...
+[2024-03-21 13:15:14] SETTEXT Starting: 4
+[2024-03-21 13:15:15] Starting game in 3 seconds...
+[2024-03-21 13:15:15] SETTEXT Starting: 3
+[2024-03-21 13:15:16] Starting game in 2 seconds...
+[2024-03-21 13:15:16] SETTEXT Starting: 2
+[2024-03-21 13:15:17] Starting game in 1 seconds...
+[2024-03-21 13:15:17] SETTEXT Starting: 1
+[2024-03-21 13:15:18] Starting game in 0 seconds...
+[2024-03-21 13:15:18] SETTEXT Starting: 0
+[2024-03-21 13:15:18] START
+[2024-03-21 13:20:55] Running with Debugging Enabled
+[2024-03-21 13:20:55] Starting Game Application...
+[2024-03-21 13:20:55] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:20:55] JOIN Elias 2 16
+[2024-03-21 13:20:55] Attempting to create player: Elias
+[2024-03-21 13:20:56] Starting game in 5 seconds...
+[2024-03-21 13:20:56] SETTEXT Starting:5
+[2024-03-21 13:20:57] Starting game in 4 seconds...
+[2024-03-21 13:20:57] SETTEXT Starting:4
+[2024-03-21 13:20:58] Starting game in 3 seconds...
+[2024-03-21 13:20:58] SETTEXT Starting:3
+[2024-03-21 13:20:59] Starting game in 2 seconds...
+[2024-03-21 13:20:59] SETTEXT Starting:2
+[2024-03-21 13:21:00] Starting game in 1 seconds...
+[2024-03-21 13:21:00] SETTEXT Starting:1
+[2024-03-21 13:21:01] Starting game in 0 seconds...
+[2024-03-21 13:21:01] SETTEXT Starting:0
+[2024-03-21 13:21:01] START
+[2024-03-21 13:21:01] SETTEXT Game-Started
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/16) to (2/15)
+[2024-03-21 13:21:07] MOVE up Elias
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/16) to (2/15)
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:07] MOVE up Elias
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/14) to (2/13)
+[2024-03-21 13:21:07] MOVE up Elias
+[2024-03-21 13:21:07] Elias: up to up
+[2024-03-21 13:21:07] Elias: (2/14) to (2/13)
+[2024-03-21 13:21:07] Elias: up to right
+[2024-03-21 13:21:07] Elias: (2/13) to (3/13)
+[2024-03-21 13:21:07] MOVE right Elias
+[2024-03-21 13:21:07] Elias: up to right
+[2024-03-21 13:21:07] Elias: (2/13) to (3/13)
+[2024-03-21 13:21:07] Elias: right to left
+[2024-03-21 13:21:07] Elias: (3/13) to (2/13)
+[2024-03-21 13:21:07] MOVE left Elias
+[2024-03-21 13:21:07] Elias: right to left
+[2024-03-21 13:21:07] Elias: (3/13) to (2/13)
+[2024-03-21 13:21:08] Elias: left to up
+[2024-03-21 13:21:08] Elias: (2/13) to (2/12)
+[2024-03-21 13:21:08] MOVE up Elias
+[2024-03-21 13:21:08] Elias: left to up
+[2024-03-21 13:21:08] Elias: (2/13) to (2/12)
+[2024-03-21 13:21:08] Elias: up to right
+[2024-03-21 13:21:08] Elias: (2/12) to (3/12)
+[2024-03-21 13:21:08] MOVE right Elias
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] Elias: up to right
+[2024-03-21 13:21:08] Elias: (3/12) to (3/13)
+[2024-03-21 13:21:08] Elias: (2/12) to (3/12)
+[2024-03-21 13:21:08] MOVE down Elias
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] Elias: (3/12) to (3/13)
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/13) to (2/13)
+[2024-03-21 13:21:08] MOVE left Elias
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/13) to (2/13)
+[2024-03-21 13:21:08] Elias: left to down
+[2024-03-21 13:21:08] Elias: (2/13) to (2/14)
+[2024-03-21 13:21:08] MOVE down Elias
+[2024-03-21 13:21:08] Elias: left to down
+[2024-03-21 13:21:08] Elias: (2/13) to (2/14)
+[2024-03-21 13:21:08] Elias: down to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] MOVE right Elias
+[2024-03-21 13:21:08] Elias: down to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] Elias: right to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] MOVE left Elias
+[2024-03-21 13:21:08] Elias: right to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] Elias: left to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] MOVE right Elias
+[2024-03-21 13:21:08] Elias: left to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] MOVE down Elias
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] MOVE left Elias
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] Elias: left to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] MOVE right Elias
+[2024-03-21 13:21:08] Elias: left to right
+[2024-03-21 13:21:08] Elias: (2/14) to (3/14)
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] MOVE down Elias
+[2024-03-21 13:21:08] Elias: right to down
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] MOVE left Elias
+[2024-03-21 13:21:08] Elias: down to left
+[2024-03-21 13:21:08] Elias: (3/14) to (2/14)
+[2024-03-21 13:21:08] Elias: left to down
+[2024-03-21 13:21:08] Elias: (2/14) to (2/15)
+[2024-03-21 13:21:08] MOVE down Elias
+[2024-03-21 13:21:08] Elias: left to down
+[2024-03-21 13:21:08] Elias: (2/14) to (2/15)
+[2024-03-21 13:21:08] Elias: down to right
+[2024-03-21 13:21:08] MOVE right Elias
+[2024-03-21 13:21:08] Elias: down to right
+[2024-03-21 13:21:08] Elias: right to up
+[2024-03-21 13:21:08] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:08] MOVE up Elias
+[2024-03-21 13:21:08] Elias: right to up
+[2024-03-21 13:21:08] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:08] Elias: up to left
+[2024-03-21 13:21:08] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:08] MOVE left Elias
+[2024-03-21 13:21:08] Elias: up to left
+[2024-03-21 13:21:08] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] Elias: right to down
+[2024-03-21 13:21:09] Elias: (2/14) to (2/15)
+[2024-03-21 13:21:09] MOVE down Elias
+[2024-03-21 13:21:09] Elias: down to up
+[2024-03-21 13:21:09] Elias: right to down
+[2024-03-21 13:21:09] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:09] Elias: (2/14) to (2/15)
+[2024-03-21 13:21:09] MOVE up Elias
+[2024-03-21 13:21:09] Elias: down to up
+[2024-03-21 13:21:09] Elias: (2/15) to (2/14)
+[2024-03-21 13:21:09] Elias: up to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] MOVE left Elias
+[2024-03-21 13:21:09] Elias: up to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] Elias: left to up
+[2024-03-21 13:21:09] Elias: (1/14) to (1/13)
+[2024-03-21 13:21:09] MOVE up Elias
+[2024-03-21 13:21:09] Elias: left to up
+[2024-03-21 13:21:09] Elias: (1/14) to (1/13)
+[2024-03-21 13:21:09] Elias: up to right
+[2024-03-21 13:21:09] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: up to right
+[2024-03-21 13:21:09] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:09] Elias: right to down
+[2024-03-21 13:21:09] Elias: (2/13) to (2/14)
+[2024-03-21 13:21:09] MOVE down Elias
+[2024-03-21 13:21:09] Elias: right to down
+[2024-03-21 13:21:09] Elias: (2/13) to (2/14)
+[2024-03-21 13:21:09] Elias: down to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] MOVE left Elias
+[2024-03-21 13:21:09] Elias: down to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] Elias: right to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] MOVE left Elias
+[2024-03-21 13:21:09] Elias: right to left
+[2024-03-21 13:21:09] Elias: (2/14) to (1/14)
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/14) to (2/14)
+[2024-03-21 13:21:09] Elias: right to up
+[2024-03-21 13:21:09] Elias: (2/14) to (2/13)
+[2024-03-21 13:21:09] MOVE up Elias
+[2024-03-21 13:21:09] Elias: right to up
+[2024-03-21 13:21:09] Elias: (2/14) to (2/13)
+[2024-03-21 13:21:09] Elias: up to left
+[2024-03-21 13:21:09] Elias: (2/13) to (1/13)
+[2024-03-21 13:21:09] MOVE left Elias
+[2024-03-21 13:21:09] Elias: up to left
+[2024-03-21 13:21:09] Elias: (2/13) to (1/13)
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:09] Elias: right to up
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: (2/13) to (2/12)
+[2024-03-21 13:21:09] Elias: left to right
+[2024-03-21 13:21:09] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:09] MOVE up Elias
+[2024-03-21 13:21:09] Elias: right to up
+[2024-03-21 13:21:09] Elias: (2/13) to (2/12)
+[2024-03-21 13:21:09] Elias: up to up
+[2024-03-21 13:21:09] Elias: (2/12) to (2/11)
+[2024-03-21 13:21:09] MOVE up Elias
+[2024-03-21 13:21:09] Elias: up to up
+[2024-03-21 13:21:09] Elias: (2/12) to (2/11)
+[2024-03-21 13:21:09] Elias: up to right
+[2024-03-21 13:21:09] MOVE right Elias
+[2024-03-21 13:21:09] Elias: up to right
+[2024-03-21 13:21:10] Elias: right to left
+[2024-03-21 13:21:10] Elias: (2/11) to (1/11)
+[2024-03-21 13:21:10] MOVE left Elias
+[2024-03-21 13:21:10] Elias: right to left
+[2024-03-21 13:21:10] Elias: (2/11) to (1/11)
+[2024-03-21 13:21:10] Elias: left to down
+[2024-03-21 13:21:10] Elias: (1/11) to (1/12)
+[2024-03-21 13:21:10] MOVE down Elias
+[2024-03-21 13:21:10] Elias: left to down
+[2024-03-21 13:21:10] Elias: (1/11) to (1/12)
+[2024-03-21 13:21:10] Elias: down to left
+[2024-03-21 13:21:10] MOVE left Elias
+[2024-03-21 13:21:10] Elias: down to left
+[2024-03-21 13:21:10] Elias: left to down
+[2024-03-21 13:21:10] Elias: (1/12) to (1/13)
+[2024-03-21 13:21:10] MOVE down Elias
+[2024-03-21 13:21:10] Elias: left to down
+[2024-03-21 13:21:10] Elias: (1/12) to (1/13)
+[2024-03-21 13:21:10] Elias: down to right
+[2024-03-21 13:21:10] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:10] MOVE right Elias
+[2024-03-21 13:21:10] Elias: down to right
+[2024-03-21 13:21:10] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:10] Elias: right to left
+[2024-03-21 13:21:10] Elias: (2/13) to (1/13)
+[2024-03-21 13:21:10] MOVE left Elias
+[2024-03-21 13:21:10] Elias: right to left
+[2024-03-21 13:21:10] Elias: (2/13) to (1/13)
+[2024-03-21 13:21:10] Elias: left to right
+[2024-03-21 13:21:10] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:10] MOVE right Elias
+[2024-03-21 13:21:10] Elias: left to right
+[2024-03-21 13:21:10] Elias: (1/13) to (2/13)
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (2/13) to (3/13)
+[2024-03-21 13:21:10] MOVE right Elias
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (2/13) to (3/13)
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (3/13) to (4/13)
+[2024-03-21 13:21:10] MOVE right Elias
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (3/13) to (4/13)
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (4/13) to (5/13)
+[2024-03-21 13:21:10] MOVE right Elias
+[2024-03-21 13:21:10] Elias: right to right
+[2024-03-21 13:21:10] Elias: (4/13) to (5/13)
+[2024-03-21 13:21:11] Elias: right to right
+[2024-03-21 13:21:11] Elias: (5/13) to (6/13)
+[2024-03-21 13:21:11] MOVE right Elias
+[2024-03-21 13:21:11] Elias: right to right
+[2024-03-21 13:21:11] Elias: (5/13) to (6/13)
+[2024-03-21 13:21:11] Elias: right to right
+[2024-03-21 13:21:11] Elias: (6/13) to (7/13)
+[2024-03-21 13:21:11] MOVE right Elias
+[2024-03-21 13:21:11] Elias: right to right
+[2024-03-21 13:21:11] Elias: (6/13) to (7/13)
+[2024-03-21 13:21:11] Elias: right to up
+[2024-03-21 13:21:11] Elias: (7/13) to (7/12)
+[2024-03-21 13:21:11] MOVE up Elias
+[2024-03-21 13:21:11] Elias: right to up
+[2024-03-21 13:21:11] Elias: (7/13) to (7/12)
+[2024-03-21 13:21:11] Elias: up to up
+[2024-03-21 13:21:11] Elias: (7/12) to (7/11)
+[2024-03-21 13:21:11] MOVE up Elias
+[2024-03-21 13:21:11] Elias: up to up
+[2024-03-21 13:21:11] Elias: (7/12) to (7/11)
+[2024-03-21 13:21:11] Elias: up to right
+[2024-03-21 13:21:11] Elias: (7/11) to (8/11)
+[2024-03-21 13:21:11] MOVE right Elias
+[2024-03-21 13:21:11] Elias: up to right
+[2024-03-21 13:21:11] Elias: (7/11) to (8/11)
+[2024-03-21 13:21:12] Elias: right to left
+[2024-03-21 13:21:12] Elias: (8/11) to (7/11)
+[2024-03-21 13:21:12] MOVE left Elias
+[2024-03-21 13:21:12] Elias: right to left
+[2024-03-21 13:21:12] Elias: (8/11) to (7/11)
+[2024-03-21 13:21:12] Elias: left to right
+[2024-03-21 13:21:12] Elias: (7/11) to (8/11)
+[2024-03-21 13:21:12] MOVE right Elias
+[2024-03-21 13:21:12] Elias: left to right
+[2024-03-21 13:21:12] Elias: (7/11) to (8/11)
+[2024-03-21 13:21:12] Elias: right to up
+[2024-03-21 13:21:12] Elias: (8/11) to (8/10)
+[2024-03-21 13:21:12] MOVE up Elias
+[2024-03-21 13:21:12] Elias: right to up
+[2024-03-21 13:21:12] Elias: (8/11) to (8/10)
+[2024-03-21 13:21:12] Elias: up to left
+[2024-03-21 13:21:12] Elias: (8/10) to (7/10)
+[2024-03-21 13:21:12] MOVE left Elias
+[2024-03-21 13:21:12] Elias: up to left
+[2024-03-21 13:21:12] Elias: (8/10) to (7/10)
+[2024-03-21 13:21:13] Elias: left to right
+[2024-03-21 13:21:13] Elias: (7/10) to (8/10)
+[2024-03-21 13:21:13] MOVE right Elias
+[2024-03-21 13:21:13] Elias: left to right
+[2024-03-21 13:21:13] Elias: (7/10) to (8/10)
+[2024-03-21 13:21:13] Elias: right to right
+[2024-03-21 13:21:13] Elias: (8/10) to (9/10)
+[2024-03-21 13:21:13] MOVE right Elias
+[2024-03-21 13:21:13] Elias: right to right
+[2024-03-21 13:21:13] Elias: (8/10) to (9/10)
+[2024-03-21 13:21:13] Elias: right to right
+[2024-03-21 13:21:13] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:13] MOVE right Elias
+[2024-03-21 13:21:13] Elias: right to right
+[2024-03-21 13:21:13] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:13] Elias: right to left
+[2024-03-21 13:21:13] Elias: (10/10) to (9/10)
+[2024-03-21 13:21:13] MOVE left Elias
+[2024-03-21 13:21:13] Elias: right to left
+[2024-03-21 13:21:13] Elias: (10/10) to (9/10)
+[2024-03-21 13:21:13] Elias: left to up
+[2024-03-21 13:21:13] MOVE up Elias
+[2024-03-21 13:21:13] Elias: left to up
+[2024-03-21 13:21:13] Elias: up to right
+[2024-03-21 13:21:13] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:13] MOVE right Elias
+[2024-03-21 13:21:13] Elias: up to right
+[2024-03-21 13:21:13] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:14] Elias: right to left
+[2024-03-21 13:21:14] Elias: (10/10) to (9/10)
+[2024-03-21 13:21:14] MOVE left Elias
+[2024-03-21 13:21:14] Elias: right to left
+[2024-03-21 13:21:14] Elias: (10/10) to (9/10)
+[2024-03-21 13:21:14] Elias: left to right
+[2024-03-21 13:21:14] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:14] MOVE right Elias
+[2024-03-21 13:21:14] Elias: right to up
+[2024-03-21 13:21:14] Elias: left to right
+[2024-03-21 13:21:14] Elias: (9/10) to (10/10)
+[2024-03-21 13:21:14] Elias: (10/10) to (10/9)
+[2024-03-21 13:21:14] MOVE up Elias
+[2024-03-21 13:21:14] Elias: right to up
+[2024-03-21 13:21:14] Elias: (10/10) to (10/9)
+[2024-03-21 13:21:14] Elias: up to left
+[2024-03-21 13:21:14] MOVE left Elias
+[2024-03-21 13:21:14] Elias: up to left
+[2024-03-21 13:21:14] Elias: left to right
+[2024-03-21 13:21:14] Elias: (10/9) to (11/9)
+[2024-03-21 13:21:14] MOVE right Elias
+[2024-03-21 13:21:14] Elias: left to right
+[2024-03-21 13:21:14] Elias: (10/9) to (11/9)
+[2024-03-21 13:21:14] Elias: right to right
+[2024-03-21 13:21:14] MOVE right Elias
+[2024-03-21 13:21:14] Elias: right to right
+[2024-03-21 13:21:14] Elias: right to down
+[2024-03-21 13:21:14] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:14] MOVE down Elias
+[2024-03-21 13:21:14] Elias: right to down
+[2024-03-21 13:21:14] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:15] Elias: down to down
+[2024-03-21 13:21:15] Elias: (11/10) to (11/11)
+[2024-03-21 13:21:15] MOVE down Elias
+[2024-03-21 13:21:15] Elias: down to down
+[2024-03-21 13:21:15] Elias: (11/10) to (11/11)
+[2024-03-21 13:21:15] Elias: down to right
+[2024-03-21 13:21:15] Elias: (11/11) to (12/11)
+[2024-03-21 13:21:15] MOVE right Elias
+[2024-03-21 13:21:15] Elias: down to right
+[2024-03-21 13:21:15] Elias: (11/11) to (12/11)
+[2024-03-21 13:21:15] Elias: right to left
+[2024-03-21 13:21:15] Elias: (12/11) to (11/11)
+[2024-03-21 13:21:15] MOVE left Elias
+[2024-03-21 13:21:15] Elias: right to left
+[2024-03-21 13:21:15] Elias: (12/11) to (11/11)
+[2024-03-21 13:21:15] Elias: left to right
+[2024-03-21 13:21:15] Elias: (11/11) to (12/11)
+[2024-03-21 13:21:15] MOVE right Elias
+[2024-03-21 13:21:15] Elias: left to right
+[2024-03-21 13:21:15] Elias: (11/11) to (12/11)
+[2024-03-21 13:21:15] Elias: right to up
+[2024-03-21 13:21:15] Elias: (12/11) to (12/10)
+[2024-03-21 13:21:15] MOVE up Elias
+[2024-03-21 13:21:15] Elias: right to up
+[2024-03-21 13:21:15] Elias: (12/11) to (12/10)
+[2024-03-21 13:21:15] Elias: up to left
+[2024-03-21 13:21:15] Elias: (12/10) to (11/10)
+[2024-03-21 13:21:15] MOVE left Elias
+[2024-03-21 13:21:15] Elias: up to left
+[2024-03-21 13:21:15] Elias: (12/10) to (11/10)
+[2024-03-21 13:21:15] Elias: left to up
+[2024-03-21 13:21:15] Elias: (11/10) to (11/9)
+[2024-03-21 13:21:15] MOVE up Elias
+[2024-03-21 13:21:15] Elias: left to up
+[2024-03-21 13:21:15] Elias: (11/10) to (11/9)
+[2024-03-21 13:21:16] Elias: up to left
+[2024-03-21 13:21:16] Elias: (11/9) to (10/9)
+[2024-03-21 13:21:16] MOVE left Elias
+[2024-03-21 13:21:16] Elias: up to left
+[2024-03-21 13:21:16] Elias: (11/9) to (10/9)
+[2024-03-21 13:21:16] Elias: left to right
+[2024-03-21 13:21:16] Elias: (10/9) to (11/9)
+[2024-03-21 13:21:16] MOVE right Elias
+[2024-03-21 13:21:16] Elias: left to right
+[2024-03-21 13:21:16] Elias: (10/9) to (11/9)
+[2024-03-21 13:21:17] Elias: right to right
+[2024-03-21 13:21:17] MOVE right Elias
+[2024-03-21 13:21:17] Elias: right to right
+[2024-03-21 13:21:17] Elias: right to down
+[2024-03-21 13:21:17] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:17] MOVE down Elias
+[2024-03-21 13:21:17] Elias: right to down
+[2024-03-21 13:21:17] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:17] Elias: down to up
+[2024-03-21 13:21:17] Elias: (11/10) to (11/9)
+[2024-03-21 13:21:17] MOVE up Elias
+[2024-03-21 13:21:17] Elias: down to up
+[2024-03-21 13:21:17] Elias: (11/10) to (11/9)
+[2024-03-21 13:21:17] Elias: up to down
+[2024-03-21 13:21:17] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:17] MOVE down Elias
+[2024-03-21 13:21:17] Elias: up to down
+[2024-03-21 13:21:17] Elias: (11/9) to (11/10)
+[2024-03-21 13:21:17] Elias: down to down
+[2024-03-21 13:21:17] Elias: (11/10) to (11/11)
+[2024-03-21 13:21:17] MOVE down Elias
+[2024-03-21 13:21:17] Elias: down to down
+[2024-03-21 13:21:17] Elias: (11/10) to (11/11)
+[2024-03-21 13:21:17] Elias: down to down
+[2024-03-21 13:21:17] Elias: (11/11) to (11/12)
+[2024-03-21 13:21:17] MOVE down Elias
+[2024-03-21 13:21:17] Elias: down to down
+[2024-03-21 13:21:17] Elias: (11/11) to (11/12)
+[2024-03-21 13:21:18] Elias: down to down
+[2024-03-21 13:21:18] Elias: (11/12) to (11/13)
+[2024-03-21 13:21:18] MOVE down Elias
+[2024-03-21 13:21:18] Elias: down to down
+[2024-03-21 13:21:18] Elias: (11/12) to (11/13)
+[2024-03-21 13:21:18] Elias: down to right
+[2024-03-21 13:21:18] MOVE right Elias
+[2024-03-21 13:21:18] Elias: down to right
+[2024-03-21 13:21:18] Elias: right to down
+[2024-03-21 13:21:18] Elias: (11/13) to (11/14)
+[2024-03-21 13:21:18] MOVE down Elias
+[2024-03-21 13:21:18] Elias: right to down
+[2024-03-21 13:21:18] Elias: (11/13) to (11/14)
+[2024-03-21 13:21:18] Elias: down to right
+[2024-03-21 13:21:18] Elias: (11/14) to (12/14)
+[2024-03-21 13:21:18] MOVE right Elias
+[2024-03-21 13:21:18] Elias: down to right
+[2024-03-21 13:21:18] Elias: (11/14) to (12/14)
+[2024-03-21 13:21:19] Elias: right to up
+[2024-03-21 13:21:19] MOVE up Elias
+[2024-03-21 13:21:19] Elias: right to up
+[2024-03-21 13:21:19] Elias: up to up
+[2024-03-21 13:21:19] MOVE up Elias
+[2024-03-21 13:21:19] Elias: up to up
+[2024-03-21 13:21:19] Elias: up to right
+[2024-03-21 13:21:19] Elias: (12/14) to (13/14)
+[2024-03-21 13:21:19] MOVE right Elias
+[2024-03-21 13:21:19] Elias: up to right
+[2024-03-21 13:21:19] Elias: (12/14) to (13/14)
+[2024-03-21 13:21:19] Elias: right to up
+[2024-03-21 13:21:19] Elias: (13/14) to (13/13)
+[2024-03-21 13:21:19] MOVE up Elias
+[2024-03-21 13:21:19] Elias: right to up
+[2024-03-21 13:21:19] Elias: (13/14) to (13/13)
+[2024-03-21 13:21:19] Elias: up to up
+[2024-03-21 13:21:19] Elias: (13/13) to (13/12)
+[2024-03-21 13:21:19] MOVE up Elias
+[2024-03-21 13:21:19] Elias: up to up
+[2024-03-21 13:21:19] Elias: (13/13) to (13/12)
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/12) to (13/11)
+[2024-03-21 13:21:20] MOVE up Elias
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/12) to (13/11)
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/11) to (13/10)
+[2024-03-21 13:21:20] MOVE up Elias
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/11) to (13/10)
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/10) to (13/9)
+[2024-03-21 13:21:20] MOVE up Elias
+[2024-03-21 13:21:20] Elias: up to up
+[2024-03-21 13:21:20] Elias: (13/10) to (13/9)
+[2024-03-21 13:37:01] Running with Debugging Enabled
+[2024-03-21 13:37:01] Starting Game Application...
+[2024-03-21 13:37:01] Connection Established to host: localhost/127.0.0.1
+[2024-03-21 13:37:01] JOIN Elias 1 2
+[2024-03-21 13:37:01] Attempting to create player: Elias
+[2024-03-21 13:37:06] Starting game in 5 seconds...
+[2024-03-21 13:37:06] SETTEXT Starting‎:5
+[2024-03-21 13:37:07] Starting game in 4 seconds...
+[2024-03-21 13:37:07] SETTEXT Starting‎:4
+[2024-03-21 13:37:08] Starting game in 3 seconds...
+[2024-03-21 13:37:08] SETTEXT Starting‎:3
+[2024-03-21 13:37:09] Starting game in 2 seconds...
+[2024-03-21 13:37:09] SETTEXT Starting‎:2
+[2024-03-21 13:37:10] Starting game in 1 seconds...
+[2024-03-21 13:37:10] SETTEXT Starting‎:1
+[2024-03-21 13:37:11] Starting game in 0 seconds...
+[2024-03-21 13:37:11] SETTEXT Starting‎:0
+[2024-03-21 13:37:11] START
+[2024-03-21 13:37:11] SETTEXT Game-Started
