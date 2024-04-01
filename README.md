@@ -6,7 +6,7 @@ Git-Projektet indeholder IKKE en .iml fil. Det vil sige, at for at indeksere pro
 Dette er gjordt på grund af gruppens forskellige operativsystemer, som ikke bruger den samme type JavaFX
 
 Projektet andvender en "Resourcs" mappe. Derfor skal man på mappen "resources" højreklikke, og vælge:
-    "Mark Directory as > Resources"
+ > "Mark Directory as > Resources"
 
 
 # Instruktioner til at køre spil:
