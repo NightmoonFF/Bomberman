@@ -2,7 +2,6 @@ Instruction messages used to communicate between client/server are split into tw
 What indicates an instruction/command message, is a full caps word at start.
 So for example, an input request sequence from client would go like this:
 
-JOIN Elias
 MOVE up Elias
 MOVE up Elias
 MOVE down Elias
