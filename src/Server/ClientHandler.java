@@ -15,9 +15,9 @@ import java.net.Socket;
  * ClientHandler is also saved as an ArrayList in Server to iterate through, for the
  *  server to broadcast to each client
  */
-class ClientHandler implements Runnable {
+public class ClientHandler implements Runnable {
 
-    final Socket clientSocket;
+    public final Socket clientSocket;
     private final BufferedReader in;
     private final PrintWriter out;
     public String clientName; //todo: to be removed? get player.name

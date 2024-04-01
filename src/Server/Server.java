@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class Server {
 
-	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
+	public static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
 	static Common common;

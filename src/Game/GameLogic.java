@@ -1,10 +1,14 @@
 package Game;
 
+import Server.ClientHandler;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import static Game.Generel.board;
+import static Server.Server.clientThreads;
 
 /**
  * Mostly contains methods that perform in-game instructions, usually by the Client/Server
@@ -68,15 +72,14 @@ public class GameLogic {
 		int x = player.getX(),y = player.getY();
 
 		if (board[y+delta_y].charAt(x+delta_x)=='w') {
-			player.addPoints(-1); //TODO: remove?
+			player.takeDamage(); //TODO: remove?
 		} 
 		else {
 			// collision detection
 			Player p = getPlayerAt(x + delta_x,y + delta_y);
 			if (p!=null) {
-              player.addPoints(10);
               //update the other player
-              p.addPoints(-69);
+              p.takeDamage();
               Position pos = getRandomFreePosition();
               p.setPosition(pos);
               Position oldpos = new Position(x + delta_x, y + delta_y);
@@ -85,7 +88,7 @@ public class GameLogic {
 
 			}
 			else {
-				player.addPoints(1); //TODO: remove?
+
 				Position oldpos = player.getPosition();
 				Position newpos = new Position(x + delta_x, y + delta_y);
 				Gui.movePlayerOnScreen(oldpos,newpos,direction, player.getPlayerColor());
@@ -115,6 +118,30 @@ public class GameLogic {
 		Gui.placeBombOnScreen(bomb);
 
 		System.out.println("Bomb Placed by " + player.getName() + " (" + player.getX() + "/" + player.getY() + ")");
+
+	}
+
+
+	public static void checkPlayerHealth(Player player) throws IOException {
+
+		if (player.getHealth() == 0) {
+			Server.Server.broadcast("Spiller: " + player.getName() + "Er blevet elimineret");
+			System.exit(0);
+		}
+
+
+		//Tæl nuværende spillere for at check om der kun er 1 tilbage(vinder)
+		int sumSpillere = 0;
+		for (ClientHandler clientHandler : clientThreads) {
+
+			sumSpillere++;
+		}
+
+		if (sumSpillere == 1) {
+			for (ClientHandler clientHandler : clientThreads) {
+				clientHandler.clientSocket.close();
+			}
+		}
 
 	}
 

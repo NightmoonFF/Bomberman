@@ -98,6 +98,7 @@ public class Bomb {
                 Gui.placeExplosionOnScreen(current, explosionImageView); // Place explosion image at current position
                 //TODO: call method in GameLogic here, that applies damage to a player if he is positioned in "current"
 
+
                 // Scale transition
                 ScaleTransition scaleTransition = new ScaleTransition(Duration.seconds(1), explosionImageView);
                 scaleTransition.setFromX(1.2);
