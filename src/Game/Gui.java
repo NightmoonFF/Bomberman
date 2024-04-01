@@ -1,7 +1,6 @@
 package Game;
 
 import Server.Client;
-
 import Server.Server;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -10,29 +9,38 @@ import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.image.*;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.text.*;
 import javafx.util.Duration;
 
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Objects;
-import javafx.scene.image.ImageView;
 
 import static Game.DebugLogger.LOG_FILE_PATH;
 
 public class Gui extends Application {
 
 	private Client client;
+	public static String clientUsername;
+	public static String serverIP;
 	private boolean isServerInstance;
 
 	private Scene primaryScene;
@@ -65,9 +73,9 @@ public class Gui extends Application {
 	public static Image hero_right_green, hero_left_green, hero_up_green, hero_down_green;
 	public static Image hero_right_pink, hero_left_pink, hero_up_pink, hero_down_pink;
 
-	private static Label infoLabel = new Label();
+	private static final Label infoLabel = new Label();
 	private static boolean canMove = false;
-	private static Timeline timeline = new Timeline();
+	private static final Timeline timeline = new Timeline();
 
 
 	@Override
@@ -113,9 +121,7 @@ public class Gui extends Application {
 		btnStart.setOnAction(e -> startGame());
 		btnStart.setVisible(isServerInstance);
 
-
 		initFields();
-
 
 		// Player List
 		playerList = new VBox();
@@ -155,6 +161,11 @@ public class Gui extends Application {
 		primaryScene = new Scene(primaryPane, scene_width, scene_height);
 		primaryStage.setScene(primaryScene);
 		primaryStage.show();
+
+		if(!isServerInstance){
+			InputPopup inputPopup = new InputPopup(primaryStage);
+			inputPopup.showAndWait();
+		}
 	}
 
 
@@ -322,7 +333,8 @@ public class Gui extends Application {
 		}
 		else{
 
-			client = new Client();
+			client = new Client(serverIP);
+
 			primaryScene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
 				if(canMove){
 					switch (event.getCode()) {

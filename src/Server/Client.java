@@ -6,6 +6,7 @@ import Game.Gui;
 import Game.Player;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 
 import java.io.BufferedReader;
@@ -30,21 +31,9 @@ public class Client {
     public static PrintWriter out;
     static BufferedReader consoleInput;
 
-    static {
-        try{
-            socket = new Socket("localhost", 4969); //TODO: move to launcher prompt
-            in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
-            out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
-            consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
-            DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
+    public Client(String serverIP) {
 
-        } catch (IOException e) {
-            DebugLogger.log(e.getMessage());
-            throw new RuntimeException(e);
-        }
-    }
-
-    public Client() {
+        setupConnection(serverIP);
 
         //Continuous thread for incoming messages by Server
         Thread inputThread = new Thread(() -> {
@@ -75,6 +64,37 @@ public class Client {
             }
         });
         outputThread.start();
+
+    }
+
+    /**
+     * Sets up the connection to the host. <br>
+     * TODO: Make the game not close if host could not be found, but let the user try another IP
+     * @param serverIP the provided IP
+     */
+    private void setupConnection(String serverIP){
+        try{
+            socket = new Socket(serverIP, 4969);
+            in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //From server
+            out = new PrintWriter(socket.getOutputStream(), true); //From console input to server
+            consoleInput = new BufferedReader(new InputStreamReader(System.in)); //From console input
+            DebugLogger.log("Connection Established to host: " + socket.getInetAddress());
+
+        } catch (UnknownHostException e) {
+            displayConnectionAlert("Unknown Host", "The specified host is unknown.");
+            Platform.exit();
+        } catch (IOException e) {
+            displayConnectionAlert("Connection Error", "Failed to connect to the server.");
+            Platform.exit();
+        }
+    }
+
+    private void displayConnectionAlert(String title, String message) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 
     public void sendMessage(String message){

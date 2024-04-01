@@ -54,10 +54,6 @@ public class Server {
 		Application.launch(Gui.class, arguments);
     }
 
-	private static void init(){
-
-	}
-
 
 	/**
 	 * Takes a message from this client to be processed in Common
