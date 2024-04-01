@@ -2824,3 +2824,23 @@
 [2024-04-01 22:20:11] [gg2]: MOVE right gg2
 [2024-04-01 22:20:11] [gg2]: MOVE up gg2
 [2024-04-01 22:20:11] [gg2]: MOVE left gg2
+[2024-04-01 22:22:36] Server Socket Established
+[2024-04-01 22:22:36] Starting...
+[2024-04-01 22:22:36] Starting Game Application...
+[2024-04-01 22:22:36] Running with Debugging Enabled
+[2024-04-01 22:22:36] Running Application as Server
+[2024-04-01 22:22:37] Running with Debugging Enabled
+[2024-04-01 22:22:37] Running Application as Server
+[2024-04-01 22:22:49] /127.0.0.1 Has Connected to the Server
+[2024-04-01 22:28:34] Server Socket Established
+[2024-04-01 22:28:34] Starting...
+[2024-04-01 22:28:34] Starting Game Application...
+[2024-04-01 22:28:34] Running with Debugging Enabled
+[2024-04-01 22:28:34] Running Application as Server
+[2024-04-01 22:28:35] Running with Debugging Enabled
+[2024-04-01 22:28:35] Running Application as Server
+[2024-04-01 22:41:20] /127.0.0.1 Has Connected to the Server
+[2024-04-01 22:41:33] [gg]: MOVE left gg
+[2024-04-01 22:41:33] [gg]: MOVE left gg
+[2024-04-01 22:41:33] [gg]: MOVE right gg
+[2024-04-01 22:41:33] [gg]: MOVE right gg
