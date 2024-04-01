@@ -18,6 +18,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.*;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -41,7 +43,7 @@ public class Gui extends Application {
 	private Client client;
 	public static String clientUsername;
 	public static String serverIP;
-	private boolean isServerInstance;
+	private static boolean isServerInstance;
 
 	private Scene primaryScene;
 	private Stage primaryStage;
@@ -76,6 +78,9 @@ public class Gui extends Application {
 	private static final Label infoLabel = new Label();
 	private static boolean canMove = false;
 	private static final Timeline timeline = new Timeline();
+
+	private static MediaPlayer warmupPlayer;
+	private static MediaPlayer battlePlayer;
 
 
 	@Override
@@ -163,8 +168,19 @@ public class Gui extends Application {
 		primaryStage.show();
 
 		if(!isServerInstance){
+
+			warmupPlayer.setCycleCount(MediaPlayer.INDEFINITE);
+			warmupPlayer.setVolume(0.2);
+
+			battlePlayer.setCycleCount(MediaPlayer.INDEFINITE);
+			battlePlayer.setVolume(0.2);
+
+			warmupPlayer.play();
+
 			InputPopup inputPopup = new InputPopup(primaryStage);
 			inputPopup.showAndWait();
+
+
 		}
 	}
 
@@ -237,6 +253,10 @@ public class Gui extends Application {
 	 * Loads the Game Assets into fields from a resources path
 	 */
 	private void initResources(){
+
+		warmupPlayer     = new MediaPlayer(new Media(Objects.requireNonNull(getClass().getResource("/audio/warmup.wav")).toString()));
+		battlePlayer     = new MediaPlayer(new Media(Objects.requireNonNull(getClass().getResource("/audio/battle.wav")).toString()));
+
 		gameLabel        = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/cooltext.png")),419, 78, true, true );
 		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
 		heart            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/heart.png")), fieldImageSize, fieldImageSize, false, false);
@@ -273,6 +293,13 @@ public class Gui extends Application {
 
 	public static void setCanMove(boolean canMove) {
 		Gui.canMove = canMove;
+
+		if(canMove && !isServerInstance){
+			warmupPlayer.stop();
+
+			battlePlayer.play();
+		}
+
 	}
 
 
