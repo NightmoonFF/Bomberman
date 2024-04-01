@@ -1,5 +1,7 @@
 package Game;
 
+import javafx.application.Platform;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -39,9 +41,11 @@ public class GameLogic {
 	 * @param pos position to spawn
 	 */
 	public static void spawnPlayer(Player player, Position pos){
-		player.reset();
-		player.setPosition(pos);
-		Gui.placePlayerOnScreen(pos, "up", player.getPlayerColor());
+		Platform.runLater(() -> {
+			player.reset();
+			player.setPosition(pos);
+			Gui.placePlayerOnScreen(pos, "up", player.getPlayerColor());
+		});
 	}
 
 
@@ -115,6 +119,7 @@ public class GameLogic {
 	 */
 	public static void damagePlayer(Player p){
 		if(p.getCurrentHealth() == 1){
+			//TODO: check upon death if only 1 person is alive, and if so, say that they won
 			Gui.removePlayerOnScreen(p.getPosition());
 		}
 		Gui.updatePlayerDamage(p);

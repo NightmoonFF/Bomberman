@@ -302,7 +302,9 @@ public class Gui extends Application {
 		timeline.play();
 	}
 
-
+	public static void setClientUsername(String clientUsername) {
+		Gui.clientUsername = clientUsername;
+	}
 
 	/**
 	 * Instantiates a new Client Object for the connection started by the App class,
@@ -339,23 +341,23 @@ public class Gui extends Application {
 				if(canMove){
 					switch (event.getCode()) {
 						case UP:
-							client.sendMessage("MOVE" + " " + "up" + " " + App.username);
+							client.sendMessage("MOVE" + " " + "up" + " " + clientUsername);
 							DebugLogger.log("CLICKED UP");
 							break;
 						case DOWN:
-							client.sendMessage("MOVE" + " " + "down" + " " + App.username);
+							client.sendMessage("MOVE" + " " + "down" + " " + clientUsername);
 							DebugLogger.log("CLICKED DOWN");
 							break;
 						case LEFT:
-							client.sendMessage("MOVE" + " " + "left" + " " + App.username);
+							client.sendMessage("MOVE" + " " + "left" + " " + clientUsername);
 							DebugLogger.log("CLICKED LEFT");
 							break;
 						case RIGHT:
-							client.sendMessage("MOVE" + " " + "right" + " " + App.username);
+							client.sendMessage("MOVE" + " " + "right" + " " + clientUsername);
 							DebugLogger.log("CLICKED RIGHT");
 							break;
 						case SPACE:
-							client.sendMessage("BOMB" + " " + App.username);
+							client.sendMessage("BOMB" + " " + clientUsername);
 							DebugLogger.log("BOMBED");
 							break;
 						case ESCAPE:
@@ -368,7 +370,7 @@ public class Gui extends Application {
 
 			});
 
-			client.sendMessage("JOIN" + " " + App.username);
+			client.sendMessage("JOIN" + " " + clientUsername);
 		}
 	}
 	//endregion

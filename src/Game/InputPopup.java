@@ -41,7 +41,7 @@ public class InputPopup extends Stage{
 
             }
             else{
-                Gui.clientUsername = usernametxtfield.getText();
+                Gui.setClientUsername(usernametxtfield.getText());
                 Gui.serverIP = iptxtfield.getText();
                 close();
             }

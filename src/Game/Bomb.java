@@ -15,7 +15,6 @@ public class Bomb {
     private final int range;
 
     private final Timeline bombFuseDelay = new Timeline();
-
     private final Timeline animationTimeline = new Timeline();
     private final int animationSpeed;
 
