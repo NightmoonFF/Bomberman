@@ -12,7 +12,6 @@ import javafx.scene.Node;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -51,7 +50,6 @@ public class Gui extends Application {
 	private static final GridPane fieldGridBomb = new GridPane();
 	private static final GridPane fieldGridExplosion = new GridPane();
 	private static Label[][] fieldsBottom;
-	private static Label[][] fieldsMid;
 	private static Label[][] fieldsBomb;
 	private static Label[][] fieldsExplosion;
 
@@ -90,6 +88,7 @@ public class Gui extends Application {
 
 
 	//region [ Initialization ]
+
 	/**
 	 * Main GUI Initialization
 	 */
@@ -179,23 +178,6 @@ public class Gui extends Application {
 					fieldGridBottom.add(fieldsBottom[i][j], i, j);
 				}
 			}
-
-			//TODO: Instantiate Box Layer. Possibly replace W with B or something, and have that spawn destructibles
-			/*fieldsMid = new Label[20][20];
-			for (int j=0; j<20; j++) {
-				for (int i=0; i<20; i++) {
-					switch (Generel.board[j].charAt(i)) {
-						case 'w':
-							fieldsBot[i][j] = new Label("", new ImageView(image_wall));
-							break;
-						case ' ':
-							fieldsBot[i][j] = new Label("", new ImageView(image_floor));
-							break;
-						default: throw new Exception("Illegal field value: " + Generel.board[j].charAt(i) );
-					}
-					fieldGridBot.add(fieldsBot[i][j], i, j);
-				}
-			}*/
 
 			// Instantiate Bomb Layer
 			fieldsBomb = new Label[20][20];
@@ -327,14 +309,13 @@ public class Gui extends Application {
 
 
 	//region [ Player ]
+
 	/**
 	 * Removes a player visually from a given positional co-ordinate
 	 * @param oldPos the position in which to remove the player sprite
 	 */
 	public static void removePlayerOnScreen(Position oldPos) {
-		Platform.runLater(() -> {
-			fieldsBottom[oldPos.getX()][oldPos.getY()].setGraphic(new ImageView(image_floor));
-			});
+		Platform.runLater(() -> fieldsBottom[oldPos.getX()][oldPos.getY()].setGraphic(new ImageView(image_floor)));
 	}
 
 
@@ -401,9 +382,7 @@ public class Gui extends Application {
 
 	//region [ Bomb & Explosion ]
 	public static void placeBombOnScreen(Bomb bomb){
-		Platform.runLater(() -> {
-			fieldsBomb[bomb.getPosition().getX()][bomb.getPosition().getY()].setGraphic(bomb.getBombImageView());
-		});
+		Platform.runLater(() -> fieldsBomb[bomb.getPosition().getX()][bomb.getPosition().getY()].setGraphic(bomb.getBombImageView()));
 	}
 	public static void removeBombOnScreen(Position pos) {
 		Platform.runLater(() -> {
@@ -414,9 +393,7 @@ public class Gui extends Application {
 		});
 	}
 	public static void placeExplosionOnScreen(Position pos, ImageView expView){
-		Platform.runLater(() -> {
-		fieldsExplosion[pos.getX()][pos.getY()].setGraphic(expView);
-		});
+		Platform.runLater(() -> fieldsExplosion[pos.getX()][pos.getY()].setGraphic(expView));
 	}
 	public static void removeExplosionOnScreen(Position pos){
 		Platform.runLater(() -> {
@@ -429,7 +406,7 @@ public class Gui extends Application {
 	//endregion
 
 
-	//region [ PlayerList(ScoreBoard) ]
+	//region [ PlayerList ]
 	public static void updatePlayerList(){
 
 		Platform.runLater(() -> {
