@@ -122,7 +122,12 @@ public class Common {
             case "BOMB":
                 GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
                 break;
-
+            case "START":
+                Gui.setCanMove(true);
+                break;
+            case "COUNTER":
+                Gui.setLabelText(parts[1]);
+                break;
             default:
                 System.out.println("Warning: Unknown Message Received! \"" + input + "\"");
                 DebugLogger.log("Warning: Unknown Message Received! \"" + input + "\"");

@@ -2,6 +2,7 @@ package Game;
 
 import Server.Client;
 
+import Server.Server;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
@@ -37,7 +38,6 @@ public class Gui extends Application {
 	private Scene primaryScene;
 	private Stage primaryStage;
 	private GridPane primaryPane;
-
 	private static VBox playerList;
 
 	public static final int fieldImageSize = 35;
@@ -53,6 +53,8 @@ public class Gui extends Application {
 	private static Label[][] fieldsBomb;
 	private static Label[][] fieldsExplosion;
 
+	private static ImageView gameLabelView;
+
 	public static Image gameLabel;
 	public static Image skull;
 	public static Image heart;
@@ -62,6 +64,11 @@ public class Gui extends Application {
 	public static Image hero_right_blue, hero_left_blue, hero_up_blue, hero_down_blue;
 	public static Image hero_right_green, hero_left_green, hero_up_green, hero_down_green;
 	public static Image hero_right_pink, hero_left_pink, hero_up_pink, hero_down_pink;
+
+	private static Label infoLabel = new Label();
+	private static boolean canMove = false;
+	private static Timeline timeline = new Timeline();
+
 
 	@Override
 	public void init() {
@@ -100,7 +107,11 @@ public class Gui extends Application {
 		primaryPane.setPadding(new Insets(0, 10, 0, 10));
 		primaryPane.setStyle("-fx-background-color: #9b9b9b");
 
-		ImageView gameLabelView = new ImageView(gameLabel);
+		gameLabelView = new ImageView(gameLabel);
+
+		Button btnStart = new Button("Start");
+		btnStart.setOnAction(e -> startGame());
+		btnStart.setVisible(isServerInstance);
 
 
 		initFields();
@@ -124,6 +135,8 @@ public class Gui extends Application {
 		playerList.setFillWidth(true);
 		playerListContainer.getChildren().add(playerList);
 
+		infoLabel.setFont(Font.font(18));
+		infoLabel.setText("Waiting for players");
 
 		// Wrapping the game-board layers in a stackPane
 		StackPane stackPane = new StackPane();
@@ -134,9 +147,10 @@ public class Gui extends Application {
 
 
 		primaryPane.add(gameLabelView,  0, 0, 1, 1);
+		primaryPane.add(infoLabel, 1, 0);
 		primaryPane.add(stackPane, 0, 1);
 		primaryPane.add(playerListContainer,  1, 1, 1, 2);
-
+		primaryPane.add(btnStart, 0, 2);
 
 		primaryScene = new Scene(primaryPane, scene_width, scene_height);
 		primaryStage.setScene(primaryScene);
@@ -240,6 +254,44 @@ public class Gui extends Application {
 		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
 	}
 
+	public static void setLabelText(String s) {
+		Platform.runLater(() -> {
+			infoLabel.setText(s);
+		});
+	}
+
+	public static void setCanMove(boolean canMove) {
+		Gui.canMove = canMove;
+	}
+
+
+	public void startGame() {
+	//TODO: move this away from GUI Class
+		final int countdownTime = 5;
+
+		for (int i = countdownTime; i >= 0; i--) {
+			final int remainingSeconds = i;
+
+			KeyFrame keyFrame = new KeyFrame(
+					Duration.seconds(countdownTime - i),
+					event -> {
+
+						infoLabel.setText("Starting game in " + remainingSeconds + " seconds"); // Only on server
+
+						Server.broadcast("COUNTER" + " " + "Starting:" + remainingSeconds);
+
+						if (remainingSeconds == 0) {
+							Server.broadcast("START");
+							Server.broadcast("COUNTER" + " " + "Game-Started!");
+						}
+					}
+			);
+			timeline.getKeyFrames().add(keyFrame);
+		}
+		timeline.play();
+	}
+
+
 
 	/**
 	 * Instantiates a new Client Object for the connection started by the App class,
@@ -263,39 +315,45 @@ public class Gui extends Application {
 		if(isServerInstance){
 
 			DebugLogger.logServer("Running Application as Server");
-			primaryPane.setStyle("-fx-background-color: lightblue;");
+			primaryPane.getChildren().remove(gameLabelView);
+			Label srvLabel = new Label("SERVER");
+			srvLabel.setFont(Font.font(35));
+			primaryPane.add(srvLabel, 0, 0);
 		}
 		else{
 
 			client = new Client();
 			primaryScene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
-				switch (event.getCode()) {
-					case UP:
-						client.sendMessage("MOVE" + " " + "up" + " " + App.username);
-						DebugLogger.log("CLICKED UP");
-						break;
-					case DOWN:
-						client.sendMessage("MOVE" + " " + "down" + " " + App.username);
-						DebugLogger.log("CLICKED DOWN");
-						break;
-					case LEFT:
-						client.sendMessage("MOVE" + " " + "left" + " " + App.username);
-						DebugLogger.log("CLICKED LEFT");
-						break;
-					case RIGHT:
-						client.sendMessage("MOVE" + " " + "right" + " " + App.username);
-						DebugLogger.log("CLICKED RIGHT");
-						break;
-					case SPACE:
-						client.sendMessage("BOMB" + " " + App.username);
-						DebugLogger.log("BOMBED");
-						break;
-					case ESCAPE:
-						System.exit(0);
-						break;
-					default:
-						break;
+				if(canMove){
+					switch (event.getCode()) {
+						case UP:
+							client.sendMessage("MOVE" + " " + "up" + " " + App.username);
+							DebugLogger.log("CLICKED UP");
+							break;
+						case DOWN:
+							client.sendMessage("MOVE" + " " + "down" + " " + App.username);
+							DebugLogger.log("CLICKED DOWN");
+							break;
+						case LEFT:
+							client.sendMessage("MOVE" + " " + "left" + " " + App.username);
+							DebugLogger.log("CLICKED LEFT");
+							break;
+						case RIGHT:
+							client.sendMessage("MOVE" + " " + "right" + " " + App.username);
+							DebugLogger.log("CLICKED RIGHT");
+							break;
+						case SPACE:
+							client.sendMessage("BOMB" + " " + App.username);
+							DebugLogger.log("BOMBED");
+							break;
+						case ESCAPE:
+							System.exit(0);
+							break;
+						default:
+							break;
+					}
 				}
+
 			});
 
 			client.sendMessage("JOIN" + " " + App.username);
