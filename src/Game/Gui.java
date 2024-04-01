@@ -101,10 +101,8 @@ public class Gui extends Application {
 		primaryPane.setPadding(new Insets(0, 10, 0, 10));
 		primaryPane.setStyle("-fx-background-color: #9b9b9b");
 
-
 		ImageView gameLabelView = new ImageView(gameLabel);
-		Text playerLabel = new Text("Players:");
-		playerLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
+
 
 		initFields();
 
@@ -138,8 +136,7 @@ public class Gui extends Application {
 		stackPane.getChildren().add(fieldGridExplosion);
 
 
-		primaryPane.add(gameLabelView,  0, 0);
-		primaryPane.add(playerLabel, 1, 0);
+		primaryPane.add(gameLabelView,  0, 0, 1, 1);
 		primaryPane.add(stackPane, 0, 1);
 		primaryPane.add(playerListContainer,  1, 1, 1, 2);
 
