@@ -122,6 +122,11 @@ public class GameLogic {
 	}
 
 
+	/**
+	 Tjekker for spillernes liv, og sørger for at eliminere og lukke deres applikation, hvis de rammer 0 liv.
+	 Derudover tjekker den hvor mange spillere der er i live. Hvis der kun er 1 spiller tilbage, så lukker den alles applikation ned
+	 Fordi spiller et færdig
+	 */
 	public static void checkPlayerHealth(Player player) throws IOException {
 
 		if (player.getHealth() == 0) {
