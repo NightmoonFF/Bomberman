@@ -16,22 +16,31 @@ public class GameLogic {
 
 
 	/**
-	 * Instantiates a player character in the game
+	 * Instantiates a player character in the game,
+	 * but does not spawn them(show them on GUI).
 	 * @param name desired name of the new player
 	 * @return the created player
 	 */
-	public static Player makePlayer(String name, int x, int y) {
+	public static Player makePlayer(String name) {
 
-		Position playerPosition = new Position(x, y);
 		Player player;
-		player = new Player(name, playerPosition,"up");
+		player = new Player(name,"up");
 		players.add(player);
-		Gui.placePlayerOnScreen(new Position(player.getX(), player.getY()), "up", player.getPlayerColor());
+		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
 		Gui.updatePlayerList();
 
-		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
-
 		return player;
+	}
+
+	/**
+	 * Spawns this player in the GUI
+	 * @param player player to spawn
+	 * @param pos position to spawn
+	 */
+	public static void spawnPlayer(Player player, Position pos){
+		player.reset();
+		player.setPosition(pos);
+		Gui.placePlayerOnScreen(pos, "up", player.getPlayerColor());
 	}
 
 
@@ -106,7 +115,6 @@ public class GameLogic {
 	public static void damagePlayer(Player p){
 		if(p.getCurrentHealth() == 1){
 			Gui.removePlayerOnScreen(p.getPosition());
-			players.remove(p);
 		}
 		Gui.updatePlayerDamage(p);
 		p.takeDamage();

@@ -13,7 +13,6 @@ public class Server {
 	static ArrayList<ClientHandler> clientThreads = new ArrayList<>();
 	static Map<Socket, Player> clientMap = new HashMap<>();
 	static ServerSocket serverSocket;
-	static Common common;
 
     static {
         try {
@@ -26,7 +25,6 @@ public class Server {
 
     public static void main(String[] args) {
 		DebugLogger.logServer("Starting...");
-		common = Common.getInstance();
 
 		//Continuous thread for incoming Connections
 		Thread connectionThread = new Thread(() -> {

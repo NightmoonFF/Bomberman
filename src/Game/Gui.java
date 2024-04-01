@@ -279,6 +279,7 @@ public class Gui extends Application {
 				}
 			});
 		}
+
 		if(isServerInstance){
 
 			DebugLogger.logServer("Running Application as Server");
@@ -317,9 +318,9 @@ public class Gui extends Application {
 				}
 			});
 
-			//TODO: Client make player request. To be changed for lobby system or countdown system?
-			Position playerPosition = GameLogic.getRandomFreePosition();
-			client.sendMessage("JOIN" + " " + App.username + " " + playerPosition.x + " " + playerPosition.y);
+
+			GameLogic.makePlayer(App.username);
+			client.sendMessage("JOIN" + " " + App.username);
 		}
 	}
 	//endregion
@@ -396,7 +397,6 @@ public class Gui extends Application {
 		placePlayerOnScreen(newPos,direction, playerColor);
 	}
 	//endregion
-
 
 
 	//region [ Bomb & Explosion ]

@@ -26,15 +26,13 @@ public class Player {
 	private boolean isBombActivated;
 	private final Timer bombTimer = new Timer();
 
-	public Player(String name, Position pos, String direction) {
+	public Player(String name, String direction) {
 		this.name = name;
-		this.position = pos;
 		this.direction = direction;
 		this.startHealth = 3;
 		this.currentHealth = startHealth;
 		this.playerColor = getNextAvailableColor();
 		this.isDead = false;
-		initHealthBar();
 	}
 
 
@@ -61,7 +59,6 @@ public class Player {
 		isDead = false;
 		currentHealth = 3;
 		initHealthBar();
-		//TODO: move to freePosition and Gui.showPlayerOnScreen call
 	}
 
 	/**

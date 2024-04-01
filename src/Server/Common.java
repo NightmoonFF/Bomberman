@@ -1,8 +1,6 @@
 package Server;
 
-import Game.DebugLogger;
-import Game.GameLogic;
-import Game.Player;
+import Game.*;
 
 import java.net.Socket;
 import java.util.Objects;
@@ -11,26 +9,13 @@ import java.util.Objects;
  * This class is intended to be where the game's input is handled - as in, the specific instructions
  * that makes things happen, such as moving, or placing bombs. This class is identical between the
  * servers instance of the game, and the clients' instance of the game - hence the name "common".
- * It has been made into a singleton with the idea of ensuring it cannot be instantiated multiple times,
- * but is not needed due to being a static utility class - TODO: remove singleton pattern?
+ * The setup of this is a little experimental, as we did not know the proper handling of this architechture.
+ * Perhaps only the "updateGame" method should be located here, and the rest could be handled somewhere else.
  */
 public class Common {
-    private static Common instance;
-    private Common() {} // private constructor for singleton
-
 
     /**
-     * Ensures a singleton pattern
-     * @return the instance if not already claimed
-     */
-    public static synchronized Common getInstance() {
-        if (instance == null) {
-            instance = new Common();
-        }
-        return instance;
-    }
-
-    /**
+     * Used by Server                                                               <br>
      * Pre-requisite for allowing Clients to access updateGame                      <br>
      * Handles the incoming game requests by clients in seperate phases:            <br>
  *                                                                                  <p>
@@ -43,25 +28,50 @@ public class Common {
      */
     public static synchronized void handleInputRequest(String input, Socket clientSocket) {
         // Process the input
-        processInput(input);
+        processInput(input, clientSocket);
         // Apply input to the server's game
-        updateGame(input, clientSocket);
+        updateGame(input);
         // Broadcast input to all clients
         broadcastInput(input);
     }
 
 
     /**
+     * Used by Server <br>
      * Method to process input such as doing validation
-     * @param input
+     * @param input input
      */
-    private static void processInput(String input) {
-        //TODO: check if player is trying to move/bomb while dead, if yes, deny
+    private static void processInput(String input, Socket clientSocket) {
+
+        String[] parts = input.split(" "); //Split the input into command and parameters
+        String command = parts[0];
+
+        switch (command) {
+            case "JOIN":
+                DebugLogger.log("Attempting to create player: " + parts[1]);
+
+                Player clientPlayer = GameLogic.makePlayer(parts[1]);
+                Server.addClient(clientSocket, clientPlayer);
+
+                //TODO: broadcast spawn
+                Position freePos = GameLogic.getRandomFreePosition();
+                broadcastInput("SPAWN" + " " + freePos.getX() + " " + freePos.getY());
+
+                //TODO: for each existing player already connected, have new client create those as well
+                //targeted message, or broadcast with if statement on client-side? broadcast more secure,
+                //in case existing client has missed a message for creation previously
+                break;
+        }
+
+        //TODO: Check if requested player Username is already used - would break game due to getPlayerByName()
+        //TODO: check if player is trying to make input requests while dead, if yes, deny
         //TODO: similar checks
     }
 
 
+
     /**
+     * Used by Client + Server                                                                                  <br>
      * Applies the client's request to the Game, according to protocol outlined in "client_server_protocol.txt" <br>
      *                                                                                                          <p>
      * parts[0] - command                                                                                       <br>
@@ -69,25 +79,17 @@ public class Common {
      *
      * @param input the clients input request
      */
-    private static void updateGame(String input, Socket clientSocket) {
+    public static void updateGame(String input) {
 
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
 
         switch (command) {
-            case "JOIN":
-                DebugLogger.logServer("Attempting to create player: " + parts[1]);
-                Player clientPlayer = GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
-                Server.addClient(clientSocket, clientPlayer);
-
-                //TODO: for each existing player already connected, have new client create those as well
-                //targeted message, or broadcast with if statement on client-side? broadcast more secure,
-                //in case existing client has missed a message for creation previously
-                break;
+            case "SPAWN":
+                GameLogic.spawnPlayer(GameLogic.getPlayerByName(parts[1]), new Position(Integer.parseInt(parts[2]), Integer.parseInt(parts[3])));
 
             case "MOVE":
                 switch(parts[1]){
-                    //TODO: remove double-switch
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
                     break;
                     case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");

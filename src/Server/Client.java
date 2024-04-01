@@ -50,11 +50,10 @@ public class Client {
             try {
                 String line;
                 while ((line = in.readLine()) != null) {
-                    //System.out.println("[SERVER]: " + line);
                     DebugLogger.log(line);
 
-                    //processInput(line);
-                    updateGame(line);
+                    Common.updateGame(line);
+
                 }
             } catch (IOException e) {
                 DebugLogger.log(e.getMessage());
@@ -75,39 +74,6 @@ public class Client {
             }
         });
         outputThread.start();
-    }
-
-    //TODO: make client use the Common class, which is what it's intended for? this method is a duplicate of Common.updateGame
-    private void updateGame(String input){
-        String[] parts = input.split(" "); //Split the input into command and parameters
-        String command = parts[0];
-        switch (command) {
-            case "JOIN":
-                DebugLogger.log("Attempting to create player: " + parts[1]);
-                GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
-                break;
-            case "MOVE":
-                switch(parts[1]){
-                    //TODO: remove double-switch?
-                    case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
-                    break;
-                    case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");
-                    break;
-                    case "left": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), -1, 0, "left");
-                    break;
-                    case "right": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), +1, 0, "right");
-                    break;
-                }
-                break;
-            case "BOMB":
-
-                GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
-
-                break;
-            default:
-                DebugLogger.logServer("Unknown Message: " + input);
-                break;
-        }
     }
 
     public void sendMessage(String message){
