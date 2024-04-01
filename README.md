@@ -1,6 +1,6 @@
 Git-Projektet indeholder IKKE en .iml fil. Det vil sige, at for at indeksere projektet skal man trykke:
-    File > Project Structure >  Modules > Sources > Add Content Root
-    Og herfra vælge projektets lokation
+    "File > Project Structure >  Modules > Sources > Add Content Root" - og så herfra vælge projektets lokation.
+Dette er gjordt på grund af gruppens forskellige operativsystemer, som ikke bruger den samme type JavaFX
 
 Projektet andvender en "Resourcs" mappe. Derfor skal man på mappen "resources" højreklikke, og vælge:
     "Mark Directory as > Resources"
