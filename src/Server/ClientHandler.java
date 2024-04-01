@@ -17,6 +17,9 @@ import java.net.Socket;
  */
 class ClientHandler implements Runnable {
 
+    //TODO: handling of when a client leaves the game.
+    //TODO: Next time, plan for having to do the entire project myself...
+
     final Socket clientSocket;
     private final BufferedReader in;
     private final PrintWriter out;

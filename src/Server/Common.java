@@ -49,6 +49,12 @@ public class Common {
         String command = parts[0];
         if (command.equals("JOIN")) {
 
+            // Prevent more than 4 concurrent players
+            if(Server.clientMap.size() == 4) { //TODO: NOT TESTED
+                Server.sendMessage("Error: Game Lobby is Currently Full", clientSocket);
+                return false;
+            }
+
             // Add client & player to server
             Player clientPlayer = GameLogic.makePlayer(parts[1]);
 
@@ -63,7 +69,7 @@ public class Common {
             Server.broadcast("SPAWN" + " " + parts[1] + " " + freePos.getX() + " " + freePos.getY());
 
             // Send existing player data to the newly joined player
-            for (Player otherPlayer : GameLogic.players) {
+            for (Player otherPlayer : GameLogic.players) { //TODO: NOT TESTED
                 if (!otherPlayer.equals(clientPlayer)) { // Exclude the newly joined player
 
                     Server.sendMessage("MAKE" + " " + otherPlayer.getName(), clientSocket);
