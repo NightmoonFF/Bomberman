@@ -4998,3 +4998,828 @@
 [2024-03-27 19:09:55] Running Application as Server
 [2024-03-27 19:09:55] Running with Debugging Enabled
 [2024-03-27 19:09:55] Running Application as Server
+[2024-04-01 15:11:40] Server Socket Established
+[2024-04-01 15:11:40] Starting...
+[2024-04-01 15:11:40] Starting Game Application...
+[2024-04-01 15:11:40] Running with Debugging Enabled
+[2024-04-01 15:11:40] Running Application as Server
+[2024-04-01 15:11:41] Running with Debugging Enabled
+[2024-04-01 15:11:41] Running Application as Server
+[2024-04-01 15:11:45] /127.0.0.1 Has Connected to the Server
+[2024-04-01 15:11:45] [/127.0.0.1]: JOIN Elias 6 1
+[2024-04-01 15:11:45] Attempting to create player: Elias
+[2024-04-01 15:11:47] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:47] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:11:47] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:11:47] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:11:48] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:48] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:11:48] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:11:49] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:11:49] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:11:49] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:11:49] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:11:50] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:50] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:11:50] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:11:51] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:11:54] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:11:55] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:55] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:55] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:11:56] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:11:56] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:11:56] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:11:10] Server Socket Established
+[2024-03-27 19:11:10] Starting...
+[2024-03-27 19:11:10] Starting Game Application...
+[2024-03-27 19:11:10] Running with Debugging Enabled
+[2024-03-27 19:11:10] Running Application as Server
+[2024-03-27 19:11:11] Running with Debugging Enabled
+[2024-03-27 19:11:11] Running Application as Server
+[2024-03-27 19:11:15] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:11:15] [/127.0.0.1]: JOIN Elias 17 10
+[2024-03-27 19:11:15] Attempting to create player: Elias
+[2024-03-27 19:11:16] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:11:16] [/127.0.0.1]: BOMB Elias
+[2024-03-27 19:11:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:16] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:17] [/127.0.0.1]: MOVE down Elias
+[2024-03-27 19:11:17] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:18] [/127.0.0.1]: MOVE down Elias
+[2024-03-27 19:11:18] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:18] [/127.0.0.1]: MOVE down Elias
+[2024-03-27 19:11:22] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:23] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:11:23] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:11:24] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:11:24] [/127.0.0.1]: MOVE down Elias
+[2024-03-27 19:18:01] Server Socket Established
+[2024-03-27 19:18:01] Starting...
+[2024-03-27 19:18:01] Starting Game Application...
+[2024-03-27 19:18:01] Running with Debugging Enabled
+[2024-03-27 19:18:01] Running Application as Server
+[2024-03-27 19:18:01] Running with Debugging Enabled
+[2024-03-27 19:18:01] Running Application as Server
+[2024-03-27 19:22:13] Server Socket Established
+[2024-03-27 19:22:13] Starting...
+[2024-03-27 19:22:13] Starting Game Application...
+[2024-03-27 19:22:13] Running with Debugging Enabled
+[2024-03-27 19:22:13] Running Application as Server
+[2024-03-27 19:22:13] Running with Debugging Enabled
+[2024-03-27 19:22:13] Running Application as Server
+[2024-03-27 19:22:38] Server Socket Established
+[2024-03-27 19:22:38] Starting...
+[2024-03-27 19:22:38] Starting Game Application...
+[2024-03-27 19:22:38] Running with Debugging Enabled
+[2024-03-27 19:22:38] Running Application as Server
+[2024-03-27 19:22:39] Running with Debugging Enabled
+[2024-03-27 19:22:39] Running Application as Server
+[2024-03-27 19:23:39] Server Socket Established
+[2024-03-27 19:23:39] Starting...
+[2024-03-27 19:23:39] Starting Game Application...
+[2024-03-27 19:23:39] Running with Debugging Enabled
+[2024-03-27 19:23:39] Running Application as Server
+[2024-03-27 19:23:40] Running with Debugging Enabled
+[2024-03-27 19:23:40] Running Application as Server
+[2024-03-27 19:23:45] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:23:45] [/127.0.0.1]: JOIN Elias 18 1
+[2024-03-27 19:23:45] Attempting to create player: Elias
+[2024-03-27 19:25:29] Server Socket Established
+[2024-03-27 19:25:29] Starting...
+[2024-03-27 19:25:29] Starting Game Application...
+[2024-03-27 19:25:29] Running with Debugging Enabled
+[2024-03-27 19:25:29] Running Application as Server
+[2024-03-27 19:25:29] Running with Debugging Enabled
+[2024-03-27 19:25:29] Running Application as Server
+[2024-03-27 19:26:03] Server Socket Established
+[2024-03-27 19:26:03] Starting...
+[2024-03-27 19:26:03] Starting Game Application...
+[2024-03-27 19:26:03] Running with Debugging Enabled
+[2024-03-27 19:26:03] Running Application as Server
+[2024-03-27 19:26:03] Running with Debugging Enabled
+[2024-03-27 19:26:03] Running Application as Server
+[2024-03-27 19:26:49] Server Socket Established
+[2024-03-27 19:26:49] Starting...
+[2024-03-27 19:26:49] Starting Game Application...
+[2024-03-27 19:26:49] Running with Debugging Enabled
+[2024-03-27 19:26:49] Running Application as Server
+[2024-03-27 19:26:50] Running with Debugging Enabled
+[2024-03-27 19:26:50] Running Application as Server
+[2024-03-27 19:28:29] Server Socket Established
+[2024-03-27 19:28:29] Starting...
+[2024-03-27 19:28:29] Starting Game Application...
+[2024-03-27 19:28:29] Running with Debugging Enabled
+[2024-03-27 19:28:29] Running Application as Server
+[2024-03-27 19:28:30] Running with Debugging Enabled
+[2024-03-27 19:28:30] Running Application as Server
+[2024-03-27 19:28:48] Server Socket Established
+[2024-03-27 19:28:48] Starting...
+[2024-03-27 19:28:48] Starting Game Application...
+[2024-03-27 19:28:48] Running with Debugging Enabled
+[2024-03-27 19:28:48] Running Application as Server
+[2024-03-27 19:28:49] Running with Debugging Enabled
+[2024-03-27 19:28:49] Running Application as Server
+[2024-03-27 19:29:03] Server Socket Established
+[2024-03-27 19:29:03] Starting...
+[2024-03-27 19:29:03] Starting Game Application...
+[2024-03-27 19:29:03] Running with Debugging Enabled
+[2024-03-27 19:29:03] Running Application as Server
+[2024-03-27 19:29:03] Running with Debugging Enabled
+[2024-03-27 19:29:03] Running Application as Server
+[2024-03-27 19:30:15] Server Socket Established
+[2024-03-27 19:30:15] Starting...
+[2024-03-27 19:30:15] Starting Game Application...
+[2024-03-27 19:30:15] Running with Debugging Enabled
+[2024-03-27 19:30:15] Running Application as Server
+[2024-03-27 19:30:16] Running with Debugging Enabled
+[2024-03-27 19:30:16] Running Application as Server
+[2024-03-27 19:33:28] Server Socket Established
+[2024-03-27 19:33:28] Starting...
+[2024-03-27 19:33:28] Starting Game Application...
+[2024-03-27 19:33:28] Running with Debugging Enabled
+[2024-03-27 19:33:28] Running Application as Server
+[2024-03-27 19:33:29] Running with Debugging Enabled
+[2024-03-27 19:33:29] Running Application as Server
+[2024-03-27 19:34:13] Server Socket Established
+[2024-03-27 19:34:13] Starting...
+[2024-03-27 19:34:13] Starting Game Application...
+[2024-03-27 19:34:13] Running with Debugging Enabled
+[2024-03-27 19:34:13] Running Application as Server
+[2024-03-27 19:34:13] Running with Debugging Enabled
+[2024-03-27 19:34:13] Running Application as Server
+[2024-03-27 19:35:30] Server Socket Established
+[2024-03-27 19:35:30] Starting...
+[2024-03-27 19:35:30] Starting Game Application...
+[2024-03-27 19:35:30] Running with Debugging Enabled
+[2024-03-27 19:35:30] Running Application as Server
+[2024-03-27 19:35:30] Running with Debugging Enabled
+[2024-03-27 19:35:30] Running Application as Server
+[2024-03-27 19:37:59] Server Socket Established
+[2024-03-27 19:37:59] Starting...
+[2024-03-27 19:37:59] Starting Game Application...
+[2024-03-27 19:37:59] Running with Debugging Enabled
+[2024-03-27 19:37:59] Running Application as Server
+[2024-03-27 19:38:00] Running with Debugging Enabled
+[2024-03-27 19:38:00] Running Application as Server
+[2024-03-27 19:39:31] Server Socket Established
+[2024-03-27 19:39:31] Starting...
+[2024-03-27 19:39:31] Starting Game Application...
+[2024-03-27 19:39:31] Running with Debugging Enabled
+[2024-03-27 19:39:31] Running Application as Server
+[2024-03-27 19:39:32] Running with Debugging Enabled
+[2024-03-27 19:39:32] Running Application as Server
+[2024-03-27 19:40:12] Server Socket Established
+[2024-03-27 19:40:12] Starting...
+[2024-03-27 19:40:12] Starting Game Application...
+[2024-03-27 19:40:12] Running with Debugging Enabled
+[2024-03-27 19:40:12] Running Application as Server
+[2024-03-27 19:40:13] Running with Debugging Enabled
+[2024-03-27 19:40:13] Running Application as Server
+[2024-03-27 19:40:38] Server Socket Established
+[2024-03-27 19:40:38] Starting...
+[2024-03-27 19:40:38] Starting Game Application...
+[2024-03-27 19:40:38] Running with Debugging Enabled
+[2024-03-27 19:40:38] Running Application as Server
+[2024-03-27 19:40:38] Running with Debugging Enabled
+[2024-03-27 19:40:38] Running Application as Server
+[2024-03-27 19:41:21] Server Socket Established
+[2024-03-27 19:41:21] Starting...
+[2024-03-27 19:41:21] Starting Game Application...
+[2024-03-27 19:41:21] Running with Debugging Enabled
+[2024-03-27 19:41:21] Running Application as Server
+[2024-03-27 19:41:22] Running with Debugging Enabled
+[2024-03-27 19:41:22] Running Application as Server
+[2024-03-27 19:41:41] Server Socket Established
+[2024-03-27 19:41:41] Starting...
+[2024-03-27 19:41:41] Starting Game Application...
+[2024-03-27 19:41:41] Running with Debugging Enabled
+[2024-03-27 19:41:41] Running Application as Server
+[2024-03-27 19:41:41] Running with Debugging Enabled
+[2024-03-27 19:41:41] Running Application as Server
+[2024-03-27 19:43:57] Server Socket Established
+[2024-03-27 19:43:57] Starting...
+[2024-03-27 19:43:57] Starting Game Application...
+[2024-03-27 19:43:57] Running with Debugging Enabled
+[2024-03-27 19:43:57] Running Application as Server
+[2024-03-27 19:43:58] Running with Debugging Enabled
+[2024-03-27 19:43:58] Running Application as Server
+[2024-03-27 19:46:18] Server Socket Established
+[2024-03-27 19:46:18] Starting...
+[2024-03-27 19:46:18] Starting Game Application...
+[2024-03-27 19:46:18] Running with Debugging Enabled
+[2024-03-27 19:46:18] Running Application as Server
+[2024-03-27 19:46:19] Running with Debugging Enabled
+[2024-03-27 19:46:19] Running Application as Server
+[2024-03-27 19:46:53] Server Socket Established
+[2024-03-27 19:46:53] Starting...
+[2024-03-27 19:46:53] Starting Game Application...
+[2024-03-27 19:46:53] Running with Debugging Enabled
+[2024-03-27 19:46:53] Running Application as Server
+[2024-03-27 19:46:53] Running with Debugging Enabled
+[2024-03-27 19:46:53] Running Application as Server
+[2024-03-27 19:48:41] Server Socket Established
+[2024-03-27 19:48:41] Starting...
+[2024-03-27 19:48:41] Starting Game Application...
+[2024-03-27 19:48:41] Running with Debugging Enabled
+[2024-03-27 19:48:41] Running Application as Server
+[2024-03-27 19:48:42] Running with Debugging Enabled
+[2024-03-27 19:48:42] Running Application as Server
+[2024-03-27 19:49:24] Server Socket Established
+[2024-03-27 19:49:24] Starting...
+[2024-03-27 19:49:24] Starting Game Application...
+[2024-03-27 19:49:24] Running with Debugging Enabled
+[2024-03-27 19:49:24] Running Application as Server
+[2024-03-27 19:49:25] Running with Debugging Enabled
+[2024-03-27 19:49:25] Running Application as Server
+[2024-03-27 19:50:25] Server Socket Established
+[2024-03-27 19:50:25] Starting...
+[2024-03-27 19:50:25] Starting Game Application...
+[2024-03-27 19:50:25] Running with Debugging Enabled
+[2024-03-27 19:50:25] Running Application as Server
+[2024-03-27 19:50:25] Running with Debugging Enabled
+[2024-03-27 19:50:25] Running Application as Server
+[2024-03-27 19:50:27] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:50:27] [/127.0.0.1]: JOIN Elias 2 11
+[2024-03-27 19:50:27] Attempting to create player: Elias
+[2024-03-27 19:51:39] Server Socket Established
+[2024-03-27 19:51:39] Starting...
+[2024-03-27 19:51:39] Starting Game Application...
+[2024-03-27 19:51:39] Running with Debugging Enabled
+[2024-03-27 19:51:39] Running Application as Server
+[2024-03-27 19:51:40] Running with Debugging Enabled
+[2024-03-27 19:51:40] Running Application as Server
+[2024-03-27 19:52:35] Server Socket Established
+[2024-03-27 19:52:35] Starting...
+[2024-03-27 19:52:35] Starting Game Application...
+[2024-03-27 19:52:35] Running with Debugging Enabled
+[2024-03-27 19:52:35] Running Application as Server
+[2024-03-27 19:52:35] Running with Debugging Enabled
+[2024-03-27 19:52:35] Running Application as Server
+[2024-03-27 19:52:38] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:52:38] [/127.0.0.1]: JOIN Elias 8 1
+[2024-03-27 19:52:38] Attempting to create player: Elias
+[2024-03-27 19:55:42] Server Socket Established
+[2024-03-27 19:55:42] Starting...
+[2024-03-27 19:55:42] Starting Game Application...
+[2024-03-27 19:55:42] Running with Debugging Enabled
+[2024-03-27 19:55:42] Running Application as Server
+[2024-03-27 19:55:43] Running with Debugging Enabled
+[2024-03-27 19:55:43] Running Application as Server
+[2024-03-27 19:55:44] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:55:44] [/127.0.0.1]: JOIN Elias 1 16
+[2024-03-27 19:55:44] Attempting to create player: Elias
+[2024-03-27 19:56:08] Server Socket Established
+[2024-03-27 19:56:08] Starting...
+[2024-03-27 19:56:08] Starting Game Application...
+[2024-03-27 19:56:08] Running with Debugging Enabled
+[2024-03-27 19:56:08] Running Application as Server
+[2024-03-27 19:56:08] Running with Debugging Enabled
+[2024-03-27 19:56:09] Running Application as Server
+[2024-03-27 19:56:10] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:56:10] [/127.0.0.1]: JOIN Elias 4 3
+[2024-03-27 19:56:10] Attempting to create player: Elias
+[2024-03-27 19:57:29] Server Socket Established
+[2024-03-27 19:57:29] Starting...
+[2024-03-27 19:57:29] Starting Game Application...
+[2024-03-27 19:57:29] Running with Debugging Enabled
+[2024-03-27 19:57:29] Running Application as Server
+[2024-03-27 19:57:30] Running with Debugging Enabled
+[2024-03-27 19:57:30] Running Application as Server
+[2024-03-27 19:57:33] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:57:33] [/127.0.0.1]: JOIN Elias 18 18
+[2024-03-27 19:57:33] Attempting to create player: Elias
+[2024-03-27 19:58:32] Server Socket Established
+[2024-03-27 19:58:32] Starting...
+[2024-03-27 19:58:32] Starting Game Application...
+[2024-03-27 19:58:32] Running with Debugging Enabled
+[2024-03-27 19:58:32] Running Application as Server
+[2024-03-27 19:58:33] Running with Debugging Enabled
+[2024-03-27 19:58:33] Running Application as Server
+[2024-03-27 19:58:35] /127.0.0.1 Has Connected to the Server
+[2024-03-27 19:58:35] [/127.0.0.1]: JOIN Elias 7 18
+[2024-03-27 19:58:35] Attempting to create player: Elias
+[2024-03-27 19:59:02] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:59:02] [/127.0.0.1]: BOMB Elias
+[2024-03-27 19:59:02] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:59:03] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:59:03] [/127.0.0.1]: MOVE right Elias
+[2024-03-27 19:59:04] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:59:08] [/127.0.0.1]: MOVE right Elias
+[2024-03-27 19:59:08] [/127.0.0.1]: MOVE right Elias
+[2024-03-27 19:59:09] [/127.0.0.1]: MOVE right Elias
+[2024-03-27 19:59:09] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:59:09] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:59:09] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:59:10] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 19:59:10] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:59:10] [/127.0.0.1]: MOVE up Elias
+[2024-03-27 19:59:10] [/127.0.0.1]: MOVE left Elias
+[2024-03-27 20:00:15] Server Socket Established
+[2024-03-27 20:00:15] Starting...
+[2024-03-27 20:00:15] Starting Game Application...
+[2024-03-27 20:00:15] Running with Debugging Enabled
+[2024-03-27 20:00:15] Running Application as Server
+[2024-03-27 20:00:16] Running with Debugging Enabled
+[2024-03-27 20:00:16] Running Application as Server
+[2024-03-27 20:00:19] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:00:19] [/127.0.0.1]: JOIN Elias 2 4
+[2024-03-27 20:00:19] Attempting to create player: Elias
+[2024-03-27 20:01:01] Server Socket Established
+[2024-03-27 20:01:01] Starting...
+[2024-03-27 20:01:01] Starting Game Application...
+[2024-03-27 20:01:01] Running with Debugging Enabled
+[2024-03-27 20:01:01] Running Application as Server
+[2024-03-27 20:01:01] Running with Debugging Enabled
+[2024-03-27 20:01:01] Running Application as Server
+[2024-03-27 20:01:03] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:01:03] [/127.0.0.1]: JOIN Elias 17 12
+[2024-03-27 20:01:03] Attempting to create player: Elias
+[2024-03-27 20:02:25] Server Socket Established
+[2024-03-27 20:02:25] Starting...
+[2024-03-27 20:02:25] Starting Game Application...
+[2024-03-27 20:02:25] Running with Debugging Enabled
+[2024-03-27 20:02:25] Running Application as Server
+[2024-03-27 20:02:26] Running with Debugging Enabled
+[2024-03-27 20:02:26] Running Application as Server
+[2024-03-27 20:02:29] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:02:29] [/127.0.0.1]: JOIN Elias 16 13
+[2024-03-27 20:02:29] Attempting to create player: Elias
+[2024-03-27 20:03:05] Server Socket Established
+[2024-03-27 20:03:05] Starting...
+[2024-03-27 20:03:05] Starting Game Application...
+[2024-03-27 20:03:05] Running with Debugging Enabled
+[2024-03-27 20:03:05] Running Application as Server
+[2024-03-27 20:03:05] Running with Debugging Enabled
+[2024-03-27 20:03:05] Running Application as Server
+[2024-03-27 20:03:07] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:03:07] [/127.0.0.1]: JOIN Sankt Nikolaus IIV 17 6
+[2024-03-27 20:03:07] Attempting to create player: Sankt
+[2024-03-27 20:03:43] Server Socket Established
+[2024-03-27 20:03:43] Starting...
+[2024-03-27 20:03:43] Starting Game Application...
+[2024-03-27 20:03:43] Running with Debugging Enabled
+[2024-03-27 20:03:43] Running Application as Server
+[2024-03-27 20:03:43] Running with Debugging Enabled
+[2024-03-27 20:03:43] Running Application as Server
+[2024-03-27 20:03:45] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:03:45] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 7 7
+[2024-03-27 20:03:45] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:06:34] Server Socket Established
+[2024-03-27 20:06:34] Starting...
+[2024-03-27 20:06:34] Starting Game Application...
+[2024-03-27 20:06:34] Running with Debugging Enabled
+[2024-03-27 20:06:34] Running Application as Server
+[2024-03-27 20:06:34] Running with Debugging Enabled
+[2024-03-27 20:06:34] Running Application as Server
+[2024-03-27 20:06:36] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:06:36] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 14 9
+[2024-03-27 20:06:36] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:08:49] Server Socket Established
+[2024-03-27 20:08:49] Starting...
+[2024-03-27 20:08:49] Starting Game Application...
+[2024-03-27 20:08:49] Running with Debugging Enabled
+[2024-03-27 20:08:49] Running Application as Server
+[2024-03-27 20:08:49] Running with Debugging Enabled
+[2024-03-27 20:08:49] Running Application as Server
+[2024-03-27 20:08:51] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:08:51] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 9 4
+[2024-03-27 20:08:51] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:09:07] Server Socket Established
+[2024-03-27 20:09:07] Starting...
+[2024-03-27 20:09:07] Starting Game Application...
+[2024-03-27 20:09:07] Running with Debugging Enabled
+[2024-03-27 20:09:07] Running Application as Server
+[2024-03-27 20:09:08] Running with Debugging Enabled
+[2024-03-27 20:09:08] Running Application as Server
+[2024-03-27 20:09:10] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:09:10] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 1 9
+[2024-03-27 20:09:10] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:10:43] Server Socket Established
+[2024-03-27 20:10:43] Starting...
+[2024-03-27 20:10:43] Starting Game Application...
+[2024-03-27 20:10:43] Running with Debugging Enabled
+[2024-03-27 20:10:43] Running Application as Server
+[2024-03-27 20:10:43] Running with Debugging Enabled
+[2024-03-27 20:10:43] Running Application as Server
+[2024-03-27 20:10:45] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:10:45] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 6 11
+[2024-03-27 20:10:45] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:11:14] Server Socket Established
+[2024-03-27 20:11:14] Starting...
+[2024-03-27 20:11:14] Starting Game Application...
+[2024-03-27 20:11:14] Running with Debugging Enabled
+[2024-03-27 20:11:14] Running Application as Server
+[2024-03-27 20:11:15] Running with Debugging Enabled
+[2024-03-27 20:11:15] Running Application as Server
+[2024-03-27 20:11:18] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:11:18] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 4 3
+[2024-03-27 20:11:18] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:11:55] Server Socket Established
+[2024-03-27 20:11:55] Starting...
+[2024-03-27 20:11:55] Starting Game Application...
+[2024-03-27 20:11:55] Running with Debugging Enabled
+[2024-03-27 20:11:55] Running Application as Server
+[2024-03-27 20:11:55] Running with Debugging Enabled
+[2024-03-27 20:11:55] Running Application as Server
+[2024-03-27 20:11:58] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:11:58] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 7 1
+[2024-03-27 20:11:58] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:12:53] Server Socket Established
+[2024-03-27 20:12:53] Starting...
+[2024-03-27 20:12:53] Starting Game Application...
+[2024-03-27 20:12:53] Running with Debugging Enabled
+[2024-03-27 20:12:53] Running Application as Server
+[2024-03-27 20:12:54] Running with Debugging Enabled
+[2024-03-27 20:12:54] Running Application as Server
+[2024-03-27 20:12:56] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:12:56] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 13 6
+[2024-03-27 20:12:56] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:13:18] Server Socket Established
+[2024-03-27 20:13:18] Starting...
+[2024-03-27 20:13:18] Starting Game Application...
+[2024-03-27 20:13:18] Running with Debugging Enabled
+[2024-03-27 20:13:18] Running Application as Server
+[2024-03-27 20:13:19] Running with Debugging Enabled
+[2024-03-27 20:13:19] Running Application as Server
+[2024-03-27 20:13:22] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:13:22] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 18 9
+[2024-03-27 20:13:22] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:14:05] Server Socket Established
+[2024-03-27 20:14:05] Starting...
+[2024-03-27 20:14:05] Starting Game Application...
+[2024-03-27 20:14:05] Running with Debugging Enabled
+[2024-03-27 20:14:05] Running Application as Server
+[2024-03-27 20:14:05] Running with Debugging Enabled
+[2024-03-27 20:14:05] Running Application as Server
+[2024-03-27 20:14:07] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:14:07] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 13 10
+[2024-03-27 20:14:07] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:14:44] Server Socket Established
+[2024-03-27 20:14:44] Starting...
+[2024-03-27 20:14:44] Starting Game Application...
+[2024-03-27 20:14:44] Running with Debugging Enabled
+[2024-03-27 20:14:44] Running Application as Server
+[2024-03-27 20:14:45] Running with Debugging Enabled
+[2024-03-27 20:14:45] Running Application as Server
+[2024-03-27 20:14:46] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:14:46] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 16 17
+[2024-03-27 20:14:46] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:15:17] Server Socket Established
+[2024-03-27 20:15:17] Starting...
+[2024-03-27 20:15:17] Starting Game Application...
+[2024-03-27 20:15:17] Running with Debugging Enabled
+[2024-03-27 20:15:17] Running Application as Server
+[2024-03-27 20:15:17] Running with Debugging Enabled
+[2024-03-27 20:15:17] Running Application as Server
+[2024-03-27 20:15:19] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:15:19] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 8 4
+[2024-03-27 20:15:19] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:16:01] Server Socket Established
+[2024-03-27 20:16:01] Starting...
+[2024-03-27 20:16:01] Starting Game Application...
+[2024-03-27 20:16:01] Running with Debugging Enabled
+[2024-03-27 20:16:01] Running Application as Server
+[2024-03-27 20:16:02] Running with Debugging Enabled
+[2024-03-27 20:16:02] Running Application as Server
+[2024-03-27 20:16:04] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:16:04] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 14 4
+[2024-03-27 20:16:04] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:16:23] Server Socket Established
+[2024-03-27 20:16:23] Starting...
+[2024-03-27 20:16:23] Starting Game Application...
+[2024-03-27 20:16:23] Running with Debugging Enabled
+[2024-03-27 20:16:23] Running Application as Server
+[2024-03-27 20:16:23] Running with Debugging Enabled
+[2024-03-27 20:16:23] Running Application as Server
+[2024-03-27 20:16:27] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:16:27] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 6 18
+[2024-03-27 20:16:27] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:18:14] Server Socket Established
+[2024-03-27 20:18:14] Starting...
+[2024-03-27 20:18:14] Starting Game Application...
+[2024-03-27 20:18:14] Running with Debugging Enabled
+[2024-03-27 20:18:14] Running Application as Server
+[2024-03-27 20:18:15] Running with Debugging Enabled
+[2024-03-27 20:18:15] Running Application as Server
+[2024-03-27 20:18:16] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:18:16] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 12 1
+[2024-03-27 20:18:16] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:18:45] Server Socket Established
+[2024-03-27 20:18:45] Starting...
+[2024-03-27 20:18:45] Starting Game Application...
+[2024-03-27 20:18:45] Running with Debugging Enabled
+[2024-03-27 20:18:45] Running Application as Server
+[2024-03-27 20:18:46] Running with Debugging Enabled
+[2024-03-27 20:18:46] Running Application as Server
+[2024-03-27 20:18:48] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:18:48] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 16 6
+[2024-03-27 20:18:48] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:19:15] Server Socket Established
+[2024-03-27 20:19:15] Starting...
+[2024-03-27 20:19:15] Starting Game Application...
+[2024-03-27 20:19:15] Running with Debugging Enabled
+[2024-03-27 20:19:15] Running Application as Server
+[2024-03-27 20:19:16] Running with Debugging Enabled
+[2024-03-27 20:19:16] Running Application as Server
+[2024-03-27 20:19:17] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:19:17] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 16 14
+[2024-03-27 20:19:17] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:20:03] Server Socket Established
+[2024-03-27 20:20:03] Starting...
+[2024-03-27 20:20:03] Starting Game Application...
+[2024-03-27 20:20:03] Running with Debugging Enabled
+[2024-03-27 20:20:03] Running Application as Server
+[2024-03-27 20:20:04] Running with Debugging Enabled
+[2024-03-27 20:20:04] Running Application as Server
+[2024-03-27 20:20:06] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:20:06] [/127.0.0.1]: JOIN Sankt-Nikolaus-IIV 6 15
+[2024-03-27 20:20:06] Attempting to create player: Sankt-Nikolaus-IIV
+[2024-03-27 20:20:33] Server Socket Established
+[2024-03-27 20:20:33] Starting...
+[2024-03-27 20:20:33] Starting Game Application...
+[2024-03-27 20:20:33] Running with Debugging Enabled
+[2024-03-27 20:20:33] Running Application as Server
+[2024-03-27 20:20:33] Running with Debugging Enabled
+[2024-03-27 20:20:33] Running Application as Server
+[2024-03-27 20:20:34] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:20:34] [/127.0.0.1]: JOIN Elias 2 16
+[2024-03-27 20:20:34] Attempting to create player: Elias
+[2024-03-27 20:21:06] Server Socket Established
+[2024-03-27 20:21:06] Starting...
+[2024-03-27 20:21:06] Starting Game Application...
+[2024-03-27 20:21:06] Running with Debugging Enabled
+[2024-03-27 20:21:06] Running Application as Server
+[2024-03-27 20:21:07] Running with Debugging Enabled
+[2024-03-27 20:21:07] Running Application as Server
+[2024-03-27 20:21:08] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:21:08] [/127.0.0.1]: JOIN Elias 4 2
+[2024-03-27 20:21:08] Attempting to create player: Elias
+[2024-03-27 20:21:48] Server Socket Established
+[2024-03-27 20:21:48] Starting...
+[2024-03-27 20:21:48] Starting Game Application...
+[2024-03-27 20:21:48] Running with Debugging Enabled
+[2024-03-27 20:21:48] Running Application as Server
+[2024-03-27 20:21:49] Running with Debugging Enabled
+[2024-03-27 20:21:49] Running Application as Server
+[2024-03-27 20:21:52] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:21:52] [/127.0.0.1]: JOIN Elias 17 14
+[2024-03-27 20:21:52] Attempting to create player: Elias
+[2024-03-27 20:22:07] Server Socket Established
+[2024-03-27 20:22:07] Starting...
+[2024-03-27 20:22:07] Starting Game Application...
+[2024-03-27 20:22:07] Running with Debugging Enabled
+[2024-03-27 20:22:07] Running Application as Server
+[2024-03-27 20:22:08] Running with Debugging Enabled
+[2024-03-27 20:22:08] Running Application as Server
+[2024-03-27 20:22:10] /127.0.0.1 Has Connected to the Server
+[2024-03-27 20:22:10] [/127.0.0.1]: JOIN Elias 1 18
+[2024-03-27 20:22:10] Attempting to create player: Elias
+[2024-03-27 20:25:47] Server Socket Established
+[2024-03-27 20:25:47] Starting...
+[2024-03-27 20:25:47] Starting Game Application...
+[2024-03-27 20:25:47] Running with Debugging Enabled
+[2024-03-27 20:25:47] Running Application as Server
+[2024-03-27 20:25:48] Running with Debugging Enabled
+[2024-03-27 20:25:48] Running Application as Server
+[2024-03-27 20:26:39] Server Socket Established
+[2024-03-27 20:26:39] Starting...
+[2024-03-27 20:26:39] Starting Game Application...
+[2024-03-27 20:26:39] Running with Debugging Enabled
+[2024-03-27 20:26:39] Running Application as Server
+[2024-03-27 20:26:40] Running with Debugging Enabled
+[2024-03-27 20:26:40] Running Application as Server
+[2024-03-27 20:28:47] Server Socket Established
+[2024-03-27 20:28:47] Starting...
+[2024-03-27 20:28:47] Starting Game Application...
+[2024-03-27 20:28:47] Running with Debugging Enabled
+[2024-03-27 20:28:47] Running Application as Server
+[2024-03-27 20:28:48] Running with Debugging Enabled
+[2024-03-27 20:28:48] Running Application as Server
+[2024-03-27 20:29:26] Server Socket Established
+[2024-03-27 20:29:26] Starting...
+[2024-03-27 20:29:26] Starting Game Application...
+[2024-03-27 20:29:26] Running with Debugging Enabled
+[2024-03-27 20:29:26] Running Application as Server
+[2024-03-27 20:29:27] Running with Debugging Enabled
+[2024-03-27 20:29:27] Running Application as Server
+[2024-03-27 20:30:50] Server Socket Established
+[2024-03-27 20:30:50] Starting...
+[2024-03-27 20:30:50] Starting Game Application...
+[2024-03-27 20:30:50] Running with Debugging Enabled
+[2024-03-27 20:30:50] Running Application as Server
+[2024-03-27 20:30:51] Running with Debugging Enabled
+[2024-03-27 20:30:51] Running Application as Server
+[2024-04-01 15:19:11] Server Socket Established
+[2024-04-01 15:19:11] Starting...
+[2024-04-01 15:19:11] Starting Game Application...
+[2024-04-01 15:19:11] Running with Debugging Enabled
+[2024-04-01 15:19:11] Running Application as Server
+[2024-04-01 15:19:12] Running with Debugging Enabled
+[2024-04-01 15:19:12] Running Application as Server
+[2024-04-01 15:19:16] /127.0.0.1 Has Connected to the Server
+[2024-04-01 15:19:16] [/127.0.0.1]: JOIN Elias 5 5
+[2024-04-01 15:19:16] Attempting to create player: Elias
+[2024-04-01 15:23:23] Server Socket Established
+[2024-04-01 15:23:23] Starting...
+[2024-04-01 15:23:23] Starting Game Application...
+[2024-04-01 15:23:23] Running with Debugging Enabled
+[2024-04-01 15:23:23] Running Application as Server
+[2024-04-01 15:23:24] Running with Debugging Enabled
+[2024-04-01 15:23:24] Running Application as Server
+[2024-04-01 15:23:34] /127.0.0.1 Has Connected to the Server
+[2024-04-01 15:23:34] [/127.0.0.1]: JOIN Elias 17 3
+[2024-04-01 15:23:34] Attempting to create player: Elias
+[2024-04-01 15:23:36] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:36] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:36] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:37] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:37] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:23:37] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:38] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:39] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:39] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:39] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:23:41] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:23:41] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:23:41] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:23:42] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:23:42] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:23:42] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:23:43] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:43] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:23:44] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:30:56] Server Socket Established
+[2024-04-01 15:30:56] Starting...
+[2024-04-01 15:30:56] Starting Game Application...
+[2024-04-01 15:30:56] Running with Debugging Enabled
+[2024-04-01 15:30:56] Running Application as Server
+[2024-04-01 15:30:57] Running with Debugging Enabled
+[2024-04-01 15:30:57] Running Application as Server
+[2024-04-01 15:31:28] Server Socket Established
+[2024-04-01 15:31:28] Starting...
+[2024-04-01 15:31:28] Starting Game Application...
+[2024-04-01 15:31:28] Running with Debugging Enabled
+[2024-04-01 15:31:28] Running Application as Server
+[2024-04-01 15:31:28] Running with Debugging Enabled
+[2024-04-01 15:31:28] Running Application as Server
+[2024-04-01 15:33:38] Server Socket Established
+[2024-04-01 15:33:38] Starting...
+[2024-04-01 15:33:38] Starting Game Application...
+[2024-04-01 15:33:38] Running with Debugging Enabled
+[2024-04-01 15:33:38] Running Application as Server
+[2024-04-01 15:33:39] Running with Debugging Enabled
+[2024-04-01 15:33:39] Running Application as Server
+[2024-04-01 15:37:43] Server Socket Established
+[2024-04-01 15:37:43] Starting...
+[2024-04-01 15:37:43] Starting Game Application...
+[2024-04-01 15:37:43] Running with Debugging Enabled
+[2024-04-01 15:37:43] Running Application as Server
+[2024-04-01 15:37:44] Running with Debugging Enabled
+[2024-04-01 15:37:44] Running Application as Server
+[2024-04-01 15:39:12] Server Socket Established
+[2024-04-01 15:39:12] Starting...
+[2024-04-01 15:39:12] Starting Game Application...
+[2024-04-01 15:39:12] Running with Debugging Enabled
+[2024-04-01 15:39:12] Running Application as Server
+[2024-04-01 15:39:12] Running with Debugging Enabled
+[2024-04-01 15:39:12] Running Application as Server
+[2024-04-01 15:41:11] Server Socket Established
+[2024-04-01 15:41:11] Starting...
+[2024-04-01 15:41:11] Starting Game Application...
+[2024-04-01 15:41:11] Running with Debugging Enabled
+[2024-04-01 15:41:11] Running Application as Server
+[2024-04-01 15:41:12] Running with Debugging Enabled
+[2024-04-01 15:41:12] Running Application as Server
+[2024-04-01 15:42:01] Server Socket Established
+[2024-04-01 15:42:01] Starting...
+[2024-04-01 15:42:01] Starting Game Application...
+[2024-04-01 15:42:01] Running with Debugging Enabled
+[2024-04-01 15:42:01] Running Application as Server
+[2024-04-01 15:42:01] Running with Debugging Enabled
+[2024-04-01 15:42:01] Running Application as Server
+[2024-04-01 15:42:13] Server Socket Established
+[2024-04-01 15:42:13] Starting...
+[2024-04-01 15:42:13] Starting Game Application...
+[2024-04-01 15:42:13] Running with Debugging Enabled
+[2024-04-01 15:42:13] Running Application as Server
+[2024-04-01 15:42:13] Running with Debugging Enabled
+[2024-04-01 15:42:13] Running Application as Server
+[2024-04-01 15:42:18] /127.0.0.1 Has Connected to the Server
+[2024-04-01 15:42:18] [/127.0.0.1]: JOIN Elias 5 6
+[2024-04-01 15:42:18] Attempting to create player: Elias
+[2024-04-01 15:42:20] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:20] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:20] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:21] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:21] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:21] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:21] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:21] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:22] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:22] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:22] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:22] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:23] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:23] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:24] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:24] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:24] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:24] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:24] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:42:25] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:26] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:26] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:26] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:26] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:26] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:27] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:28] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:28] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:28] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:28] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:28] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:29] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:29] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:29] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:29] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:29] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:30] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:30] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:31] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:31] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:33] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:33] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:33] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:33] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:33] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:34] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:42:35] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:35] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:35] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:35] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:36] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:36] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:38] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:38] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:38] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:39] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:40] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:40] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 15:42:41] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:42:41] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:42:41] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:42:41] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:41] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:42:46] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:07] Server Socket Established
+[2024-04-01 15:43:07] Starting...
+[2024-04-01 15:43:07] Starting Game Application...
+[2024-04-01 15:43:07] Running with Debugging Enabled
+[2024-04-01 15:43:07] Running Application as Server
+[2024-04-01 15:43:08] Running with Debugging Enabled
+[2024-04-01 15:43:08] Running Application as Server
+[2024-04-01 15:43:10] /127.0.0.1 Has Connected to the Server
+[2024-04-01 15:43:10] [/127.0.0.1]: JOIN Elias 7 18
+[2024-04-01 15:43:10] Attempting to create player: Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:12] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:43:13] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 15:43:13] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:43:13] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:43:13] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:43:26] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:43:26] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:45:06] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:45:06] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 15:45:06] [/127.0.0.1]: BOMB Elias
+[2024-04-01 15:45:07] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 15:45:07] [/127.0.0.1]: MOVE right Elias

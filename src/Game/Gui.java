@@ -9,6 +9,7 @@ import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
@@ -38,11 +39,10 @@ public class Gui extends Application {
 	private Stage primaryStage;
 	private GridPane primaryPane;
 
-	private Text gameLabel;
 	private static VBox playerList;
 
 	public static final int fieldImageSize = 35;
-	public static final int scene_height = fieldImageSize * 20 + 75;
+	public static final int scene_height = fieldImageSize * 20 + 95;
 	public static final int scene_width = fieldImageSize * 20 + 200;
 
 
@@ -55,7 +55,7 @@ public class Gui extends Application {
 	private static Label[][] fieldsBomb;
 	private static Label[][] fieldsExplosion;
 
-
+	public static Image gameLabel;
 	public static Image skull;
 	public static Image heart;
 	public static Image image_floor, image_wall;
@@ -95,57 +95,58 @@ public class Gui extends Application {
 	 */
 	private void initGUI(){
 
-			primaryPane = new GridPane();
-			primaryPane.setHgap(10);
-			primaryPane.setVgap(10);
-			primaryPane.setPadding(new Insets(0, 10, 0, 10));
-			primaryPane.setStyle("-fx-background-color: #9b9b9b");
-			primaryPane.setGridLinesVisible(true);
-
-			gameLabel = new Text("Bomberman:");
-			gameLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
-
-			Text scoreLabel = new Text("Score:");
-			scoreLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
-
-			playerList = new VBox();
-			playerList.setFillWidth(false);
-
-			playerList.setPrefWidth(230);
-			playerList.setPrefHeight(Region.USE_COMPUTED_SIZE);
-
-			playerList.setStyle("-fx-background-color: #2c2d2c;");
-			playerList.setPadding(new Insets(5, 5, 5, 5));
-			playerList.setAlignment(Pos.BASELINE_CENTER);
-
-			initFields();
-
-			// Wrapping the layers in a stackPane
-			StackPane stackPane = new StackPane();
-			stackPane.getChildren().add(fieldGridBottom);
-			stackPane.getChildren().add(fieldGridMid);
-			stackPane.getChildren().add(fieldGridBomb);
-			stackPane.getChildren().add(fieldGridExplosion);
-
-			primaryPane.add(gameLabel,  0, 0);
-			primaryPane.add(scoreLabel, 1, 0);
-			primaryPane.add(stackPane, 0, 1);
-			primaryPane.add(playerList,  1, 1);
+		primaryPane = new GridPane();
+		primaryPane.setHgap(10);
+		primaryPane.setVgap(10);
+		primaryPane.setPadding(new Insets(0, 10, 0, 10));
+		primaryPane.setStyle("-fx-background-color: #9b9b9b");
 
 
-			ColumnConstraints column0 = new ColumnConstraints();
-			column0.setHgrow(Priority.ALWAYS); // Prevent playerList from growing horizontally
+		ImageView gameLabelView = new ImageView(gameLabel);
+		Text playerLabel = new Text("Players:");
+		playerLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 
-			ColumnConstraints column1 = new ColumnConstraints();
-			column1.setHgrow(Priority.NEVER); // Allow stackPane to grow horizontally
-
-			primaryPane.getColumnConstraints().addAll(column1);
+		initFields();
 
 
-			primaryScene = new Scene(primaryPane, scene_width, scene_height);
-			primaryStage.setScene(primaryScene);
-			primaryStage.show();
+		// Player List
+		playerList = new VBox();
+		playerList.setVisible(false);
+		VBox.setVgrow(playerList, Priority.NEVER);
+		StackPane playerListContainer = new StackPane();
+		playerListContainer.setMaxHeight(Region.USE_PREF_SIZE);
+		StackPane.setAlignment(playerListContainer, Pos.BASELINE_CENTER);
 
+		BorderStroke borderStroke= new BorderStroke(Color.valueOf("#2c2d2c"), BorderStrokeStyle.SOLID, null, new BorderWidths(2));
+		Border border = new Border(borderStroke);
+
+		playerListContainer.setMaxWidth(200);
+		playerListContainer.setMinHeight(primaryPane.getHeight());
+		playerListContainer.setBorder(border);
+		playerList.setMaxWidth(200);
+		playerList.setFillWidth(true);
+		playerList.setStyle("-fx-background-color: #2c2d2c;");
+		playerList.setPadding(new Insets(7));
+		playerListContainer.getChildren().add(playerList);
+
+
+		// Wrapping the game-board layers in a stackPane
+		StackPane stackPane = new StackPane();
+		stackPane.getChildren().add(fieldGridBottom);
+		stackPane.getChildren().add(fieldGridMid);
+		stackPane.getChildren().add(fieldGridBomb);
+		stackPane.getChildren().add(fieldGridExplosion);
+
+
+		primaryPane.add(gameLabelView,  0, 0);
+		primaryPane.add(playerLabel, 1, 0);
+		primaryPane.add(stackPane, 0, 1);
+		primaryPane.add(playerListContainer,  1, 1, 1, 2);
+
+
+		primaryScene = new Scene(primaryPane, scene_width, scene_height);
+		primaryStage.setScene(primaryScene);
+		primaryStage.show();
 	}
 
 
@@ -234,11 +235,11 @@ public class Gui extends Application {
 	 * Loads the Game Assets into fields from a resources path
 	 */
 	private void initResources(){
-
+		gameLabel        = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/cooltext.png")),419, 78, true, true );
 		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
 		heart            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heart.png")), fieldImageSize, fieldImageSize, false, false);
 
-		image_wall       = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/wall4.png")), fieldImageSize, fieldImageSize, false, false);
+		image_wall       = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/crates_study_x2_0.png")), fieldImageSize, fieldImageSize, false, false);
 		image_floor      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), fieldImageSize, fieldImageSize, false, false);
 
 		hero_right_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
@@ -270,15 +271,20 @@ public class Gui extends Application {
 	private void initClient(){
 
 		if(isDebugEnabled){
-
 			if(!isServerInstance)DebugLogger.log("Running with Debugging Enabled");
 			else DebugLogger.logServer("Running with Debugging Enabled");
-			setupDebug(primaryStage, primaryPane);
+			setupDebug();
+
+			// Enables Debug GUI Change Stuff with F1 key (
+			primaryScene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
+				if (event.getCode() == KeyCode.F1) {
+					toggleDebugGUI(primaryStage, primaryPane, debugTA);
+				}
+			});
 		}
 		if(isServerInstance){
 
 			DebugLogger.logServer("Running Application as Server");
-			gameLabel.setText("SERVER INSTANCE");
 			primaryPane.setStyle("-fx-background-color: lightblue;");
 		}
 		else{
@@ -430,6 +436,9 @@ public class Gui extends Application {
 	public static void updatePlayerList(){
 
 		Platform.runLater(() -> {
+
+			playerList.setVisible(true);
+
 			for(Player p : GameLogic.players){
 
 				VBox vbx = new VBox();
@@ -437,36 +446,43 @@ public class Gui extends Application {
 
 				// Name Display
 				Text playerText = new Text(p.getName());
-				vbx.getChildren().add(playerText);
 
-				// Line Spacer
-				/*StackPane stackPane = new StackPane();
-				Line spacer = new Line(0, 0, 75, 0);
-				spacer.setStroke(Color.BLACK);
-				spacer.setStrokeWidth(3);
-				stackPane.getChildren().add(spacer);
-				stackPane.setPadding(new Insets(5, 5, 5, 5));
-				vbx.getChildren().add(stackPane);*/
+				// Player Name Scaling
+				vbx.setMaxWidth(150);
+				vbx.setPrefWidth(150);
+
+				// Set initial font size
+				double fontSize = 20; // Initial font size
+				playerText.setFont(Font.font("Arial", FontWeight.BOLD, fontSize));
+
+				// Calculate the width of the text
+				double textWidth = playerText.getLayoutBounds().getWidth();
+
+				// Adjust font size to fit within the available width
+				double maxWidth = 150;
+				if (textWidth > maxWidth) {
+					fontSize *= maxWidth / textWidth; // Scale down font size
+					playerText.setFont(Font.font("Arial", FontWeight.BOLD, fontSize));
+				}
+
+
+				vbx.getChildren().add(playerText);
 
 				// Health Bar
 				vbx.getChildren().add(p.getHealthBar());
 
 				// Main Styling
 				vbx.setAlignment(Pos.BASELINE_CENTER);
-				vbx.setPrefWidth(230);
-				vbx.setStyle("-fx-background-color: #9b9b9b");
-				vbx.setPadding(new Insets(10, 10, 10, 10));
+				vbx.setStyle("-fx-background-color: #7e7c7c");
+				vbx.setPadding(new Insets(5, 10, 5, 10));
 
 
 				playerText.setStyle(
-						"-fx-fill: black;" + // Text color
-						"-fx-font-weight: bold;" + // Bold font weight
-						"-fx-font-size: 25px;" + // Font size
-						"-fx-effect: dropshadow(gaussian, derive(" + p.getPlayerColor() + ", 60%), 10, 0.0, 2, 2);" + // Drop shadow effect
-						"-fx-stroke: derive(" + p.getPlayerColor() + ", -20%);" + // Stroke color
-						//"-fx-stroke-width: 2px;" + // Stroke width
-						//"-fx-rotate: 355;" + // Rotation angle
-				"");
+						"-fx-fill: black;" +
+						"-fx-font-weight: bold;" +
+						"-fx-effect: dropshadow(gaussian, derive(" + p.getPlayerColor() + ", 60%), 10, 0.0, 2, 2);" +
+						"-fx-stroke: derive(" + p.getPlayerColor() + ", -20%);" +
+						"-fx-rotate: 355;");
 				playerText.setTextAlignment(TextAlignment.CENTER);
 
 			}
@@ -518,17 +534,12 @@ public class Gui extends Application {
 	static TextArea debugTA = new TextArea();
 	private boolean isDebugEnabled;
 	static boolean isShowingDebugLog = false;
-	public void setupDebug(Stage primaryStage, GridPane grid){
-		Button button = new Button("Debug");
-		grid.add(button, 1, 2);
+	public void setupDebug(){
 
 		debugTA.setEditable(false);
 		debugTA.clear();
 		debugTA.setPrefHeight(primaryStage.getHeight());
-		debugTA.setPrefWidth(300);
-
-		button.setOnAction(e -> toggleDebugGUI(primaryStage, grid, debugTA));
-		button.setFocusTraversable(false);
+		debugTA.setPrefWidth(330);
 
 		Thread logReaderThread = new Thread(this::readLogFile);
 		logReaderThread.setDaemon(true); // So that the thread stops when the application is closed
@@ -575,12 +586,12 @@ public class Gui extends Application {
 	public static void toggleDebugGUI(Stage primaryStage, GridPane grid, TextArea debugTA) {
 		if(isShowingDebugLog){
 			grid.getChildren().remove(debugTA);
-			primaryStage.setWidth(primaryStage.getWidth() - 300);
+			primaryStage.setWidth(primaryStage.getWidth() - 100);
 			isShowingDebugLog = false;
 		}
 		else{
 			grid.add(debugTA, 1, 1, 2, 1);
-			primaryStage.setWidth(primaryStage.getWidth() + 300);
+			primaryStage.setWidth(primaryStage.getWidth() + 100);
 			isShowingDebugLog = true;
 		}
 	}

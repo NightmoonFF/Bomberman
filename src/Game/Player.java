@@ -48,7 +48,7 @@ public class Player {
 			healthBar.getChildren().add(new ImageView(Gui.heart));
 		}
 		//healthBar.setStyle("-fx-background-color: #7b7b7b");
-		healthBar.setPadding(new Insets(10, 10, 0, 10));
+		healthBar.setPadding(new Insets(17, 7, 7, 7));
 
 		healthBar.setAlignment(Pos.BASELINE_CENTER);
 	}
