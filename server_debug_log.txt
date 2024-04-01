@@ -5892,3 +5892,44 @@
 [2024-04-01 15:51:33] Running Application as Server
 [2024-04-01 15:51:34] Running with Debugging Enabled
 [2024-04-01 15:51:34] Running Application as Server
+[2024-04-01 16:32:48] Server Socket Established
+[2024-04-01 16:32:48] Starting...
+[2024-04-01 16:32:48] Starting Game Application...
+[2024-04-01 16:32:48] Running with Debugging Enabled
+[2024-04-01 16:32:48] Running Application as Server
+[2024-04-01 16:32:49] Running with Debugging Enabled
+[2024-04-01 16:32:49] Running Application as Server
+[2024-04-01 16:32:51] /127.0.0.1 Has Connected to the Server
+[2024-04-01 16:32:51] [/127.0.0.1]: JOIN Elias 16 1
+[2024-04-01 16:32:51] Attempting to create player: Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: BOMB Elias
+[2024-04-01 16:32:52] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:53] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:53] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:53] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:54] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 16:32:55] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 16:32:55] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:56] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:58] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 16:32:58] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:58] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:58] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:59] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:59] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:32:59] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:59] [/127.0.0.1]: MOVE left Elias
+[2024-04-01 16:32:59] [/127.0.0.1]: BOMB Elias
+[2024-04-01 16:33:00] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 16:33:00] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:33:00] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:33:05] [/127.0.0.1]: MOVE right Elias
+[2024-04-01 16:33:05] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:33:06] [/127.0.0.1]: MOVE down Elias
+[2024-04-01 16:33:06] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 16:33:06] [/127.0.0.1]: MOVE up Elias
+[2024-04-01 16:33:06] [/127.0.0.1]: MOVE up Elias

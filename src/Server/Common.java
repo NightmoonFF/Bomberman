@@ -57,6 +57,7 @@ public class Common {
      */
     private static void processInput(String input) {
         //TODO: check if player is trying to move/bomb while dead, if yes, deny
+        //TODO: similar checks
     }
 
 
@@ -76,14 +77,14 @@ public class Common {
         switch (command) {
             case "JOIN":
                 DebugLogger.logServer("Attempting to create player: " + parts[1]);
-
                 Player clientPlayer = GameLogic.makePlayer(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
                 Server.addClient(clientSocket, clientPlayer);
 
                 //TODO: for each existing player already connected, have new client create those as well
                 //targeted message, or broadcast with if statement on client-side? broadcast more secure,
-                //in case existing client has misssed a message for creation previously
+                //in case existing client has missed a message for creation previously
                 break;
+
             case "MOVE":
                 switch(parts[1]){
                     //TODO: remove double-switch
@@ -97,14 +98,14 @@ public class Common {
                     break;
                 }
                 break;
+
             case "BOMB":
-
                 GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
-
                 break;
 
             default:
-                DebugLogger.logServer("Warning: Unknown Message Received! \"" + input + "\"");
+                System.out.println("Warning: Unknown Message Received! \"" + input + "\"");
+                DebugLogger.log("Warning: Unknown Message Received! \"" + input + "\"");
                 break;
         }
     }

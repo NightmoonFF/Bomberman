@@ -232,32 +232,32 @@ public class Gui extends Application {
 	 * Loads the Game Assets into fields from a resources path
 	 */
 	private void initResources(){
-		gameLabel        = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/cooltext.png")),419, 78, true, true );
-		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
-		heart            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heart.png")), fieldImageSize, fieldImageSize, false, false);
+		gameLabel        = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/cooltext.png")),419, 78, true, true );
+		skull            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/deadNotBigSurprise.png")), fieldImageSize, fieldImageSize, false, false);
+		heart            = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/UI/heart.png")), fieldImageSize, fieldImageSize, false, false);
 
-		image_wall       = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/crates_study_x2_0.png")), fieldImageSize, fieldImageSize, false, false);
-		image_floor      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/floor1.png")), fieldImageSize, fieldImageSize, false, false);
+		image_wall       = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/board/crates_study_x2_0.png")), fieldImageSize, fieldImageSize, false, false);
+		image_floor      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/board/floor1.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_red      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpRed.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_red   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroRightRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroLeftRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_red      = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroUpRed.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_red    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroDownRed.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_blue  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightBlue.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftBlue.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_blue     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpBlue.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_blue  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroRightBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroLeftBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_blue     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroUpBlue.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_blue   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroDownBlue.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_green = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_green    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpGreen.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_green = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroRightGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroLeftGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_green    = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroUpGreen.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_green  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroDownGreen.png")), fieldImageSize, fieldImageSize, false, false);
 
-		hero_right_pink  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroRightPink.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_left_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroLeftPink.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_up_pink     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroUpPink.png")), fieldImageSize, fieldImageSize, false, false);
-		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_right_pink  = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroRightPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_left_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroLeftPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_up_pink     = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroUpPink.png")), fieldImageSize, fieldImageSize, false, false);
+		hero_down_pink   = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/hero/heroDownPink.png")), fieldImageSize, fieldImageSize, false, false);
 	}
 
 
@@ -494,7 +494,8 @@ public class Gui extends Application {
 				Node node = p.getHealthBar().getChildren().get(p.getCurrentHealth());
 				if (node instanceof ImageView imageView) {
 
-					Image gifImage = new Image("/heartbreak.gif", fieldImageSize, fieldImageSize, false, false);
+					// has to be initialized here for the gif to start from beginning
+					Image gifImage = new Image("/UI/heartbreak.gif", fieldImageSize, fieldImageSize, false, false);
 
 					// the heartbreak .Gif is 2.9 seconds long
 					double duration = 2900;
