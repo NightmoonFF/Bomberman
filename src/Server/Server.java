@@ -60,7 +60,7 @@ public class Server {
 	 * @param message the message from client
 	 * @param clientSocket the origin client
 	 */
-	public static void receiveMessage(String message, Socket clientSocket){
+	public static void receiveMessage(String message, Socket clientSocket) throws IOException {
 		Common.handleInputRequest(message, clientSocket);
 	}
 

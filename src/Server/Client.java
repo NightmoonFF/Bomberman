@@ -78,7 +78,7 @@ public class Client {
     }
 
     //TODO: make client use the Common class, which is what it's intended for? this method is a duplicate of Common.updateGame
-    private void updateGame(String input){
+    private void updateGame(String input) throws IOException {
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
         switch (command) {
@@ -90,12 +90,16 @@ public class Client {
                 switch(parts[1]){
                     //TODO: remove double-switch?
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "left": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), -1, 0, "left");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "right": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), +1, 0, "right");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                 }
                 break;

@@ -4,6 +4,7 @@ import Game.DebugLogger;
 import Game.GameLogic;
 import Game.Player;
 
+import java.io.IOException;
 import java.net.Socket;
 import java.util.Objects;
 
@@ -24,7 +25,7 @@ public class Common {
     }
 
 
-    public static synchronized void handleInputRequest(String input, Socket clientSocket) {
+    public static synchronized void handleInputRequest(String input, Socket clientSocket) throws IOException {
         // Process the input
         processInput(input);
         // Apply input to the server's game
@@ -51,7 +52,7 @@ public class Common {
      * parts[x] - parameter x <br>
      * @param input the clients input request
      */
-    private static void updateGame(String input, Socket clientSocket) {
+    private static void updateGame(String input, Socket clientSocket) throws IOException {
 
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
@@ -71,12 +72,16 @@ public class Common {
                 switch(parts[1]){
                     //TODO: remove double-switch
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "down": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, +1, "down");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "left": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), -1, 0, "left");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                     case "right": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), +1, 0, "right");
+                        GameLogic.checkPlayerHealth(GameLogic.getPlayerByName(parts[2]));
                     break;
                 }
                 break;
