@@ -20,12 +20,9 @@ class ClientHandler implements Runnable {
     final Socket clientSocket;
     private final BufferedReader in;
     private final PrintWriter out;
-    public String clientName; //todo: to be removed? get player.name
-    public Player clientPlayer; //todo: to be moved to map on server
 
     public ClientHandler(Socket socket) {
         this.clientSocket = socket;
-        this.clientName = socket.getInetAddress().toString();
         try {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             out = new PrintWriter(clientSocket.getOutputStream());
@@ -38,13 +35,14 @@ class ClientHandler implements Runnable {
     public void run() {
         try {
             while (true){
+
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
-                    DebugLogger.logServer("[" + clientName + "]: " + inputLine);
-                    System.out.println("[" + clientName + "]: " + inputLine);
-                    Server.receiveMessage(inputLine, clientSocket);
 
-                    //on join, set playerName
+                    if(Server.clientMap.get(clientSocket) != null)
+                        DebugLogger.logServer("[" + Server.clientMap.get(clientSocket).getName() + "]: " + inputLine);
+
+                    Server.receiveMessage(inputLine, clientSocket);
                 }
             }
         }

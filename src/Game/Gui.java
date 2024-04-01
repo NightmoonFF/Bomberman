@@ -114,7 +114,7 @@ public class Gui extends Application {
 		playerListContainer.setMaxHeight(Region.USE_PREF_SIZE);
 		StackPane.setAlignment(playerListContainer, Pos.BASELINE_CENTER);
 
-		BorderStroke borderStroke= new BorderStroke(Color.valueOf("#2c2d2c"), BorderStrokeStyle.SOLID, null, new BorderWidths(2));
+		BorderStroke borderStroke= new BorderStroke(Color.valueOf("#7c7d7c"), BorderStrokeStyle.SOLID, null, new BorderWidths(6));
 		Border border = new Border(borderStroke);
 
 		playerListContainer.setMaxWidth(200);
@@ -122,8 +122,6 @@ public class Gui extends Application {
 		playerListContainer.setBorder(border);
 		playerList.setMaxWidth(200);
 		playerList.setFillWidth(true);
-		playerList.setStyle("-fx-background-color: #2c2d2c;");
-		playerList.setPadding(new Insets(7));
 		playerListContainer.getChildren().add(playerList);
 
 
@@ -160,6 +158,7 @@ public class Gui extends Application {
 	 * provided codebase that we were tasked to implement, due to the scope of the project and its timeframe.
 	 */
 	private void initFields(){
+
 		try {
 
 			// Instantiate Bottom Layer
@@ -202,7 +201,6 @@ public class Gui extends Application {
 					fieldGridExplosion.add(fieldsExplosion[i][j], i, j);
 				}
 			}
-
 
 		} catch(Exception e) {
 			DebugLogger.log(e.getMessage());
@@ -300,8 +298,6 @@ public class Gui extends Application {
 				}
 			});
 
-
-			GameLogic.makePlayer(App.username);
 			client.sendMessage("JOIN" + " " + App.username);
 		}
 	}
@@ -447,7 +443,7 @@ public class Gui extends Application {
 
 				// Main Styling
 				vbx.setAlignment(Pos.BASELINE_CENTER);
-				vbx.setStyle("-fx-background-color: #7e7c7c");
+				vbx.setStyle("-fx-background-color: #8e8c8c");
 				vbx.setPadding(new Insets(5, 10, 5, 10));
 
 
@@ -462,10 +458,13 @@ public class Gui extends Application {
 			}
 		});
 	}
+
+	/**
+	 * updates the GUI when a player takes damage
+	 * @param p player
+	 */
 	public static void updatePlayerDamage(Player p){
 		Platform.runLater(() -> {
-
-			System.out.println("DAMAGING: " + p.getName());
 
 			if (p.getHealthBar().getChildren().size() > p.getCurrentHealth()) {
 				Node node = p.getHealthBar().getChildren().get(p.getCurrentHealth());

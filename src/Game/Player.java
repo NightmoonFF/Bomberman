@@ -26,6 +26,12 @@ public class Player {
 	private boolean isBombActivated;
 	private final Timer bombTimer = new Timer();
 
+
+	/**
+	 * Constructor
+	 * @param name name
+	 * @param direction direction
+	 */
 	public Player(String name, String direction) {
 		this.name = name;
 		this.direction = direction;
@@ -45,7 +51,6 @@ public class Player {
 		for (int i = 0; i < getStartHealth(); i++) {
 			healthBar.getChildren().add(new ImageView(Gui.heart));
 		}
-		//healthBar.setStyle("-fx-background-color: #7b7b7b");
 		healthBar.setPadding(new Insets(17, 7, 7, 7));
 
 		healthBar.setAlignment(Pos.BASELINE_CENTER);
@@ -108,6 +113,7 @@ public class Player {
 	public void setDirection(String direction) { this.direction = direction; }
 	public int getX() { return position.x; }
 	public int getY() { return position.y; }
+	public boolean isDead() { return isDead; }
 	//endregion
 
 

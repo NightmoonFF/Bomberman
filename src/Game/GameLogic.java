@@ -26,8 +26,9 @@ public class GameLogic {
 		Player player;
 		player = new Player(name,"up");
 		players.add(player);
-		System.out.println("Created Player: " + name + " x" + player.getX() + "/y" + player.getY());
 		Gui.updatePlayerList();
+
+		System.out.println("Created Player: " + name);
 
 		return player;
 	}
@@ -58,7 +59,7 @@ public class GameLogic {
 
 		int x = player.getX(),y = player.getY();
 
-		if (board[y+delta_y].charAt(x+delta_x) != 'w') {
+		if (board[y + delta_y].charAt(x + delta_x) != 'w') {
 
 			// collision detection
 			Player p = getPlayerAt(x + delta_x,y + delta_y);
@@ -94,15 +95,15 @@ public class GameLogic {
 	 */
 	public static void placeBomb(Player player){
 
-		//TODO: cooldown not working
-		//if(player.isBombActivated()) return;
-		//player.startBombCooldownTimer();
+		/* TODO: cooldown not working:
+		if(player.isBombActivated()) return;
+		player.startBombCooldownTimer(); */
 
 		Bomb bomb = new Bomb(player);
 		bombs.add(bomb);
 		Gui.placeBombOnScreen(bomb);
 
-		System.out.println("Bomb Placed by " + player.getName() + " (" + player.getX() + "/" + player.getY() + ")");
+		DebugLogger.log("Bomb Placed by " + player.getName() + " (" + player.getX() + "/" + player.getY() + ")");
 
 	}
 
@@ -146,8 +147,13 @@ public class GameLogic {
 			{
 				foundFreePos = true;
 				for (Player p: players) {
-					if (p.getX() == x && p.getY() == y) //pladsen optaget af en anden
-						foundFreePos = false;
+
+					if (p.getPosition() != null){ // spilleren ER spawnet i GUI
+						if (p.getX() == x && p.getY() == y){ // pladsen optaget af en anden
+							foundFreePos = false;
+						}
+					}
+
 				}
 
 			}

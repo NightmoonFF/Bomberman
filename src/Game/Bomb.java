@@ -2,7 +2,6 @@ package Game;
 
 import javafx.animation.*;
 import javafx.scene.image.*;
-import javafx.scene.layout.GridPane;
 import javafx.util.Duration;
 
 import java.util.*;
@@ -44,13 +43,16 @@ public class Bomb {
         bombImageView.setFitHeight(Gui.fieldImageSize);
         bombImages = new Image[]{bomb1, bomb2, bomb3};
 
-        animate();
+        animateFuse();
 
         bombFuseDelay.getKeyFrames().add( new KeyFrame(Duration.seconds(timeToExplode), e -> explode()) );
         bombFuseDelay.play();
     }
 
-    private void animate(){
+    /**
+     * Handles the Fuse Animation that plays until the bomb explodes
+     */
+    private void animateFuse(){
 
         for (int i = 0; i < bombImages.length; i++) {
             int finalI = i;
@@ -141,9 +143,6 @@ public class Bomb {
         for(Player p : playersHitByBomb){
             GameLogic.damagePlayer(p);
         }
-
-
-        System.out.println("explosion loop over");
 
     }
 

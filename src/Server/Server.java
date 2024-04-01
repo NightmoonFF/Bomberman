@@ -59,7 +59,7 @@ public class Server {
 
 
 	/**
-	 * Takes a message to be processed in Common
+	 * Takes a message from this client to be processed in Common
 	 * @param message the message from client
 	 * @param clientSocket the origin client
 	 */
@@ -69,11 +69,23 @@ public class Server {
 
 
 	/**
+	 * Sends a targeted message to this specific client
+	 */
+	public static void sendMessage(String message, Socket clientSocket){
+		try {
+			PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+			out.println(message);
+		} catch (IOException e) {
+			DebugLogger.logServer(e.getMessage());
+		}
+	}
+
+	/**
 	 * Sends a message to each client
 	 * @param message
 	 */
 	public static void broadcast(String message) {
-		//TODO: way to send to all clients at once, instead of iterating? (not important)
+
 		for (Socket socket : clientMap.keySet()) {
 			try {
 				PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
@@ -84,6 +96,7 @@ public class Server {
 		}
 	}
 
+
 	/**
 	 * Adds a newly connected client to the clientMap
 	 * @param clientSocket connecting IP Socket
@@ -92,6 +105,7 @@ public class Server {
 	public static void addClient(Socket clientSocket, Player player){
 		clientMap.put(clientSocket, player);
 	}
+
 
 
 }

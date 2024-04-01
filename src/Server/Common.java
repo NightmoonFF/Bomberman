@@ -27,12 +27,14 @@ public class Common {
      * @param clientSocket the Client who is requesting it
      */
     public static synchronized void handleInputRequest(String input, Socket clientSocket) {
+
         // Process the input
-        processInput(input, clientSocket);
+        if (!processInput(input, clientSocket)) return;
         // Apply input to the server's game
         updateGame(input);
         // Broadcast input to all clients
-        broadcastInput(input);
+        Server.broadcast(input);
+
     }
 
 
@@ -41,30 +43,44 @@ public class Common {
      * Method to process input such as doing validation
      * @param input input
      */
-    private static void processInput(String input, Socket clientSocket) {
+    private static boolean processInput(String input, Socket clientSocket) {
 
         String[] parts = input.split(" "); //Split the input into command and parameters
         String command = parts[0];
+        if (command.equals("JOIN")) {
 
-        switch (command) {
-            case "JOIN":
-                DebugLogger.log("Attempting to create player: " + parts[1]);
+            // Add client & player to server
+            Player clientPlayer = GameLogic.makePlayer(parts[1]);
 
-                Player clientPlayer = GameLogic.makePlayer(parts[1]);
-                Server.addClient(clientSocket, clientPlayer);
+            Position freePos = GameLogic.getRandomFreePosition();
+            clientPlayer.setPosition(freePos);
+            clientPlayer.reset();
 
-                //TODO: broadcast spawn
-                Position freePos = GameLogic.getRandomFreePosition();
-                broadcastInput("SPAWN" + " " + freePos.getX() + " " + freePos.getY());
+            Server.addClient(clientSocket, clientPlayer);
 
-                //TODO: for each existing player already connected, have new client create those as well
-                //targeted message, or broadcast with if statement on client-side? broadcast more secure,
-                //in case existing client has missed a message for creation previously
-                break;
+            // Notify all clients of new player and spawn
+            Server.broadcast("MAKE" + " " + parts[1]);
+            Server.broadcast("SPAWN" + " " + parts[1] + " " + freePos.getX() + " " + freePos.getY());
+
+            // Send existing player data to the newly joined player
+            for (Player otherPlayer : GameLogic.players) {
+                if (!otherPlayer.equals(clientPlayer)) { // Exclude the newly joined player
+
+                    Server.sendMessage("MAKE" + " " + otherPlayer.getName(), clientSocket);
+
+                    System.out.println("Sending Make & Spawn instructions to " + clientPlayer.getName() + "for: " + otherPlayer.getName());
+                }
+            }
+
+            return false;
         }
 
+
+
+        // Deny game input requests if player is dead
+        return !Server.clientMap.get(clientSocket).isDead();
+
         //TODO: Check if requested player Username is already used - would break game due to getPlayerByName()
-        //TODO: check if player is trying to make input requests while dead, if yes, deny
         //TODO: similar checks
     }
 
@@ -85,9 +101,12 @@ public class Common {
         String command = parts[0];
 
         switch (command) {
+            case "MAKE":
+                GameLogic.makePlayer(parts[1]);
+                break;
             case "SPAWN":
                 GameLogic.spawnPlayer(GameLogic.getPlayerByName(parts[1]), new Position(Integer.parseInt(parts[2]), Integer.parseInt(parts[3])));
-
+                break;
             case "MOVE":
                 switch(parts[1]){
                     case "up": GameLogic.updatePlayer(Objects.requireNonNull(GameLogic.getPlayerByName(parts[2])), 0, -1, "up");
@@ -100,7 +119,6 @@ public class Common {
                     break;
                 }
                 break;
-
             case "BOMB":
                 GameLogic.placeBomb(GameLogic.getPlayerByName(parts[1]));
                 break;
@@ -110,14 +128,6 @@ public class Common {
                 DebugLogger.log("Warning: Unknown Message Received! \"" + input + "\"");
                 break;
         }
-    }
-
-    /**
-     * Sends the instructions applied to the game by the server to each client
-     * @param input
-     */
-    private static void broadcastInput(String input) {
-        Server.broadcast(input);
     }
 
 }
